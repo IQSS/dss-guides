@@ -1,0 +1,10 @@
+# Writing Your Document {.sec-writing}
+
+You can start writing your document directly in the text editor using LaTeX syntax. Here are some basic LaTeX commands to get you started:
+
+* Document Structure: Begin with a preamble where you specify the document class, packages, and settings. The main content of your document is enclosed between \\begin{document} and \\end{document} tags.
+* Sections and Subsections: Use commands like \\section{} and \\subsection{} to organize your document into sections and subsections.
+* Text Formatting: Apply formatting such as bold, italics, and underline using commands like \\textbf{}, \\textit{}, and \\underline{} respectively.
+* Lists: Create itemized or numbered lists using the itemize or enumerate environments.
+* Math Equations: LaTeX excels at typesetting mathematical equations. Use the \$ ... \$ or \[ ... \] delimiters for inline or displayed equations respectively.
+* Figures and Tables: Insert figures and tables using the \includegraphics{} and table environments respectively.
