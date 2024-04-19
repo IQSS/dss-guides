@@ -1,0 +1,25 @@
+# Creating a New Project {.sec-create_project}
+
+These instructions are for projects that are hosted on GitHub, not those that just exist on Overleaf. In other words, we want you to use Overleaf as if it were an IDE for editing TeX files, not as a file storage suite as Google Docs may be. This will make it so that 1) you can collaborate with others who do not use overleaf, 2) you can keep a consistent repository space (GitHub) for all of your projects, and 3) your LaTeX files can live in the same repository as your data, etc.
+
+To create a fully new project in Overleaf (and connecting it to GitHub):
+
+* After logging in, you can create a new project by clicking on the "New Project" button. You'll be presented with options to start from a blank document, choose from various templates (such as research papers, presentations, CVs, etc.), or upload an existing LaTeX project.
+* You can press the Overleaf project “Menu” button on the top left (next to the home symbol). 
+* Then, under “Sync”, you can press “GitHub”. 
+* It will pop-up with “Export Project to GitHub” and ask you to enter a repository name. When you complete the fields, press “Create a GitHub repository”
+* In the future when you edit, you can commit changes with “Push Overleaf changes to GitHub”
+
+To import an already existing project from GitHub:
+
+* Click “Create a New Project” and then select “Import from GitHub”
+* If this is your first time trying, you will have to click on the pop-up “Link to your GitHub account”
+* Sign into your GitHub account when you are redirected there.
+* It will redirect you back to Overleaf, and will tell you it was successfully linked.
+  * You may also want to link to your Dropbox account at this screen, if you have one!
+* Now, when you click “New Project”, it will show you a list of repositories that you have access to that you can import to Overleaf
+* After you edit your file, and you are ready to commit it to the GitHub repository:
+  * You can press the Overleaf project “Menu” button on the top left (next to the home symbol). 
+  * Then, under “Sync”, you can press “GitHub”. 
+  * A pop-up will appear. You can then press “Push Overleaf changes to GitHub”
+  * Write your commit message & press “Commit”
