@@ -30,7 +30,7 @@ book:
         - moving.qmd
         - editing.qmd
         - saving.qmd
-    - part: "Hazards"
+    - part: "Common Hazards"
       chapters:
         - problems.qmd
     - part: "Resources"
