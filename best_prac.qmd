@@ -1,3 +1,5 @@
 # Best Practices {.sec-best_prac}
 
 When collaborating with others on Overleaf, it's a good idea to communicate effectively, use comments and chat features for discussions, and follow version control best practices to avoid conflicts.
+
+For these reasons, we also strongly recommend that you use Overleaf as a text-editing software, not as a file storage site. While you may like to host your write-ups in Overleaf, it is best if you actually have these files stored in your GitHub repository. That way, additional collaborators can still see your project without needing to use Overleaf, too. This also means that all of your data, images, and files can all be stored in one single place. Because Overleaf connects to GitHub as described in the "Collaborating on Overleaf" section, this is easy to do and will make your editing process more universal.
