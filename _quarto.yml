@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "VSCode Starter Guide"
+  title: "Emacs Starter Guide"
   author: "Dominic Skinnion"
   date: "last-modified"
   page-navigation: true
