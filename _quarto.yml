@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "Overleaf Starter Guide"
+  title: "$\LaTeX$ Starter Guide"
   author: "IQSS"
   date: "last-modified"
   page-navigation: true
@@ -10,21 +10,24 @@ book:
   favicon: images/favicon.png
   chapters:
     - index.qmd
-    - introduction.qmd
-    - part: "Getting Started with Overleaf"
+    - part: "Overview"
       chapters:
-        - sign_up.qmd
-        - create_project.qmd
-        - interface.qmd
-        - writing.qmd
-        - collaborating.qmd
-        - exporting.qmd
-    - part: "Advanced Features & Tips"
+        - comparison.qmd
+        - overleaf.qmd
+        - vscode.qmd
+        - emacs.qmd
+    - part: "Suggested Tools"
       chapters:
-        - templates.qmd
-        - bibs.qmd
-        - packages.qmd
-        - best_prac.qmd
+        - github.qmd
+        - copilot.qmd
+    - part: "Documents"
+      chapters:
+        - articles.qmd
+        - presentations.qmd
+    - part: "Resources"
+      chapters:
+        - uses.qmd
+        - functions.qmd
         - resources.qmd
     - references.qmd
 
