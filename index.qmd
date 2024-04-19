@@ -1,3 +1,3 @@
 # Preface {.unnumbered}
 
-The following is a quick starter guide designed to get you acquainted with Emacs, a desktop application for editing $\LaTeX$.
+The following is a quick starter guide designed to get you acquainted with Emacs, a desktop application for editing $\LaTeX$. Of our recommended applications, Emacs is the most powerful in terms of text editing and customization.
