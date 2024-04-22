@@ -1,3 +1,7 @@
 # Using Copilot {.sec-tools}
 
-To DO
+With the rise in generative AI programs like ChatGPT, we recommend that you use [Copilot](https://github.com/features/copilot) for your coding needs. Copilot is a paid service produced by GitHub that can reduce your time-on-task for coding and writing. 
+
+Copilot easily integrates with multiple coding IDEs, including VSCode and RStudio. Copilot can recognize the coding language that you are using, predict code that you may want, and can even help you write your articles.
+
+Of course, you can also continue to use free or open-source generative AI programs, too, but most of those are external (i.e., require you to use a web browser) and you would have to copy and paste suggestions from your browser to your IDE. Built-in Copilot features make this process streamlined and efficient.
