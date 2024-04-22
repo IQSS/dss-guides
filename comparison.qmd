@@ -4,8 +4,20 @@ There are a lot of $\LaTeX$ editors that exist. Depending on what editing power,
 
 If you prefer an editor with a lower startup investment and are okay with the editor having less editing power, you may wish to choose **Overleaf**.
 
-| Overleaf |
-| :------: |
 | Pros   | Cons  |
 | ---    | ---   |
 | - Collaborative <br> - Online, no installation <br> - Very modern and intuitive design | - Reliant on UI, cannot do as much with keybindings <br> - Live editing can cause others to not be able to compile a file <br> - Not customizable |
+
+If you prefer an editor with a medium startup investment and medium power, you may wish to use **VSCode**.
+
+| Pros   | Cons  |
+| ---    | ---   |
+| - All-in-one-stop: has extensions for all types of coding (R, Python, etc.) <br> - Copilot integraton is nice for suggestions, chatbot, and ease-of-use <br> - Modern design, familiar IDE experience <br> - Somewhat customizable via exentions, settings, and keybindings | - More control with keybindings, but limited to the packages and extensions that exist <br> - Installation is required, but a relatively easy process |
+
+If you are okay with a high startup investment in return for higher power, you may wish to use **Emacs**.
+
+| Pros   | Cons  |
+| ---    | ---   |
+| - You can do almost anything with keybindings <br> - Designed to do exactly what you want <br> - Very customizable <br> - Open source | - Older, not modern design <br> - Need to code customizations in Lisp, which is barely used <br> - Need to learn a lot of keybindings to use effectively <br> - Installation is required |
+
+In sum, you may want to start with Emacs, because you may have the time and energy to learn how to use it, and you know that it can have a greater return on investment. Or, you may be okay with using Overleaf, because you don't want to learn a bunch of keyboard shortcuts. Or, you might want an all-in-one solution where you can write all of your code with VSCode. And, of course, you might already have an IDE you like to use (TeXShop, Vim, TeXStudio, etc.). These are all fine options, too!
