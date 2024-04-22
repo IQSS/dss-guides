@@ -2,4 +2,4 @@
 
 For a more in-depth list of functions (sorted alphabetically), we suggest looking at documentation from [Boston University](https://www.bu.edu/math/files/2013/08/LongTeX1.pdf). For a list sorted more thematically, we suggest looking at documentation from [Arizona State University](https://www.public.asu.edu/~rjansen/latexdoc/ltx-2.html).
 
-There are also more in-depth tutorials such as those from Overleaf, found [here](https://www.overleaf.com/learn).
+There are also tutorials such as those from Overleaf, found [here](https://www.overleaf.com/learn) that you can actively follow along and learn with.
