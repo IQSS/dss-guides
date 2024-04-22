@@ -6,4 +6,4 @@ If you prefer an editor with a lower startup investment and are okay with the ed
 
 | Pros   | Cons  |
 | ---    | ---   |
-| - Collaborative \ - Online, no installation \ - Very modern and intuitive design | - Reliant on UI, cannot do as much with keybindings \ - Live editing can cause others to not be able to compile a file \ - Not customizable |
+| - Collaborative <br> - Online, no installation <br> - Very modern and intuitive design | - Reliant on UI, cannot do as much with keybindings <br> - Live editing can cause others to not be able to compile a file <br> - Not customizable |
