@@ -3,3 +3,7 @@
 There are a lot of $\LaTeX$ editors that exist. Depending on what editing power, user experience, and learning cost you want out of your editor, we have three recommendations that you may wish to choose. However, these are not exhaustive, and there may be additional editors that you'd like to use.
 
 If you prefer an editor with a lower startup investment and are okay with the editor having less editing power, you may wish to choose **Overleaf**.
+
+| Pros   | Cons  |
+| ---    | ---   |
+| - Collaborative \\ - Online, no installation \\ - Very modern and intuitive design | - Reliant on UI, cannot do as much with keybindings \\ - Live editing can cause others to not be able to compile a file \\ - Not customizable |
