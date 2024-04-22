@@ -1,3 +1,3 @@
 # Using $\LaTeX$ for Presentations {#sec-documents}
 
-We also strongly recommend that you create all of your presentations with $\LaTeX$, too. You can do so using the function \texttt{\documentclass{beamer}}.
+We also strongly recommend that you create all of your presentations with $\LaTeX$, too. You can do so using the function $\texttt{\documentclass{beamer}}$.
