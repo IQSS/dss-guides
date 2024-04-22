@@ -1,3 +1,7 @@
 # Using $\LaTeX$ for Presentations {#sec-documents}
 
-We also strongly recommend that you create all of your presentations with $\LaTeX$, too. You can do so using the function \\documentclass{beamer}.
+We also strongly recommend that you create all of your presentations with $\LaTeX$, too. You can do so using the function \\documentclass{beamer}. In fact, we have an [IQSS theme](https://github.com/IQSS/iqss-beamer-theme) that you can download and use.
+
+Even if you choose to not use Overleaf for your editor, they have a great collection of [tutorials](https://www.overleaf.com/learn/latex/Beamer_Presentations%3A_A_Tutorial_for_Beginners_(Part_1)%E2%80%94Getting_Started) that can help you create your presentations. 
+
+Again, we strongly recommend this for the math notation. Additionally, your presentations will be replicable, which is also a benefit of working in $\LaTeX$ as opposed to programs like Google Slides or Power Point.
