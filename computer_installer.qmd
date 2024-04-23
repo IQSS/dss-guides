@@ -7,8 +7,8 @@ Homebrew is necessary as MacOS's package manager. This will allow you to install
 To do so, please open your Terminal. (If you don't know where this is: Finder > Applications > Utilities > Terminal). 
 
 * Now type: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-* Press enter. Follow the instructions. It will likely give you a message to copy two lines of code. Copy and paste the first and press enter. When that is done, copy and paste the second and press enter. 
-  * The first: (echo; echo ‘eval “$(/opt/homebrew/bin/brew shellenv)“’) >> /Users/<yourusername>/.zprofile
+* Press enter. Follow the instructions. It will likely give you a message to copy two lines of code. Copy and paste the first and press enter. When that is done, copy and paste the second and press enter. Make sure to replace "yourusername" with your actual username.
+  * The first: (echo; echo ‘eval “$(/opt/homebrew/bin/brew shellenv)“’) >> /Users/yourusername/.zprofile
   * The second: eval “$(/opt/homebrew/bin/brew shellenv)”
 
 Once Homebrew is installed, we can now install the three dependencies in your terminal. One by one, please copy and paste the following lines and execute separately (by pressing return after each).
