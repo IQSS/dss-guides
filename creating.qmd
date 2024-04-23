@@ -1,3 +1,21 @@
 # Creating and Setting Up Documents {.sec-starting}
 
-TO DO TO DO
+To create your document, type C-x C-f (“Find a file”). Then use your arrow keys and return to navigate to the folder in which you’d like your document to live. When the top line of your mini buffer says the name of the correct folder, make sure that your cursor is on the top line, after the slash, and then type the name that you would like for your document. If you are making a Latex file, make sure to include the “.tex” suffix. Click return when you are done, and a new buffer with the name of the file will be displayed in your window.
+
+You can also set local variables within a comment block at the end of a file. While most customizations will be already downloaded for you inside the init.el and custom.el files from the IQSS configuration, you wish to have file-specific customizations as well. You can use the following as an example of what you can put at the end of a file:
+
+\% Local Variables:
+\% mode: latex
+\% TeX-master: t
+\% TeX-engine: pdflatex
+\% fill-column: 80
+\% End:
+
+
+You must have the first and the last line; these tell Emacs that you’re defining local variables.
+The “mode” tells Emacs that you are typing in LaTeX. 
+“TeX-master: t” tells Emacs that you are in the “master file” which refers to the file which includes all of your header information. For example: if you are in a project, say a book with multiple chapters, and each chapter has its own .tex file, you could use TeX-master to tell Emacs which file contains the header information. So, in your main.tex file, you could have: “\input{chapters/chapter1.tex}” which reads in your chapter1.tex file. In the chapter files, you could simply write your LaTeX code, and include % TeX-master: “main.tex” in your local variables.
+“TeX-engine” tells Emacs how to compile your LaTeX file – in this case, we want a pdf.
+“fill-column: 80” tells Emacs that we want our text to automatically wrap after 80 characters.
+We can also define which dictionary we want spell check to use.
+
