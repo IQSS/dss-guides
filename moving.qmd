@@ -1,3 +1,70 @@
 # Moving Around Your Document {.sec-starting}
 
-TO DO TO DO
+Emacs makes it extremely easy to move around your document without needing to use your mouse or trackpad (although, you can always use those, too!). Some of the most common commands to move throughout the document are:
+
+Moving by screens:
+
+| Command   | Function  |
+| ---    | ---   |
+| C-v | Move forward one screen (a couple lines of overlap will be provided). |
+| M-v | Move backward one screen.|
+| C-l| If you do this once, it will center the screen on your cursor. If you do this again, your cursor will move to the top of the screen. If you do this once again, your cursor will move to the bottom of the screen.|
+
+<br>
+
+Moving by characters:
+
+| Command   | Function  |
+| ---    | ---   |
+| C-p OR \<up key\> | Go to the previous line. |
+| C-n OR \<down key\> | Go to the next line. |
+| C-b OR \<left key\> | Move one space backward. |
+| C-f OR \<right key\> | Move one space forward. |
+
+<br>
+
+Moving by words:
+
+| Command   | Function  |
+| ---    | ---   |
+| M-f | Go to the next word. |
+| M-b | Go to the previous word. |
+
+<br>
+
+Moving in a line: 
+
+| Command   | Function  |
+| ---    | ---   |
+| C-a | Go to the beginning of the line. |
+| C-e | Go to the end of the line. |
+
+<br>
+
+Moving between sentences:
+
+| Command   | Function  |
+| ---    | ---   |
+| M-a | Go to the beginning of the sentence. |
+| M-e | Go to the end of the sentence. |
+
+<br>
+
+Moving to the extremes:
+
+| Command   | Function  |
+| ---    | ---   |
+| M-shift-, OR M-\< | Go to the beginning of the document. |
+| M-shift-. OR M-\> | Go to the end of the document. |
+
+<br>
+
+Moving your screen (without moving the cursor):
+
+| Command   | Function  |
+| ---    | ---   |
+| C-\<up key\> | Move the visible part of the buffer up. |
+| C-\<down key\> | Move the visible part of the buffer down. |
+
+
+
