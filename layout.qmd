@@ -1,3 +1,35 @@
 # Layout {.sec-starting}
 
-TO DO TO DO
+Understanding the layout of Emacs, and the following terms and commands, is crucial in effectively navigating the workspace. 
+
+There are three main components of the Emacs workspace: frames, windows, and buffers. Frames are the rectangles on your screen. For example, on a Mac, you’ll likely see a gray top bar with the red, yellow, and green circles at the top of your frame. Each frame can be broken up into windows, which allow you to see documents. Each window holds a single buffer, which is text content, that is already from a file or can be saved to a file. 
+
+You can have multiple windows open inside a single frame at a time, allowing you to see multiple files, or different parts of the same file, at the same time. Additionally, you can have multiple frames, each its own separate instance of Emacs, allowing you to switch between projects all on the same screen.
+
+Additionally, there is a smaller section at the bottom of an Emacs frame. First, you will see the mode line, which tells you information about the current buffer being displayed, including its name, modes, and position. Underneath this, you will see the mini buffer, which is where you will enter commands and see interactive text. You can access the mini buffer by pressing M-x, and then searching for commands.
+
+You can open up another frame with the command C-x 5 2. (This will open the same file that you already have opened in a second frame). You can also do M-x make-frame. 
+
+To switch between frames, use C-x 5 o (for “other”). This will cycle through your open Emacs frames.
+
+To close your current frame, you can use the command C-x 5 0, or M-x delete-frame.
+
+To open another window inside the same frame, there are multiple commands you can use, depending on how you want the window to open:
+
+| Command   | Function  |
+| ---    | ---   |
+| C-x 2 | Split the current frame horizontally. This will open the same buffer as the one you current have open. |
+| C-x 3 | Split the current frame vertically.|
+| C-x 4 f \<select file\>| Open a specific file in a new window. |
+| C-x 4 b \<select buffer\> | Open a specific buffer in a new window. This will list recent buffers, including messages, and scratch work. |
+
+Additional commands to close or move windows include:
+
+| Command   | Function  |
+| ---    | ---   |
+| C-x 0 | Close out of the window where your cursor is. |
+| C-x 1 | Close out of all windows except for the one where your cursor is.|
+| C-x o | Moves your cursor to the next window. If you repeatedly do this, the cursor will cycle through the open windows. |
+
+
+
