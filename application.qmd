@@ -1,6 +1,6 @@
 # Emacs Application {.sec-installation}
 
-To download the Emacs application, please run the following line in your Terminal: brew install --cask emacs
+To download the Emacs application, please run the following line in your Terminal: brew install \-\-cask emacs
 
 If the package installer appears, follow its instructions. (You may need to drag the icon to the Application folder).
 
