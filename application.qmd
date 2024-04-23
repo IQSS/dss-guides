@@ -1,3 +1,7 @@
 # Emacs Application {.sec-installation}
 
-TO DO TO DO
+To download the Emacs application, please run the following line in your Terminal: brew install --cask emacs
+
+If the package installer appears, follow its instructions. (You may need to drag the icon to the Application folder).
+
+If you run into any problems, you can always download the application from [Emacs For MacOS X](https://emacsformacosx.com/).
