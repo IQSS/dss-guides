@@ -86,6 +86,14 @@ Getting Help:
 |C-h k|Display documentation of the function invoked by a keystroke|
 |C-h m|Get mode-specific information|
 
+<br>
+
+Copilot:
+
+| M-x copilot-mode | Toggle on/off copilot mode. |
+| M-C-RET | Accept a completion. |
+| C-\<right\> | Accept by word. |
+
 
 
 
