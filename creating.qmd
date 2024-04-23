@@ -4,12 +4,12 @@ To create your document, type C-x C-f (“Find a file”). Then use your arrow k
 
 You can also set local variables within a comment block at the end of a file. While most customizations will be already downloaded for you inside the init.el and custom.el files from the IQSS configuration, you wish to have file-specific customizations as well. You can use the following as an example of what you can put at the end of a file:
 
-\% Local Variables:
-\% mode: latex
-\% TeX-master: t
-\% TeX-engine: pdflatex
-\% fill-column: 80
-\% End:
+% Local Variables:
+% mode: latex
+% TeX-master: t
+% TeX-engine: pdflatex
+% fill-column: 80
+% End:
 
 
 * You must have the first and the last line; these tell Emacs that you’re defining local variables.
