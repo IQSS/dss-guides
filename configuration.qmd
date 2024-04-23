@@ -1,6 +1,7 @@
 # IQSS Configuration {.sec-installation}
 
 To install our configuration, run the following line in your terminal:
+
 * git clone https://github.com/IQSS/IQSS.emacs.git ~/.emacs.d
 
 This essentially copies our Emacs configuration to a folder named ".emacs.d" in your home folder. If you'd like, you can do so directly from the [GitHub page](https://github.com/IQSS/IQSS.emacs) by using the green "Code" button to Download ZIP. Then, you would unzip the file, move it to your home folder, and rename it ".emacs.d". You would get a pop-up asking if you are sure that you want it to start with a dot. That is okay, it just means that it will be hidden. If you are in your Finder and you want to see or edit this folder, access your Home folder and then press Cmd+Shift+. to see your hidden files.
