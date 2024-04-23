@@ -1,3 +1,10 @@
 # Saving and Compiling Your Document {.sec-starting}
 
-TO DO TO DO
+To save a file, use C-c C-s. You should see “Wrote \<document-name\>” in the mini buffer.
+
+To compile a Latex document, use C-c C-c. You may need to follow a few simple prompts. For example, you may need to tell Emacs that this is Latex.
+
+If you are compiling a beamer presentation, and you did not specify your Tex engine in your document, you will need to execute the following command before compiling your document: M-x tex-engine-set and then select xetex and return. Now use C-c C-c. 
+
+Then, in your finder, you should see a slew of new files all with the same name as your .tex file, but with various suffixes. Find the one that is \<document-name\>.pdf and open it. Congrats! You’ve made your document!
+
