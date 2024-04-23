@@ -1,3 +1,23 @@
 # Copilot {.sec-opening}
 
-TO DO TO DO
+If you do not already have a Copilot subscription, you can do so on [GitHub](https://github.com/features/copilot).
+
+Now that you have opened Emacs for the second time, you should see some messages at the bottom about "quelpa" or "copilot". When these messages stop appearing, we need to complete a few Emacs commands to fully integrate with Copilot.
+
+Now, type:
+
+* Option+x then type copilot-mode. Enter. This may give you prompts about logging in or installing the server. Follow each as they come up:
+  * Option+x install-server. Enter. When this is done, you may get a message saying that there is a newer version. You will need to do the next step, then. If not, skip the next step.
+  * Option+x reinstall-server. Enter. (Again, you may not need to do this!)
+  * Option+x copilot-login. Enter. If you have already authorized Copilot on your computer (e.g., in RStudio), this may not be necessary. This will give you a code to copy. Write it down. Follow the instructions, then press enter to access GitHub in your browser. Authorize your GitHub/Copilot in the browser according to the instructions.
+
+Now we are going to close Emacs and reopen it.
+
+There should be a few messages on start-up, but nothing that you need to do.
+
+To turn on Copilot mode, type: Option-x copilot-mode. Enter. 
+At the bottom, it should tell you that copilot mode is enabled in the buffer.
+
+Copilot should now be integrated! If you pause when typing, suggestions should pop up for you. If not, try typing Option-x copilot-mode a few times, toggling it off/on again.
+
+If you ever want to stop using it, or if you don't have Copilot, just don't turn on copilot-mode.
