@@ -1,3 +1,40 @@
 # Editing Your Document {.sec-starting}
 
-TO DO TO DO
+Text editing in Emacs has some *different* terminology than what you may be used to. For instance, there is "killing" which deletes text (but saves it to a "kill ring" that you still have access to), and "yanking" which brings text back. This is similar to cutting/pasting.
+
+However, we've also included keyboard shortcuts where you can continue to use Cmd+C and Cmd+V for copy and paste, as you normally would on your Mac.
+
+One good thing about the kill ring is that you have continued access to text that you may have previously deleted and you may want to bring it back. Here are some of the commands that you may find useful:
+
+| Command   | Function  |
+| ---    | ---   |
+| C-w | If you have a region highlighted, this will kill the region to your kill ring. |
+| M-w | If you have a region highlighted, this will copy the region to your killing ring without deleting the text.|
+| C-y | Yank back the last kill (i.e. paste what you just deleted) |
+| M-y \<select text\> | Allows you to select which of your previous kills that you'd like to bring back. |
+
+<br>
+
+Searching for text:
+
+| Command   | Function  |
+| ---    | ---   |
+| C-s | Search for a string (only from your cursor on, i.e., forward search) |
+| C-r | Search for a string (backwards) |
+| RET | Quit searching |
+| M-C-s | Regular expression search (forwards). |
+| M-C-r | Regular expression search (backwards). |
+
+<br>
+
+Copilot commands:
+
+| Command   | Function  |
+| ---    | ---   |
+| M-x copilot-mode | Toggle on/off copilot mode. |
+| M-C-RET | Accept a completion. |
+| C-<right> | Accept by word. |
+
+
+
+
