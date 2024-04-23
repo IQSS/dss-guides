@@ -1,3 +1,6 @@
 # Common Problems {.sec-hazards}
 
-TO DO TO DO
+You may have keybindings set for your computer that supersede the keybindings set in Emacs. For example, my C-\<up\>, C-\<down\>, and C-\<right\> controls were used by my Mac for Mission Control and Applications settings. To disable these keybindings, go to your Apple Menu \> System Settings \> Keyboard \> Keyboard Shortcuts and then locate the settings you’d like to disable. Uncheck them. Full instructions for Macs can be found [here](https://support.apple.com/guide/mac-help/keyboard-shortcuts-mchlp2262/mac). Instructions for PCs can be found [here](https://support.microsoft.com/en-us/topic/how-do-i-reassign-hot-keys-for-my-keyboard-703f897c-ad72-db5d-8e64-0928873d712f).
+
+Emacs is on the older side. Newer installations seem to have some problems with loading in some packages. For example, I could not install ‘use-package with the M-x install-packages command, but instead had to install it by looking at M-x list-packages.
+
