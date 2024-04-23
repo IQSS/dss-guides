@@ -3,3 +3,8 @@
 Two of the most important keys you will need to know are the Control key (abbreviated by C) and the Option key (aka the "Meta" key or the "Alt" key, abbreviated by M). 
 
 Most Emacs commands will require you to hold down either the Control key or the Meta key while typing. The syntax for Emacs commands are C-\<character\> which means hold the Control key when you press \<character\>. Additionally you may see M-\<chr 1\> \<chr 2\> which means hold the Meta key while you press the first character, release it, and then press the second character. Or you may see two in row, for example: C-x C-f, which means hold the Control key and press x and then f (while still holding the Control key). This is the "find a file" command.
+
+Additionally, to quit Emacs you can type C-x C-c (or, of course, you can click out of the user interface).
+
+To quit a command, use C-g. (You may want to repeatedly press C-g).
+
