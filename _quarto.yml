@@ -37,7 +37,6 @@ book:
         - commands.qmd
         - glossary.qmd
         - external_res.qmd
-    - references.qmd
 
 bibliography: references.bib
 
