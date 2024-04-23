@@ -23,6 +23,8 @@ To open another window inside the same frame, there are multiple commands you ca
 | C-x 4 f \<select file\>| Open a specific file in a new window. |
 | C-x 4 b \<select buffer\> | Open a specific buffer in a new window. This will list recent buffers, including messages, and scratch work. |
 
+<br>
+
 Additional commands to close or move windows include:
 
 | Command   | Function  |
