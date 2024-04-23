@@ -1,3 +1,16 @@
 # External Resources {.sec-resources}
 
-TO DO TO DO
+* [Documentation](https://github.com/IQSS/IQSS.emacs/blob/master/UsefulPrograms.org) for useful programs that you may need (or like) to install
+* [Homebrew documentation](https://brew.sh/)
+* [Gnu-tar documentation](https://formulae.brew.sh/formula/gnu-tar)
+* [Node.js documentation](https://nodejs.org/en/download/package-manager/)
+* [Ispell documentation](https://formulae.brew.sh/formula/ispell)
+* [Emacs Application Installer](https://emacsformacosx.com/)
+* [IQSS Configuration GitHub](https://github.com/IQSS/IQSS.emacs)
+* [Copilot](https://github.com/features/copilot)
+* Hotkeys for [Macs](https://support.apple.com/guide/mac-help/keyboard-shortcuts-mchlp2262/mac) or [PCs](https://support.microsoft.com/en-us/topic/how-do-i-reassign-hot-keys-for-my-keyboard-703f897c-ad72-db5d-8e64-0928873d712f)
+
+Also, it never hurts to use Google, Stack Overflow, Quora, ChatGPT, etc. when you run into any issues!
+
+YouTube also has a vast array of Emacs [turorials](https://www.youtube.com/results?search_query=emacs+tutorial).
+
