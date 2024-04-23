@@ -27,7 +27,6 @@ book:
     - part: "Resources"
       chapters:
         - resources.qmd
-    - references.qmd
 
 bibliography: references.bib
 
