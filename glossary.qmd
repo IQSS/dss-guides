@@ -1,3 +1,10 @@
 # Glossary of Key Terms {.sec-resources}
 
-TO DO TO DO
+* Buffer: A temporary storage area used for holding text that is being edited.
+* Frame: A graphical element that contains one or more windows. If you have multiple frames open, you can have separate instances of Emacs running at once.
+* Killing: Deleting text, but storing it in a "kill ring" for future use.
+* Mini Buffer: A special area at the bottom of the screen used for user input and displaying messages from Emacs itself. It is where Emacs prompts the user for commands, file names, search strings, and other input.
+* Mode Line: A special area located at the bottom of the window, just above the minibuffer (if present). It provides information about the current state of the buffer and the editing environment.
+* Window: A subdivision within a frame where buffers are displayed. Each window typically shows the contents of a single buffer.
+* Yanking: Pasting previously killed text back into a document.
+
