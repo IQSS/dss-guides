@@ -4,6 +4,8 @@ All of the previous commands, and some additional ones are listed below. From th
 
 Running Emacs:
 
+| Command   | Function  |
+| ---    | ---   |
 | C-x C-c | Quit Emacs |
 | C-x C-f | Edit file; this command uses the mini buffer to read the file name; use this to create new files by entering the name of the new file |
 | C-x C-s | Save file |
@@ -15,6 +17,8 @@ Running Emacs:
 
 Moving About:
 
+| Command   | Function  |
+| ---    | ---   |
 | C-l | Scroll current line to center of window |
 | C-x b | Switch to another buffer |
 | M-\< | Move to beginning of the buffer |
@@ -25,6 +29,8 @@ Moving About:
 
 Multiple Windows:
 
+| Command   | Function  |
+| ---    | ---   |
 |C-x 0|Remove the current window from the display|
 |C-x 1|Make active window the only window|
 |C-x 2|Split window horizontally|
@@ -35,6 +41,8 @@ Multiple Windows:
 
 Regions:
 
+| Command   | Function  |
+| ---    | ---   |
 |C-space|Set a mark|
 |M-h|Mark entire paragraph|
 |C-x h|Mark entire buffer|
@@ -43,6 +51,8 @@ Regions:
 
 Killing, Yanking, Copying and Pasting
 
+| Command   | Function  |
+| ---    | ---   |
 |C-w|Kill region|
 |M-w|Copy region to kill-ring|
 |C-k|Kill from the cursor all the way to the end of the line|
@@ -56,6 +66,8 @@ Killing, Yanking, Copying and Pasting
 
 Searching: 
 
+| Command   | Function  |
+| ---    | ---   |
 |C-s|Search for a string (forwards)|
 |C-r|Search for a string (backwards)|
 |RET|Quit searching|
@@ -66,6 +78,8 @@ Searching:
 
 Tags
 
+| Command   | Function  |
+| ---    | ---   |
 |M-.|Find a definition|
 |M-*|Pop back to where M-. was last invoked|
 
@@ -73,12 +87,16 @@ Tags
 
 Compiling:
 
+| Command   | Function  |
+| ---    | ---   |
 |C-c C-c|Compile the file|
 
 <br>
 
 Getting Help:
 
+| Command   | Function  |
+| ---    | ---   |
 |C-h|Emacs help|
 |C-h t|Run the Emacs tutorial|
 |C-h i|Enter Info, the documentation browser|
@@ -90,6 +108,8 @@ Getting Help:
 
 Copilot:
 
+| Command   | Function  |
+| ---    | ---   |
 | M-x copilot-mode | Toggle on/off copilot mode. |
 | M-C-RET | Accept a completion. |
 | C-\<right\> | Accept by word. |
