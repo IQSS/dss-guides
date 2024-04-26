@@ -1,0 +1,3 @@
+# Adding Custom Packages and Styles {.sec-packages}
+
+If you require additional functionality or styling not provided by default in LaTeX, you can include custom packages or define your own styles in the preamble of your document.
