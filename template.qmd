@@ -3,12 +3,14 @@
 Now, find a website template that you'd like to use. There are a lot of free ones from [https://html5up.net/](https://html5up.net/). Or, if you are already savvy with HTML or web design, you may choose to make your own website from scratch. You can also use [Jekyll themes](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll) that are designed for GitHub Pages, too.
 
 Some of the templates that we recommend for use include:
+
 * [HTML5Up's Editorial](https://html5up.net/editorial)
 * [HTML5Up's Stellar](https://html5up.net/stellar)
 * [HTML5Up's Arcana](https://html5up.net/arcana)
 * [HTML5Up's Minimaxing](https://html5up.net/minimaxing)
 
 Regardless of your desired choice, the set-up remains the same.
+
 1. Download the template that you like.
 2. Go into your downloads folder.
 3. Copy and paste all of this content into your repository folder (username.github.io)
