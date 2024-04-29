@@ -15,14 +15,14 @@ These instructions largely follow the instructions from GitHub, found [here](htt
 8. Type html into the search bar that popped up. 
 9. Make sure that the destination is the name of your repository (this will be in your “Personal_Website” folder if you want to double check).
 10. Name it “index.html”
-11. Inside the file, copy and paste this text:
-  \<\!DOCTYPE html\>
-  \<html\>
-  \<body\>
-  \<h1\>Hello World\</h1\>
-  \<p\>I'm hosted with GitHub Pages.\</p\>
-  \</body\>
-  \</html\>
+11. Inside the file, copy and paste this text: <br>
+  \<\!DOCTYPE html\> <br>
+  \<html\> <br>
+  \<body\> <br>
+  \<h1\>Hello World\</h1\> <br>
+  \<p\>I'm hosted with GitHub Pages.\</p\> <br>
+  \</body\> <br>
+  \</html\> <br>
 12. Save your file.
 13. Click the Source Control icon on your left-hand toolbar. (It has three nodes, and resembles a branch icon). 
 14. Your file index.html should be listed under “Changes”. When you hover over this file, three icons will appear. Click the + button. Now, the file should be listed under “Staged Changes”.
