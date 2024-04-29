@@ -2,7 +2,7 @@
 
 To personalize your website, you will need to change all of the text and images that are currently in your template.
 
-Open any of the .html files in your coding IDE to edit them. You can replace the text via editing. To replace images, you will need to create an images folder inside of your username.github.io repository, where you can download images to. You will then have to use image tags <img src="images/specific_path_to_photo.png"> in your .html files.
+Open any of the .html files in your coding IDE to edit them. You can replace the text via editing. To replace images, you will need to create an images folder inside of your username.github.io repository, where you can download images to. You will then have to use image tags \<img src="images/specific_path_to_photo.png"\> in your .html files.
 
 Additionally, you may want to create more .html files, especially if you'd like an individual page for each of your publications, etc. You may want to delete some of the .html files that you don't use from the template, too. Just make sure that your index.html or other .html files you do use do not link to the files you delete, or your page will get 404 errors if someone clicks on those links.
 
