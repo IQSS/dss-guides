@@ -5,7 +5,7 @@ To create a personal website with GitHub, you must already have a GitHub account
 These instructions largely follow the instructions from GitHub, found [here](https://pages.github.com/).
 
 1. In GitHub, create a new repository called username.github.io where username is replaced by your actual username.
-  a. For example, if my username is pandabear, my repository is called pandabear.github.io
+  - a. For example, if my username is pandabear, my repository is called pandabear.github.io
 2. On your desktop, create a folder. I called mine “Personal_Website”
 3. In Visual Studio Code on the Welcome Page, click “Clone Git Repository…”
 4. Copy the full repository link from your GitHub repository using the clone button. Paste this into the search bar that appears in Visual Studio Code when you clicked “Clone Git Repository”
