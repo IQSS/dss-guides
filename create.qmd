@@ -32,8 +32,7 @@ These instructions largely follow the instructions from GitHub, found [here](htt
 18. There should now be nothing to see in the Source Control pane. Click the three dots in its menu toolbar.
 19. Click Push. This will send your code/files to the GitHub repository.
 20. Check in your GitHub repository to make sure that the commit is pushed. You should see index.html with the commit message that you gave it.
-21. Check your actual website by going to username.github.io. It should say (in very basic styling):
-  Hello World
-  I’m hosted with GitHub Pages.
+21. Check your actual website by going to username.github.io. It should say (in very basic styling): <h1>Hello World</h1>
+<p>I'm hosted with GitHub Pages.</p>
 22. Now that our site is hosted correctly, we can actually build our site to look how we want it!
 
