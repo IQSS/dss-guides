@@ -1,3 +1,39 @@
 # Creating Your Website {.sec-starting}
 
-TO DO
+To create a personal website with GitHub, you must already have a GitHub account. If you do not, [please make one](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github). 
+
+These instructions largely follow the instructions from GitHub, found [here](https://pages.github.com/).
+
+1. In GitHub, create a new repository called username.github.io where username is replaced by your actual username.
+  a. For example, if my username is pandabear, my repository is called pandabear.github.io
+2. On your desktop, create a folder. I called mine “Personal_Website”
+3. In Visual Studio Code on the Welcome Page, click “Clone Git Repository…”
+4. Copy the full repository link from your GitHub repository using the clone button. Paste this into the search bar that appears in Visual Studio Code when you clicked “Clone Git Repository”
+5. Select the folder (“Personal_Website”) as the destination, and click “Open”
+6. In your Workspace Pane (the left) you should see that it now says the name of your repository at the top (USERNAME.GITHUB.IO).
+7. Now, select “New File…”
+8. Type html into the search bar that popped up. 
+9. Make sure that the destination is the name of your repository (this will be in your “Personal_Website” folder if you want to double check).
+10. Name it “index.html”
+11. Inside the file, copy and paste this text:
+  <!DOCTYPE html>
+  <html>
+  <body>
+  <h1>Hello World</h1>
+  <p>I'm hosted with GitHub Pages.</p>
+  </body>
+  </html>
+12. Save your file.
+13. Click the Source Control icon on your left-hand toolbar. (It has three nodes, and resembles a branch icon). 
+14. Your file index.html should be listed under “Changes”. When you hover over this file, three icons will appear. Click the + button. Now, the file should be listed under “Staged Changes”.
+15. Click “Commit”. A file will open inside VSCode with a gray line 1. Write your commit message: “Initial Commit”.
+16. Click the checkmark at the top right toolbar. A dialog box will appear. 
+17. Click Save. The dialog box and the commit file will disappear.
+18. There should now be nothing to see in the Source Control pane. Click the three dots in its menu toolbar.
+19. Click Push. This will send your code/files to the GitHub repository.
+20. Check in your GitHub repository to make sure that the commit is pushed. You should see index.html with the commit message that you gave it.
+21. Check your actual website by going to username.github.io. It should say (in very basic styling):
+  Hello World
+  I’m hosted with GitHub Pages.
+22. Now that our site is hosted correctly, we can actually build our site to look how we want it!
+
