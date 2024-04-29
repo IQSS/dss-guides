@@ -30,6 +30,6 @@ These instructions assume that you already have ownership of the custom domain t
     <li> This can take some time to propogate </li>
   </ol>
   <li> Go back to your GitHub repository. </li>
-  <li> Go to Settings /> Pages /> Custom domain </li>
+  <li> Go to Settings > Pages > Custom domain </li>
   <li> Check off Enforce HTTPS </li>
 </ol>
