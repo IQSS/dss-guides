@@ -1,3 +1,35 @@
 # Adding a Custom Domain {.sec-customizing}
 
-TO DO TO DO
+Customizing your domain name can be a complicated process. The full GitHub instrections can be found [here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
+
+These instructions assume that you already have ownership of the custom domain that you would like to use, as well as knowledge about your specific DNS provider.
+
+<ol type="1">
+  <li> Go to your GitHub repository </li>
+  <li> Click Settings </li>
+  <li> In the left-hand menu bar, select Pages </li>
+  <li> Scroll down to the Custom Domain section </li>
+  <li> Enter your custom domain in the textbox. GitHub recommends always using www at the front of your domain. For example, instead of using example.com, you would use www.example.com </li>
+  <li> Hit Save </li>
+  <li> Navigate to your DNS provider and create a CNAME record that points your subdomain to the default domain for your site. 
+  <ol type="a">
+    <li> Example: if you want to use www.example.com, you will create a CNAME record that points www.example.com to \<username\>.github.io. Note that this is the user page, not a repository name. </li>
+    <li> Instructions for creating a CNAME record vary by DNS provider. GitHub recommends using your DNS provider's documentation . </li>
+  </ol>
+  <li> GitHub does not recommend configuring apex domains (e.g., example.com as opposed to www.example.com), but others suggest that if you would like your GitHub pages to display for both your apex domain and your www subdomain, you should also include four A records in your DNS provider's web console. </li>
+  <ul>
+    <li>185.199.108.153</li>
+    <li>185.199.109.153</li>
+    <li>185.199.110.153</li>
+    <li>185.199.111.153</li>
+  </ul>
+  <li> Confirm that your DNS record is configured correctly using the terminal.
+  <ol type="a">
+    <li> In the terminal, type: dig WWW.EXAMPLE.COM +nostats +nocomments +nocmd where WWW.EXAMPLE.COM should be replaced with your custom domain name. </li>
+    <li> You should see the GitHub pages link in the output. </li>
+    <li> This can take some time to propogate </li>
+  </ol>
+  <li> Go back to your GitHub repository. </li>
+  <li> Go to Settings /> Pages /> Custom domain </li>
+  <li> Check off Enforce HTTPS </li>
+</ol>
