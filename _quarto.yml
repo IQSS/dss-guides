@@ -18,7 +18,6 @@ book:
         - template.qmd
         - customizing.qmd
         - domain.qmd
-    - references.qmd
 
 bibliography: references.bib
 
