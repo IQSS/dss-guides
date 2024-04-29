@@ -1,4 +1,4 @@
-project:
+iproject:
   type: book
 
 book:
@@ -10,22 +10,14 @@ book:
   favicon: images/favicon.png
   chapters:
     - index.qmd
-    - introduction.qmd
-    - part: "Getting Started with Overleaf"
+    - part: "Getting Started"
       chapters:
-        - sign_up.qmd
-        - create_project.qmd
-        - interface.qmd
-        - writing.qmd
-        - collaborating.qmd
-        - exporting.qmd
-    - part: "Advanced Features & Tips"
+        - create.qmd
+    - part: "Customization"
       chapters:
-        - templates.qmd
-        - bibs.qmd
-        - packages.qmd
-        - best_prac.qmd
-        - resources.qmd
+        - template.qmd
+        - customizing.qmd
+        - domain.qmd
     - references.qmd
 
 bibliography: references.bib
