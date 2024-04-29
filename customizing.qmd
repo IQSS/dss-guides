@@ -1,3 +1,9 @@
 # Personalizing Your Website {.sec-customizing}
 
-TO DO 
+To personalize your website, you will need to change all of the text and images that are currently in your template.
+
+Open any of the .html files in your coding IDE to edit them. You can replace the text via editing. To replace images, you will need to create an images folder inside of your username.github.io repository, where you can download images to. You will then have to use image tags <img src="images/specific_path_to_photo.png"> in your .html files.
+
+Additionally, you may want to create more .html files, especially if you'd like an individual page for each of your publications, etc. You may want to delete some of the .html files that you don't use from the template, too. Just make sure that your index.html or other .html files you do use do not link to the files you delete, or your page will get 404 errors if someone clicks on those links.
+
+Make sure to save, commit, and push all of your changes to GitHub. We recommend doing this repeatedly, so that you can see your edits taking effect as you edit your site. This may take a few minutes after pushing. When you are in your GitHub repository, you should see a green checkmark next to your commit message to tell you that your build has successfully deployed.
