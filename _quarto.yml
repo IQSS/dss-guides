@@ -2,8 +2,8 @@ project:
   type: book
 
 book:
-  title: "Git Starter Guide"
-  author: "IQSS"
+  title: "Git and GitHub Starter Guide"
+  author: "Dominic Skinnion"
   date: "last-modified"
   page-navigation: true
   search: true
@@ -11,20 +11,17 @@ book:
   chapters:
     - index.qmd
     - introduction.qmd
-    - part: "Getting Started with Overleaf"
+    - part: "Getting Started with Git and GitHub"
       chapters:
         - sign_up.qmd
-        - create_project.qmd
-        - interface.qmd
-        - writing.qmd
-        - collaborating.qmd
-        - exporting.qmd
-    - part: "Advanced Features & Tips"
+        - create_repo.qmd
+        - clone_repo.qmd
+        - auth.qmd
+    - part: "Editing Existing Repositories"
       chapters:
-        - templates.qmd
-        - bibs.qmd
-        - packages.qmd
-        - best_prac.qmd
+        - editing.qmd
+        - command_line.qmd
+    - part: "Resources"
         - resources.qmd
     - references.qmd
 
