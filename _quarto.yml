@@ -22,6 +22,7 @@ book:
         - editing.qmd
         - command_line.qmd
     - part: "Resources"
+      chapters:
         - resources.qmd
     - references.qmd
 
