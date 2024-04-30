@@ -14,4 +14,5 @@ Additional arguments in the command line include:
 | git pull --rebase | Avoids merge commits |
 | git blame \<filename\> | To see who last edited each line |
 
+<br>
 For even more commands, see [here](http://www.cheat-sheets.org/saved-copy/git-cheat-sheet.pdf).
