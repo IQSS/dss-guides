@@ -1,7 +1,0 @@
-# Collaborating on Overleaf {.sec-collaborating}
-
-One of the key features of Overleaf is its support for real-time collaboration. Here's how you can collaborate with others on a document:
-
-* Share Project: Click on the "Share" button to invite collaborators via email. You can specify their permissions (edit or view-only) and work together in real-time on the same document.
-* Version History: Overleaf keeps track of changes made to your document, allowing you to revert to previous versions if needed. You can access the version history from the history menu.
-* Chat and Comments: Communicate with collaborators using the built-in chat feature or leave comments on specific parts of the document to discuss changes or provide feedback.
