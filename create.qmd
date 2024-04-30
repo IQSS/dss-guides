@@ -9,7 +9,8 @@ These instructions largely follow the instructions from GitHub, found [here](htt
 3. Clone your GitHub repository to your local folder. You can do this with your IDE of choice or through the command line. 
   <ul>
     <li> To copy the full repository link from your GitHub repository, use the green clone button, and then the copy icon. Paste this where your IDE asks for it. </li>
-    <li> Or if you are using your command line, you can change directory (using the cd command) into your "Personal_Website" folder and then type out "git clone \<paste your link here\>".
+    <li> Or if you are using your command line, you can change directory (using the cd command) into your "Personal_Website" folder and then type out "git clone \<paste your link here\>". </li>
+  </ul>
 4. Now, create a new file inside of your repository called "index.html"
 5. Inside the file, copy and paste this text: <br>
   \<\!DOCTYPE html\> <br>
