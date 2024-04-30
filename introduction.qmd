@@ -1,5 +1,9 @@
 # Introduction {.sec-intro}
 
-Overleaf is a cloud-based $\LaTeX$ editor that simplifies the process of writing, editing, and collaborating on $\LaTeX$ documents. While it is not a super powerful text editor, its ease of use and collaboration features make it a favorite among many users. In fact, many graduate students and professors prefer Overleaf over all other editors. 
+## Background 
 
-This starter guide will walk you through getting started in Overleaf, from signing up for an account, to creating projects, collaborating, and much more.
+Git is widely used open source software for versioning and collaborating on files to be edited; [github.com](github.com) is a commercial service that makes git easier to use (and free for IQSS affiliates). Git is extremely sophisticated (for professional programmers), but most people only need a few easy commands. Github.com offers GUIs to do everything below, but I find the command line simpler and easier.
+
+## Key Idea
+
+Each project has a separate repository with all files to be shared stored on GitHub (e.g., https://github.com/iqss-research/gkbibtex). You can view and edit files on github.com directly. But it's easier to also have a local (“cloned”) repository on your disk and use your own editing tools. You edit your repository and then push up changes to the remote repository and git syncs the two. We can both edit the same file at the same time (as long as we're not editing the same line) and git will easily and transparently merge them (scary, but it works!). Every previous version and all edits are saved at GitHub and so it is safe and you can easily go get old versions too.
