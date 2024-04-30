@@ -1,4 +1,17 @@
-# Command Line {.sec-editing}
+# Command Line Arguments {.sec-editing}
 
+Additional arguments in the command line include:
 
-TO DO
+| Command | Function |
+| ----- | ----- |
+| git add new_file | Tells git to include a new file on your disk, in the remote repository. Then commit and push as above. |
+| git status | Tells you if your local version is up-to-date compared with the version on GitHub. |
+| git log -p | -p is patch or diff |
+| git log -p HEAD..origin/master | What changed remotely? |
+| git commit . -v | What is in your commit? |
+| gitk | A GUI with a git file map |
+| git \<command\> --help | Provides help for the specific command |
+| git pull --rebase | Avoids merge commits |
+| git blame \<filename\> | To see who last edited each line |
+
+For even more commands, see [here](http://www.cheat-sheets.org/saved-copy/git-cheat-sheet.pdf).
