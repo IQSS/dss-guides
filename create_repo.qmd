@@ -1,3 +1,18 @@
 # Creating a New Repository {.sec-starting}
 
-TO DO
+"Repository" is another word for folder. You may also hear "repo" for short.
+
+## Creating a repository on GitHub
+
+When you are signed into your GitHub account, there should be a left-hand dashboard that lists your repositories. At the top, there is a green "New" button, which you should press to create a new repository.
+
+GitHub will then have you enter a name for your repository and its description, and you can select whether you want this repo to be public or private. 
+
+Additionally, you can optionally add a "README" file. This is a file where you can add a longer, more detailed description of your repository that you either want your future self or others to read. This can describe the file structure, provide insights into your code and data, or other details that you may want to remember.
+
+Also, you can add a .gitignore file. This tells git which files to ignore when you commit and push your documents. For instance, if you are writing a lot of R code, you may wish to make a .RProj, which will locally store information for you. But, you don't want to push this to GitHub, so you would include this file in your .gitignore list. For more information see git's [documentation](https://git-scm.com/docs/gitignore).
+
+You may wish to add a license to let others know how they can use your code, if you choose to make it publically available.
+
+Then, press the green "Create repository" button at the bottom.
+
