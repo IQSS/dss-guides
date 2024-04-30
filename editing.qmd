@@ -1,3 +1,71 @@
 # Editing {.sec-editing}
 
-TO DO
+## When you are the only one editing at the time:
+
+When finished with an editing session:
+
+<ol type="1">
+  <li>Pull: in the terminal window, type “git pull”</li>
+  <ol type="a">
+    <li>This merges in any changes someone else made to the repo</li>
+  </ol>
+  <li>Commit: in the terminal window, type “git commit -am <your commit message>” </li>
+  <ol type="a">
+    <li>This prepares your changes for uploading</li>
+  </ol>
+  <li>Push: in the terminal window, type “git push”</li>
+  <ol type="a">
+    <li>This uploads your changes to the GitHub repository</li>
+  </ol>
+</ol>
+
+Next time you are ready to edit:
+Pull, then edit as you like, then Commit and Push.
+
+## When someone else is also editing (a different part of the file):
+
+<ol type="1">
+  <li>Commit: in the terminal window, type “git commit -am <your commit message>”
+</li>
+  <ol type="a">
+    <li>This protects your changes</li>
+  </ol>
+  <li>Pull: in the terminal window, type “git pull” </li>
+  <ol type="a">
+    <li>This merges in what your friend did</li>
+  </ol>
+  <li>Push: in the terminal window, type “git push”</li>
+  <ol type="a">
+    <li>This uploads your changes to the GitHub repository</li>
+  </ol>
+</ol>
+
+If you try pulling without committing, you will get an error.
+
+## When someone else (unfortunately) edits the same line as you
+
+You must resolve these differences!
+
+<ol type="1">
+  <li>Pull: in the terminal window, type “git pull”</li>
+  <ol type="a">
+    <li>You will get a "merge conflict" error message</li>
+  </ol>
+  <li> Edit your file. You will see something like this: <br>
+  <<<<<<<<<<< <br>
+  passage written by person 1 <br>
+  =========== <br>
+  passage written by person 2 <br>
+  >>>>>>>>>>> <br>
+  </li>
+  <li> Remove one of the passages, as well as the <<<, ===, and >>> symbols.</li>
+  <li>Commit: in the terminal window, type “git commit -am <your commit message>” </li>
+  <ol type="a">
+    <li>This prepares your changes for uploading</li>
+  </ol>
+  <li>Push: in the terminal window, type “git push”</li>
+  <ol type="a">
+    <li>This uploads your changes to the GitHub repository</li>
+  </ol>
+</ol>
+
