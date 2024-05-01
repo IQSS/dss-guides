@@ -17,10 +17,10 @@ book:
         - sign_up.qmd
         - connect.qmd
         - auth.qmd
+    - part: "Editing Repositories"
+      chapters:
         - create_repo.qmd
         - clone_repo.qmd
-    - part: "Editing Existing Repositories"
-      chapters:
         - editing.qmd
         - command_line.qmd
     - part: "Resources"
