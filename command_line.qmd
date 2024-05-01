@@ -6,8 +6,9 @@ Additional arguments in the command line include:
 | ----- | ----- |
 | git add new_file | Tells git to include a new file on your disk, in the remote repository. Then commit and push as above. |
 | git status | Tells you if your local version is up-to-date compared with the version on GitHub. |
-| git log -p | -p is patch or diff |
-| git log -p HEAD..origin/master | What changed remotely? |
+| git log | This will print out a log of the commits for your repository. You may need to press Ctrl-Z to kill the process in the terminal when you are done looking at the log. |
+| git log -p | \(-p is patch or diff) This will print the log as above, but also with the difference introduced in each commit. This can be especially useful if something broke and you want to see when/where you edited something. |
+| git log -p HEAD..origin/main | Tells you what is different in the remote branch (origin/main) but not in your local branch. This can help you see what changes have been introduced since you last updated or pulled your local repository. |
 | git commit . -v | What is in your commit? |
 | gitk | A GUI with a git file map |
 | git \<command\> --help | Provides help for the specific command |
