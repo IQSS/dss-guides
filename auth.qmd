@@ -1,4 +1,4 @@
-# Authorization {.sec-starting}
+# Authentication {.sec-starting}
 
 For some git actions, you may be required to input git credentials. As of 2021, GitHub no longer accepts your password for git actions, meaning that if asked for your credentials, the terminal won’t accept your password for cloning the repository. Instead, you need to make a PAT (Personal Access Token). To do this:
 
