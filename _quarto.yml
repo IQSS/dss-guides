@@ -13,6 +13,7 @@ book:
     - introduction.qmd
     - part: "Getting Started with Git and GitHub"
       chapters:
+        - install_git.qmd
         - sign_up.qmd
         - create_repo.qmd
         - clone_repo.qmd
