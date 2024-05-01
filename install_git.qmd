@@ -1,3 +1,12 @@
 # Installing Git {.sec-starting}
 
-TO DO
+You might already have git installed on your computer. To check, open your terminal and type the command "git --version". If you have git installed, it will respond with the git version you have. If you get an error message ("git: command not found" is a common one) you will need to install git. 
+
+If you are on a Mac, you may be automatically prompted to install command line tools when you ran "git --version". You should accept these, clicking "OK" or "Install" when prompted.
+
+Full instructions for installing git can be found [here](https://happygitwithr.com/install-git.html). We've condensed these instructions here for simplicity, but you may wish to look at all of the potential options if you run into any problems.
+
+For Mac users: if the automatic install did not work, you can try the command "xcode-select --install" in your terminal. 
+
+For Windows users: you can download [git for Windows](https://gitforwindows.org/). 
+
