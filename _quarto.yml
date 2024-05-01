@@ -15,9 +15,10 @@ book:
       chapters:
         - install_git.qmd
         - sign_up.qmd
+        - connect.qmd
+        - auth.qmd
         - create_repo.qmd
         - clone_repo.qmd
-        - auth.qmd
     - part: "Editing Existing Repositories"
       chapters:
         - editing.qmd
