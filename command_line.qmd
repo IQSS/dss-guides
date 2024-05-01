@@ -9,11 +9,10 @@ Additional arguments in the command line include:
 | git log | This will print out a log of the commits for your repository. You may need to press Ctrl-Z to kill the process in the terminal when you are done looking at the log. |
 | git log -p | \(-p is patch or diff) This will print the log as above, but also with the difference introduced in each commit. This can be especially useful if something broke and you want to see when/where you edited something. |
 | git log -p HEAD..origin/main | Tells you what is different in the remote branch (origin/main) but not in your local branch. This can help you see what changes have been introduced since you last updated or pulled your local repository. |
-| git commit . -v | What is in your commit? |
-| gitk | A GUI with a git file map |
-| git \<command\> --help | Provides help for the specific command |
-| git pull --rebase | Avoids merge commits |
-| git blame \<filename\> | To see who last edited each line |
+| git commit . -v | The "." means that everything will be included in your commit. The "-v" stands for "verbose" and means that git will add a description of the changes veing committed to the commit message. |
+| git \<command\> \-\-help | Provides help documentation for the specific command |
+| git pull --rebase | Avoids merge commits in that this will rewrite the commit history, adding your changes directly onto the latest changes in the remote repository. This can be cleaner, but should be used with caution. |
+| git blame \<filename\> | This will print out the commit, user and timestamp for each line of the file. This can show you when and by whom edits were made. |
 
 <br>
 For even more commands, see [here](http://www.cheat-sheets.org/saved-copy/git-cheat-sheet.pdf).
