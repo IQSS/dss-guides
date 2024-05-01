@@ -2,4 +2,5 @@
 
 * Full [Git documentation](https://git-scm.com/doc)
 * [GitHub documentation](https://docs.github.com/en)
+* Professor Matt Blackwell has a great guide for [getting started with R, R Studio, Git, and Github](https://gov51.mattblackwell.org/assignments/00-r-intro/) that we highly recommend if you need additional guidance
 
