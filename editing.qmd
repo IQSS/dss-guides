@@ -69,3 +69,7 @@ You must resolve these differences!
   </ol>
 </ol>
 
+<br>
+
+Depending on your IDE, there may be more convenient or visual ways of dealing with merge conflicts. It's always good to check your IDE's documentation or look up how to deal with merge conflicts in your specific IDE. ChatGPT can be a great resource, too!
+
