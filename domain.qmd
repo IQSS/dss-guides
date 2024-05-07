@@ -1,6 +1,6 @@
 # Adding a Custom Domain {.sec-customizing}
 
-Customizing your domain name can be a complicated process. The full GitHub instrections can be found [here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
+Customizing your domain name can be a complicated process. The full GitHub instructions can be found [here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
 
 These instructions assume that you already have ownership of the custom domain that you would like to use, as well as knowledge about your specific DNS provider.
 
