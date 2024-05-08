@@ -9,14 +9,15 @@ These instructions assume that you already have ownership of the custom domain t
   <li> Click Settings </li>
   <li> In the left-hand menu bar, select Pages </li>
   <li> Scroll down to the Custom Domain section </li>
-  <li> Enter your custom domain in the textbox. GitHub recommends always using www at the front of your domain. For example, instead of using example.com, you would use www.example.com </li>
+  <li> Enter your custom domain in the textbox. For example, you should write: mysite.com </li>
   <li> Hit Save </li>
   <li> Navigate to your DNS provider and create a CNAME record that points your subdomain to the default domain for your site. 
   <ol type="a">
     <li> Example: if you want to use www.example.com, you will create a CNAME record that points www.example.com to \<username\>.github.io. Note that this is the user page, not a repository name. </li>
     <li> Instructions for creating a CNAME record vary by DNS provider. GitHub recommends using your DNS provider's documentation . </li>
+    <li> For example, on GoDaddy, when you add a record, the record name would be "www" and the record value would be "username.github.io" </li>
   </ol>
-  <li> GitHub does not recommend configuring apex domains (e.g., example.com as opposed to www.example.com), but others suggest that if you would like your GitHub pages to display for both your apex domain and your www subdomain, you should also include four A records in your DNS provider's web console. </li>
+  <li> To ensure that your apex domain (i.e. without "www") works, you should also include four A records in your DNS provider's web console. For example, on GoDaddy, the name would be the \@ symbol and the values would be the following: </li>
   <ul>
     <li>185.199.108.153</li>
     <li>185.199.109.153</li>
