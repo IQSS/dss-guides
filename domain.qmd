@@ -33,11 +33,11 @@ These instructions assume that you already have ownership of the custom domain t
   <li> Go back to your GitHub repository. </li>
   <li> Go to Settings > Pages > Custom domain </li>
   <li> Check off Enforce HTTPS </li>
-    <ul>
-      <li> If this says something along the lines of "Your domain is not properly configured to support HTTPS" we will need to add additional records with your DNS provider </li>
-      <li> We strongly recommend following instructions from your DNS provider. You should look up "HTTPS record for \[your DNS provider\]" in Google and follow any of their documentation. </li>
-      <li> For example, on GoDaddy, you can add an HTTPS record where the name is @ and the value is **TO DO** <li>
-    </ul>
+  <ul>
+    <li> If this says something along the lines of "Your domain is not properly configured to support HTTPS" we will need to add additional records with your DNS provider </li>
+    <li> We strongly recommend following instructions from your DNS provider. You should look up "HTTPS record for \[your DNS provider\]" in Google and follow any of their documentation. </li>
+    <li> For example, on GoDaddy, you can add an HTTPS record where the name is @ and the value is **TO DO** <li>
+  </ul>
   <li> If you run into any additional problems, you may want to ensure that there are no additional A records aside from the ones listed above. This may be a problem if you have previously had your site hosted through a service separate from GitHub pages. </li>
   <li> Some common warning messages that you may see when GitHub pages is connecting to your site include "DNS valid for primary" or "DNS check in progress" -- these are both OK, and should go away once your site is connected. </li>
   <li> On the other hand, if you get an error message "DNS check unsuccessful" or "Both your custom domain and its alternative name are improperly configured," then it means either your A or CNAME records are incorrect. Please check these! </li>
