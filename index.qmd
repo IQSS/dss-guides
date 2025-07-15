@@ -3,6 +3,6 @@
 The following is a quick starter guide designed to get you acquainted with GitHub Pages, an option for you to create a personal website.
 
 We include directions for editing your website with three options:
-* The online file editor through GitHub
-* GitHub Desktop
-* RStudio and Git
+1. The online file editor through GitHub
+2. GitHub Desktop
+3. RStudio and Git
