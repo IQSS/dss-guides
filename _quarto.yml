@@ -12,6 +12,7 @@ book:
     - index.qmd
     - part: "Getting Started"
       chapters:
+        - install.qmd
         - create.qmd
     - part: "Customization"
       chapters:
