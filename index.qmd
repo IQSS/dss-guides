@@ -9,3 +9,5 @@ We include directions for editing your website with three options:
 3. RStudio and Git
 
 Feel free to choose the option that best fits your technical comfort level. If you are already used to R/RStudio/Git, the third option may be best for you. If you don't know what those are, feel free to use either of the first two options.
+
+Additionally, we include instructions for finding and using templates, customizing your site, and connecting your site to a custom domain.
