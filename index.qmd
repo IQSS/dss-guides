@@ -1,5 +1,7 @@
 # Preface {.unnumbered}
 
+## The site is currently under maintenance. Please return shortly.
+
 The following is a quick starter guide designed to get you acquainted with GitHub Pages, an option for you to create a personal website.
 
 We include directions for editing your website with three options:
