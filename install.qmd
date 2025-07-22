@@ -1,1 +1,7 @@
+# Installing Necessary Software {.sec-starting}
 
+If you are opting to work with RStudio and Git, you will need to ensure that you have the following installations on your computer:
+
+1. Git
+2. R
+3. RStudio
