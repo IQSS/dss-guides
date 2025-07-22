@@ -10,14 +10,26 @@ book:
   favicon: images/favicon.png
   chapters:
     - index.qmd
-    - part: "Getting Started"
+    - part: "Online GitHub Editor"
       chapters:
-        - install.qmd
-        - create.qmd
-    - part: "Customization"
+        - OGHE_start.qmd
+        - OGHE_create.qmd
+        - OGHE_template.qmd
+        - OGHE_customize.qmd
+        - domain.qmd
+    - part: "GitHub Desktop"
       chapters:
-        - template.qmd
-        - customizing.qmd
+        - GHD_start.qmd
+        - GHD_create.qmd
+        - GHD_template.qmd
+        - GHD_customize.qmd
+        - domain.qmd
+    - part: "RStudio and Git"
+      chapters:
+        - RSG_start.qmd
+        - RSG_create.qmd
+        - RSG_template.qmd
+        - RSG_customize.qmd
         - domain.qmd
 
 bibliography: references.bib
