@@ -8,6 +8,7 @@ book:
   page-navigation: true
   search: true
   favicon: images/favicon.png
+  toc-expand: false
   chapters:
     - index.qmd
     - part: "Online GitHub Editor"
