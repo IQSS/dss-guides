@@ -6,9 +6,9 @@ The following is a quick starter guide designed to get you acquainted with GitHu
 
 We include directions for editing your website with three options:
 
-1. The online file editor through GitHub
-2. GitHub Desktop
-3. RStudio and Git
+1. [The online file editor through GitHub](OGHE_start.html)
+2. [GitHub Desktop](GHD_start.html)
+3. [RStudio and Git](RSG_start.html)
 
 Feel free to choose the option that best fits your technical comfort level. If you are already used to R/RStudio/Git, the third option may be best for you. If you don't know what those are, feel free to use either of the first two options.
 
