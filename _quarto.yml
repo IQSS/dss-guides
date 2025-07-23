@@ -7,8 +7,10 @@ book:
   date: "last-modified"
   page-navigation: true
   search: true
+  sidebar:
+    search: true
+    collapse-level: 1
   favicon: images/favicon.png
-  toc-expand: false
   chapters:
     - index.qmd
     - part: "Online GitHub Editor"
