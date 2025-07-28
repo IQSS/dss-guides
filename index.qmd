@@ -14,3 +14,5 @@ We include instructions for editing your website with four options. For the opti
 Feel free to choose the option that best fits your technical comfort level. If you are already used to R/RStudio/Git, the last option may be best for you. If you don't know what those are, but you know how to code in HTML, feel free to use options 2 or 3. If you have no clue how to code (that's OK!), then a Google Sites page might be right for you.
 
 Additionally, we include instructions for finding and using templates, customizing your site, and connecting your site to a custom domain.
+
+Note: In Google Sites, support for custom domains is currently not available for managed accounts, like an @g.harvard.edu account. If you really want to use a custom domain (i.e. yourname.com), then you should either use GitHub Pages or use your personal account to make your Google Site.
