@@ -52,7 +52,7 @@ For example, you may wish to change "About" to "Home".
 <details>
 <summary>If you have your resume as a PDF:</summary>
   <ol type="a">
-    <li>You need to upload your PDF file to your Google Drive.<li>
+    <li>You need to upload your PDF file to your Google Drive.</li>
     <li>In the right-side menu bar under the "Insert" tab, select "Drive".</li>
     <li>In the pop-up menu, navigate to and select your PDF resume.</li>
     <li>Click the blue "Insert" button.</li>
