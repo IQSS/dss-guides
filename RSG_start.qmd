@@ -1,3 +1,18 @@
 # Getting Started {.sec-rstudio}
 
-If you're less familiar with RStudio and Git, and you'd like to stay online, then using the online GitHub editor is the right choice for you!
+If you're ready for a more technical approach, and you are already familiar with projects in RStudio and Git, then this option may be right for you.
+
+If you don't already, you will need various programs downloaded and installed on your computer:
+
+* R
+* RStudio
+* Git
+
+To download R:
+
+1. Go to [r-project.org](https://cran.r-project.org/mirrors.html)
+2. Select the location closest to you
+3. At the top of this site (called a "mirror"), there should be a "Download and Install R" section
+4. Select the link that says "Download R for macOS" if you are on a Mac, or "Download R for Windows" if you are on a PC.
+5. Click on the link for the latest release that is compatible with your computer. (For the Macs, this might depend on the chip you have). 
+  a. If you are unsure what macOS and chip you have, you can click on the Apple logo in the menu bar (top left of your screen). Then, click "About This Mac" to see your "Chip" and "macOS".
