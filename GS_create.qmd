@@ -6,3 +6,5 @@ Under "Start a new site" there is a list of templates. Feel free to browse the t
 
 * "Graduates" or
 * "Professors"
+
+Once you select the template you'd like to use, Google Sites will redirect to a customizable version of the template for you to edit.
