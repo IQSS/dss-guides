@@ -2,7 +2,15 @@
 
 You are now ready to customize the template with your information. Google Sites is driven by its user interface. There is no coding that you need to do. Instead, there are pop-ups, and various tool menus that allow you to edit your site, insert or remove content, create or delete pages, and edit the theme.
 
-Using the "Graduates" template as an example, you can:
+Using the "Graduates" template as an example, you can start with three pages: (1) About, (2) Resume, and (3) Research & Projects.
+
+You can change these page names by navigating on the right-most menu bar to the "Pages" tab, and then double-clicking on the page name to change it. You can also use the "+" button at the bottom of the menu bar to add pages. You can use the three-dot menu next to each page name to delete or duplicate a page.
+
+For example, you may wish to change "About" to "Home".
+
+<hr>
+
+## About
 
 1. Add your name to the header by simply clicking on the "Tina Smith, PhD" and putting your name there instead.
 2. Introduce yourself by editing the first text box. 
@@ -23,3 +31,11 @@ Using the "Graduates" template as an example, you can:
     <li>To add a section, make sure the menu bar on the right side is on the "Insert" tab, and select your desired content block.</li>
     <li>To delete a section, hover over it, and in the left-most pop-up menu, click the trash icon.</li>
   </ol>
+
+<hr>
+
+## Resume
+
+<hr>
+
+## Research & Projects
