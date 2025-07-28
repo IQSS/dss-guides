@@ -17,7 +17,6 @@ book:
       chapters:
         - GS_start.qmd
         - GS_create.qmd
-        - GS_template.qmd
         - GS_customize.qmd
         - domain.qmd
     - part: "Online GitHub Editor"
