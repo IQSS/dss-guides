@@ -12,3 +12,4 @@ Additionally, before you get started, it would be great to have the following ea
 * Research interests and projects
 * Contact information (e.g., your professional email, social links if you post on X or BlueSky, your GitHub, etc.)
 
+If you have additional questions not answered by this quick starter guide, the [Google Support Guide](https://support.google.com/sites/answer/6372878?hl=en) may be of use to you.
