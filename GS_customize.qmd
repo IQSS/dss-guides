@@ -60,7 +60,14 @@ For example, you may wish to change "About" to "Home".
   </ol>
 </details>
 
-If you get any messages about permissions for files, don't worry now. We will make those available when we publish the site.
+If you get any messages about permissions for files:
+1. Make sure that the drop-down is set to "Viewer" and then click "Share".
+2. Navigate to the Google Drive that has your file.
+3. Access the file.
+4. Click the blue "Share" button at the top-right.
+5. Under "General Access", change the drop-down to "Anyone with the link" and make sure that the second drop-down says "Viewer".
+6. Click the blue "Done" button.
+7. Navigate back to your Google Sites webpage.
 
 <hr>
 
@@ -69,4 +76,32 @@ If you get any messages about permissions for files, don't worry now. We will ma
 You can edit the text boxes here as you normally would to add content about projects that you'd like to highlight.
 
 You can also add or remove sections as you see fit, also as described earlier.
+
+<hr>
+
+## Publishing Your Site
+
+Once you are done editing your site and you are ready to publish it.
+
+Tip: In the top menu bar, there is an icon that looks like a computer and a phone. When you hover over it, it says "Preview". You can use this button to preview what your site will look like on different screens (mobile, tablet, computer). You can click the blue "X" to exit back to the editor.
+
+1. Click the purple Publish button in the top right corner.
+2. Put a name for your URL in the "Web address" box. Just below the box will show you what your URL will look like: "https://sites.google.com/", etc.
+3. Under the "Who can view my site" make sure to click the blue "MANAGE" button.
+4. In the pop-up, at the "Published Site" section, change the drop-down to "Public".
+5. Click "Done".
+6. Now, click the purple "Publish" button at the bottom of the pop-up.
+7. If you get an error about access to a file, you need to make sure the file is publicly viewable:
+  <ol type="a">
+    <li>Go to your Google Drive account where the file is stored.</li>
+    <li>Access the file.</li>
+    <li>Click the blue "Share" button at the top-right.</li>
+    <li>Under "General Access", change the drop-down to "Anyone with the link" and make sure that the second drop-down says "Viewer".</li>
+    <li>Click the blue "Done" button.</li>
+    <li>Navigate back to your Google Sites webpage.</li>
+    <li>Re-publish your site.</li>
+  </ol>
+
+
+
 
