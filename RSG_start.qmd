@@ -8,6 +8,12 @@ If you don't already, you will need various programs downloaded and installed on
 * RStudio
 * Git
 
+You will also need a GitHub account.
+
+<hr>
+
+## Downloading R
+
 <details>
 <summary>To download R (for Macs):</summary>
 
@@ -30,3 +36,15 @@ If you don't already, you will need various programs downloaded and installed on
 4. Select the link that says "Download R for Windows".
 5. 
 </details>
+
+<hr>
+
+## Downloading RStudio
+
+<hr>
+
+## Downloading Git
+
+<hr>
+
+## Making a GitHub Account
