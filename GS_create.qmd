@@ -1,3 +1,8 @@
 # Creating Your Website {.sec-google}
 
-If you're less familiar with RStudio and Git, and you'd like to stay online, then using the online GitHub editor is the right choice for you!
+Creating your website with Google Sites is as easy as clicking a button. Simply go to [Google Sites](https://sites.google.com) (you may be prompted to log in, if you are not already). 
+
+Under "Start a new site" there is a list of templates. Feel free to browse the templates before you select which one you'd like to use. We suggest either:
+
+* "Graduates" or
+* "Professors"
