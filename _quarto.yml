@@ -18,7 +18,7 @@ book:
         - GS_start.qmd
         - GS_create.qmd
         - GS_customize.qmd
-        - domain.qmd
+        - GS_domain.qmd
     - part: "Online GitHub Editor"
       chapters:
         - OGHE_start.qmd
