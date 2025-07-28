@@ -1,3 +1,14 @@
 # Getting Started {.sec-google}
 
 If you don't want to code at all, the Google Sites option is best for you!
+
+To get started, you only need to ensure that you have a Google Account (e.g., a gmail account). If you do not have one, please make one at [accounts.google.com](https://accounts.google.com/signup).
+
+Additionally, before you get started, it would be great to have the following easily accessible to add into your website:
+
+* A professional biography
+* A headshot, if you have one
+* Your CV or resume (PDFs are best!)
+* Research interests and projects
+* Contact information (e.g., your professional email, social links if you post on X or BlueSky, your GitHub, etc.)
+
