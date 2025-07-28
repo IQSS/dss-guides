@@ -2,13 +2,14 @@
 
 ## The site is currently under maintenance. Please return shortly.
 
-The following is a quick starter guide designed to get you acquainted with GitHub Pages, an option for you to create a personal website.
+The following is a quick starter guide designed to get you acquainted with GitHub Pages, an option for you to create a personal website. If you'd rather start with a website on Google Sites (no coding necessary!), we include those instructions first.
 
-We include directions for editing your website with three options. For the option you would like to choose, simply click on its link below for detailed instructions to get started.
+We include instructions for editing your website with four options. For the option you would like to choose, simply click on its link below for detailed instructions to get started.
 
-1. [The online file editor through GitHub](OGHE_start.html)
-2. [GitHub Desktop](GHD_start.html)
-3. [RStudio and Git](RSG_start.html)
+1. [Google Sites](GS_start.html)
+2. [The online file editor through GitHub](OGHE_start.html)
+3. [GitHub Desktop](GHD_start.html)
+4. [RStudio and Git](RSG_start.html)
 
 Feel free to choose the option that best fits your technical comfort level. If you are already used to R/RStudio/Git, the third option may be best for you. If you don't know what those are, feel free to use either of the first two options.
 
