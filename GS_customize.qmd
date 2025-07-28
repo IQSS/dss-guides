@@ -1,3 +1,25 @@
 # Customize Your Website {.sec-google}
 
-If you're less familiar with RStudio and Git, and you'd like to stay online, then using the online GitHub editor is the right choice for you!
+You are now ready to customize the template with your information. Google Sites is driven by its user interface. There is no coding that you need to do. Instead, there are pop-ups, and various tool menus that allow you to edit your site, insert or remove content, create or delete pages, and edit the theme.
+
+Using the "Graduates" template as an example, you can:
+
+1. Add your name to the header by simply clicking on the "Tina Smith, PhD" and putting your name there instead.
+2. Introduce yourself by editing the first text box. 
+  <ol type="a">
+    <li>Hover over the text box, and click on the pencil icon to edit.</li>
+    <li>You can change the text type (e.g., title), font, size, styles, and formatting in the tool menu that pops up above the text box.</li>
+  </ol>
+3. You can add an image of yourself.
+  <ol type="a">
+    <li>Click on the existing image.</li>
+    <li>In the tool bar that pops up, select the three dots.</li>
+    <li>Hover over "Replace image" and then click "Upload".</li>
+    <li>From your computer, select the image you would like to add.</li>
+  </ol>
+4. You can choose to move, add, or delete sections on your homepage if you wish.
+  <ol type="a">
+    <li>To move a section, you can hover over the content, move your cursor to the left-most part of the content (where there are 10 dots in 2 columns), and drag the section to your desired location.</li>
+    <li>To add a section, make sure the menu bar on the right side is on the "Insert" tab, and select your desired content block.</li>
+    <li>To delete a section, hover over it, and in the left-most pop-up menu, click the trash icon.</li>
+  </ol>
