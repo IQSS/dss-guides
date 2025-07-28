@@ -8,11 +8,25 @@ If you don't already, you will need various programs downloaded and installed on
 * RStudio
 * Git
 
-To download R:
+<details>
+<summary>To download R (for Macs):</summary>
 
-1. Go to [r-project.org](https://cran.r-project.org/mirrors.html)
-2. Select the location closest to you
-3. At the top of this site (called a "mirror"), there should be a "Download and Install R" section
-4. Select the link that says "Download R for macOS" if you are on a Mac, or "Download R for Windows" if you are on a PC.
+1. Go to [r-project.org](https://cran.r-project.org/mirrors.html).
+2. Select the location closest to you.
+3. At the top of this site (called a "mirror"), there should be a "Download and Install R" section.
+4. Select the link that says "Download R for macOS".
 5. Click on the link for the latest release that is compatible with your computer. (For the Macs, this might depend on the chip you have). 
-  a. If you are unsure what macOS and chip you have, you can click on the Apple logo in the menu bar (top left of your screen). Then, click "About This Mac" to see your "Chip" and "macOS".
+  <ol type="a">
+    <li> If you are unsure what macOS and chip you have, you can click on the Apple logo in the menu bar (top left of your screen). Then, click "About This Mac" to see your "Chip" and "macOS". </li>
+  </ol>
+</details>
+
+<details>
+<summary>To download R (for PCs):</summary>
+
+1. Go to [r-project.org](https://cran.r-project.org/mirrors.html).
+2. Select the location closest to you.
+3. At the top of this site (called a "mirror"), there should be a "Download and Install R" section.
+4. Select the link that says "Download R for Windows".
+5. 
+</details>
