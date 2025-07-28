@@ -11,6 +11,6 @@ We include instructions for editing your website with four options. For the opti
 3. [GitHub Desktop](GHD_start.html)
 4. [RStudio and Git](RSG_start.html)
 
-Feel free to choose the option that best fits your technical comfort level. If you are already used to R/RStudio/Git, the third option may be best for you. If you don't know what those are, feel free to use either of the first two options.
+Feel free to choose the option that best fits your technical comfort level. If you are already used to R/RStudio/Git, the last option may be best for you. If you don't know what those are, but you know how to code in HTML, feel free to use options 2 or 3. If you have no clue how to code (that's OK!), then a Google Sites page might be right for you.
 
 Additionally, we include instructions for finding and using templates, customizing your site, and connecting your site to a custom domain.
