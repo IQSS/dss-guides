@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "GitHub Pages Starter Guide"
+  title: "Professional Website Starter Guide"
   author: "IQSS"
   date: "last-modified"
   page-navigation: true
