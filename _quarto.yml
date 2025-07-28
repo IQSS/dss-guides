@@ -13,6 +13,13 @@ book:
   favicon: images/favicon.png
   chapters:
     - index.qmd
+    - part: "Google Sites"
+      chapters:
+        - GS_start.qmd
+        - GS_create.qmd
+        - GS_template.qmd
+        - GS_customize.qmd
+        - domain.qmd
     - part: "Online GitHub Editor"
       chapters:
         - OGHE_start.qmd
