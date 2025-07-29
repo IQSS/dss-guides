@@ -1,3 +1,27 @@
 # Using Templates {.sec-rstudio}
 
-If you're less familiar with RStudio and Git, and you'd like to stay online, then using the online GitHub editor is the right choice for you!
+<br>
+
+Now, find a website template that you'd like to use. There are a lot of free ones from [https://html5up.net/](https://html5up.net/). Or, if you are already savvy with HTML or web design, you may choose to make your own website from scratch. You can also use [Jekyll themes](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll) that are designed for GitHub Pages, too.
+
+Some of the templates that we recommend for multiple-page websites include:
+
+* [HTML5Up's Editorial](https://html5up.net/editorial)
+* [HTML5Up's Stellar](https://html5up.net/stellar)
+* [HTML5Up's Arcana](https://html5up.net/arcana)
+* [HTML5Up's Minimaxing](https://html5up.net/minimaxing)
+
+If you'd like a 1-page website, some templates include:
+
+* [HTML5Up's Read Only](https://html5up.net/read-only)
+* [HTML5Up's Strata](https://html5up.net/strata)
+
+
+Regardless of your desired choice, the set-up remains the same.
+
+1. Download the template that you like.
+2. Go into your downloads folder.
+3. Copy and paste all of this content into your repository folder (username.github.io). You know this is the right folder because there will be an index.html file inside of it!
+4. If the downloaded items include an index.html, you will need to delete your original, barebones index.html we created earlier. (If you are on a Mac, it will ask you automatically).
+5. Through RStudio (or the command line, if you know how), commit your changes and push them to GitHub.
+6. After a few minutes, the build should be deployed and you should see this template hosted on your website now.
