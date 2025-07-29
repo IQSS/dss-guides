@@ -1,6 +1,6 @@
 # Adding a Custom Domain {.sec-google}
 
-<br>
+TEST
 
 Customizing your domain name can be a complicated process. As noted earlier, if you are using an account that has an administrator (e.g., a school or work account), you cannot add a custom domain yet.
 
