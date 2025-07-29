@@ -64,7 +64,8 @@ You will also need a GitHub account.
 
 ## Downloading Git
 
-To download Git: 
+<details>
+<summary>To download Git:</summary>
 
 1. Go to the [Git website](https://git-scm.com/downloads) and click on your operating system to download. 
   <ol type="a">
@@ -72,7 +73,7 @@ To download Git:
   </ol>
 2. Once downloaded, open the file and follow the installation instructions.
 3. If you'd like to check that git installed correctly (and you know what the Terminal is for Mac, or the Command Prompt for PCs), you can run "git --version" to see what version is downloaded.
-
+</details>
 <hr>
 
 ## Making a GitHub Account
