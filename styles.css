@@ -4,6 +4,7 @@ h2 {
 
 details summary {
   margin-bottom: 0 !important;
+  color: inherit;
 }
 
 details {
