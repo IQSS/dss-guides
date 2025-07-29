@@ -1,3 +1,5 @@
 # Customizing Your Website {.sec-online}
 
-If you're less familiar with RStudio and Git, and you'd like to stay online, then using the online GitHub editor is the right choice for you!
+<br> 
+
+Now you are ready to customize the website!
