@@ -61,6 +61,7 @@ For example, you may wish to change "About" to "Home".
 </details>
 
 If you get any messages about permissions for files:
+
 1. Make sure that the drop-down is set to "Viewer" and then click "Share".
 2. Navigate to the Google Drive that has your file.
 3. Access the file.
