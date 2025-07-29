@@ -28,10 +28,24 @@ Regardless of your desired choice, the set-up remains the same.
 6. Your page will re-direct, and there will be a section that says "Drag files here to add them to your repository Or choose your files". **If you have sub-folders in your template, dragging-and-dropping is the best way to go.**
   <ol type="a">
     <li>
-      <details><summary>If you'd like to drag your template files:</summary></details>
+      <details>
+        <summary>If you'd like to drag your template files:</summary>
+        <ol>
+          <li>TEST 1</li>
+          <li>TEST 1</li>
+          <li>TEST 1</li>
+        </ol>
+      </details>
     </li>
     <li>
-      <details><summary>If you'd like to choose your template files:</summary></details>
+      <details>
+        <summary>If you'd like to choose your template files:</summary>
+        <ol>
+          <li>TEST 1</li>
+          <li>TEST 1</li>
+          <li>TEST 1</li>
+        </ol>
+      </details>
     </li>
   </ol>
 7. After a few minutes, the build should be deployed and you should see this template hosted on your website now.
