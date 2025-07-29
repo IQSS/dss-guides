@@ -1,5 +1,7 @@
 # Customize Your Website {.sec-google}
 
+<br>
+
 You are now ready to customize the template with your information. Google Sites is driven by its user interface. There is no coding that you need to do. Instead, there are pop-ups, and various tool menus that allow you to edit your site, insert or remove content, create or delete pages, and edit the theme.
 
 Using the "Graduates" template as an example, you can start with three pages: (1) About, (2) Resume, and (3) Research & Projects.
