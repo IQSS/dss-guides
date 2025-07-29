@@ -95,7 +95,7 @@ Tip: In the top menu bar, there is an icon that looks like a computer and a phon
 7. Congrats, you should be done!
 
 <details>
-<summary>If you get an error about access to a file, you need to make sure the file is publicly viewable:</sumamry>
+<summary>If you get an error about access to a file, you need to make sure the file is publicly viewable:</summary>
   <ol type="a">
     <li>Go to your Google Drive account where the file is stored.</li>
     <li>Access the file.</li>
