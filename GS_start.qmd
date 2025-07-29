@@ -1,5 +1,7 @@
 # Getting Started {.sec-google}
 
+<br>
+
 If you don't want to code at all, the Google Sites option is best for you!
 
 To get started, you only need to ensure that you have a Google Account (e.g., a gmail account). If you do not have one, please make one at [accounts.google.com](https://accounts.google.com/signup).
