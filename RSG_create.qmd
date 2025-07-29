@@ -2,18 +2,41 @@
 
 <br>
 
-To create a personal website with GitHub, you must already have a GitHub account. If you do not, [please make one](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github). 
+We can now start building the website.
 
 These instructions largely follow the instructions from GitHub, found [here](https://pages.github.com/).
 
-1. In GitHub, create a new repository called username.github.io where username is replaced by your actual username. For example, if my username is pandabear, my repository is called pandabear.github.io
-2. On your desktop, create a folder. I called mine “Personal_Website”
-3. Clone your GitHub repository to your local folder. You can do this with your IDE of choice or through the command line. 
-  <ul>
-    <li> To copy the full repository link from your GitHub repository, use the green clone button, and then the copy icon. Paste this where your IDE asks for it. </li>
-    <li> Or if you are using your command line, you can change directory (using the cd command) into your "Personal_Website" folder and then type out "git clone \<paste your link here\>". </li>
-  </ul>
-4. Now, create a new file inside of your repository called "index.html"
+To start, we will create a repository (you can think of this as a folder for your project).
+
+1. On your computer, create a folder somewhere. We recommend naming it something like "my_website".
+2. On GitHub.com, the top menu bar has a "+" icon. Click it.
+3. In the drop-down that appears, click "New repository".
+4. This will re-direct you to a page titled "Create a new repository" with various fields to fill out.
+5. Under the field "Repository name" you need to enter \[username\].github.io where \[username\] is replaced by your actual username.
+  <ol type="a">
+    <li>For example, if your username is "pandabear", then your repository would be called "pandabear.github.io".</li>
+  </ol>
+6. Add a quick description in the "Description" field, such as "My professional website".
+7. Under visibility, select "Public".
+8. <details><summary>The other fields can be left on their defaults.</summary>
+  <ol>
+    <li>Start with a template: "No template"</li>
+    <li>Add README: Off</li>
+    <li>Add .gitignore: "No .gitignore"</li>
+    <li>Add license: "No license"</li>
+  </ol>
+</details>
+9. Now you can select the green "Create repository" button.
+10. GitHub will now re-direct you to the repository page. There should be nothing in it.
+11. In the blue section called "Quick setup—if you've done this kind of thing before", click the copy button all the way to the right. This will copy the git HTTPS link to your repository.
+12. Now, open up RStudio.
+13. In the top tool bar, select File > New Project. In the pop-up, select "Version Control", then "Git", and then paste the link from GitHub in the field titled "Repository URL". You can leave the "Project directory name:" field blank. For the "Create project as a subdirectory of:" field, use the "Browse" button to select the folder you made in step 1. Click "Create Project". This is sometimes called "cloning" your repository. If you know how to do this from the command line, feel free to!
+14. RStudio will open a new project for you, tied to your GitHub repository.
+15. Now, you can begin to create a new file inside of your repository called "index.html". 
+  <ol>
+    <li>In the top tool bar, select File > New File > HTML File.</li>
+    <li>In the text-editing pane, you can now edit this file.</li>
+  </ol>
 5. Inside the file, copy and paste this text: <br>
   \<\!DOCTYPE html\> <br>
   \<html\> <br>
@@ -22,13 +45,39 @@ These instructions largely follow the instructions from GitHub, found [here](htt
   \<p\>I'm hosted with GitHub Pages.\</p\> <br>
   \</body\> <br>
   \</html\> <br>
-6. Save your file.
+6. Save your file by clicking the save icon. Make sure to name it "index.html" and that it is in the correct repository.
 7. Commit and push your changes to GitHub.
+  <ol>
+    <li>In the top-right pane of your RStudio, you should see a tab called "Git". Click it.</li>
+    <li>Select .gitignore and index.html. Do not select the .Rproj file. </li>
+    <li>Then click the "Commit" button.</li>
+    <li>In the pop-up screen, add a commit message in the top-right pane, e.g., "Initial commit".</li>
+    <li>Then click the "Commit" button.</li>
+    <li>You can close out of the second pop-up window.</li>
+    <li>In the original pop-up screen, you can now click the top-right green arrow that is pointing up and says "Push".</li>
+    <li>When that is done, you can close out of both pop-ups.</li>
+  </ol>
 8. Check in your GitHub repository to make sure that the commit is pushed. You should see index.html with the commit message that you gave it.
 9. Check your actual website by going to username.github.io. It should say (in very basic styling): <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
-10. Now that our site is hosted correctly, we can actually build our site to look how we want it!
+10. <details><summary>If your actual webpage is not appearing:</summary>
+  <ol type="a">
+    <li>First wait a few minutes and try again. Sometimes it takes a bit of time for GitHub to create the website.</li>
+    <li>If issues still persist, we need to manually tell GitHub to create the website.^[In fact, if we are creating a GitHub Page that has a different name than our username, e.g., a project webpage, we will need to do this manually, anyhow.] To start, click the settings icon on your repository page.</li>
+    <li>On the left-hand side menu bar, click "Pages".</li>
+    <li>Leave the "Source" field to "Deploy from a branch".</li>
+    <li>Under "Branch" select "main". The page will slightly change to show "main" and "/root" in boxes.</li>
+    <li>Click "Save" next to these boxes.</li>
+    <li>The page will refresh. At the top you should see a box that says, "Your site is live at" followed by a link. This means that your page deployed correctly.</li>
+  </ol>
+</details>
+11. Before we get to customizing your site, one helpful tip is to add your website link to the "About" section of your repository.
+  <ol type="a">
+    <li>On the right side menu, next to "About", select the settings icon.</li>
+    <li>In the pop-up "Website" text-box, either copy-and-paste your website URL or check off the box that says "Use your GitHub Pages website"</li>
+  </ol>
+12. Great, now we are ready to customize our site!
 
 <br>
 
-If you need more instructions about committing and pushing to GitHub, check out our [Git and GitHub Guide](https://iqss.github.io/git_guide/).
+If you need more instructions about committing and pushing to GitHub, or if you want to use the Terminal/Command Line, check out our [Git and GitHub Guide](https://iqss.github.io/git_guide/).
