@@ -7,7 +7,7 @@ To start, we will create a repository (you can think of this as a folder for you
 1. On GitHub.com, the top menu bar has a "+" icon. Click it.
 2. In the drop-down that appears, click "New repository".
 3. This will re-direct you to a page titled "Create a new repository" with various fields to fill out.
-4. Under the field "Repository name" you need to enter username.github.io where \[username\] is replaced by your actual username.
+4. Under the field "Repository name" you need to enter \[username\].github.io where \[username\] is replaced by your actual username.
   <ol type="a">
     <li>For example, if your username is "pandabear", then your repository would be called "pandabear.github.io".</li>
   </ol>
