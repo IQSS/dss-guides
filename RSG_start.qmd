@@ -25,6 +25,9 @@ You will also need a GitHub account.
   <ol type="a">
     <li> If you are unsure what macOS and chip you have, you can click on the Apple logo in the menu bar (top left of your screen). Then, click "About This Mac" to see your "Chip" and "macOS". </li>
   </ol>
+6. This will download a .pkg file. Navigate to your downloads folder and double click the file. 
+7. This opens up an installer. Follow the directions. (Mostly clicking "Continue"). When it is finished, click the "Close" button. You may also move the installer to the Trash, if prompted.
+8. We have now finished installing R.
 </details>
 
 <details>
@@ -34,17 +37,69 @@ You will also need a GitHub account.
 2. Select the location closest to you.
 3. At the top of this site (called a "mirror"), there should be a "Download and Install R" section.
 4. Select the link that says "Download R for Windows".
-5. 
+5. On the next page, click the blue link for "base".
+6. On the next page, click the big, blue link for "Download R-[version] for Windows".
+7. Once the installer is downloaded, open it and follow the instructions.
 </details>
 
 <hr>
 
 ## Downloading RStudio
 
+<details>
+<summary>To download RStudio:</summary>
+
+1. You should make sure that you installed R (if you skipped the previous step, you won't be able to properly use RStudio). 
+2. Go to the RStudio [download page](https://posit.co/download/rstudio-desktop/).
+3. Scroll to the section that says "2: Install RStudio". Click the big, blue button that says "Download RStudio for [your computer system]". (The website detects what you have!)
+  <ol type="a">
+    <li>If, for some reason, this is not the correct one, scroll down further to the section titled "All Installers and Tarballs" for your operating system. Click the link for your own.</li>
+    <li>If you have an older operating system, please see this [post](https://forum.posit.co/t/rstudio-desktop-releases-on-unsupported-versions-of-macos/176074) for a list of previous versions potentially available to download.</li>
+  </ol>
+4. Once the download is complete, open the file and follow the instructions in the pop-up.
+5. After RStudio is installed, open the app and make sure it works.
+</details>
+
 <hr>
 
 ## Downloading Git
 
+To download Git: 
+
+1. Go to the [Git website](https://git-scm.com/downloads) and click on your operating system to download. 
+  <ol type="a">
+    <li>If you have an older version, follow the blue link "Older releases".</li>
+  </ol>
+2. Once downloaded, open the file and follow the installation instructions.
+3. If you'd like to check that git installed correctly (and you know what the Terminal is for Mac, or the Command Prompt for PCs), you can run "git --version" to see what version is downloaded.
+
 <hr>
 
 ## Making a GitHub Account
+
+To create a personal website with GitHub, you must already have a GitHub account. If you do not, [please make one](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github).
+
+<hr>
+
+## Connecting Your Git to Your RStudio
+
+RStudio should be able to automatically detect your Git installation. To test, open your RStudio app, and from the menu, select Tools > Terminal > Move Focus to Terminal. Then type "git --version" in the bottom pane (titled "Terminal") and make sure you can see the same version as before.
+
+<details><summary>If this does not work, you need to tell RStudio where Git is.</summary>
+
+1. You need to find the path to your git. To do so, you can use the RStudio Terminal and type "which git". Copy this path. (On a Mac this is usually "/usr/bin/git" and on a PC this is usually "C:\Program Files\Git\bin\git.exe").
+2. In the top menu bar go to Tools > Global Options. In the pop-up, from the left menu bar, select "Git/SVN".
+3. Under "Git executable", RStudio usually automatically finds Git. However, if yours was not working, you need to paste the path to your git.
+4. Click OK.
+
+</details>
+
+Lastly, you need to go to the Terminal tab in RStudio again. Once there, type: `git config --global user.name "Your Name"` and then `git config --global user.email "youremail@example.com"`. **The email must be the email that you used to set up your GitHub account.**
+
+Now, restart your RStudio.
+
+We will later connect our GitHub account to our RStudio once we have a repository for our site/project set up.
+
+
+
+
