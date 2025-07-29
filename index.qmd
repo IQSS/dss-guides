@@ -15,4 +15,4 @@ Feel free to choose the option that best fits your technical comfort level. If y
 
 Additionally, we include instructions for finding and using templates, customizing your site, and connecting your site to a custom domain.
 
-Note: In Google Sites, support for custom domains is currently not available for managed accounts, like an @g.harvard.edu account. If you really want to use a custom domain (i.e. yourname.com), then you should either use GitHub Pages or use your personal account to make your Google Site.
+Note: In Google Sites, support for custom domains is currently not available for managed accounts, like a g.harvard.edu account. If you really want to use a custom domain (i.e. yourname.com), then you should either use GitHub Pages or use a personal Google account to make your Google Site.
