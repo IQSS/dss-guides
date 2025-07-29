@@ -1,3 +1,34 @@
 # Create Your Website {.sec-rstudio}
 
-If you're less familiar with RStudio and Git, and you'd like to stay online, then using the online GitHub editor is the right choice for you!
+<br>
+
+To create a personal website with GitHub, you must already have a GitHub account. If you do not, [please make one](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github). 
+
+These instructions largely follow the instructions from GitHub, found [here](https://pages.github.com/).
+
+1. In GitHub, create a new repository called username.github.io where username is replaced by your actual username. For example, if my username is pandabear, my repository is called pandabear.github.io
+2. On your desktop, create a folder. I called mine “Personal_Website”
+3. Clone your GitHub repository to your local folder. You can do this with your IDE of choice or through the command line. 
+  <ul>
+    <li> To copy the full repository link from your GitHub repository, use the green clone button, and then the copy icon. Paste this where your IDE asks for it. </li>
+    <li> Or if you are using your command line, you can change directory (using the cd command) into your "Personal_Website" folder and then type out "git clone \<paste your link here\>". </li>
+  </ul>
+4. Now, create a new file inside of your repository called "index.html"
+5. Inside the file, copy and paste this text: <br>
+  \<\!DOCTYPE html\> <br>
+  \<html\> <br>
+  \<body\> <br>
+  \<h1\>Hello World\</h1\> <br>
+  \<p\>I'm hosted with GitHub Pages.\</p\> <br>
+  \</body\> <br>
+  \</html\> <br>
+6. Save your file.
+7. Commit and push your changes to GitHub.
+8. Check in your GitHub repository to make sure that the commit is pushed. You should see index.html with the commit message that you gave it.
+9. Check your actual website by going to username.github.io. It should say (in very basic styling): <h1>Hello World</h1>
+<p>I'm hosted with GitHub Pages.</p>
+10. Now that our site is hosted correctly, we can actually build our site to look how we want it!
+
+<br>
+
+If you need more instructions about committing and pushing to GitHub, check out our [Git and GitHub Guide](https://iqss.github.io/git_guide/).
