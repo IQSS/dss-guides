@@ -31,9 +31,11 @@ Regardless of your desired choice, the set-up remains the same.
       <details>
         <summary>If you'd like to drag your template files:</summary>
         <ol>
-          <li>TEST 1</li>
-          <li>TEST 1</li>
-          <li>TEST 1</li>
+          <li>In a separate window, navigate to your downloads folder.</li>
+          <li>Open the template download folder.</li>
+          <li>Select all of the items in this template folder. (On a Mac you can quickly do this with Cmd A).</li>
+          <li>Drag these into the box that says "Drag files here..." and release.</li>
+          <li>Click the green "Commit changes" button at the bottom of the screen.</li>
         </ol>
       </details>
     </li>
@@ -41,28 +43,13 @@ Regardless of your desired choice, the set-up remains the same.
       <details>
         <summary>If you'd like to choose your template files:</summary>
         <ol>
-          <li>TEST 1</li>
-          <li>TEST 1</li>
-          <li>TEST 1</li>
+          <li>Select the blue "choose your files" link.</li>
+          <li>In the pop-up, navigate to Downloads > the template folder.</li>
+          <li>Select all of the items in the template folder. (On a Mac you can quickly do this with Cmd A). If you have sub-folders in your template folder, you will need to drag-and-drop instead.^[Annoyingly, when choosing your files, GitHub does not allow you to select sub-folders. The best option is to drag-and-drop using the method above. If not, you will have to manually create subfolders inside of your GitHub repo and the add the items from the subfolders to each.]</li>
+          <li>Select the blue "Open" button.</li>
+          <li>Select the green "Commit changes" button.</li>
         </ol>
       </details>
     </li>
   </ol>
 7. After a few minutes, the build should be deployed and you should see this template hosted on your website now.
-
-<ol type="a">
-    <li><details><summary><ol>If you'd like to drag your template files:</summary></li>
-      <li>In a separate window, navigate to your downloads folder.</li>
-      <li>Open the template download folder.</li>
-      <li>Select all of the items in this template folder. (On a Mac you can quickly do this with Cmd A).</li>
-      <li>Drag these into the box that says "Drag files here..." and release.</li>
-      <li>Click the green "Commit changes" button at the bottom of the screen.</li>
-    </ol></details>
-    <li><details><summary><ol>If you'd like to choose your files:</summary></li>
-      <li>Select the blue "choose your files" link.</li>
-      <li>In the pop-up, navigate to Downloads > the template folder.</li>
-      <li>Select all of the items in the template folder. (On a Mac you can quickly do this with Cmd A). If you have sub-folders in your template folder, you will need to drag-and-drop instead.^[Annoyingly, when choosing your files, GitHub does not allow you to select sub-folders. The best option is to drag-and-drop using the method above. If not, you will have to manually create subfolders inside of your GitHub repo and the add the items from the subfolders to each.]</li>
-      <li>Select the blue "Open" button.</li>
-      <li>Select the green "Commit changes" button.</li>
-    </ol></details>
-  </ol>
