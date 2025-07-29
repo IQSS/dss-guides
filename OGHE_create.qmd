@@ -24,7 +24,7 @@ To start, we will create a repository (you can think of this as a folder for you
 8. Now you can select the green "Create repository" button.
 9. GitHub will now re-direct you to the repository page. There should be nothing in it.
 10. In the blue section called "Quick setup—if you've done this kind of thing before", look for the blue "creating a new file" link. Click it.
-11. GitHub will now re-diret you to the file page.
+11. GitHub will now re-direct you to the file page.
 12. First, close to the top, you should see in blue "\[username\].github.io/" followed by a text-box. In that text box, type "index.html" (this will be a quick test for your home page).
 13. Inside the file, copy and paste this text: <br> 
   \<\!DOCTYPE html\> <br>
