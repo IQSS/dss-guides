@@ -25,21 +25,21 @@ Regardless of your desired choice, the set-up remains the same.
 3. Delete your index.html test file by clicking on the file, and on the re-directed page, click the button with three dots at the top left. In the drop-down, select "Delete file". Select the green "commit changes..." button and then another green "Commit changes" button on the pop-up.
 4. Now we are ready to add in our template files. To start, select the "Add file" button.
 5. In the drop-down, select "Upload files".
-6. Your page will re-direct, and there will be a section that says "Drag files here to add them to your repository Or choose your files". *If you have sub-folders in your template, dragging-and-dropping is the best way to go.*
+6. Your page will re-direct, and there will be a section that says "Drag files here to add them to your repository Or choose your files". **If you have sub-folders in your template, dragging-and-dropping is the best way to go.**
   <ol type="a">
-    <details><summary><ol><li>If you'd like to drag your template files:</li></summary>
+    <li><details><summary><ol>If you'd like to drag your template files:</summary>
       <li>In a separate window, navigate to your downloads folder.</li>
       <li>Open the template download folder.</li>
       <li>Select all of the items in this template folder. (On a Mac you can quickly do this with Cmd A).</li>
       <li>Drag these into the box that says "Drag files here..." and release.</li>
       <li>Click the green "Commit changes" button at the bottom of the screen.</li>
-    </ol></details>
-    <details><summary><ol><li>If you'd like to choose your files:</li></summary>
+    </ol></details></li>
+    <li><details><summary><ol>If you'd like to choose your files:</summary>
       <li>Select the blue "choose your files" link.</li>
       <li>In the pop-up, navigate to Downloads > the template folder.</li>
       <li>Select all of the items in the template folder. (On a Mac you can quickly do this with Cmd A). If you have sub-folders in your template folder, you will need to drag-and-drop instead.^[Annoyingly, when choosing your files, GitHub does not allow you to select sub-folders. The best option is to drag-and-drop using the method above. If not, you will have to manually create subfolders inside of your GitHub repo and the add the items from the subfolders to each.]</li>
       <li>Select the blue "Open" button.</li>
       <li>Select the green "Commit changes" button.</li>
-    </ol></details>
+    </ol></details></li>
   </ol>
 7. After a few minutes, the build should be deployed and you should see this template hosted on your website now.
