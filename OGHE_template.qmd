@@ -1,3 +1,45 @@
 # Using Templates {.sec-online}
 
-If you're less familiar with RStudio and Git, and you'd like to stay online, then using the online GitHub editor is the right choice for you!
+<br>
+
+Now we are ready to use a template to quickly get the website set up. 
+
+Find a website template that you'd like to use. There are a lot of free ones from [https://html5up.net/](https://html5up.net/). Or, if you are already savvy with HTML or web design, you may choose to make your own website from scratch. You can also use [Jekyll themes](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll) that are designed for GitHub Pages, too.
+
+Some of the templates that we recommend for multiple-page websites include:
+
+* [HTML5Up's Editorial](https://html5up.net/editorial)
+* [HTML5Up's Stellar](https://html5up.net/stellar)
+* [HTML5Up's Arcana](https://html5up.net/arcana)
+* [HTML5Up's Minimaxing](https://html5up.net/minimaxing)
+
+If you'd like a 1-page website, some templates include:
+
+* [HTML5Up's Read Only](https://html5up.net/read-only)
+* [HTML5Up's Strata](https://html5up.net/strata)
+
+Regardless of your desired choice, the set-up remains the same.
+
+1. Download the template that you like.
+2. In an opened tab, make sure you are on your GitHub Page's repository (e.g., "github.com/username/username.github.io").
+3. Delete your index.html test file by clicking on the file, and on the re-directed page, click the button with three dots at the top left. In the drop-down, select "Delete file". Select the green "commit changes..." button and then another green "Commit changes" button on the pop-up.
+4. Now we are ready to add in our template files. To start, select the "Add file" button.
+5. In the drop-down, select "Upload files".
+6. Your page will re-direct, and there will be a section that says "Drag files here to add them to your repository Or choose your files". *If you have sub-folders in your template, dragging-and-dropping is the best way to go.*
+  <ol type="a">
+    <details><summary><ol><li>If you'd like to drag your template files:</li></summary>
+      <li>In a separate window, navigate to your downloads folder.</li>
+      <li>Open the template download folder.</li>
+      <li>Select all of the items in this template folder. (On a Mac you can quickly do this with Cmd A).</li>
+      <li>Drag these into the box that says "Drag files here..." and release.</li>
+      <li>Click the green "Commit changes" button at the bottom of the screen.</li>
+    </ol></details>
+    <details><summary><ol><li>If you'd like to choose your files:</li></summary>
+      <li>Select the blue "choose your files" link.</li>
+      <li>In the pop-up, navigate to Downloads > the template folder.</li>
+      <li>Select all of the items in the template folder. (On a Mac you can quickly do this with Cmd A). If you have sub-folders in your template folder, you will need to drag-and-drop instead.^[Annoyingly, when choosing your files, GitHub does not allow you to select sub-folders. The best option is to drag-and-drop using the method above. If not, you will have to manually create subfolders inside of your GitHub repo and the add the items from the subfolders to each.]</li>
+      <li>Select the blue "Open" button.</li>
+      <li>Select the green "Commit changes" button.</li>
+    </ol></details>
+  </ol>
+7. After a few minutes, the build should be deployed and you should see this template hosted on your website now.
