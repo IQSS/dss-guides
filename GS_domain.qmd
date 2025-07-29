@@ -4,4 +4,4 @@
 
 Customizing your domain name can be a complicated process. As noted earlier, if you are using an account that has an administrator (e.g., a school or work account), you cannot add a custom domain yet.
 
-If you are using a personal gmail account for your Google Site, you have the ability to add a custom domain.
+If you are using a personal gmail account for your Google Site, you have the ability to add a custom domain. Google has very detailed [instructions](https://support.google.com/sites/answer/9068867?hl=en) to follow for adding a custom domain, including instructions about purchasing domains through Google Workspace, if you wish. 
