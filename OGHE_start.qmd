@@ -1,3 +1,9 @@
 # Getting Started {.sec-online}
 
-If you're less familiar with RStudio and Git, and you'd like to stay online, then using the online GitHub editor is the right choice for you!
+<br>
+
+If you'd like a bit more flexibility than Google Sites, and you are comfortable with some level of HTML, but you'd like to reduce the technical knowledge required, then using the online GitHub editor is the right choice for you!
+
+To get started, you will need to make sure that you have a GitHub account. If you do not already have one, visit [GitHub.com](https://github.com/) and create an account. If you already have an account, you can log in and enter your credentials.
+
+You may be prompted to sign in with 2-Factor Authentication with an email or your phone number.
