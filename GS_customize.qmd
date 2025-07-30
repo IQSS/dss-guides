@@ -51,6 +51,7 @@ For example, you may wish to change "About" to "Home".
     <li>Note that this will insert the Google Doc in a new section under your current section.</li>
   </ol>
 </details>
+
 <details>
 <summary>If you have your resume as a PDF:</summary>
   <ol type="a">
