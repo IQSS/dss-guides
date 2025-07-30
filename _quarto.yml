@@ -26,13 +26,6 @@ book:
         - OGHE_template.qmd
         - OGHE_customize.qmd
         - OGHE_domain.qmd
-    - part: "GitHub Desktop"
-      chapters:
-        - GHD_start.qmd
-        - GHD_create.qmd
-        - GHD_template.qmd
-        - GHD_customize.qmd
-        - GHD_domain.qmd
     - part: "RStudio and Git"
       chapters:
         - RSG_start.qmd
