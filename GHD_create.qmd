@@ -1,3 +1,46 @@
 # Creating Your Website {.sec-desktop}
 
-If you're less familiar with RStudio and Git, and you'd like to stay online, then using the online GitHub editor is the right choice for you!
+<br>
+
+If you just downloaded GitHub Desktop for the first time, your application should still be on the "Let's Get Started" page. We are going to leave that alone for now.
+
+In your browser, navigate to your GitHub account. We are going to create a repository for your website project.
+
+These instructions largely follow the instructions from GitHub, found [here](https://pages.github.com/).
+
+To start, we will create a repository (you can think of this as a folder for your project).
+
+1. On your computer, create a folder somewhere. We recommend naming it something like "my_website".
+2. On GitHub.com, the top menu bar has a "+" icon. Click it.
+3. In the drop-down that appears, click "New repository".
+4. This will re-direct you to a page titled "Create a new repository" with various fields to fill out.
+5. Under the field "Repository name" you need to enter \[username\].github.io where \[username\] is replaced by your actual username.
+  <ol type="a">
+    <li>For example, if your username is "pandabear", then your repository would be called "pandabear.github.io".</li>
+  </ol>
+6. Add a quick description in the "Description" field, such as "My professional website".
+7. Under visibility, select "Public".
+8. <details><summary>The other fields can be left on their defaults.</summary>
+  <ol>
+    <li>Start with a template: "No template"</li>
+    <li>Add README: Off</li>
+    <li>Add .gitignore: "No .gitignore"</li>
+    <li>Add license: "No license"</li>
+  </ol>
+</details>
+9. Now you can select the green "Create repository" button.
+10. GitHub will now re-direct you to the repository page. There should be nothing in it.
+
+Now, we can return to the GitHub Desktop application. 
+
+1. Click the little refresh button next to the "Filter your repositories" text box.
+2. Select the repository you just created.
+3. Now, a blue botton at the bottom "Clone yourusername/yourrepo" appears. Click it.
+4. There will be a pop-up titled "Clone a repository".
+  <ol type="a">
+    <li>Leave the repository URL as is (assuming you clicked the right one!)</li>
+    <li>You need to choose the local path where you would like to host your repository. Click the "Choose" button. I leave the "Clone As" field as is, and then I select the folder where I want to store this.^[I have a folder called Projects.]</li>
+    <li>Click "Select".</li>
+    <li>Click "Clone".</li>
+
+
