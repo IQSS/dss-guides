@@ -25,21 +25,21 @@ book:
         - OGHE_create.qmd
         - OGHE_template.qmd
         - OGHE_customize.qmd
-        - domain.qmd
+        - OGHE_domain.qmd
     - part: "GitHub Desktop"
       chapters:
         - GHD_start.qmd
         - GHD_create.qmd
         - GHD_template.qmd
         - GHD_customize.qmd
-        - domain.qmd
+        - GHD_domain.qmd
     - part: "RStudio and Git"
       chapters:
         - RSG_start.qmd
         - RSG_create.qmd
         - RSG_template.qmd
         - RSG_customize.qmd
-        - domain.qmd
+        - RSG_domain.qmd
 
 bibliography: references.bib
 
