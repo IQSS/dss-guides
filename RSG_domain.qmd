@@ -1,0 +1,44 @@
+# Adding a Custom Domain {.sec-rstudio}
+
+Customizing your domain name can be a complicated process. The full GitHub instructions can be found [here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
+
+These instructions assume that you already have ownership of the custom domain that you would like to use, as well as knowledge about your specific DNS provider.
+
+<ol type="1">
+  <li> Go to your GitHub repository </li>
+  <li> Click Settings </li>
+  <li> In the left-hand menu bar, select Pages </li>
+  <li> Scroll down to the Custom Domain section </li>
+  <li> Enter your custom domain in the textbox. For example, you should write: mysite.com </li>
+  <li> Hit Save </li>
+  <li> Navigate to your DNS provider and create a CNAME record that points your subdomain to the default domain for your site. 
+  <ol type="a">
+    <li> Example: if you want to use www.example.com, you will create a CNAME record that points www.example.com to \<username\>.github.io. Note that this is the user page, not a repository name. </li>
+    <li> Instructions for creating a CNAME record vary by DNS provider. GitHub recommends using your DNS provider's documentation . </li>
+    <li> For example, on GoDaddy, when you add a record, the record name would be "www" and the record value would be "username.github.io" </li>
+  </ol>
+  <li> To ensure that your apex domain (i.e. without "www") works, you should also include four A records in your DNS provider's web console. For example, on GoDaddy, the name would be the \@ symbol and the values would be the following: </li>
+  <ul>
+    <li>185.199.108.153</li>
+    <li>185.199.109.153</li>
+    <li>185.199.110.153</li>
+    <li>185.199.111.153</li>
+  </ul>
+  <li> Confirm that your DNS record is configured correctly using the terminal.
+  <ol type="a">
+    <li> In the terminal, type: dig WWW.EXAMPLE.COM +nostats +nocomments +nocmd where WWW.EXAMPLE.COM should be replaced with your custom domain name. </li>
+    <li> You should see the GitHub pages link in the output. </li>
+    <li> This can take some time to propogate. For example, on GoDaddy, you can set your "TTL" (time to live) as low as 600 seconds. However, GoDaddy also warns that changes may not take effect for up to 48 hours. We also suggest checking your site (and all variations of your site link, e.g., with and without "www") on an incognito window, as your browser's cache can sometimes make it appear as if your site did not update. </li>
+  </ol>
+  <li> Go back to your GitHub repository. </li>
+  <li> Go to Settings > Pages > Custom domain </li>
+  <li> Check off Enforce HTTPS </li>
+  <ul>
+    <li> If this says something along the lines of "Your domain is not properly configured to support HTTPS" we will need to add additional records with your DNS provider </li>
+    <li> We strongly recommend following instructions from your DNS provider. You should look up "HTTPS record for \[your DNS provider\]" in Google and follow any of their documentation. </li>
+    <li> For example, on GoDaddy, you can add an HTTPS record where the name is @ and the value is your site's domain (e.g., mysite.com) </li>
+  </ul>
+  <li> If you run into any additional problems, you may want to ensure that there are no additional A records aside from the ones listed above. This may be a problem if you have previously had your site hosted through a service separate from GitHub pages. </li>
+  <li> Some common warning messages that you may see when GitHub pages is connecting to your site include "DNS valid for primary" or "DNS check in progress" -- these are both OK, and should go away once your site is connected. </li>
+  <li> On the other hand, if you get an error message "DNS check unsuccessful" or "Both your custom domain and its alternative name are improperly configured," then it means either your A or CNAME records are incorrect. Please check these! </li>
+</ol>
