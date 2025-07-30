@@ -1,3 +1,44 @@
 # Getting Started {.sec-desktop}
 
-If you're less familiar with RStudio and Git, and you'd like to stay online, then using the online GitHub editor is the right choice for you!
+<br>
+
+Creating your website with GitHub Desktop is very similar to creating your website with RStudio. Both are called IDEs (integrated development environments), and you can think of them as apps you can use to edit and push code to GitHub. The good thing about GitHub Desktop is that it is built by GitHub, so the connection between GitHub online and the desktop application are seamless.
+
+To begin, you will need to make sure that you have:
+
+* A GitHub account
+* GitHub Desktop (an application)
+
+<hr>
+
+## Making a GitHub Account
+
+To create a personal website with GitHub, you must already have a GitHub account. If you do not, [please make one](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github).
+
+<hr>
+
+## Downloading GitHub Desktop
+
+To download the application:
+
+1. Go the [GitHub Desktop website](https://github.com/apps/desktop).
+2. Select the "Download now" button. 
+3. It should re-direct you to a download page for your operating system. Click the "Download for [your operating system]" button.^[There are additional buttons on this page if you need to switch operating systems, e.g., "Download for Windows" or "Download for Mac with Intel chip".]
+4. In your Downloads folder, open the .zip file. It should un-zip to an application called "GitHub Desktop".
+5. We recommend moving this to your "Applications" folder.^[You can either copy this app, open your Applications folder, and paste it; or, you can simply drag and drop it from your Downloads folder to your Application folder.]
+
+<hr>
+
+## Connecting Your GitHub Desktop to Your GitHub Account
+
+To connect your account and app:
+
+1. Open the GitHub Desktop app.
+2. Click the blue "Sign in to GitHub.com"
+3. This will open a tab in your browser. Sign in as instructed.
+4. Once done in the browser, your GitHub desktop will now show a screen called "Configure Git". Leave the first option to "Use my GitHub account name and email address".
+5. Make sure that your Name and Email fields are correct. You can change the email to any email associated with your GitHub account, if you have multiple.
+6. Click "Finish".
+
+Wait to "get started" until the next step!
+
