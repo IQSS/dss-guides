@@ -1,4 +1,6 @@
-# Customizing Your Website {.sec-online}
+---
+title: "Customizing Your Website"
+---
 
 <br> 
 

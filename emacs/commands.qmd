@@ -1,4 +1,6 @@
-# Commands List {.sec-resources}
+---
+title: "Commands List"
+---
 
 All of the previous commands, and some additional ones are listed below. From the [GNU Emacs Survival Card](https://www.gnu.org/software/emacs/refcards/pdf/survival.pdf).
 

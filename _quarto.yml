@@ -1,0 +1,147 @@
+# The DSS guides: six starter guides as one Quarto website, one section per guide, in the shape of the
+# workshops site. The look comes from the dss-theme extension (quarto add IQSS/dss-theme). Nothing executes.
+project:
+  type: dss-theme
+  output-dir: _site
+  render:
+    - index.qmd
+    - "git/*.qmd"
+    - "pages/*.qmd"
+    - "vscode/*.qmd"
+    - "emacs/*.qmd"
+    - "latex/*.qmd"
+    - "overleaf/*.qmd"
+
+website:
+  title: "DSS Guides"
+  site-url: https://iqss.github.io/dss-guides/
+  repo-url: https://github.com/IQSS/dss-guides
+  sidebar:
+    style: floating
+    search: true
+    collapse-level: 1
+    contents:
+      - index.qmd
+      - section: "Git and GitHub"
+        contents:
+          - { href: git/index.qmd, text: "Start here" }
+          - git/introduction.qmd
+          - section: "Getting started with Git and GitHub"
+            contents:
+              - git/install_git.qmd
+              - git/sign_up.qmd
+              - git/auth.qmd
+              - git/connect.qmd
+          - section: "Editing repositories"
+            contents:
+              - git/create_repo.qmd
+              - git/clone_repo.qmd
+              - git/editing.qmd
+              - git/command_line.qmd
+          - git/resources.qmd
+      - section: "GitHub Pages"
+        contents:
+          - { href: pages/index.qmd, text: "Start here" }
+          - section: "Google Sites"
+            contents:
+              - pages/GS_start.qmd
+              - pages/GS_create.qmd
+              - pages/GS_customize.qmd
+              - pages/GS_domain.qmd
+          - section: "Online GitHub editor"
+            contents:
+              - pages/OGHE_start.qmd
+              - pages/OGHE_create.qmd
+              - pages/OGHE_template.qmd
+              - pages/OGHE_customize.qmd
+              - pages/OGHE_domain.qmd
+          - section: "RStudio and Git"
+            contents:
+              - pages/RSG_start.qmd
+              - pages/RSG_create.qmd
+              - pages/RSG_template.qmd
+              - pages/RSG_customize.qmd
+              - pages/RSG_domain.qmd
+      - section: "VS Code"
+        contents:
+          - { href: vscode/index.qmd, text: "Start here" }
+          - section: "Installation"
+            contents:
+              - vscode/application.qmd
+              - vscode/configuration.qmd
+              - vscode/dependencies.qmd
+          - section: "Our recommended profile"
+            contents:
+              - vscode/extensions.qmd
+              - vscode/settings.qmd
+              - vscode/shortcuts.qmd
+          - section: "Customizing your own VS Code"
+            contents:
+              - vscode/customizing.qmd
+              - vscode/profiles.qmd
+          - vscode/external_res.qmd
+      - section: "Emacs"
+        contents:
+          - { href: emacs/index.qmd, text: "Start here" }
+          - section: "Installation"
+            contents:
+              - emacs/overview.qmd
+              - emacs/computer_installer.qmd
+              - emacs/application.qmd
+              - emacs/configuration.qmd
+          - section: "Opening Emacs for the first time"
+            contents:
+              - emacs/install_packages.qmd
+              - emacs/copilot_login.qmd
+          - section: "Getting started"
+            contents:
+              - emacs/tutorial.qmd
+              - emacs/important_keys.qmd
+              - emacs/layout.qmd
+              - emacs/creating.qmd
+              - emacs/moving.qmd
+              - emacs/editing.qmd
+              - emacs/saving.qmd
+          - emacs/problems.qmd
+          - section: "Resources"
+            contents:
+              - emacs/commands.qmd
+              - emacs/glossary.qmd
+              - emacs/external_res.qmd
+      - section: "LaTeX"
+        contents:
+          - { href: latex/index.qmd, text: "Start here" }
+          - section: "Choosing an editor"
+            contents:
+              - latex/comparison.qmd
+              - latex/overleaf.qmd
+              - latex/vscode.qmd
+              - latex/emacs.qmd
+          - section: "Suggested tools"
+            contents:
+              - latex/github.qmd
+              - latex/copilot.qmd
+          - section: "Documents"
+            contents:
+              - latex/articles.qmd
+              - latex/presentations.qmd
+          - latex/resources.qmd
+      - section: "Overleaf"
+        contents:
+          - { href: overleaf/index.qmd, text: "Start here" }
+          - overleaf/introduction.qmd
+          - section: "Getting started with Overleaf"
+            contents:
+              - overleaf/sign_up.qmd
+              - overleaf/create_project.qmd
+              - overleaf/interface.qmd
+              - overleaf/writing.qmd
+              - overleaf/collaborating.qmd
+              - overleaf/exporting.qmd
+          - section: "Advanced features and tips"
+            contents:
+              - overleaf/templates.qmd
+              - overleaf/bibs.qmd
+              - overleaf/packages.qmd
+              - overleaf/best_prac.qmd
+              - overleaf/resources.qmd

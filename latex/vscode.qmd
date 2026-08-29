@@ -1,3 +1,5 @@
-# VSCode {.sec-overview}
+---
+title: "VSCode"
+---
 
-If your application of choice is VSCode, take a look at our [VSCode Starter Guide](https://iqss.github.io/vscode-settings/)!
+If your application of choice is VSCode, take a look at our [VSCode Starter Guide](../vscode/index.qmd)!

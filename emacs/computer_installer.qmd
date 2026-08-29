@@ -1,4 +1,6 @@
-# Installing Necessary Packages on Your Computer {.sec-installation}
+---
+title: "Installing Necessary Packages on Your Computer"
+---
 
 There are a few programs that we will need to install: Homebrew, node, ispell, and gnu-tar.
 

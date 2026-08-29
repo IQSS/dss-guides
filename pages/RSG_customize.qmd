@@ -1,4 +1,6 @@
-# Customize Your Website {.sec-rstudio}
+---
+title: "Customize Your Website"
+---
 
 <br>
 

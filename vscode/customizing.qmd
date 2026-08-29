@@ -1,4 +1,6 @@
-# Customizing Your Own Configuration {.sec-custom}
+---
+title: "Customizing Your Own Configuration"
+---
 
 ## Adding Your Own Extensions
 

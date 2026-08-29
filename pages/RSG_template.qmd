@@ -1,4 +1,6 @@
-# Using Templates {.sec-rstudio}
+---
+title: "Using Templates"
+---
 
 <br>
 

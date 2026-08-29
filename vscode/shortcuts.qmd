@@ -1,4 +1,6 @@
-# Keyboard Shortcuts {.sec-profile}
+---
+title: "Keyboard Shortcuts"
+---
 
 We've also added a few keyboard shortcuts. You can remove these from your keybindings.json file if you do not like them. 
 

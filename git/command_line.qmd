@@ -1,4 +1,6 @@
-# Command Line Arguments {.sec-editing}
+---
+title: "Command Line Arguments"
+---
 
 Additional arguments in the command line include:
 

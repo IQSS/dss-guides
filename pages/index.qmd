@@ -1,4 +1,6 @@
-# Introduction {.unnumbered}
+---
+title: "GitHub Pages"
+---
 
 The following is a quick starter guide designed to get you acquainted with GitHub Pages, an option for you to create a personal website. If you'd rather start with a website on Google Sites (no coding necessary!), we include those instructions first.
 

@@ -1,4 +1,6 @@
-# Using Bibliographies and Citations {.sec-bibs}
+---
+title: "Using Bibliographies and Citations"
+---
 
 LaTeX makes it easy to manage bibliographies and citations using tools like BibTeX or BibLaTeX. Overleaf integrates with reference management software such as Zotero, Mendeley, and EndNote, allowing you to easily insert citations and generate bibliographies.
 

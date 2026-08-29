@@ -1,0 +1,18 @@
+---
+title: "DSS Guides"
+---
+
+Starter guides from [Data Science Services](https://www.iq.harvard.edu/data-science-services) at the Institute for Quantitative Social Science, Harvard University, for the tools around research: version control, a website of your own, an editor, and writing in LaTeX. Each guide is a section in the sidebar and short enough to read in one sitting.
+
+- [Git and GitHub](git/index.qmd): installing Git, a GitHub account, authentication, creating and cloning repositories, and the command line.
+- [GitHub Pages](pages/index.qmd): a personal website, three ways: Google Sites, GitHub's online editor, or RStudio and Git.
+- [VS Code](vscode/index.qmd): installing VS Code, with our recommended extensions, settings, and shortcuts.
+- [Emacs](emacs/index.qmd): installing Emacs with our configuration, and the keys and commands you will use every day.
+- [LaTeX](latex/index.qmd): the ways to write LaTeX (Overleaf, VS Code, Emacs) compared, and the documents you will write.
+- [Overleaf](overleaf/index.qmd): signing up, editing, collaborating, and exporting.
+
+The workshops (R, Python, Stata) are at [iqss.github.io/dss-workshops](https://iqss.github.io/dss-workshops/); everything DSS offers is listed under [Training materials](https://iqss.github.io/dss-training/).
+
+## Credits
+
+These guides were written by Dominic Skinnion for Data Science Services in 2024 and 2025, each as its own site, and brought together here in 2026. Text and images are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Suggestions and corrections are welcome: use the Request help button at the top of the page.

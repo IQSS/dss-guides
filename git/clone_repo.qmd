@@ -1,4 +1,6 @@
-# Cloning a Repository {.sec-starting}
+---
+title: "Cloning a Repository"
+---
 
 1. Sign into github.com
 2. Go to the repository of interest

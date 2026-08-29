@@ -1,4 +1,6 @@
-# Create Your Website {.sec-rstudio}
+---
+title: "Create Your Website"
+---
 
 <br>
 
@@ -80,4 +82,4 @@ To start, we will create a repository (you can think of this as a folder for you
 
 <br>
 
-If you need more instructions about committing and pushing to GitHub, or if you want to use the Terminal/Command Line, check out our [Git and GitHub Guide](https://iqss.github.io/git_guide/).
+If you need more instructions about committing and pushing to GitHub, or if you want to use the Terminal/Command Line, check out our [Git and GitHub Guide](../git/index.qmd).

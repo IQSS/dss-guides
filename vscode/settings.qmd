@@ -1,4 +1,6 @@
-# Settings {.sec-profile}
+---
+title: "Settings"
+---
 
 We've added quite a few non-default settings, which will be automatically configured with this profile. Again, you might not like all of these — feel free to remove these from your settings.json file. 
 

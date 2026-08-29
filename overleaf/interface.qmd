@@ -1,4 +1,6 @@
-# Understanding the Overleaf Interface {.sec-interface}
+---
+title: "Understanding the Overleaf Interface"
+---
 
 Once you've created a new project, you'll see the Overleaf editor interface, which consists of:
 

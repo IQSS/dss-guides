@@ -1,4 +1,6 @@
-# IQSS Configuration {.sec-installation}
+---
+title: "IQSS Configuration"
+---
 
 To import our recommended profile:
 

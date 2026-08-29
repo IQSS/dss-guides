@@ -1,4 +1,6 @@
-# Adding a Custom Domain {.sec-google}
+---
+title: "Adding a Custom Domain"
+---
 
 <br> 
 

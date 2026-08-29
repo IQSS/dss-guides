@@ -1,4 +1,6 @@
-# VSCode Application {.sec-installation}
+---
+title: "VSCode Application"
+---
 
 Visual Studio Code has [instructions](https://code.visualstudio.com/learn/get-started/basics) for getting started.
 

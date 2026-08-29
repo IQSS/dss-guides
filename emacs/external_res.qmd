@@ -1,4 +1,6 @@
-# External Resources {.sec-resources}
+---
+title: "External Resources"
+---
 
 * [Documentation](https://github.com/IQSS/IQSS.emacs/blob/master/UsefulPrograms.org) for useful programs that you may need (or like) to install
 * [Homebrew documentation](https://brew.sh/)

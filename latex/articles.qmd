@@ -1,4 +1,6 @@
-# Using $\LaTeX$ for Articles {.sec-documents}
+---
+title: "Using LaTeX for Articles"
+---
 
 We strongly encourage you to use $\LaTeX$ when writing your articles. Of course, you can draft your writing in programs like Google Docs (which you may prefer), but your polished versions should be .pdf files created from a .tex file. 
 

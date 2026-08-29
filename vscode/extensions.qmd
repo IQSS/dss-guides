@@ -1,4 +1,6 @@
-# Extensions {.sec-profile}
+---
+title: "Extensions"
+---
 
 There are *a lot* of extensions available in VSCode. You can always install more extensions that we have! We've included some that we find make coding in $\LaTeX$ much easier. These include:
 

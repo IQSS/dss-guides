@@ -1,4 +1,6 @@
-# External Resources {.sec-resources}
+---
+title: "External Resources"
+---
 
 Resources include VSCode's [introduction page](https://code.visualstudio.com/docs/introvideos/basics), [documentation](https://code.visualstudio.com/docs), and [tips and tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks).
 

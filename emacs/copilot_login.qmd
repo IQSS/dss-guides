@@ -1,4 +1,6 @@
-# Copilot {.sec-opening}
+---
+title: "Copilot"
+---
 
 If you do not already have a Copilot subscription, you can do so on [GitHub](https://github.com/features/copilot).
 

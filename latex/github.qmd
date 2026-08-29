@@ -1,4 +1,6 @@
-# Using GitHub {.sec-tools}
+---
+title: "Using GitHub"
+---
 
 For all of your file storage needs, we recommend that you use [GitHub](https://github.com/), regardless of which application you choose to use for text editing.
 

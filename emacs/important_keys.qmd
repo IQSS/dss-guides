@@ -1,4 +1,6 @@
-# Important Keys {.sec-starting}
+---
+title: "Important Keys"
+---
 
 Two of the most important keys you will need to know are the Control key (abbreviated by C) and the Option key (aka the "Meta" key or the "Alt" key, abbreviated by M). 
 

@@ -1,4 +1,6 @@
-# Moving Around Your Document {.sec-starting}
+---
+title: "Moving Around Your Document"
+---
 
 Emacs makes it extremely easy to move around your document without needing to use your mouse or trackpad (although, you can always use those, too!). Some of the most common commands to move throughout the document are:
 

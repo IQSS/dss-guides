@@ -1,4 +1,6 @@
-# Install Emacs Packages {.sec-opening}
+---
+title: "Install Emacs Packages"
+---
 
 Now we are going to open Emacs for the first time. This will install a lot of Emacs packages for you, almost automatically. 
 

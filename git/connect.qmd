@@ -1,4 +1,6 @@
-# Connecting Your Git and GitHub {.sec-starting}
+---
+title: "Connecting Your Git and GitHub"
+---
 
 To configure your Git and GitHub accounts to connect, run these two lines in your terminal:
 

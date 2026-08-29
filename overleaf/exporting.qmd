@@ -1,4 +1,6 @@
-# Exporting and Downloading {.sec-exporting}
+---
+title: "Exporting and Downloading"
+---
 
 Once your document is ready, you can export it in various formats or download the source files:
 

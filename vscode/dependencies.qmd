@@ -1,4 +1,6 @@
-# Dependencies {.sec-installation}
+---
+title: "Dependencies"
+---
 
 In order to use VSCode effectively, there are some additional programs or applications that we also recommend you install or use on your own.
 

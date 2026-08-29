@@ -1,4 +1,6 @@
-# Layout {.sec-starting}
+---
+title: "Layout"
+---
 
 Understanding the layout of Emacs, and the following terms and commands, is crucial in effectively navigating the workspace. 
 

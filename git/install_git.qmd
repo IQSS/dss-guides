@@ -1,4 +1,6 @@
-# Installing Git {.sec-starting}
+---
+title: "Installing Git"
+---
 
 You might already have git installed on your computer. To check, open your terminal and type the command "git \-\-version". If you have git installed, it will respond with the git version you have. If you get an error message ("git: command not found" is a common one) you will need to install git. 
 

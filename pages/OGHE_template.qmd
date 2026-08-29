@@ -1,4 +1,6 @@
-# Using Templates {.sec-online}
+---
+title: "Using Templates"
+---
 
 <br>
 

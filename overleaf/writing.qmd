@@ -1,4 +1,6 @@
-# Writing Your Document {.sec-writing}
+---
+title: "Writing Your Document"
+---
 
 You can start writing your document directly in the text editor using LaTeX syntax. Here are some basic LaTeX commands to get you started:
 

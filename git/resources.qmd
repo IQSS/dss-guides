@@ -1,4 +1,6 @@
-# Learning Resources {.sec-resources}
+---
+title: "Learning Resources"
+---
 
 * Full [Git documentation](https://git-scm.com/doc)
 * [GitHub documentation](https://docs.github.com/en)

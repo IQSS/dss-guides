@@ -1,4 +1,6 @@
-# Best Practices {.sec-best_prac}
+---
+title: "Best Practices"
+---
 
 When collaborating with others on Overleaf, it's a good idea to communicate effectively, use comments and chat features for discussions, and follow version control best practices to avoid conflicts.
 

@@ -1,4 +1,6 @@
-# Managing Profiles {.sec-custom}
+---
+title: "Managing Profiles"
+---
 
 Profiles allow you to build custom configurations in VSCode! You can set up multiple profiles, and you can customize each one.
 

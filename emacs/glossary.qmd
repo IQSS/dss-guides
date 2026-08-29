@@ -1,4 +1,6 @@
-# Glossary of Key Terms {.sec-resources}
+---
+title: "Glossary of Key Terms"
+---
 
 * Buffer: A temporary storage area used for holding text that is being edited.
 * Frame: A graphical element that contains one or more windows. If you have multiple frames open, you can have separate instances of Emacs running at once.

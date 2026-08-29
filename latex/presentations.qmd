@@ -1,4 +1,6 @@
-# Using $\LaTeX$ for Presentations {#sec-documents}
+---
+title: "Using LaTeX for Presentations"
+---
 
 We also strongly recommend that you create all of your presentations with $\LaTeX$, too. You can do so using the function \\documentclass{beamer}. In fact, we have an [IQSS theme](https://github.com/IQSS/iqss-beamer-theme) that you can download and use.
 

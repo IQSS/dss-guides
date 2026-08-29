@@ -1,4 +1,6 @@
-# Editing {.sec-editing}
+---
+title: "Editing"
+---
 
 ## When you are the only one editing at the time:
 

@@ -1,4 +1,6 @@
-# Introduction {.sec-intro}
+---
+title: "Introduction"
+---
 
 ## Background 
 

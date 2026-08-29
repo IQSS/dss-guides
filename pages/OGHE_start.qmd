@@ -1,4 +1,6 @@
-# Getting Started {.sec-online}
+---
+title: "Getting Started"
+---
 
 <br>
 

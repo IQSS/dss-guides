@@ -1,4 +1,6 @@
-# Getting Started {.sec-google}
+---
+title: "Getting Started"
+---
 
 <br>
 

@@ -1,4 +1,6 @@
-# Creating a New Repository {.sec-starting}
+---
+title: "Creating a New Repository"
+---
 
 "Repository" is another word for folder. You may also hear "repo" for short.
 

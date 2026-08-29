@@ -1,4 +1,6 @@
-# Editing Your Document {.sec-starting}
+---
+title: "Editing Your Document"
+---
 
 Text editing in Emacs has some *different* terminology than what you may be used to. For instance, there is "killing" which deletes text (but saves it to a "kill ring" that you still have access to), and "yanking" which brings text back. This is similar to cutting/pasting.
 

@@ -1,4 +1,6 @@
-# Overview {.sec-installation}
+---
+title: "Overview"
+---
 
 This section will walk you through installing the Emacs application, necessary packages, as well as the IQSS configuration.
 

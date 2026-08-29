@@ -1,4 +1,6 @@
-# Saving and Compiling Your Document {.sec-starting}
+---
+title: "Saving and Compiling Your Document"
+---
 
 To save a file, use C-c C-s. You should see “Wrote \<document-name\>” in the mini buffer.
 

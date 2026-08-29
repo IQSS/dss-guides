@@ -1,3 +1,5 @@
-# Overleaf {.sec-overview}
+---
+title: "Overleaf"
+---
 
-If your application of choice is Overleaf, take a look at our [Overleaf Starter Guide](https://iqss.github.io/overleaf_guide/)!
+If your application of choice is Overleaf, take a look at our [Overleaf Starter Guide](../overleaf/index.qmd)!
