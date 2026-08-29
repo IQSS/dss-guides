@@ -1,5 +1,0 @@
----
-title: "VS Code"
----
-
-The following is a quick starter guide designed to get you acquainted with [Visual Studio Code (VSCode)](https://code.visualstudio.com/), a desktop application for coding.

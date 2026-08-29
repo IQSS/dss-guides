@@ -1,5 +1,0 @@
----
-title: "VSCode"
----
-
-If your application of choice is VSCode, take a look at our [VSCode Starter Guide](../vscode/index.qmd)!

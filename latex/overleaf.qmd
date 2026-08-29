@@ -1,5 +1,0 @@
----
-title: "Overleaf"
----
-
-If your application of choice is Overleaf, take a look at our [Overleaf Starter Guide](../overleaf/index.qmd)!

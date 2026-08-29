@@ -1,5 +1,0 @@
----
-title: "Emacs"
----
-
-If your application of choice is Emacs, take a look at our [Emacs Starter Guide](../emacs/index.qmd)!
