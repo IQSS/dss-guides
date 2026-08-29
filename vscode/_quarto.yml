@@ -1,0 +1,42 @@
+project:
+  type: book
+
+book:
+  title: "VSCode Starter Guide"
+  author: "Dominic Skinnion"
+  date: "last-modified"
+  page-navigation: true
+  search: true
+  favicon: images/favicon.png
+  chapters:
+    - index.qmd
+    - part: "Installation"
+      chapters:
+        - application.qmd
+        - configuration.qmd
+        - dependencies.qmd
+    - part: "Our Recommended Profile"
+      chapters:
+        - extensions.qmd
+        - settings.qmd
+        - shortcuts.qmd
+    - part: "Customizing Your Own VSCode"
+      chapters:
+        - customizing.qmd
+        - profiles.qmd
+    - part: "Resources"
+      chapters:
+        - external_res.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      light: cosmo
+    code-link: true
+    callout-appearance: simple
+
+execute:
+  freeze: auto
+
