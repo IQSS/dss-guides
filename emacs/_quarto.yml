@@ -1,0 +1,52 @@
+project:
+  type: book
+
+book:
+  title: "Emacs Starter Guide"
+  author: "Dominic Skinnion"
+  date: "last-modified"
+  page-navigation: true
+  search: true
+  favicon: images/favicon.png
+  chapters:
+    - index.qmd
+    - part: "Installation"
+      chapters:
+        - overview.qmd
+        - computer_installer.qmd
+        - application.qmd
+        - configuration.qmd
+    - part: "Opening Emacs for the First Time"
+      chapters:
+        - install_packages.qmd
+        - copilot_login.qmd
+    - part: "Getting Started"
+      chapters:
+        - tutorial.qmd
+        - important_keys.qmd
+        - layout.qmd
+        - creating.qmd
+        - moving.qmd
+        - editing.qmd
+        - saving.qmd
+    - part: "Common Hazards"
+      chapters:
+        - problems.qmd
+    - part: "Resources"
+      chapters:
+        - commands.qmd
+        - glossary.qmd
+        - external_res.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      light: cosmo
+    code-link: true
+    callout-appearance: simple
+
+execute:
+  freeze: auto
+

@@ -1,0 +1,5 @@
+# Emacs Tutorial {.sec-starting}
+
+To open up Emacs's built-in tutorial, type Control-h t. (You may also need to type y for "yes" if it asks). 
+
+We strongly recommend that you complete this tutorial, as it shows you the most useful keys!
