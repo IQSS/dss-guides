@@ -1,0 +1,3 @@
+# Emacs {.sec-overview}
+
+If your application of choice is Emacs, take a look at our [Emacs Starter Guide](https://iqss.github.io/emacs_guide/)!
