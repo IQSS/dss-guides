@@ -1,5 +1,5 @@
 # Render the site and publish it to the gh-pages branch. Nothing executes (the guides are prose), so the
-# runner needs only Quarto.
+# runner needs only Quarto. Runs on every push to main, and by hand from the Actions tab.
 name: Publish
 
 on:
