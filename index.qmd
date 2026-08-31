@@ -1,5 +1,8 @@
 ---
 title: "DSS Guides"
+author:
+  - "Dominic Skinnion"
+date: "last-modified"
 ---
 
 Starter guides from [Data Science Services](https://www.iq.harvard.edu/data-science-services) at the Institute for Quantitative Social Science, Harvard University, for the tools around research: version control, a website of your own, an editor, and writing in LaTeX. Each guide is a section in the sidebar and short enough to read in one sitting.
