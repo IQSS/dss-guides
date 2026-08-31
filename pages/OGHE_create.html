@@ -23,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -1104,17 +1139,20 @@ Add license: “No license”
 <li>In the blue section called “Quick setup—if you’ve done this kind of thing before”, look for the blue “creating a new file” link. Click it.</li>
 <li>GitHub will now re-direct you to the file page.</li>
 <li>First, close to the top, you should see in blue “[username].github.io/” followed by a text-box. In that text box, type “index.html” (this will be a quick test for your home page).</li>
-<li>Inside the file, copy and paste this text: <br> &lt;!DOCTYPE html&gt; <br> &lt;html&gt; <br> &lt;body&gt; <br> &lt;h1&gt;Hello World&lt;/h1&gt; <br> &lt;p&gt;I’m hosted with GitHub Pages.&lt;/p&gt; <br> &lt;/body&gt; <br> &lt;/html&gt; <br></li>
+<li>Inside the file, copy and paste this text:</li>
+</ol>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE</span> html<span class="dt">&gt;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">html</span><span class="dt">&gt;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">h1</span><span class="dt">&gt;</span>Hello World<span class="dt">&lt;/</span><span class="kw">h1</span><span class="dt">&gt;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>I'm hosted with GitHub Pages.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">html</span><span class="dt">&gt;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ol start="14" type="1">
 <li>Click the green “Commit changes…” button at the top right. In the pop-up, you don’t need to change the defaults. However, in the future, it may be useful to leave descriptive commit messages that tells your future self what you changed in that version in case you need to go backwards!</li>
 <li>Click the green “Commit changes” button in this pop-up.</li>
 <li>Check to make sure that the commit pushed. At the top of the files list, you should see your commit message on the left near your username. On the right, you should see a commit ID, followed by how long ago you committed your code and then the number of commits.</li>
-<li>Now we can check our actual website by going to [username].github.io. It should say in very basic styling:
-<h1>
-Hello World
-</h1>
-<p>
-I’m hosted with GitHub Pages.
-</p></li>
+<li>Now we can check our actual website by going to [username].github.io. It should say, in very basic styling, a large heading reading “Hello World” and a line of text reading “I’m hosted with GitHub Pages.”</li>
 <li><details>
 <summary>
 If your actual webpage is not appearing:
