@@ -1068,9 +1068,10 @@ ul.task-list li input[type="checkbox"] {
 
 <p>To configure your Git and GitHub accounts to connect, run these two lines in your terminal:</p>
 <ul>
-<li>git config --global user.name “YOUR USERNAME”</li>
-<li>git config --global user.mail “your.email@example.com”</li>
+<li><code>git config --global user.name "YOUR USERNAME"</code></li>
+<li><code>git config --global user.email "your.email@example.com"</code></li>
 </ul>
+<p>The second key is <code>user.email</code>, not <code>user.mail</code>; Git ignores anything else and will refuse to commit without an email set.</p>
 <p>You may need to authenticate your account using the instructions from the previous page.</p>
 
 
