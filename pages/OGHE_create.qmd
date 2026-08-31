@@ -28,19 +28,21 @@ To start, we will create a repository (you can think of this as a folder for you
 10. In the blue section called "Quick setup—if you've done this kind of thing before", look for the blue "creating a new file" link. Click it.
 11. GitHub will now re-direct you to the file page.
 12. First, close to the top, you should see in blue "\[username\].github.io/" followed by a text-box. In that text box, type "index.html" (this will be a quick test for your home page).
-13. Inside the file, copy and paste this text: <br> 
-  \<\!DOCTYPE html\> <br>
-  \<html\> <br>
-  \<body\> <br>
-  \<h1\>Hello World\</h1\> <br>
-  \<p\>I'm hosted with GitHub Pages.\</p\> <br>
-  \</body\> <br>
-  \</html\> <br>
+13. Inside the file, copy and paste this text:
+
+  ```html
+  <!DOCTYPE html>
+  <html>
+  <body>
+  <h1>Hello World</h1>
+  <p>I'm hosted with GitHub Pages.</p>
+  </body>
+  </html>
+  ```
 14. Click the green "Commit changes..." button at the top right. In the pop-up, you don't need to change the defaults. However, in the future, it may be useful to leave descriptive commit messages that tells your future self what you changed in that version in case you need to go backwards!
 15. Click the green "Commit changes" button in this pop-up.
 16. Check to make sure that the commit pushed. At the top of the files list, you should see your commit message on the left near your username. On the right, you should see a commit ID, followed by how long ago you committed your code and then the number of commits.
-17. Now we can check our actual website by going to \[username\].github.io. It should say in very basic styling: <h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+17. Now we can check our actual website by going to \[username\].github.io. It should say, in very basic styling, a large heading reading "Hello World" and a line of text reading "I'm hosted with GitHub Pages."
 18. <details><summary>If your actual webpage is not appearing:</summary>
   <ol type="a">
     <li>First wait a few minutes and try again. Sometimes it takes a bit of time for GitHub to create the website.</li>

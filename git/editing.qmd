@@ -7,15 +7,15 @@ title: "Editing"
 When finished with an editing session:
 
 <ol type="1">
-  <li>Pull: in the terminal window, type “git pull”</li>
+  <li>Pull: in the terminal window, type <code>git pull</code></li>
   <ol type="a">
     <li>This merges in any changes someone else made to the repo</li>
   </ol>
-  <li>Commit: in the terminal window, type “git commit -am <your commit message>” </li>
+  <li>Commit: in the terminal window, type <code>git commit -am "your commit message"</code> </li>
   <ol type="a">
     <li>This prepares your changes for uploading</li>
   </ol>
-  <li>Push: in the terminal window, type “git push”</li>
+  <li>Push: in the terminal window, type <code>git push</code></li>
   <ol type="a">
     <li>This uploads your changes to the GitHub repository</li>
   </ol>
@@ -27,16 +27,16 @@ Pull, then edit as you like, then Commit and Push.
 ## When someone else is also editing (a different part of the file):
 
 <ol type="1">
-  <li>Commit: in the terminal window, type “git commit -am <your commit message>”
+  <li>Commit: in the terminal window, type <code>git commit -am "your commit message"</code>
 </li>
   <ol type="a">
     <li>This protects your changes</li>
   </ol>
-  <li>Pull: in the terminal window, type “git pull” </li>
+  <li>Pull: in the terminal window, type <code>git pull</code> </li>
   <ol type="a">
     <li>This merges in what your friend did</li>
   </ol>
-  <li>Push: in the terminal window, type “git push”</li>
+  <li>Push: in the terminal window, type <code>git push</code></li>
   <ol type="a">
     <li>This uploads your changes to the GitHub repository</li>
   </ol>
@@ -49,7 +49,7 @@ If you try pulling without committing, you will get an error.
 You must resolve these differences!
 
 <ol type="1">
-  <li>Pull: in the terminal window, type “git pull”</li>
+  <li>Pull: in the terminal window, type <code>git pull</code></li>
   <ol type="a">
     <li>You will get a "merge conflict" error message</li>
   </ol>
@@ -61,11 +61,11 @@ You must resolve these differences!
   >>>>>>>>>>> <br>
   </li>
   <li> Remove one of the passages, as well as the <<<, ===, and >>> symbols.</li>
-  <li>Commit: in the terminal window, type “git commit -am <your commit message>” </li>
+  <li>Commit: in the terminal window, type <code>git commit -am "your commit message"</code> </li>
   <ol type="a">
     <li>This prepares your changes for uploading</li>
   </ol>
-  <li>Push: in the terminal window, type “git push”</li>
+  <li>Push: in the terminal window, type <code>git push</code></li>
   <ol type="a">
     <li>This uploads your changes to the GitHub repository</li>
   </ol>

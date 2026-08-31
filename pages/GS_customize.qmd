@@ -41,7 +41,7 @@ For example, you may wish to change "About" to "Home".
 ## Resume Page
 
 1. Navigate to the Resume Page by clicking on "Resume" in the top header.
-2. Google Slides allows the option to include resume sections as plain text on the site, or as a Google Doc/PDF, or both. Choose whichever you'd like.
+2. Google Sites allows the option to include resume sections as plain text on the site, or as a Google Doc/PDF, or both. Choose whichever you'd like.
 3. You can simply click the plain text sections if you'd like to include those. If not, hover over each and select the trash icon in the left-side pop-up menu to delete them.
 
 <details>
@@ -61,7 +61,7 @@ For example, you may wish to change "About" to "Home".
     <li>In the right-side menu bar under the "Insert" tab, select "Drive".</li>
     <li>In the pop-up menu, navigate to and select your PDF resume.</li>
     <li>Click the blue "Insert" button.</li>
-    <li>Not that this will insert the PDF in a new section under your current section.</li>
+    <li>Note that this will insert the PDF in a new section under your current section.</li>
   </ol>
 </details>
 
@@ -87,7 +87,7 @@ You can also add or remove sections as you see fit, also as described earlier.
 
 ## Publishing Your Site
 
-Once you are done editing your site and you are ready to publish it.
+Once you are done editing your site, you are ready to publish it.
 
 Tip: In the top menu bar, there is an icon that looks like a computer and a phone. When you hover over it, it says "Preview". You can use this button to preview what your site will look like on different screens (mobile, tablet, computer). You can click the blue "X" to exit back to the editor.
 

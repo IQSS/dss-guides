@@ -39,14 +39,17 @@ To start, we will create a repository (you can think of this as a folder for you
     <li>In the top tool bar, select File > New File > HTML File.</li>
     <li>In the text-editing pane, you can now edit this file.</li>
   </ol>
-5. Inside the file, copy and paste this text: <br>
-  \<\!DOCTYPE html\> <br>
-  \<html\> <br>
-  \<body\> <br>
-  \<h1\>Hello World\</h1\> <br>
-  \<p\>I'm hosted with GitHub Pages.\</p\> <br>
-  \</body\> <br>
-  \</html\> <br>
+5. Inside the file, copy and paste this text:
+
+  ```html
+  <!DOCTYPE html>
+  <html>
+  <body>
+  <h1>Hello World</h1>
+  <p>I'm hosted with GitHub Pages.</p>
+  </body>
+  </html>
+  ```
 6. Save your file by clicking the save icon. Make sure to name it "index.html" and that it is in the correct repository.
 7. Commit and push your changes to GitHub.
   <ol>
@@ -60,8 +63,7 @@ To start, we will create a repository (you can think of this as a folder for you
     <li>When that is done, you can close out of both pop-ups.</li>
   </ol>
 8. Check in your GitHub repository to make sure that the commit is pushed. You should see index.html with the commit message that you gave it.
-9. Check your actual website by going to username.github.io. It should say (in very basic styling): <h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+9. Check your actual website by going to username.github.io. It should say, in very basic styling, a large heading reading "Hello World" and a line of text reading "I'm hosted with GitHub Pages."
 10. <details><summary>If your actual webpage is not appearing:</summary>
   <ol type="a">
     <li>First wait a few minutes and try again. Sometimes it takes a bit of time for GitHub to create the website.</li>
