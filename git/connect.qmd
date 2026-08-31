@@ -4,7 +4,9 @@ title: "Connecting Your Git and GitHub"
 
 To configure your Git and GitHub accounts to connect, run these two lines in your terminal:
 
-* git config \-\-global user.name "YOUR USERNAME"
-* git config \-\-global user.mail "your.email@example.com"
+* `git config --global user.name "YOUR USERNAME"`
+* `git config --global user.email "your.email@example.com"`
+
+The second key is `user.email`, not `user.mail`; Git ignores anything else and will refuse to commit without an email set.
 
 You may need to authenticate your account using the instructions from the previous page.

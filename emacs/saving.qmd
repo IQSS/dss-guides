@@ -2,7 +2,7 @@
 title: "Saving and Compiling Your Document"
 ---
 
-To save a file, use C-c C-s. You should see “Wrote \<document-name\>” in the mini buffer.
+To save a file, use C-x C-s. You should see “Wrote \<document-name\>” in the mini buffer.
 
 To compile a Latex document, use C-c C-c. You may need to follow a few simple prompts. For example, you may need to tell Emacs that this is Latex.
 
