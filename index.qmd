@@ -18,4 +18,4 @@ The workshops (R, Python, Stata) are at [iqss.github.io/dss-workshops](https://i
 
 ## Credits
 
-These guides were written by Dominic Skinnion for Data Science Services in 2024 and 2025, each as its own site, and brought together here in 2026. Text and images are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Suggestions and corrections are welcome: use the Request help button at the top of the page.
+These guides were written for Data Science Services in 2024 and 2025, each as its own site, and brought together here in 2026. Text and images are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Suggestions and corrections are welcome: use the Request help button at the top of the page.
