@@ -4,4 +4,6 @@ title: "Sign Up / Login"
 
 To sign up for GitHub, visit the [website](https://github.com/) and create an account. If you already have an account, you can log in and enter your credentials.
 
-You may be prompted to sign in with 2-Factor Authentication with an email or your phone number.
+GitHub requires two-factor authentication on every account that contributes code, so you will be asked to set it up rather than offered the choice. You can use an authenticator app (Google Authenticator, 1Password, Authy and others), a passkey, a security key, or text messages.
+
+Prefer an authenticator app or a passkey over text messages: SMS can be intercepted by porting your phone number, and GitHub itself recommends against it. Save the recovery codes it gives you somewhere you can reach without your phone — they are the only way back into the account if you lose the device.

@@ -2,4 +2,10 @@
 title: "Overleaf"
 ---
 
-If your application of choice is Overleaf, take a look at our [Overleaf Starter Guide](../overleaf/index.qmd)!
+Overleaf is the lowest-effort way to start: it runs in the browser, so there is
+nothing to install, and two people can edit the same document at once. The
+trade is control — you work through its interface rather than your own
+keybindings, and you cannot customise much.
+
+The [Overleaf guide](../overleaf/index.qmd) covers signing up, the editor,
+collaborating, templates, and bibliographies.

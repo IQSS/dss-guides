@@ -6,7 +6,7 @@ This section will walk you through installing the Emacs application, necessary p
 
 These instructions only support MacOS users currently. Please stay updated as we prepare materials for Microsoft users.
 
-In preparation for installing Emacs, there are other programs that we also recommend to install. Please refer to our documentation for [useful programs](https://github.com/IQSS/IQSS.emacs/blob/master/UsefulPrograms.org) to install prior to Emacs. This page includes links to external download sites for programs such as R, MikTex, and Git.
+In preparation for installing Emacs, there are other programs that we also recommend to install. Please refer to our documentation for [useful programs](https://github.com/IQSS/IQSS.emacs/blob/master/UsefulPrograms.org) to install prior to Emacs. This page includes links to external download sites for programs such as R, a TeX distribution, and Git. On macOS install [MacTeX](https://tug.org/mactex/), which is the standard distribution there.
 
 In fact, if you do not install some of these (or if you have not previously installed some of these), you may run into problems when loading our Emacs configuration. Git in particular should be installed first: some packages are fetched with it, and the Copilot integration needs it.
 

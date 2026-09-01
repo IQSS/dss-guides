@@ -2,4 +2,9 @@
 title: "Emacs"
 ---
 
-If your application of choice is Emacs, take a look at our [Emacs Starter Guide](../emacs/index.qmd)!
+Emacs asks the most and gives the most. Nearly everything is reachable from the
+keyboard and nearly everything can be redefined, but you have to learn the
+keybindings, and customising it means writing Lisp.
+
+The [Emacs guide](../emacs/index.qmd) covers installation, the IQSS
+configuration, moving around, editing, and a commands list to keep beside you.

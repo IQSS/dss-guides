@@ -2,7 +2,16 @@
 title: "Commands List"
 ---
 
-All of the previous commands, and some additional ones are listed below. From the [GNU Emacs Survival Card](https://www.gnu.org/software/emacs/refcards/pdf/survival.pdf).
+All of the previous commands, and some additional ones, are listed below.
+
+::: {.callout-note appearance="simple"}
+These tables are taken from the [GNU Emacs Survival
+Card](https://www.gnu.org/software/emacs/refcards/pdf/survival.pdf), copyright
+&copy; Free Software Foundation, Inc. The card is distributed under its own
+permission notice, which requires that the copyright and permission notice be
+kept on all copies; it is not covered by the CC BY 4.0 licence that applies to
+the rest of this site.
+:::
 
 Running Emacs:
 
