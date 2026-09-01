@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Using LaTeX for Presentations – DSS Guides</title>
+<title>Copilot – DSS Guides</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -32,8 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../latex/resources.html" rel="next">
-<link href="../latex/articles.html" rel="prev">
+<link href="../emacs/tutorial.html" rel="next">
+<link href="../emacs/install_packages.html" rel="prev">
 <link href="../site_libs/quarto-contrib/quarto-project/IQSS/dss-theme/assets/favicon.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -78,35 +78,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <meta name="theme-color" content="#3C72B4">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -323,7 +294,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../latex/index.html">LaTeX</a></li><li class="breadcrumb-item"><a href="../latex/articles.html">Documents</a></li><li class="breadcrumb-item"><a href="../latex/presentations.html">Using LaTeX for Presentations</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../emacs/index.html">Emacs</a></li><li class="breadcrumb-item"><a href="../emacs/install_packages.html">Opening Emacs for the first time</a></li><li class="breadcrumb-item"><a href="../emacs/copilot_login.html">Copilot</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -688,13 +659,13 @@ window.Quarto = {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true">
  <span class="menu-text">Emacs</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../emacs/index.html" class="sidebar-item-text sidebar-link">
@@ -738,13 +709,13 @@ window.Quarto = {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true">
  <span class="menu-text">Opening Emacs for the first time</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../emacs/install_packages.html" class="sidebar-item-text sidebar-link">
@@ -753,7 +724,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../emacs/copilot_login.html" class="sidebar-item-text sidebar-link">
+  <a href="../emacs/copilot_login.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Copilot</span></a>
   </div>
 </li>
@@ -851,13 +822,13 @@ window.Quarto = {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="false">
  <span class="menu-text">LaTeX</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../latex/index.html" class="sidebar-item-text sidebar-link">
@@ -907,13 +878,13 @@ window.Quarto = {
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="false">
  <span class="menu-text">Documents</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-19" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-19" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../latex/articles.html" class="sidebar-item-text sidebar-link">
@@ -922,7 +893,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../latex/presentations.html" class="sidebar-item-text sidebar-link active">
+  <a href="../latex/presentations.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Using LaTeX for Presentations</span></a>
   </div>
 </li>
@@ -1059,9 +1030,9 @@ window.Quarto = {
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../latex/index.html">LaTeX</a></li><li class="breadcrumb-item"><a href="../latex/articles.html">Documents</a></li><li class="breadcrumb-item"><a href="../latex/presentations.html">Using LaTeX for Presentations</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../emacs/index.html">Emacs</a></li><li class="breadcrumb-item"><a href="../emacs/install_packages.html">Opening Emacs for the first time</a></li><li class="breadcrumb-item"><a href="../emacs/copilot_login.html">Copilot</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Using LaTeX for Presentations</h1>
+<h1 class="title">Copilot</h1>
 </div>
 
 
@@ -1078,9 +1049,23 @@ window.Quarto = {
 </header>
 
 
-<p>We also strongly recommend that you create all of your presentations with <span class="math inline">\(\LaTeX\)</span>, too. You can do so using the function \documentclass{beamer}. In fact, we have an <a href="https://github.com/IQSS/iqss-beamer-theme">IQSS theme</a> that you can download and use.</p>
-<p>Even if you choose to not use Overleaf for your editor, they have a great collection of <a href="https://www.overleaf.com/learn/latex/Beamer_Presentations%3A_A_Tutorial_for_Beginners_(Part_1)%E2%80%94Getting_Started">tutorials</a> that can help you create your presentations.</p>
-<p>Again, we strongly recommend this for the math notation. Additionally, your presentations will be replicable, which is also a benefit of working in <span class="math inline">\(\LaTeX\)</span> as opposed to programs like Google Slides or Power Point.</p>
+<p>Our configuration includes the Copilot integration, so these steps set it up. If you would rather not use it, skip this page — nothing else in the guide depends on it, and the last section here explains how to leave it switched off.</p>
+<p>Copilot needs a GitHub account. There is a free tier, and students and academic staff can get the paid tier at no cost through <a href="https://github.com/education">GitHub Education</a>; see <a href="https://github.com/features/copilot">GitHub’s Copilot page</a> for what each includes.</p>
+<p>Now that you have opened Emacs for the second time, you should see some messages at the bottom about “quelpa” or “copilot”. When these messages stop appearing, we need to complete a few Emacs commands to fully integrate with Copilot.</p>
+<p>Now, type:</p>
+<ul>
+<li>Option+x then type copilot-mode. Enter. This may give you prompts about logging in or installing the server. Follow each as they come up:
+<ul>
+<li>Option+x install-server. Enter. When this is done, you may get a message saying that there is a newer version. You will need to do the next step, then. If not, skip the next step.</li>
+<li>Option+x reinstall-server. Enter. (Again, you may not need to do this!)</li>
+<li>Option+x copilot-login. Enter. If you have already authorized Copilot on your computer (e.g., in RStudio), this may not be necessary. This will give you a code to copy. Write it down. Follow the instructions, then press enter to access GitHub in your browser. Authorize your GitHub/Copilot in the browser according to the instructions.</li>
+</ul></li>
+</ul>
+<p>Now we are going to close Emacs and reopen it.</p>
+<p>There should be a few messages on start-up, but nothing that you need to do.</p>
+<p>To turn on Copilot mode, type: Option-x copilot-mode. Enter. At the bottom, it should tell you that copilot mode is enabled in the buffer.</p>
+<p>Copilot should now be integrated! If you pause when typing, suggestions should pop up for you. If not, try typing Option-x copilot-mode a few times, toggling it off/on again.</p>
+<p>If you ever want to stop using it, or if you don’t have Copilot, just don’t turn on copilot-mode.</p>
 
 
 
@@ -1568,13 +1553,13 @@ window.Quarto = {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../latex/articles.html" class="pagination-link" aria-label="Using LaTeX for Articles">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Using LaTeX for Articles</span>
+      <a href="../emacs/install_packages.html" class="pagination-link" aria-label="Install Emacs Packages">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Install Emacs Packages</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../latex/resources.html" class="pagination-link" aria-label="Learning Resources">
-        <span class="nav-page-text">Learning Resources</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../emacs/tutorial.html" class="pagination-link" aria-label="Emacs Tutorial">
+        <span class="nav-page-text">Emacs Tutorial</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
