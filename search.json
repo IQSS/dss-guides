@@ -56,7 +56,7 @@
     "href": "overleaf/exporting.html",
     "title": "Exporting and Downloading",
     "section": "",
-    "text": "Once your document is ready, you can export it in various formats or download the source files:\n\nPDF Output: Overleaf automatically generates a PDF preview of your document, which you can download or share with others.\nDownload Source Files: You can download the source files of your document in .zip format, including all LaTeX files, figures, and additional resources.\nExport Options: Overleaf offers export options for other formats such as Word, LaTeX, and HTML, allowing you to work with your document in different environments.",
+    "text": "Once your document is ready, you can export it in various formats or download the source files:\n\nPDF Output: Overleaf automatically generates a PDF preview of your document, which you can download or share with others.\nDownload Source Files: You can download the source files of your document in .zip format, including all LaTeX files, figures, and additional resources.",
     "crumbs": [
       "Training materials",
       "Overleaf",
