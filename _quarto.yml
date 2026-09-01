@@ -95,7 +95,10 @@ website:
               - emacs/computer_installer.qmd
               - emacs/application.qmd
               - emacs/configuration.qmd
-          - emacs/install_packages.qmd
+          - section: "Opening Emacs for the first time"
+            contents:
+              - emacs/install_packages.qmd
+              - emacs/copilot_login.qmd
           - section: "Getting started"
             contents:
               - emacs/tutorial.qmd

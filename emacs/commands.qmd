@@ -108,8 +108,10 @@ Getting Help:
 
 <br>
 
+Copilot:
 
-
-
-
-
+| Command   | Function  |
+| ---    | ---   |
+| M-x copilot-mode | Toggle on/off copilot mode. |
+| M-C-RET | Accept a completion. |
+| C-\<right\> | Accept by word. |
