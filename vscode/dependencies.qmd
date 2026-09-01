@@ -6,6 +6,9 @@ In order to use VSCode effectively, there are some additional programs or applic
 
 * GitHub:
   * We recommend using GitHub. If you do not already have a GitHub account, we recommend following the [instructions from GitHub](https://docs.github.com/en/get-started).
+* Copilot:
+  * Our recommended profile installs the GitHub Copilot and Copilot Chat extensions, so they will appear whether or not you intend to use them. To use them you need a GitHub account: there is a free tier, and students and academic staff can get the paid tier at no cost through [GitHub Education](https://github.com/education).
+  * [GitHub's setup instructions](https://docs.github.com/en/copilot/quickstart) cover signing in. If you would rather not use Copilot at all, disable the two extensions from the Extensions pane and nothing else in this guide changes.
 * Skim:
   * Skim is a PDF viewer, which you can [download from the internet](https://skim-app.sourceforge.io/). We recommend setting this as your default PDF viewer.
   * Once Skim is open, go to the top toolbar menu. Select Skim > Settings.
