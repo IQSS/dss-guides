@@ -2,314 +2,306 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://iqss.github.io/dss-guides/overleaf/writing.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
   </url>
   <url>
     <loc>https://iqss.github.io/dss-guides/overleaf/sign_up.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
   </url>
   <url>
     <loc>https://iqss.github.io/dss-guides/overleaf/packages.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
   </url>
   <url>
     <loc>https://iqss.github.io/dss-guides/overleaf/interface.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
   </url>
   <url>
     <loc>https://iqss.github.io/dss-guides/overleaf/exporting.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
   </url>
   <url>
     <loc>https://iqss.github.io/dss-guides/overleaf/collaborating.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
   </url>
   <url>
     <loc>https://iqss.github.io/dss-guides/overleaf/best_prac.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
   </url>
   <url>
     <loc>https://iqss.github.io/dss-guides/latex/resources.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
   </url>
   <url>
     <loc>https://iqss.github.io/dss-guides/latex/overleaf.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
   </url>
   <url>
     <loc>https://iqss.github.io/dss-guides/latex/github.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/latex/copilot.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/latex/articles.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/emacs/saving.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/emacs/overview.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/emacs/layout.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/emacs/index.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/emacs/glossary.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/emacs/editing.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/emacs/copilot_login.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/emacs/computer_installer.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/emacs/application.html</loc>
-    <lastmod>2026-08-31T20:49:15.730Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/vscode/settings.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/vscode/index.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/vscode/extensions.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/vscode/customizing.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/vscode/application.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/pages/RSG_template.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/pages/RSG_domain.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/pages/RSG_create.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/pages/OGHE_start.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/pages/OGHE_customize.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/pages/GS_start.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/pages/GS_customize.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/git/sign_up.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/git/introduction.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/git/index.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/git/create_repo.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/git/command_line.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/git/auth.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/index.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/git/clone_repo.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/git/connect.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/git/editing.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/git/install_git.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/git/resources.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/pages/GS_create.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/pages/GS_domain.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/pages/OGHE_create.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/pages/OGHE_domain.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/pages/OGHE_template.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/pages/RSG_customize.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/pages/RSG_start.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/pages/index.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/vscode/configuration.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/vscode/dependencies.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/vscode/external_res.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/vscode/profiles.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/vscode/shortcuts.html</loc>
-    <lastmod>2026-08-31T20:49:15.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/emacs/commands.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/emacs/configuration.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/emacs/creating.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/emacs/external_res.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/emacs/important_keys.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/emacs/install_packages.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/emacs/moving.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/emacs/problems.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqss.github.io/dss-guides/emacs/tutorial.html</loc>
-    <lastmod>2026-08-31T20:49:15.731Z</lastmod>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
   </url>
   <url>
     <loc>https://iqss.github.io/dss-guides/latex/comparison.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/emacs/tutorial.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/emacs/problems.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/emacs/moving.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/emacs/install_packages.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/emacs/important_keys.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/emacs/external_res.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/emacs/creating.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/emacs/computer_installer.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/emacs/application.html</loc>
+    <lastmod>2026-09-01T02:34:57.485Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/vscode/settings.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/vscode/index.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/vscode/extensions.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/vscode/customizing.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/vscode/application.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/pages/RSG_template.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/pages/RSG_domain.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/pages/RSG_create.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/pages/OGHE_start.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/pages/OGHE_customize.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/pages/GS_start.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/pages/GS_customize.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/git/sign_up.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/git/introduction.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/git/index.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/git/create_repo.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/git/command_line.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/git/auth.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/index.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/git/clone_repo.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/git/connect.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/git/editing.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/git/install_git.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/git/resources.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/pages/GS_create.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/pages/GS_domain.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/pages/OGHE_create.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/pages/OGHE_domain.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/pages/OGHE_template.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/pages/RSG_customize.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/pages/RSG_start.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/pages/index.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/vscode/configuration.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/vscode/dependencies.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/vscode/external_res.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/vscode/profiles.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/vscode/shortcuts.html</loc>
+    <lastmod>2026-09-01T02:34:57.487Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/emacs/commands.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/emacs/configuration.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/emacs/editing.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/emacs/glossary.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/emacs/index.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/emacs/layout.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/emacs/overview.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/emacs/saving.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqss.github.io/dss-guides/latex/articles.html</loc>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
   </url>
   <url>
     <loc>https://iqss.github.io/dss-guides/latex/emacs.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
   </url>
   <url>
     <loc>https://iqss.github.io/dss-guides/latex/index.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
   </url>
   <url>
     <loc>https://iqss.github.io/dss-guides/latex/presentations.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
   </url>
   <url>
     <loc>https://iqss.github.io/dss-guides/latex/vscode.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
   </url>
   <url>
     <loc>https://iqss.github.io/dss-guides/overleaf/bibs.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
   </url>
   <url>
     <loc>https://iqss.github.io/dss-guides/overleaf/create_project.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
   </url>
   <url>
     <loc>https://iqss.github.io/dss-guides/overleaf/index.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
   </url>
   <url>
     <loc>https://iqss.github.io/dss-guides/overleaf/introduction.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
   </url>
   <url>
     <loc>https://iqss.github.io/dss-guides/overleaf/resources.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
   </url>
   <url>
     <loc>https://iqss.github.io/dss-guides/overleaf/templates.html</loc>
-    <lastmod>2026-08-31T20:49:15.732Z</lastmod>
+    <lastmod>2026-09-01T02:34:57.486Z</lastmod>
   </url>
 </urlset>

@@ -124,124 +124,109 @@
     "crumbs": [
       "Training materials",
       "LaTeX",
-      "Suggested tools",
       "Using GitHub"
     ]
   },
   {
-    "objectID": "latex/copilot.html",
-    "href": "latex/copilot.html",
-    "title": "Using Copilot",
+    "objectID": "latex/comparison.html",
+    "href": "latex/comparison.html",
+    "title": "Comparison of Applications",
     "section": "",
-    "text": "With the rise in generative AI programs like ChatGPT, we recommend that you use Copilot for your coding needs. Copilot is a paid service produced by GitHub that can reduce your time-on-task for coding and writing.\nCopilot easily integrates with multiple coding IDEs, including VSCode and RStudio. Copilot can recognize the coding language that you are using, predict code that you may want, and can even help you write your articles.\nOf course, you can also continue to use free or open-source generative AI programs, too, but most of those are external (i.e., require you to use a web browser) and you would have to copy and paste suggestions from your browser to your IDE. Built-in Copilot features make this process streamlined and efficient.",
+    "text": "There are a lot of \\(\\LaTeX\\) editors that exist. Depending on what editing power, user experience, and learning cost you want out of your editor, we have three recommendations that you may wish to choose. However, these are not exhaustive, and there may be additional editors that you’d like to use.\nIf you prefer an editor with a lower startup investment and are okay with the editor having less editing power, you may wish to choose Overleaf.\n\n\n\n\n\n\n\nPros\nCons\n\n\n\n\n- Collaborative  - Online, no installation  - Very modern and intuitive design\n- Reliant on UI, cannot do as much with keybindings  - Live editing can cause others to not be able to compile a file  - Not customizable\n\n\n\n\nIf you prefer an editor with a medium startup investment and medium power, you may wish to use VSCode.\n\n\n\n\n\n\n\nPros\nCons\n\n\n\n\n- All-in-one-stop: has extensions for all types of coding (R, Python, etc.)  - Modern design, familiar IDE experience  - Somewhat customizable via exentions, settings, and keybindings\n- More control with keybindings, but limited to the packages and extensions that exist  - Installation is required, but a relatively easy process\n\n\n\n\nIf you are okay with a high startup investment in return for higher power, you may wish to use Emacs.\n\n\n\n\n\n\n\nPros\nCons\n\n\n\n\n- You can do almost anything with keybindings  - Designed to do exactly what you want  - Very customizable  - Open source\n- Older, not modern design  - Need to code customizations in Lisp, which is barely used  - Need to learn a lot of keybindings to use effectively  - Installation is required\n\n\n\n\nIn sum, you may want to start with Emacs, because you may have the time and energy to learn how to use it, and you know that it can have a greater return on investment. Or, you may be okay with using Overleaf, because you don’t want to learn a bunch of keyboard shortcuts. Or, you might want an all-in-one solution where you can write all of your code with VSCode. And, of course, you might already have an IDE you like to use (TeXShop, Vim, TeXStudio, etc.). These are all fine options, too!",
     "crumbs": [
       "Training materials",
       "LaTeX",
-      "Suggested tools",
-      "Using Copilot"
+      "Choosing an editor",
+      "Comparison of Applications"
     ]
   },
   {
-    "objectID": "latex/articles.html",
-    "href": "latex/articles.html",
-    "title": "Using LaTeX for Articles",
+    "objectID": "emacs/tutorial.html",
+    "href": "emacs/tutorial.html",
+    "title": "Emacs Tutorial",
     "section": "",
-    "text": "We strongly encourage you to use \\(\\LaTeX\\) when writing your articles. Of course, you can draft your writing in programs like Google Docs (which you may prefer), but your polished versions should be .pdf files created from a .tex file.\nWhy? Common text editors like Google Docs do not yet incorporate math notation in a nice way yet. (Yes, it is feature. No, it is not good). As a budding social scientist, your work will likely need math notation in some form or another. This is exactly why \\(\\LaTeX\\) is useful. It provides a simple, replicable way to incorporate math notation into your documents.\nPlus, \\(\\LaTeX\\) has many functions that make the writing process easier. While not exhaustive, these include general formatting functions (e.g., centering, italics, etc.), bibliographic features (e.g., references and citations), and organizational abilities (e.g., connecting multiple documents together).",
-    "crumbs": [
-      "Training materials",
-      "LaTeX",
-      "Documents",
-      "Using LaTeX for Articles"
-    ]
-  },
-  {
-    "objectID": "emacs/saving.html",
-    "href": "emacs/saving.html",
-    "title": "Saving and Compiling Your Document",
-    "section": "",
-    "text": "To save a file, use C-x C-s. You should see “Wrote &lt;document-name&gt;” in the mini buffer.\nTo compile a Latex document, use C-c C-c. You may need to follow a few simple prompts. For example, you may need to tell Emacs that this is Latex.\nIf you are compiling a beamer presentation, and you did not specify your Tex engine in your document, you will need to execute the following command before compiling your document: M-x tex-engine-set and then select xetex and return. Now use C-c C-c. \nThen, in your finder, you should see a slew of new files all with the same name as your .tex file, but with various suffixes. Find the one that is &lt;document-name&gt;.pdf and open it. Congrats! You’ve made your document!",
+    "text": "To open up Emacs’s built-in tutorial, type Control-h t. (You may also need to type y for “yes” if it asks).\nWe strongly recommend that you complete this tutorial, as it shows you the most useful keys!",
     "crumbs": [
       "Training materials",
       "Emacs",
       "Getting started",
-      "Saving and Compiling Your Document"
+      "Emacs Tutorial"
     ]
   },
   {
-    "objectID": "emacs/overview.html",
-    "href": "emacs/overview.html",
-    "title": "Overview",
+    "objectID": "emacs/problems.html",
+    "href": "emacs/problems.html",
+    "title": "Common Problems",
     "section": "",
-    "text": "This section will walk you through installing the Emacs application, necessary packages, as well as the IQSS configuration.\nThese instructions only support MacOS users currently. Please stay updated as we prepare materials for Microsoft users.\nIn preparation for installing Emacs, there are other programs that we also recommend to install. Please refer to our documentation for useful programs to install prior to Emacs. This page includes links to external download sites for programs such as R, MikTex, and Git.\nIn fact, if you do not install some of these (or if you have not previously installed some of these), you may run into problems when loading our Emacs configuration. For instance, you will likely need Git already installed in order for your Copilot integration to work.\nFor this process, we will teach you how to use the command line in the terminal. However, there will also be external links for many of the download options if you are not wholly comfortable in the terminal, or find yourself running into problems.",
+    "text": "You may have keybindings set for your computer that supersede the keybindings set in Emacs. For example, my C-&lt;up&gt;, C-&lt;down&gt;, and C-&lt;right&gt; controls were used by my Mac for Mission Control and Applications settings. To disable these keybindings, go to your Apple Menu &gt; System Settings &gt; Keyboard &gt; Keyboard Shortcuts and then locate the settings you’d like to disable. Uncheck them. Full instructions for Macs can be found here. Instructions for PCs can be found here.\nEmacs is on the older side. Newer installations seem to have some problems with loading in some packages. For example, I could not install ‘use-package with the M-x install-packages command, but instead had to install it by looking at M-x list-packages.",
     "crumbs": [
       "Training materials",
       "Emacs",
-      "Installation",
-      "Overview"
+      "Common Problems"
     ]
   },
   {
-    "objectID": "emacs/layout.html",
-    "href": "emacs/layout.html",
-    "title": "Layout",
+    "objectID": "emacs/moving.html",
+    "href": "emacs/moving.html",
+    "title": "Moving Around Your Document",
     "section": "",
-    "text": "Understanding the layout of Emacs, and the following terms and commands, is crucial in effectively navigating the workspace.\nThere are three main components of the Emacs workspace: frames, windows, and buffers. Frames are the rectangles on your screen. For example, on a Mac, you’ll likely see a gray top bar with the red, yellow, and green circles at the top of your frame. Each frame can be broken up into windows, which allow you to see documents. Each window holds a single buffer, which is text content, that is already from a file or can be saved to a file.\nYou can have multiple windows open inside a single frame at a time, allowing you to see multiple files, or different parts of the same file, at the same time. Additionally, you can have multiple frames, each its own separate instance of Emacs, allowing you to switch between projects all on the same screen.\nAdditionally, there is a smaller section at the bottom of an Emacs frame. First, you will see the mode line, which tells you information about the current buffer being displayed, including its name, modes, and position. Underneath this, you will see the mini buffer, which is where you will enter commands and see interactive text. You can access the mini buffer by pressing M-x, and then searching for commands.\nYou can open up another frame with the command C-x 5 2. (This will open the same file that you already have opened in a second frame). You can also do M-x make-frame.\nTo switch between frames, use C-x 5 o (for “other”). This will cycle through your open Emacs frames.\nTo close your current frame, you can use the command C-x 5 0, or M-x delete-frame.\nTo open another window inside the same frame, there are multiple commands you can use, depending on how you want the window to open:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-x 2\nSplit the current frame horizontally. This will open the same buffer as the one you current have open.\n\n\nC-x 3\nSplit the current frame vertically.\n\n\nC-x 4 f &lt;select file&gt;\nOpen a specific file in a new window.\n\n\nC-x 4 b &lt;select buffer&gt;\nOpen a specific buffer in a new window. This will list recent buffers, including messages, and scratch work.\n\n\n\n\nAdditional commands to close or move windows include:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-x 0\nClose out of the window where your cursor is.\n\n\nC-x 1\nClose out of all windows except for the one where your cursor is.\n\n\nC-x o\nMoves your cursor to the next window. If you repeatedly do this, the cursor will cycle through the open windows.",
+    "text": "Emacs makes it extremely easy to move around your document without needing to use your mouse or trackpad (although, you can always use those, too!). Some of the most common commands to move throughout the document are:\nMoving by screens:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-v\nMove forward one screen (a couple lines of overlap will be provided).\n\n\nM-v\nMove backward one screen.\n\n\nC-l\nIf you do this once, it will center the screen on your cursor. If you do this again, your cursor will move to the top of the screen. If you do this once again, your cursor will move to the bottom of the screen.\n\n\n\n\nMoving by characters:\n\n\n\nCommand\nFunction\n\n\n\n\nC-p OR &lt;up key&gt;\nGo to the previous line.\n\n\nC-n OR &lt;down key&gt;\nGo to the next line.\n\n\nC-b OR &lt;left key&gt;\nMove one space backward.\n\n\nC-f OR &lt;right key&gt;\nMove one space forward.\n\n\n\n\nMoving by words:\n\n\n\nCommand\nFunction\n\n\n\n\nM-f\nGo to the next word.\n\n\nM-b\nGo to the previous word.\n\n\n\n\nMoving in a line:\n\n\n\nCommand\nFunction\n\n\n\n\nC-a\nGo to the beginning of the line.\n\n\nC-e\nGo to the end of the line.\n\n\n\n\nMoving between sentences:\n\n\n\nCommand\nFunction\n\n\n\n\nM-a\nGo to the beginning of the sentence.\n\n\nM-e\nGo to the end of the sentence.\n\n\n\n\nMoving to the extremes:\n\n\n\nCommand\nFunction\n\n\n\n\nM-shift-, OR M-&lt;\nGo to the beginning of the document.\n\n\nM-shift-. OR M-&gt;\nGo to the end of the document.\n\n\n\n\nMoving your screen (without moving the cursor):\n\n\n\nCommand\nFunction\n\n\n\n\nC-&lt;up key&gt;\nMove the visible part of the buffer up.\n\n\nC-&lt;down key&gt;\nMove the visible part of the buffer down.",
     "crumbs": [
       "Training materials",
       "Emacs",
       "Getting started",
-      "Layout"
+      "Moving Around Your Document"
     ]
   },
   {
-    "objectID": "emacs/index.html",
-    "href": "emacs/index.html",
-    "title": "Emacs",
+    "objectID": "emacs/install_packages.html",
+    "href": "emacs/install_packages.html",
+    "title": "Install Emacs Packages",
     "section": "",
-    "text": "The following is a quick starter guide designed to get you acquainted with Emacs, a desktop application for editing \\(\\LaTeX\\). Of our recommended applications, Emacs is the most powerful in terms of text editing and customization.",
+    "text": "Now we are going to open Emacs for the first time. This will install a lot of Emacs packages for you, almost automatically.\nIn the bottom, a message will ask you to press “y” to install packages. Please do. A lot of packages will load again.\nAfter some time, another message will pop up again asking you to press “y” to install a few more packages. Again, please do.\nThis may take a bit of time to install of these packages (~5 minutes).\nAt the end, you may or may not get a message that a package is deprecated. This should not be an issue, and it should not appear again when you open Emacs in the future.\nNow please close out of Emacs and reopen it.",
     "crumbs": [
       "Training materials",
       "Emacs",
-      "Start here"
+      "Install Emacs Packages"
     ]
   },
   {
-    "objectID": "emacs/glossary.html",
-    "href": "emacs/glossary.html",
-    "title": "Glossary of Key Terms",
+    "objectID": "emacs/important_keys.html",
+    "href": "emacs/important_keys.html",
+    "title": "Important Keys",
     "section": "",
-    "text": "Buffer: A temporary storage area used for holding text that is being edited.\nFrame: A graphical element that contains one or more windows. If you have multiple frames open, you can have separate instances of Emacs running at once.\nKilling: Deleting text, but storing it in a “kill ring” for future use.\nMini Buffer: A special area at the bottom of the screen used for user input and displaying messages from Emacs itself. It is where Emacs prompts the user for commands, file names, search strings, and other input.\nMode Line: A special area located at the bottom of the window, just above the minibuffer (if present). It provides information about the current state of the buffer and the editing environment.\nWindow: A subdivision within a frame where buffers are displayed. Each window typically shows the contents of a single buffer.\nYanking: Pasting previously killed text back into a document.",
+    "text": "Two of the most important keys you will need to know are the Control key (abbreviated by C) and the Option key (aka the “Meta” key or the “Alt” key, abbreviated by M).\nMost Emacs commands will require you to hold down either the Control key or the Meta key while typing. The syntax for Emacs commands are C-&lt;character&gt; which means hold the Control key when you press &lt;character&gt;. Additionally you may see M-&lt;chr 1&gt; &lt;chr 2&gt; which means hold the Meta key while you press the first character, release it, and then press the second character. Or you may see two in row, for example: C-x C-f, which means hold the Control key and press x and then f (while still holding the Control key). This is the “find a file” command.\nAdditionally, to quit Emacs you can type C-x C-c (or, of course, you can click out of the user interface).\nTo quit a command, use C-g. (You may want to repeatedly press C-g).",
+    "crumbs": [
+      "Training materials",
+      "Emacs",
+      "Getting started",
+      "Important Keys"
+    ]
+  },
+  {
+    "objectID": "emacs/external_res.html",
+    "href": "emacs/external_res.html",
+    "title": "External Resources",
+    "section": "",
+    "text": "Documentation for useful programs that you may need (or like) to install\nHomebrew documentation\nGnu-tar documentation\nNode.js documentation\nIspell documentation\nEmacs Application Installer\nIQSS Configuration GitHub\nHotkeys for Macs or PCs\n\nAlso, it never hurts to search the web or Stack Overflow when you run into any issues.\nYouTube also has a vast array of Emacs turorials.",
     "crumbs": [
       "Training materials",
       "Emacs",
       "Resources",
-      "Glossary of Key Terms"
+      "External Resources"
     ]
   },
   {
-    "objectID": "emacs/editing.html",
-    "href": "emacs/editing.html",
-    "title": "Editing Your Document",
+    "objectID": "emacs/creating.html",
+    "href": "emacs/creating.html",
+    "title": "Creating and Setting Up Documents",
     "section": "",
-    "text": "Text editing in Emacs has some different terminology than what you may be used to. For instance, there is “killing” which deletes text (but saves it to a “kill ring” that you still have access to), and “yanking” which brings text back. This is similar to cutting/pasting.\nHowever, we’ve also included keyboard shortcuts where you can continue to use Cmd+C and Cmd+V for copy and paste, as you normally would on your Mac.\nOne good thing about the kill ring is that you have continued access to text that you may have previously deleted and you may want to bring it back. Here are some of the commands that you may find useful:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-w\nIf you have a region highlighted, this will kill the region to your kill ring.\n\n\nM-w\nIf you have a region highlighted, this will copy the region to your killing ring without deleting the text.\n\n\nC-y\nYank back the last kill (i.e. paste what you just deleted)\n\n\nM-y &lt;select text&gt;\nAllows you to select which of your previous kills that you’d like to bring back.\n\n\n\n\nSearching for text:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-s\nSearch for a string (only from your cursor on, i.e., forward search)\n\n\nC-r\nSearch for a string (backwards)\n\n\nRET\nQuit searching\n\n\nM-C-s\nRegular expression search (forwards).\n\n\nM-C-r\nRegular expression search (backwards).\n\n\n\n\nCopilot commands:\n\n\n\nCommand\nFunction\n\n\n\n\nM-x copilot-mode\nToggle on/off copilot mode.\n\n\nM-C-RET\nAccept a completion.\n\n\nC-&lt;right&gt;\nAccept by word.",
+    "text": "To create your document, type C-x C-f (“Find a file”). Then use your arrow keys and return to navigate to the folder in which you’d like your document to live. When the top line of your mini buffer says the name of the correct folder, make sure that your cursor is on the top line, after the slash, and then type the name that you would like for your document. If you are making a Latex file, make sure to include the “.tex” suffix. Click return when you are done, and a new buffer with the name of the file will be displayed in your window.\nYou can also set local variables within a comment block at the end of a file. While most customizations will be already downloaded for you inside the init.el and custom.el files from the IQSS configuration, you wish to have file-specific customizations as well. You can use the following as an example of what you can put at the end of a file:\n% Local Variables:\n% mode: latex\n% TeX-master: t\n% TeX-engine: pdflatex\n% fill-column: 80\n% End:\n\nYou must have the first and the last line; these tell Emacs that you’re defining local variables.\nThe “mode” tells Emacs that you are typing in LaTeX.\n“TeX-master: t” tells Emacs that you are in the “master file” which refers to the file which includes all of your header information. For example: if you are in a project, say a book with multiple chapters, and each chapter has its own .tex file, you could use TeX-master to tell Emacs which file contains the header information. So, in your main.tex file, you could have: “” which reads in your chapter1.tex file. In the chapter files, you could simply write your LaTeX code, and include % TeX-master: “main.tex” in your local variables.\n“TeX-engine” tells Emacs how to compile your LaTeX file – in this case, we want a pdf.\n“fill-column: 80” tells Emacs that we want our text to automatically wrap after 80 characters.\nWe can also define which dictionary we want spell check to use.",
     "crumbs": [
       "Training materials",
       "Emacs",
       "Getting started",
-      "Editing Your Document"
-    ]
-  },
-  {
-    "objectID": "emacs/copilot_login.html",
-    "href": "emacs/copilot_login.html",
-    "title": "Copilot",
-    "section": "",
-    "text": "If you do not already have a Copilot subscription, you can do so on GitHub.\nNow that you have opened Emacs for the second time, you should see some messages at the bottom about “quelpa” or “copilot”. When these messages stop appearing, we need to complete a few Emacs commands to fully integrate with Copilot.\nNow, type:\n\nOption+x then type copilot-mode. Enter. This may give you prompts about logging in or installing the server. Follow each as they come up:\n\nOption+x install-server. Enter. When this is done, you may get a message saying that there is a newer version. You will need to do the next step, then. If not, skip the next step.\nOption+x reinstall-server. Enter. (Again, you may not need to do this!)\nOption+x copilot-login. Enter. If you have already authorized Copilot on your computer (e.g., in RStudio), this may not be necessary. This will give you a code to copy. Write it down. Follow the instructions, then press enter to access GitHub in your browser. Authorize your GitHub/Copilot in the browser according to the instructions.\n\n\nNow we are going to close Emacs and reopen it.\nThere should be a few messages on start-up, but nothing that you need to do.\nTo turn on Copilot mode, type: Option-x copilot-mode. Enter. At the bottom, it should tell you that copilot mode is enabled in the buffer.\nCopilot should now be integrated! If you pause when typing, suggestions should pop up for you. If not, try typing Option-x copilot-mode a few times, toggling it off/on again.\nIf you ever want to stop using it, or if you don’t have Copilot, just don’t turn on copilot-mode.",
-    "crumbs": [
-      "Training materials",
-      "Emacs",
-      "Opening Emacs for the first time",
-      "Copilot"
+      "Creating and Setting Up Documents"
     ]
   },
   {
@@ -249,7 +234,7 @@
     "href": "emacs/computer_installer.html",
     "title": "Installing Necessary Packages on Your Computer",
     "section": "",
-    "text": "There are a few programs that we will need to install: Homebrew, node, ispell, and gnu-tar.\nHomebrew is necessary as MacOS’s package manager. This will allow you to install various programs via the command line. Node.js, ispell, and gnu-tar are all dependencies that are needed in order to integrate with Copilot.\nTo do so, please open your Terminal. (If you don’t know where this is: Finder &gt; Applications &gt; Utilities &gt; Terminal).\n\nNow run:\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\nPress enter and follow the instructions. When it finishes, Homebrew prints two lines for you to run so that the brew command is on your path. Copy them from Homebrew’s own output rather than from here — it fills in your username for you — and run them one at a time. They look like this:\necho &gt;&gt; ~/.zprofile\necho 'eval \"$(/opt/homebrew/bin/brew shellenv)\"' &gt;&gt; ~/.zprofile\neval \"$(/opt/homebrew/bin/brew shellenv)\"\n\nOnce Homebrew is installed, we can now install the three dependencies in your terminal. One by one, please copy and paste the following lines and execute separately (by pressing return after each).\n\nbrew install gnu-tar\nbrew install node\nbrew install ispell\n\nYou should now be done!\nIf you run into any problems installing these, please refer to documentation online for Homebrew, gnu-tar, node.js, and ispell.",
+    "text": "There are a few programs that we will need to install: Homebrew, node, ispell, and gnu-tar.\nHomebrew is necessary as macOS’s package manager. This will allow you to install various programs via the command line. Node.js, ispell and gnu-tar are dependencies of packages in our Emacs configuration — ispell provides spell checking, and the other two are needed while packages are built and installed.\nTo do so, please open your Terminal. (If you don’t know where this is: Finder &gt; Applications &gt; Utilities &gt; Terminal).\n\nNow run:\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\nPress enter and follow the instructions. When it finishes, Homebrew prints two lines for you to run so that the brew command is on your path. Copy them from Homebrew’s own output rather than from here — it fills in your username for you — and run them one at a time. They look like this:\necho &gt;&gt; ~/.zprofile\necho 'eval \"$(/opt/homebrew/bin/brew shellenv)\"' &gt;&gt; ~/.zprofile\neval \"$(/opt/homebrew/bin/brew shellenv)\"\n\nOnce Homebrew is installed, we can now install the three dependencies in your terminal. One by one, please copy and paste the following lines and execute separately (by pressing return after each).\n\nbrew install gnu-tar\nbrew install node\nbrew install ispell\n\nYou should now be done!\nIf you run into any problems installing these, please refer to documentation online for Homebrew, gnu-tar, node.js, and ispell.",
     "crumbs": [
       "Training materials",
       "Emacs",
@@ -300,7 +285,7 @@
     "href": "vscode/extensions.html",
     "title": "Extensions",
     "section": "",
-    "text": "There are a lot of extensions available in VSCode. You can always install more extensions that we have! We’ve included some that we find make coding in \\(\\LaTeX\\) much easier. These include:\n\nAzure Repos:\n\nDependency for GitHub extensions.\n\nBetter Comments:\n\nColor codes types of comments with symbols at the beginning of each. For example, there are:\n\n“*” for highlighting a comment (green)\n“!” for an alert (red)\n“?” for a question (blue)\n“TODO” for a to-do (orange)\n“//” for a strikethrough\n\nYou can also customize your own.\n\nGitHub Copilot:\n\nIn-line suggestions: Copilot will anticipate what you are about to type. You can accept these suggestions, or keep typing.\n\nGitHub Copilot Chat:\n\nIn-line chat: You can use Cmd+I to start an inline chat, where you can ask Copilot to do something for you. One of my favorites is to ask Copilot “Can you write me the outline of a LaTeX document?”\nSide chat: You can open up a side-pane for a continuous chat with Copilot, much like Chat-GPT. You can ask Copilot to explain things to you, or to make suggestions.\n\nGitHub Pull Requests and Issues:\n\nAllows for a smoother integration of GitHub into VSCode.\n\nGitHub Repositories:\n\nAnother extension which helps to integrate your repositories into VSCode.\n\nindent-rainbow:\n\nHighlights vertically along indents, allowing you to see the different levels of structure in your code.\n\nLaTeX Utilities:\n\nExtension pack for LaTeX Workshop. Includes quicker paste options, live snippets, and word count.\n\nLaTeX Workshop:\n\nIncludes many features, including snippets, shortcuts, and pdf-viewing.\n\nLive Preview:\n\nAllows you to see HTML previews inside VSCode.\n\nLTeX - LanguageTool grammar/spell checking:\n\nUnderlines potential spelling and grammar mistakes.\n\nPath Autocomplete:\n\nAutocompletes paths for files inside your repository.\n\nR:\n\nAllows you to use R in VSCode, with snippets and various viewer options.\n\nR Debugger:\n\nIntegrates the debugging process for R into VSCode.\n\nRainbow CSV:\n\nIf you view a CSV file inside VSCode, each variable will be color-coded (for easier viewing)\n\nRemote Repositories:\n\nDependency for GitHub extensions.\n\nSettings Cycler:\n\nNecessary for using special keyboard shortcuts to toggle settings on/off.\n\nToggle:\n\nNecessary for using special keyboard shortcuts to toggle settings on/off.\n\nvscode-icons:\n\nIncludes additional graphic icons for file types, etc., inside VSCode.\n\nWord Count:\n\nProvides additional word count support for markdown documents.\n\nZotero LaTeX:\n\nAllows for more smooth integration for Zotero in LaTeX documents.",
+    "text": "There are a lot of extensions available in VSCode. You can always install more extensions that we have! We’ve included some that we find make coding in \\(\\LaTeX\\) much easier. These include:\n\nAzure Repos:\n\nDependency for GitHub extensions.\n\nBetter Comments:\n\nColor codes types of comments with symbols at the beginning of each. For example, there are:\n\n“*” for highlighting a comment (green)\n“!” for an alert (red)\n“?” for a question (blue)\n“TODO” for a to-do (orange)\n“//” for a strikethrough\n\nYou can also customize your own.\n\nGitHub Pull Requests and Issues:\n\nAllows for a smoother integration of GitHub into VSCode.\n\nGitHub Repositories:\n\nAnother extension which helps to integrate your repositories into VSCode.\n\nindent-rainbow:\n\nHighlights vertically along indents, allowing you to see the different levels of structure in your code.\n\nLaTeX Utilities:\n\nExtension pack for LaTeX Workshop. Includes quicker paste options, live snippets, and word count.\n\nLaTeX Workshop:\n\nIncludes many features, including snippets, shortcuts, and pdf-viewing.\n\nLive Preview:\n\nAllows you to see HTML previews inside VSCode.\n\nLTeX - LanguageTool grammar/spell checking:\n\nUnderlines potential spelling and grammar mistakes.\n\nPath Autocomplete:\n\nAutocompletes paths for files inside your repository.\n\nR:\n\nAllows you to use R in VSCode, with snippets and various viewer options.\n\nR Debugger:\n\nIntegrates the debugging process for R into VSCode.\n\nRainbow CSV:\n\nIf you view a CSV file inside VSCode, each variable will be color-coded (for easier viewing)\n\nRemote Repositories:\n\nDependency for GitHub extensions.\n\nSettings Cycler:\n\nNecessary for using special keyboard shortcuts to toggle settings on/off.\n\nToggle:\n\nNecessary for using special keyboard shortcuts to toggle settings on/off.\n\nvscode-icons:\n\nIncludes additional graphic icons for file types, etc., inside VSCode.\n\nWord Count:\n\nProvides additional word count support for markdown documents.\n\nZotero LaTeX:\n\nAllows for more smooth integration for Zotero in LaTeX documents.",
     "crumbs": [
       "Training materials",
       "VS Code",
@@ -443,7 +428,7 @@
     "href": "pages/OGHE_customize.html",
     "title": "Customizing Your Website",
     "section": "",
-    "text": "Customizing your website requires you to have some basic knowledge about HTML and CSS. If that sounds scary, ChatGPT might be able to help you out!\nNow you are ready to customize the website! To personalize your website, you will need to change all of the text and images that are currently in your template.\nIf your site has one page, you will likely only need to edit your index.html file. If your site has more pages, there will be additional .html files for you to edit. To change your styling, there should be a main.css file inside of the assets/css/ folder. Here you can change stylings, like color, text size, and fonts.\nOpen any of the .html files in the GitHub file editor by clicking on the file to edit them. You can replace the text via editing. To replace images, you will need to create an images folder inside of your username.github.io repository, where you can download images to. You will then have to use image tags &lt;img src=“images/specific_path_to_photo.png”&gt; in your .html files.\nAdditionally, you may want to create more .html files, especially if you’d like an individual page for each of your publications, etc. You may want to delete some of the .html files that you don’t use from the template, too. Just make sure that your index.html or other .html files you do use do not link to the files you delete, or your page will get 404 errors if someone clicks on those links.\nMake sure to save and commit all of your changes to GitHub. We recommend doing this repeatedly, so that you can see your edits taking effect as you edit your site. This may take a few minutes after committing. When you are in your GitHub repository, you should see a green checkmark next to your commit message to tell you that your build has successfully deployed.",
+    "text": "Customizing your website requires some basic knowledge of HTML and CSS. If that sounds daunting, the template you chose will already have the structure in place — in most cases you are replacing text and images rather than writing markup from scratch.\nNow you are ready to customize the website! To personalize your website, you will need to change all of the text and images that are currently in your template.\nIf your site has one page, you will likely only need to edit your index.html file. If your site has more pages, there will be additional .html files for you to edit. To change your styling, there should be a main.css file inside of the assets/css/ folder. Here you can change stylings, like color, text size, and fonts.\nOpen any of the .html files in the GitHub file editor by clicking on the file to edit them. You can replace the text via editing. To replace images, you will need to create an images folder inside of your username.github.io repository, where you can download images to. You will then have to use image tags &lt;img src=“images/specific_path_to_photo.png”&gt; in your .html files.\nAdditionally, you may want to create more .html files, especially if you’d like an individual page for each of your publications, etc. You may want to delete some of the .html files that you don’t use from the template, too. Just make sure that your index.html or other .html files you do use do not link to the files you delete, or your page will get 404 errors if someone clicks on those links.\nMake sure to save and commit all of your changes to GitHub. We recommend doing this repeatedly, so that you can see your edits taking effect as you edit your site. This may take a few minutes after committing. When you are in your GitHub repository, you should see a green checkmark next to your commit message to tell you that your build has successfully deployed.",
     "crumbs": [
       "Training materials",
       "GitHub Pages",
@@ -734,7 +719,7 @@
     "href": "git/editing.html#when-someone-else-unfortunately-edits-the-same-line-as-you",
     "title": "Editing",
     "section": "When someone else (unfortunately) edits the same line as you",
-    "text": "When someone else (unfortunately) edits the same line as you\nYou must resolve these differences!\n\n\nPull: in the terminal window, type git pull\n\n\n\nYou will get a “merge conflict” error message\n\n\n\nEdit your file. You will see something like this:  &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;  passage written by person 1  ===========  passage written by person 2  &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; \n\n\nRemove one of the passages, as well as the &lt;&lt;&lt;, ===, and &gt;&gt;&gt; symbols.\n\n\nCommit: in the terminal window, type git commit -am “your commit message”\n\n\n\nThis prepares your changes for uploading\n\n\n\nPush: in the terminal window, type git push\n\n\n\nThis uploads your changes to the GitHub repository\n\n\n\n\nDepending on your IDE, there may be more convenient or visual ways of dealing with merge conflicts. It’s always good to check your IDE’s documentation or look up how to deal with merge conflicts in your specific IDE. ChatGPT can be a great resource, too!",
+    "text": "When someone else (unfortunately) edits the same line as you\nYou must resolve these differences!\n\n\nPull: in the terminal window, type git pull\n\n\n\nYou will get a “merge conflict” error message\n\n\n\nEdit your file. You will see something like this:  &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;  passage written by person 1  ===========  passage written by person 2  &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; \n\n\nRemove one of the passages, as well as the &lt;&lt;&lt;, ===, and &gt;&gt;&gt; symbols.\n\n\nCommit: in the terminal window, type git commit -am “your commit message”\n\n\n\nThis prepares your changes for uploading\n\n\n\nPush: in the terminal window, type git push\n\n\n\nThis uploads your changes to the GitHub repository\n\n\n\n\nDepending on your IDE, there may be more convenient or visual ways of dealing with merge conflicts. It’s always good to check your IDE’s documentation for how it handles merge conflicts.",
     "crumbs": [
       "Training materials",
       "Git and GitHub",
@@ -992,7 +977,7 @@
     "href": "vscode/dependencies.html",
     "title": "Dependencies",
     "section": "",
-    "text": "In order to use VSCode effectively, there are some additional programs or applications that we also recommend you install or use on your own.\n\nGitHub:\n\nWe recommend using GitHub. If you do not already have a GitHub account, we recommend following the instructions from GitHub.\n\nCopilot:\n\nOne of the main benefits of VSCode is its integration with GitHub Copilot, an AI pair programmer which helps you to more effectively and quickly write code.\nPlease use these instructions for setting up your GitHub Copilot account.\n\nSkim:\n\nSkim is a PDF viewer, which you can download from the internet. We recommend setting this as your default PDF viewer.\nOnce Skim is open, go to the top toolbar menu. Select Skim &gt; Settings.\nIn the settings pane that opens, click Sync on the top right.\nCheck off the boxes for “Check for file changes” and “Reload automatically”\nIn the PDF-TeX Sync support section, set the “Preset” to Visual Studio Code\n\nMikTex:\n\nMikTex is a TeX distribution which you can download from the internet.\nIf you already have a TeX distribution installed on your computer, you do not need to install MiKTeX as well.\n\nPandoc:\n\nPandoc allows you to knit .Rmd files to PDF files. You can install the latest release from the internet.",
+    "text": "In order to use VSCode effectively, there are some additional programs or applications that we also recommend you install or use on your own.\n\nGitHub:\n\nWe recommend using GitHub. If you do not already have a GitHub account, we recommend following the instructions from GitHub.\n\nSkim:\n\nSkim is a PDF viewer, which you can download from the internet. We recommend setting this as your default PDF viewer.\nOnce Skim is open, go to the top toolbar menu. Select Skim &gt; Settings.\nIn the settings pane that opens, click Sync on the top right.\nCheck off the boxes for “Check for file changes” and “Reload automatically”\nIn the PDF-TeX Sync support section, set the “Preset” to Visual Studio Code\n\nMikTex:\n\nMikTex is a TeX distribution which you can download from the internet.\nIf you already have a TeX distribution installed on your computer, you do not need to install MiKTeX as well.\n\nPandoc:\n\nPandoc allows you to knit .Rmd files to PDF files. You can install the latest release from the internet.",
     "crumbs": [
       "Training materials",
       "VS Code",
@@ -1082,7 +1067,7 @@
     "href": "emacs/commands.html",
     "title": "Commands List",
     "section": "",
-    "text": "All of the previous commands, and some additional ones are listed below. From the GNU Emacs Survival Card.\nRunning Emacs:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-x C-c\nQuit Emacs\n\n\nC-x C-f\nEdit file; this command uses the mini buffer to read the file name; use this to create new files by entering the name of the new file\n\n\nC-x C-s\nSave file\n\n\nC-x k\nKill a buffer\n\n\nC-g\nIn most contexts: cancel, stop, abort partially types or executing command\n\n\nC-x u\nUndo\n\n\n\n\nMoving About:\n\n\n\nCommand\nFunction\n\n\n\n\nC-l\nScroll current line to center of window\n\n\nC-x b\nSwitch to another buffer\n\n\nM-&lt;\nMove to beginning of the buffer\n\n\nM-&gt;\nMove to the end of the buffer\n\n\nM-g M-g\nGo to a given line number\n\n\n\n\nMultiple Windows:\n\n\n\nCommand\nFunction\n\n\n\n\nC-x 0\nRemove the current window from the display\n\n\nC-x 1\nMake active window the only window\n\n\nC-x 2\nSplit window horizontally\n\n\nC-x 3\nSplit window vertically\n\n\nC-x o\nMove to other window\n\n\n\n\nRegions:\n\n\n\nCommand\nFunction\n\n\n\n\nC-space\nSet a mark\n\n\nM-h\nMark entire paragraph\n\n\nC-x h\nMark entire buffer\n\n\n\n\nKilling, Yanking, Copying and Pasting\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-w\nKill region\n\n\nM-w\nCopy region to kill-ring\n\n\nC-k\nKill from the cursor all the way to the end of the line\n\n\nM-DEL\nKill word\n\n\nC-y\nYank back the last kill (C-w C-y combination could be used to move text around)\n\n\nM-y\nReplace last yank with previous kill\n\n\nCmd-C\nCopy\n\n\nCmd-V\nPaste\n\n\n\n\nSearching:\n\n\n\nCommand\nFunction\n\n\n\n\nC-s\nSearch for a string (forwards)\n\n\nC-r\nSearch for a string (backwards)\n\n\nRET\nQuit searching\n\n\nM-C-s\nRegular expression search\n\n\nM-C-r\nReverse regular expression search\n\n\n\n\nTags\n\n\n\nCommand\nFunction\n\n\n\n\nM-.\nFind a definition\n\n\nM-*\nPop back to where M-. was last invoked\n\n\n\n\nCompiling:\n\n\n\nCommand\nFunction\n\n\n\n\nC-c C-c\nCompile the file\n\n\n\n\nGetting Help:\n\n\n\nCommand\nFunction\n\n\n\n\nC-h\nEmacs help\n\n\nC-h t\nRun the Emacs tutorial\n\n\nC-h i\nEnter Info, the documentation browser\n\n\nC-h a\nShow commands matching a string\n\n\nC-h k\nDisplay documentation of the function invoked by a keystroke\n\n\nC-h m\nGet mode-specific information\n\n\n\n\nCopilot:\n\n\n\nCommand\nFunction\n\n\n\n\nM-x copilot-mode\nToggle on/off copilot mode.\n\n\nM-C-RET\nAccept a completion.\n\n\nC-&lt;right&gt;\nAccept by word.",
+    "text": "All of the previous commands, and some additional ones are listed below. From the GNU Emacs Survival Card.\nRunning Emacs:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-x C-c\nQuit Emacs\n\n\nC-x C-f\nEdit file; this command uses the mini buffer to read the file name; use this to create new files by entering the name of the new file\n\n\nC-x C-s\nSave file\n\n\nC-x k\nKill a buffer\n\n\nC-g\nIn most contexts: cancel, stop, abort partially types or executing command\n\n\nC-x u\nUndo\n\n\n\n\nMoving About:\n\n\n\nCommand\nFunction\n\n\n\n\nC-l\nScroll current line to center of window\n\n\nC-x b\nSwitch to another buffer\n\n\nM-&lt;\nMove to beginning of the buffer\n\n\nM-&gt;\nMove to the end of the buffer\n\n\nM-g M-g\nGo to a given line number\n\n\n\n\nMultiple Windows:\n\n\n\nCommand\nFunction\n\n\n\n\nC-x 0\nRemove the current window from the display\n\n\nC-x 1\nMake active window the only window\n\n\nC-x 2\nSplit window horizontally\n\n\nC-x 3\nSplit window vertically\n\n\nC-x o\nMove to other window\n\n\n\n\nRegions:\n\n\n\nCommand\nFunction\n\n\n\n\nC-space\nSet a mark\n\n\nM-h\nMark entire paragraph\n\n\nC-x h\nMark entire buffer\n\n\n\n\nKilling, Yanking, Copying and Pasting\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-w\nKill region\n\n\nM-w\nCopy region to kill-ring\n\n\nC-k\nKill from the cursor all the way to the end of the line\n\n\nM-DEL\nKill word\n\n\nC-y\nYank back the last kill (C-w C-y combination could be used to move text around)\n\n\nM-y\nReplace last yank with previous kill\n\n\nCmd-C\nCopy\n\n\nCmd-V\nPaste\n\n\n\n\nSearching:\n\n\n\nCommand\nFunction\n\n\n\n\nC-s\nSearch for a string (forwards)\n\n\nC-r\nSearch for a string (backwards)\n\n\nRET\nQuit searching\n\n\nM-C-s\nRegular expression search\n\n\nM-C-r\nReverse regular expression search\n\n\n\n\nTags\n\n\n\nCommand\nFunction\n\n\n\n\nM-.\nFind a definition\n\n\nM-*\nPop back to where M-. was last invoked\n\n\n\n\nCompiling:\n\n\n\nCommand\nFunction\n\n\n\n\nC-c C-c\nCompile the file\n\n\n\n\nGetting Help:\n\n\n\nCommand\nFunction\n\n\n\n\nC-h\nEmacs help\n\n\nC-h t\nRun the Emacs tutorial\n\n\nC-h i\nEnter Info, the documentation browser\n\n\nC-h a\nShow commands matching a string\n\n\nC-h k\nDisplay documentation of the function invoked by a keystroke\n\n\nC-h m\nGet mode-specific information",
     "crumbs": [
       "Training materials",
       "Emacs",
@@ -1104,106 +1089,93 @@
     ]
   },
   {
-    "objectID": "emacs/creating.html",
-    "href": "emacs/creating.html",
-    "title": "Creating and Setting Up Documents",
+    "objectID": "emacs/editing.html",
+    "href": "emacs/editing.html",
+    "title": "Editing Your Document",
     "section": "",
-    "text": "To create your document, type C-x C-f (“Find a file”). Then use your arrow keys and return to navigate to the folder in which you’d like your document to live. When the top line of your mini buffer says the name of the correct folder, make sure that your cursor is on the top line, after the slash, and then type the name that you would like for your document. If you are making a Latex file, make sure to include the “.tex” suffix. Click return when you are done, and a new buffer with the name of the file will be displayed in your window.\nYou can also set local variables within a comment block at the end of a file. While most customizations will be already downloaded for you inside the init.el and custom.el files from the IQSS configuration, you wish to have file-specific customizations as well. You can use the following as an example of what you can put at the end of a file:\n% Local Variables:\n% mode: latex\n% TeX-master: t\n% TeX-engine: pdflatex\n% fill-column: 80\n% End:\n\nYou must have the first and the last line; these tell Emacs that you’re defining local variables.\nThe “mode” tells Emacs that you are typing in LaTeX.\n“TeX-master: t” tells Emacs that you are in the “master file” which refers to the file which includes all of your header information. For example: if you are in a project, say a book with multiple chapters, and each chapter has its own .tex file, you could use TeX-master to tell Emacs which file contains the header information. So, in your main.tex file, you could have: “” which reads in your chapter1.tex file. In the chapter files, you could simply write your LaTeX code, and include % TeX-master: “main.tex” in your local variables.\n“TeX-engine” tells Emacs how to compile your LaTeX file – in this case, we want a pdf.\n“fill-column: 80” tells Emacs that we want our text to automatically wrap after 80 characters.\nWe can also define which dictionary we want spell check to use.",
+    "text": "Text editing in Emacs has some different terminology than what you may be used to. For instance, there is “killing” which deletes text (but saves it to a “kill ring” that you still have access to), and “yanking” which brings text back. This is similar to cutting/pasting.\nHowever, we’ve also included keyboard shortcuts where you can continue to use Cmd+C and Cmd+V for copy and paste, as you normally would on your Mac.\nOne good thing about the kill ring is that you have continued access to text that you may have previously deleted and you may want to bring it back. Here are some of the commands that you may find useful:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-w\nIf you have a region highlighted, this will kill the region to your kill ring.\n\n\nM-w\nIf you have a region highlighted, this will copy the region to your killing ring without deleting the text.\n\n\nC-y\nYank back the last kill (i.e. paste what you just deleted)\n\n\nM-y &lt;select text&gt;\nAllows you to select which of your previous kills that you’d like to bring back.\n\n\n\n\nSearching for text:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-s\nSearch for a string (only from your cursor on, i.e., forward search)\n\n\nC-r\nSearch for a string (backwards)\n\n\nRET\nQuit searching\n\n\nM-C-s\nRegular expression search (forwards).\n\n\nM-C-r\nRegular expression search (backwards).",
     "crumbs": [
       "Training materials",
       "Emacs",
       "Getting started",
-      "Creating and Setting Up Documents"
+      "Editing Your Document"
     ]
   },
   {
-    "objectID": "emacs/external_res.html",
-    "href": "emacs/external_res.html",
-    "title": "External Resources",
+    "objectID": "emacs/glossary.html",
+    "href": "emacs/glossary.html",
+    "title": "Glossary of Key Terms",
     "section": "",
-    "text": "Documentation for useful programs that you may need (or like) to install\nHomebrew documentation\nGnu-tar documentation\nNode.js documentation\nIspell documentation\nEmacs Application Installer\nIQSS Configuration GitHub\nCopilot\nHotkeys for Macs or PCs\n\nAlso, it never hurts to use Google, Stack Overflow, Quora, ChatGPT, etc. when you run into any issues!\nYouTube also has a vast array of Emacs turorials.",
+    "text": "Buffer: A temporary storage area used for holding text that is being edited.\nFrame: A graphical element that contains one or more windows. If you have multiple frames open, you can have separate instances of Emacs running at once.\nKilling: Deleting text, but storing it in a “kill ring” for future use.\nMini Buffer: A special area at the bottom of the screen used for user input and displaying messages from Emacs itself. It is where Emacs prompts the user for commands, file names, search strings, and other input.\nMode Line: A special area located at the bottom of the window, just above the minibuffer (if present). It provides information about the current state of the buffer and the editing environment.\nWindow: A subdivision within a frame where buffers are displayed. Each window typically shows the contents of a single buffer.\nYanking: Pasting previously killed text back into a document.",
     "crumbs": [
       "Training materials",
       "Emacs",
       "Resources",
-      "External Resources"
+      "Glossary of Key Terms"
     ]
   },
   {
-    "objectID": "emacs/important_keys.html",
-    "href": "emacs/important_keys.html",
-    "title": "Important Keys",
+    "objectID": "emacs/index.html",
+    "href": "emacs/index.html",
+    "title": "Emacs",
     "section": "",
-    "text": "Two of the most important keys you will need to know are the Control key (abbreviated by C) and the Option key (aka the “Meta” key or the “Alt” key, abbreviated by M).\nMost Emacs commands will require you to hold down either the Control key or the Meta key while typing. The syntax for Emacs commands are C-&lt;character&gt; which means hold the Control key when you press &lt;character&gt;. Additionally you may see M-&lt;chr 1&gt; &lt;chr 2&gt; which means hold the Meta key while you press the first character, release it, and then press the second character. Or you may see two in row, for example: C-x C-f, which means hold the Control key and press x and then f (while still holding the Control key). This is the “find a file” command.\nAdditionally, to quit Emacs you can type C-x C-c (or, of course, you can click out of the user interface).\nTo quit a command, use C-g. (You may want to repeatedly press C-g).",
+    "text": "The following is a quick starter guide designed to get you acquainted with Emacs, a desktop application for editing \\(\\LaTeX\\). Of our recommended applications, Emacs is the most powerful in terms of text editing and customization.",
+    "crumbs": [
+      "Training materials",
+      "Emacs",
+      "Start here"
+    ]
+  },
+  {
+    "objectID": "emacs/layout.html",
+    "href": "emacs/layout.html",
+    "title": "Layout",
+    "section": "",
+    "text": "Understanding the layout of Emacs, and the following terms and commands, is crucial in effectively navigating the workspace.\nThere are three main components of the Emacs workspace: frames, windows, and buffers. Frames are the rectangles on your screen. For example, on a Mac, you’ll likely see a gray top bar with the red, yellow, and green circles at the top of your frame. Each frame can be broken up into windows, which allow you to see documents. Each window holds a single buffer, which is text content, that is already from a file or can be saved to a file.\nYou can have multiple windows open inside a single frame at a time, allowing you to see multiple files, or different parts of the same file, at the same time. Additionally, you can have multiple frames, each its own separate instance of Emacs, allowing you to switch between projects all on the same screen.\nAdditionally, there is a smaller section at the bottom of an Emacs frame. First, you will see the mode line, which tells you information about the current buffer being displayed, including its name, modes, and position. Underneath this, you will see the mini buffer, which is where you will enter commands and see interactive text. You can access the mini buffer by pressing M-x, and then searching for commands.\nYou can open up another frame with the command C-x 5 2. (This will open the same file that you already have opened in a second frame). You can also do M-x make-frame.\nTo switch between frames, use C-x 5 o (for “other”). This will cycle through your open Emacs frames.\nTo close your current frame, you can use the command C-x 5 0, or M-x delete-frame.\nTo open another window inside the same frame, there are multiple commands you can use, depending on how you want the window to open:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-x 2\nSplit the current frame horizontally. This will open the same buffer as the one you current have open.\n\n\nC-x 3\nSplit the current frame vertically.\n\n\nC-x 4 f &lt;select file&gt;\nOpen a specific file in a new window.\n\n\nC-x 4 b &lt;select buffer&gt;\nOpen a specific buffer in a new window. This will list recent buffers, including messages, and scratch work.\n\n\n\n\nAdditional commands to close or move windows include:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-x 0\nClose out of the window where your cursor is.\n\n\nC-x 1\nClose out of all windows except for the one where your cursor is.\n\n\nC-x o\nMoves your cursor to the next window. If you repeatedly do this, the cursor will cycle through the open windows.",
     "crumbs": [
       "Training materials",
       "Emacs",
       "Getting started",
-      "Important Keys"
+      "Layout"
     ]
   },
   {
-    "objectID": "emacs/install_packages.html",
-    "href": "emacs/install_packages.html",
-    "title": "Install Emacs Packages",
+    "objectID": "emacs/overview.html",
+    "href": "emacs/overview.html",
+    "title": "Overview",
     "section": "",
-    "text": "Now we are going to open Emacs for the first time. This will install a lot of Emacs packages for you, almost automatically.\nIn the bottom, a message will ask you to press “y” to install packages. Please do. A lot of packages will load again.\nAfter some time, another message will pop up again asking you to press “y” to install a few more packages. Again, please do.\nThis may take a bit of time to install of these packages (~5 minutes).\nAt the end, you may or may not get a message that a package is deprecated. This should not be an issue, and it should not appear again when you open Emacs in the future.\nNow please close out of Emacs and reopen it.",
+    "text": "This section will walk you through installing the Emacs application, necessary packages, as well as the IQSS configuration.\nThese instructions only support MacOS users currently. Please stay updated as we prepare materials for Microsoft users.\nIn preparation for installing Emacs, there are other programs that we also recommend to install. Please refer to our documentation for useful programs to install prior to Emacs. This page includes links to external download sites for programs such as R, MikTex, and Git.\nIn fact, if you do not install some of these (or if you have not previously installed some of these), you may run into problems when loading our Emacs configuration. Git in particular should be installed first, since some packages are fetched with it.\nFor this process, we will teach you how to use the command line in the terminal. However, there will also be external links for many of the download options if you are not wholly comfortable in the terminal, or find yourself running into problems.",
     "crumbs": [
       "Training materials",
       "Emacs",
-      "Opening Emacs for the first time",
-      "Install Emacs Packages"
+      "Installation",
+      "Overview"
     ]
   },
   {
-    "objectID": "emacs/moving.html",
-    "href": "emacs/moving.html",
-    "title": "Moving Around Your Document",
+    "objectID": "emacs/saving.html",
+    "href": "emacs/saving.html",
+    "title": "Saving and Compiling Your Document",
     "section": "",
-    "text": "Emacs makes it extremely easy to move around your document without needing to use your mouse or trackpad (although, you can always use those, too!). Some of the most common commands to move throughout the document are:\nMoving by screens:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-v\nMove forward one screen (a couple lines of overlap will be provided).\n\n\nM-v\nMove backward one screen.\n\n\nC-l\nIf you do this once, it will center the screen on your cursor. If you do this again, your cursor will move to the top of the screen. If you do this once again, your cursor will move to the bottom of the screen.\n\n\n\n\nMoving by characters:\n\n\n\nCommand\nFunction\n\n\n\n\nC-p OR &lt;up key&gt;\nGo to the previous line.\n\n\nC-n OR &lt;down key&gt;\nGo to the next line.\n\n\nC-b OR &lt;left key&gt;\nMove one space backward.\n\n\nC-f OR &lt;right key&gt;\nMove one space forward.\n\n\n\n\nMoving by words:\n\n\n\nCommand\nFunction\n\n\n\n\nM-f\nGo to the next word.\n\n\nM-b\nGo to the previous word.\n\n\n\n\nMoving in a line:\n\n\n\nCommand\nFunction\n\n\n\n\nC-a\nGo to the beginning of the line.\n\n\nC-e\nGo to the end of the line.\n\n\n\n\nMoving between sentences:\n\n\n\nCommand\nFunction\n\n\n\n\nM-a\nGo to the beginning of the sentence.\n\n\nM-e\nGo to the end of the sentence.\n\n\n\n\nMoving to the extremes:\n\n\n\nCommand\nFunction\n\n\n\n\nM-shift-, OR M-&lt;\nGo to the beginning of the document.\n\n\nM-shift-. OR M-&gt;\nGo to the end of the document.\n\n\n\n\nMoving your screen (without moving the cursor):\n\n\n\nCommand\nFunction\n\n\n\n\nC-&lt;up key&gt;\nMove the visible part of the buffer up.\n\n\nC-&lt;down key&gt;\nMove the visible part of the buffer down.",
-    "crumbs": [
-      "Training materials",
-      "Emacs",
-      "Getting started",
-      "Moving Around Your Document"
-    ]
-  },
-  {
-    "objectID": "emacs/problems.html",
-    "href": "emacs/problems.html",
-    "title": "Common Problems",
-    "section": "",
-    "text": "You may have keybindings set for your computer that supersede the keybindings set in Emacs. For example, my C-&lt;up&gt;, C-&lt;down&gt;, and C-&lt;right&gt; controls were used by my Mac for Mission Control and Applications settings. To disable these keybindings, go to your Apple Menu &gt; System Settings &gt; Keyboard &gt; Keyboard Shortcuts and then locate the settings you’d like to disable. Uncheck them. Full instructions for Macs can be found here. Instructions for PCs can be found here.\nEmacs is on the older side. Newer installations seem to have some problems with loading in some packages. For example, I could not install ‘use-package with the M-x install-packages command, but instead had to install it by looking at M-x list-packages.",
-    "crumbs": [
-      "Training materials",
-      "Emacs",
-      "Common Problems"
-    ]
-  },
-  {
-    "objectID": "emacs/tutorial.html",
-    "href": "emacs/tutorial.html",
-    "title": "Emacs Tutorial",
-    "section": "",
-    "text": "To open up Emacs’s built-in tutorial, type Control-h t. (You may also need to type y for “yes” if it asks).\nWe strongly recommend that you complete this tutorial, as it shows you the most useful keys!",
+    "text": "To save a file, use C-x C-s. You should see “Wrote &lt;document-name&gt;” in the mini buffer.\nTo compile a Latex document, use C-c C-c. You may need to follow a few simple prompts. For example, you may need to tell Emacs that this is Latex.\nIf you are compiling a beamer presentation, and you did not specify your Tex engine in your document, you will need to execute the following command before compiling your document: M-x tex-engine-set and then select xetex and return. Now use C-c C-c. \nThen, in your finder, you should see a slew of new files all with the same name as your .tex file, but with various suffixes. Find the one that is &lt;document-name&gt;.pdf and open it. Congrats! You’ve made your document!",
     "crumbs": [
       "Training materials",
       "Emacs",
       "Getting started",
-      "Emacs Tutorial"
+      "Saving and Compiling Your Document"
     ]
   },
   {
-    "objectID": "latex/comparison.html",
-    "href": "latex/comparison.html",
-    "title": "Comparison of Applications",
+    "objectID": "latex/articles.html",
+    "href": "latex/articles.html",
+    "title": "Using LaTeX for Articles",
     "section": "",
-    "text": "There are a lot of \\(\\LaTeX\\) editors that exist. Depending on what editing power, user experience, and learning cost you want out of your editor, we have three recommendations that you may wish to choose. However, these are not exhaustive, and there may be additional editors that you’d like to use.\nIf you prefer an editor with a lower startup investment and are okay with the editor having less editing power, you may wish to choose Overleaf.\n\n\n\n\n\n\n\nPros\nCons\n\n\n\n\n- Collaborative  - Online, no installation  - Very modern and intuitive design\n- Reliant on UI, cannot do as much with keybindings  - Live editing can cause others to not be able to compile a file  - Not customizable\n\n\n\n\nIf you prefer an editor with a medium startup investment and medium power, you may wish to use VSCode.\n\n\n\n\n\n\n\nPros\nCons\n\n\n\n\n- All-in-one-stop: has extensions for all types of coding (R, Python, etc.)  - Copilot integraton is nice for suggestions, chatbot, and ease-of-use  - Modern design, familiar IDE experience  - Somewhat customizable via exentions, settings, and keybindings\n- More control with keybindings, but limited to the packages and extensions that exist  - Installation is required, but a relatively easy process\n\n\n\n\nIf you are okay with a high startup investment in return for higher power, you may wish to use Emacs.\n\n\n\n\n\n\n\nPros\nCons\n\n\n\n\n- You can do almost anything with keybindings  - Designed to do exactly what you want  - Very customizable  - Open source\n- Older, not modern design  - Need to code customizations in Lisp, which is barely used  - Need to learn a lot of keybindings to use effectively  - Installation is required\n\n\n\n\nIn sum, you may want to start with Emacs, because you may have the time and energy to learn how to use it, and you know that it can have a greater return on investment. Or, you may be okay with using Overleaf, because you don’t want to learn a bunch of keyboard shortcuts. Or, you might want an all-in-one solution where you can write all of your code with VSCode. And, of course, you might already have an IDE you like to use (TeXShop, Vim, TeXStudio, etc.). These are all fine options, too!",
+    "text": "We strongly encourage you to use \\(\\LaTeX\\) when writing your articles. Of course, you can draft your writing in programs like Google Docs (which you may prefer), but your polished versions should be .pdf files created from a .tex file.\nWhy? Common text editors like Google Docs do not yet incorporate math notation in a nice way yet. (Yes, it is feature. No, it is not good). As a budding social scientist, your work will likely need math notation in some form or another. This is exactly why \\(\\LaTeX\\) is useful. It provides a simple, replicable way to incorporate math notation into your documents.\nPlus, \\(\\LaTeX\\) has many functions that make the writing process easier. While not exhaustive, these include general formatting functions (e.g., centering, italics, etc.), bibliographic features (e.g., references and citations), and organizational abilities (e.g., connecting multiple documents together).",
     "crumbs": [
       "Training materials",
       "LaTeX",
-      "Choosing an editor",
-      "Comparison of Applications"
+      "Documents",
+      "Using LaTeX for Articles"
     ]
   },
   {
