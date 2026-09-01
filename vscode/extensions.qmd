@@ -14,11 +14,6 @@ There are *a lot* of extensions available in VSCode. You can always install more
     * "TODO" for a to-do (orange)
     * "//" for a strikethrough
   * You can also customize your own.
-* **GitHub Copilot**:
-  * In-line suggestions: Copilot will anticipate what you are about to type. You can accept these suggestions, or keep typing.
-* **GitHub Copilot Chat**:
-  * In-line chat: You can use Cmd+I to start an inline chat, where you can ask Copilot to do something for you. One of my favorites is to ask Copilot "Can you write me the outline of a LaTeX document?"
-  * Side chat: You can open up a side-pane for a continuous chat with Copilot, much like Chat-GPT. You can ask Copilot to explain things to you, or to make suggestions.
 * **GitHub Pull Requests and Issues**:
   * Allows for a smoother integration of GitHub into VSCode.
 * **GitHub Repositories**:

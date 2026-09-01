@@ -4,7 +4,7 @@ title: "Customizing Your Website"
 
 <br> 
 
-Customizing your website requires you to have some basic knowledge about HTML and CSS. If that sounds scary, ChatGPT might be able to help you out!
+Customizing your website requires some basic knowledge of HTML and CSS. If that sounds daunting, the template you chose will already have the structure in place --- in most cases you are replacing text and images rather than writing markup from scratch.
 
 Now you are ready to customize the website! To personalize your website, you will need to change all of the text and images that are currently in your template.
 

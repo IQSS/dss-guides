@@ -4,7 +4,7 @@ title: "Installing Necessary Packages on Your Computer"
 
 There are a few programs that we will need to install: Homebrew, node, ispell, and gnu-tar.
 
-Homebrew is necessary as MacOS's package manager. This will allow you to install various programs via the command line. Node.js, ispell, and gnu-tar are all dependencies that are needed in order to integrate with Copilot.
+Homebrew is necessary as macOS's package manager. This will allow you to install various programs via the command line. Node.js, ispell and gnu-tar are dependencies of packages in our Emacs configuration --- ispell provides spell checking, and the other two are needed while packages are built and installed.
 
 To do so, please open your Terminal. (If you don't know where this is: Finder > Applications > Utilities > Terminal). 
 

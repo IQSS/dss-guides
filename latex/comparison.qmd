@@ -16,7 +16,7 @@ If you prefer an editor with a medium startup investment and medium power, you m
 
 | Pros   | Cons  |
 | ---    | ---   |
-| - All-in-one-stop: has extensions for all types of coding (R, Python, etc.) <br> - Copilot integraton is nice for suggestions, chatbot, and ease-of-use <br> - Modern design, familiar IDE experience <br> - Somewhat customizable via exentions, settings, and keybindings | - More control with keybindings, but limited to the packages and extensions that exist <br> - Installation is required, but a relatively easy process |
+| - All-in-one-stop: has extensions for all types of coding (R, Python, etc.) <br> - Modern design, familiar IDE experience <br> - Somewhat customizable via exentions, settings, and keybindings | - More control with keybindings, but limited to the packages and extensions that exist <br> - Installation is required, but a relatively easy process |
 
 <br>
 

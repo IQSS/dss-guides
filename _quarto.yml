@@ -95,10 +95,7 @@ website:
               - emacs/computer_installer.qmd
               - emacs/application.qmd
               - emacs/configuration.qmd
-          - section: "Opening Emacs for the first time"
-            contents:
-              - emacs/install_packages.qmd
-              - emacs/copilot_login.qmd
+          - emacs/install_packages.qmd
           - section: "Getting started"
             contents:
               - emacs/tutorial.qmd
@@ -123,10 +120,7 @@ website:
               - latex/overleaf.qmd
               - latex/vscode.qmd
               - latex/emacs.qmd
-          - section: "Suggested tools"
-            contents:
-              - latex/github.qmd
-              - latex/copilot.qmd
+          - latex/github.qmd
           - section: "Documents"
             contents:
               - latex/articles.qmd
