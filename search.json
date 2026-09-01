@@ -107,7 +107,7 @@
     "href": "latex/overleaf.html",
     "title": "Overleaf",
     "section": "",
-    "text": "If your application of choice is Overleaf, take a look at our Overleaf Starter Guide!",
+    "text": "Overleaf is the lowest-effort way to start: it runs in the browser, so there is nothing to install, and two people can edit the same document at once. The trade is control — you work through its interface rather than your own keybindings, and you cannot customise much.\nThe Overleaf guide covers signing up, the editor, collaborating, templates, and bibliographies.",
     "crumbs": [
       "Training materials",
       "LaTeX",
@@ -248,7 +248,7 @@
     "href": "emacs/commands.html",
     "title": "Commands List",
     "section": "",
-    "text": "All of the previous commands, and some additional ones are listed below. From the GNU Emacs Survival Card.\nRunning Emacs:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-x C-c\nQuit Emacs\n\n\nC-x C-f\nEdit file; this command uses the mini buffer to read the file name; use this to create new files by entering the name of the new file\n\n\nC-x C-s\nSave file\n\n\nC-x k\nKill a buffer\n\n\nC-g\nIn most contexts: cancel, stop, abort partially types or executing command\n\n\nC-x u\nUndo\n\n\n\n\nMoving About:\n\n\n\nCommand\nFunction\n\n\n\n\nC-l\nScroll current line to center of window\n\n\nC-x b\nSwitch to another buffer\n\n\nM-&lt;\nMove to beginning of the buffer\n\n\nM-&gt;\nMove to the end of the buffer\n\n\nM-g M-g\nGo to a given line number\n\n\n\n\nMultiple Windows:\n\n\n\nCommand\nFunction\n\n\n\n\nC-x 0\nRemove the current window from the display\n\n\nC-x 1\nMake active window the only window\n\n\nC-x 2\nSplit window horizontally\n\n\nC-x 3\nSplit window vertically\n\n\nC-x o\nMove to other window\n\n\n\n\nRegions:\n\n\n\nCommand\nFunction\n\n\n\n\nC-space\nSet a mark\n\n\nM-h\nMark entire paragraph\n\n\nC-x h\nMark entire buffer\n\n\n\n\nKilling, Yanking, Copying and Pasting\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-w\nKill region\n\n\nM-w\nCopy region to kill-ring\n\n\nC-k\nKill from the cursor all the way to the end of the line\n\n\nM-DEL\nKill word\n\n\nC-y\nYank back the last kill (C-w C-y combination could be used to move text around)\n\n\nM-y\nReplace last yank with previous kill\n\n\nCmd-C\nCopy\n\n\nCmd-V\nPaste\n\n\n\n\nSearching:\n\n\n\nCommand\nFunction\n\n\n\n\nC-s\nSearch for a string (forwards)\n\n\nC-r\nSearch for a string (backwards)\n\n\nRET\nQuit searching\n\n\nM-C-s\nRegular expression search\n\n\nM-C-r\nReverse regular expression search\n\n\n\n\nTags\n\n\n\nCommand\nFunction\n\n\n\n\nM-.\nFind a definition\n\n\nM-*\nPop back to where M-. was last invoked\n\n\n\n\nCompiling:\n\n\n\nCommand\nFunction\n\n\n\n\nC-c C-c\nCompile the file\n\n\n\n\nGetting Help:\n\n\n\nCommand\nFunction\n\n\n\n\nC-h\nEmacs help\n\n\nC-h t\nRun the Emacs tutorial\n\n\nC-h i\nEnter Info, the documentation browser\n\n\nC-h a\nShow commands matching a string\n\n\nC-h k\nDisplay documentation of the function invoked by a keystroke\n\n\nC-h m\nGet mode-specific information\n\n\n\n\nCopilot:\n\n\n\nCommand\nFunction\n\n\n\n\nM-x copilot-mode\nToggle on/off copilot mode.\n\n\nM-C-RET\nAccept a completion.\n\n\nC-&lt;right&gt;\nAccept by word.",
+    "text": "All of the previous commands, and some additional ones, are listed below.\n\n\n\n\n\n\nThese tables are taken from the GNU Emacs Survival Card, copyright © Free Software Foundation, Inc. The card is distributed under its own permission notice, which requires that the copyright and permission notice be kept on all copies; it is not covered by the CC BY 4.0 licence that applies to the rest of this site.\n\n\n\nRunning Emacs:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-x C-c\nQuit Emacs\n\n\nC-x C-f\nEdit file; this command uses the mini buffer to read the file name; use this to create new files by entering the name of the new file\n\n\nC-x C-s\nSave file\n\n\nC-x k\nKill a buffer\n\n\nC-g\nIn most contexts: cancel, stop, abort partially types or executing command\n\n\nC-x u\nUndo\n\n\n\n\nMoving About:\n\n\n\nCommand\nFunction\n\n\n\n\nC-l\nScroll current line to center of window\n\n\nC-x b\nSwitch to another buffer\n\n\nM-&lt;\nMove to beginning of the buffer\n\n\nM-&gt;\nMove to the end of the buffer\n\n\nM-g M-g\nGo to a given line number\n\n\n\n\nMultiple Windows:\n\n\n\nCommand\nFunction\n\n\n\n\nC-x 0\nRemove the current window from the display\n\n\nC-x 1\nMake active window the only window\n\n\nC-x 2\nSplit window horizontally\n\n\nC-x 3\nSplit window vertically\n\n\nC-x o\nMove to other window\n\n\n\n\nRegions:\n\n\n\nCommand\nFunction\n\n\n\n\nC-space\nSet a mark\n\n\nM-h\nMark entire paragraph\n\n\nC-x h\nMark entire buffer\n\n\n\n\nKilling, Yanking, Copying and Pasting\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-w\nKill region\n\n\nM-w\nCopy region to kill-ring\n\n\nC-k\nKill from the cursor all the way to the end of the line\n\n\nM-DEL\nKill word\n\n\nC-y\nYank back the last kill (C-w C-y combination could be used to move text around)\n\n\nM-y\nReplace last yank with previous kill\n\n\nCmd-C\nCopy\n\n\nCmd-V\nPaste\n\n\n\n\nSearching:\n\n\n\nCommand\nFunction\n\n\n\n\nC-s\nSearch for a string (forwards)\n\n\nC-r\nSearch for a string (backwards)\n\n\nRET\nQuit searching\n\n\nM-C-s\nRegular expression search\n\n\nM-C-r\nReverse regular expression search\n\n\n\n\nTags\n\n\n\nCommand\nFunction\n\n\n\n\nM-.\nFind a definition\n\n\nM-*\nPop back to where M-. was last invoked\n\n\n\n\nCompiling:\n\n\n\nCommand\nFunction\n\n\n\n\nC-c C-c\nCompile the file\n\n\n\n\nGetting Help:\n\n\n\nCommand\nFunction\n\n\n\n\nC-h\nEmacs help\n\n\nC-h t\nRun the Emacs tutorial\n\n\nC-h i\nEnter Info, the documentation browser\n\n\nC-h a\nShow commands matching a string\n\n\nC-h k\nDisplay documentation of the function invoked by a keystroke\n\n\nC-h m\nGet mode-specific information\n\n\n\n\nCopilot:\n\n\n\nCommand\nFunction\n\n\n\n\nM-x copilot-mode\nToggle on/off copilot mode.\n\n\nM-C-RET\nAccept a completion.\n\n\nC-&lt;right&gt;\nAccept by word.",
     "crumbs": [
       "Training materials",
       "Emacs",
@@ -338,7 +338,7 @@
     "href": "vscode/dependencies.html",
     "title": "Dependencies",
     "section": "",
-    "text": "In order to use VSCode effectively, there are some additional programs or applications that we also recommend you install or use on your own.\n\nGitHub:\n\nWe recommend using GitHub. If you do not already have a GitHub account, we recommend following the instructions from GitHub.\n\nCopilot:\n\nOur recommended profile installs the GitHub Copilot and Copilot Chat extensions, so they will appear whether or not you intend to use them. To use them you need a GitHub account: there is a free tier, and students and academic staff can get the paid tier at no cost through GitHub Education.\nGitHub’s setup instructions cover signing in. If you would rather not use Copilot at all, disable the two extensions from the Extensions pane and nothing else in this guide changes.\n\nSkim:\n\nSkim is a PDF viewer, which you can download from the internet. We recommend setting this as your default PDF viewer.\nOnce Skim is open, go to the top toolbar menu. Select Skim &gt; Settings.\nIn the settings pane that opens, click Sync on the top right.\nCheck off the boxes for “Check for file changes” and “Reload automatically”\nIn the PDF-TeX Sync support section, set the “Preset” to Visual Studio Code\n\nMikTex:\n\nMikTex is a TeX distribution which you can download from the internet.\nIf you already have a TeX distribution installed on your computer, you do not need to install MiKTeX as well.\n\nPandoc:\n\nPandoc allows you to knit .Rmd files to PDF files. You can install the latest release from the internet.",
+    "text": "In order to use VSCode effectively, there are some additional programs or applications that we also recommend you install or use on your own.\n\nGitHub:\n\nWe recommend using GitHub. If you do not already have a GitHub account, we recommend following the instructions from GitHub.\n\nCopilot:\n\nOur recommended profile installs the GitHub Copilot and Copilot Chat extensions, so they will appear whether or not you intend to use them. To use them you need a GitHub account: there is a free tier, and students and academic staff can get the paid tier at no cost through GitHub Education.\nGitHub’s setup instructions cover signing in. If you would rather not use Copilot at all, disable the two extensions from the Extensions pane and nothing else in this guide changes.\n\nSkim:\n\nSkim is a PDF viewer, which you can download from the internet. We recommend setting this as your default PDF viewer.\nOnce Skim is open, go to the top toolbar menu. Select Skim &gt; Settings.\nIn the settings pane that opens, click Sync on the top right.\nCheck off the boxes for “Check for file changes” and “Reload automatically”\nIn the PDF-TeX Sync support section, set the “Preset” to Visual Studio Code\n\nMacTeX:\n\nMacTeX is the standard TeX distribution on macOS, which you can download from the internet.\nIf you already have a TeX distribution installed on your computer, you do not need to install MacTeX as well.\n\nPandoc:\n\nPandoc allows you to knit .Rmd files to PDF files. You can install the latest release from the internet.",
     "crumbs": [
       "Training materials",
       "VS Code",
@@ -532,7 +532,7 @@
     "href": "pages/GS_domain.html",
     "title": "Adding a Custom Domain",
     "section": "",
-    "text": "Customizing your domain name can be a complicated process. As noted earlier, if you are using an account that has an administrator (e.g., a school or work account), you cannot add a custom domain yet.\nIf you are using a personal gmail account for your Google Site, you have the ability to add a custom domain. Google has very detailed instructions to follow for adding a custom domain, including instructions about purchasing domains through Google Workspace, if you wish.",
+    "text": "Customizing your domain name can be a complicated process. As noted earlier, if you are using an account that has an administrator (e.g., a school or work account), you cannot add a custom domain yet.\nIf you are using a personal gmail account for your Google Site, you have the ability to add a custom domain. Google has very detailed instructions to follow for adding a custom domain.\nYou will need to buy the domain from a registrar first. Google no longer sells them: Google Domains closed in 2023 and its registrations moved to Squarespace. Any registrar will do — Cloudflare, Namecheap, Porkbun and Squarespace are all common — and the Google instructions above cover pointing whichever you choose at your site.",
     "crumbs": [
       "Training materials",
       "GitHub Pages",
@@ -661,7 +661,7 @@
     "href": "git/clone_repo.html",
     "title": "Cloning a Repository",
     "section": "",
-    "text": "Sign into github.com\nGo to the repository of interest\nClick “clone or download” (green button, right side)\nClick “copy to clipboard” button (at right)\nOpen a terminal window on your computer\nType “cd” and the path to where you want your local copy of the files and hit return. For example, if I wanted the repository to be housed inside of a folder on my Desktop called R_Projects, I would type in the terminal “cd Desktop/R_Projects”\nType: “git clone &lt;paste from clipboard (ctrl-V or cmd-V)&gt;” and hit return\nNow you have a cloned (copy) of the repository on your disk\nEdit as you like",
+    "text": "Sign into github.com\nGo to the repository of interest\nClick the green “Code” button on the right\nClick “copy to clipboard” button (at right)\nOpen a terminal window on your computer\nType “cd” and the path to where you want your local copy of the files and hit return. For example, if I wanted the repository to be housed inside of a folder on my Desktop called R_Projects, I would type in the terminal “cd Desktop/R_Projects”\nType: “git clone &lt;paste from clipboard (ctrl-V or cmd-V)&gt;” and hit return\nNow you have a cloned (copy) of the repository on your disk\nEdit as you like",
     "crumbs": [
       "Training materials",
       "Git and GitHub",
@@ -796,7 +796,7 @@
     "href": "git/sign_up.html",
     "title": "Sign Up / Login",
     "section": "",
-    "text": "To sign up for GitHub, visit the website and create an account. If you already have an account, you can log in and enter your credentials.\nYou may be prompted to sign in with 2-Factor Authentication with an email or your phone number.",
+    "text": "To sign up for GitHub, visit the website and create an account. If you already have an account, you can log in and enter your credentials.\nGitHub requires two-factor authentication on every account that contributes code, so you will be asked to set it up rather than offered the choice. You can use an authenticator app (Google Authenticator, 1Password, Authy and others), a passkey, a security key, or text messages.\nPrefer an authenticator app or a passkey over text messages: SMS can be intercepted by porting your phone number, and GitHub itself recommends against it. Save the recovery codes it gives you somewhere you can reach without your phone — they are the only way back into the account if you lose the device.",
     "crumbs": [
       "Training materials",
       "Git and GitHub",
@@ -1158,7 +1158,7 @@
     "href": "emacs/overview.html",
     "title": "Overview",
     "section": "",
-    "text": "This section will walk you through installing the Emacs application, necessary packages, as well as the IQSS configuration.\nThese instructions only support MacOS users currently. Please stay updated as we prepare materials for Microsoft users.\nIn preparation for installing Emacs, there are other programs that we also recommend to install. Please refer to our documentation for useful programs to install prior to Emacs. This page includes links to external download sites for programs such as R, MikTex, and Git.\nIn fact, if you do not install some of these (or if you have not previously installed some of these), you may run into problems when loading our Emacs configuration. Git in particular should be installed first: some packages are fetched with it, and the Copilot integration needs it.\nFor this process, we will teach you how to use the command line in the terminal. However, there will also be external links for many of the download options if you are not wholly comfortable in the terminal, or find yourself running into problems.",
+    "text": "This section will walk you through installing the Emacs application, necessary packages, as well as the IQSS configuration.\nThese instructions only support MacOS users currently. Please stay updated as we prepare materials for Microsoft users.\nIn preparation for installing Emacs, there are other programs that we also recommend to install. Please refer to our documentation for useful programs to install prior to Emacs. This page includes links to external download sites for programs such as R, a TeX distribution, and Git. On macOS install MacTeX, which is the standard distribution there.\nIn fact, if you do not install some of these (or if you have not previously installed some of these), you may run into problems when loading our Emacs configuration. Git in particular should be installed first: some packages are fetched with it, and the Copilot integration needs it.\nFor this process, we will teach you how to use the command line in the terminal. However, there will also be external links for many of the download options if you are not wholly comfortable in the terminal, or find yourself running into problems.",
     "crumbs": [
       "Training materials",
       "Emacs",
@@ -1197,7 +1197,7 @@
     "href": "latex/emacs.html",
     "title": "Emacs",
     "section": "",
-    "text": "If your application of choice is Emacs, take a look at our Emacs Starter Guide!",
+    "text": "Emacs asks the most and gives the most. Nearly everything is reachable from the keyboard and nearly everything can be redefined, but you have to learn the keybindings, and customising it means writing Lisp.\nThe Emacs guide covers installation, the IQSS configuration, moving around, editing, and a commands list to keep beside you.",
     "crumbs": [
       "Training materials",
       "LaTeX",
@@ -1233,14 +1233,14 @@
   {
     "objectID": "latex/vscode.html",
     "href": "latex/vscode.html",
-    "title": "VSCode",
+    "title": "VS Code",
     "section": "",
-    "text": "If your application of choice is VSCode, take a look at our VSCode Starter Guide!",
+    "text": "VS Code sits in the middle: you install it once, and in return you get one editor for LaTeX, R, Python and everything else, with settings and keybindings you can shape. What you can change is bounded by the extensions that exist.\nThe VS Code guide covers installation, our recommended profile, the extensions it brings, and how to customise it afterwards.",
     "crumbs": [
       "Training materials",
       "LaTeX",
       "Choosing an editor",
-      "VSCode"
+      "VS Code"
     ]
   },
   {
