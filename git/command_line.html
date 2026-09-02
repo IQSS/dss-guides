@@ -1034,39 +1034,39 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>git add new_file</td>
+<td><code>git add new_file</code></td>
 <td>Tells git to include a new file on your disk, in the remote repository. Then commit and push as above.</td>
 </tr>
 <tr class="even">
-<td>git status</td>
+<td><code>git status</code></td>
 <td>Tells you if your local version is up-to-date compared with the version on GitHub.</td>
 </tr>
 <tr class="odd">
-<td>git log</td>
+<td><code>git log</code></td>
 <td>This will print out a log of the commits for your repository. Press <code>q</code> to leave the log and return to the prompt.</td>
 </tr>
 <tr class="even">
-<td>git log -p</td>
+<td><code>git log -p</code></td>
 <td>(-p is patch or diff) This will print the log as above, but also with the difference introduced in each commit. This can be especially useful if something broke and you want to see when/where you edited something.</td>
 </tr>
 <tr class="odd">
-<td>git log -p HEAD..origin/main</td>
+<td><code>git log -p HEAD..origin/main</code></td>
 <td>Tells you what is different in the remote branch (origin/main) but not in your local branch. This can help you see what changes have been introduced since you last updated or pulled your local repository.</td>
 </tr>
 <tr class="even">
-<td>git commit . -v</td>
+<td><code>git commit . -v</code></td>
 <td>The “.” means that everything will be included in your commit. The “-v” stands for “verbose” and means that git will show the diff of the changes being committed in the editor while you write the message.</td>
 </tr>
 <tr class="odd">
-<td>git &lt;command&gt; --help</td>
+<td><code>git &lt;command&gt; --help</code></td>
 <td>Provides help documentation for the specific command</td>
 </tr>
 <tr class="even">
-<td>git pull –rebase</td>
+<td><code>git pull --rebase</code></td>
 <td>Avoids merge commits in that this will rewrite the commit history, adding your changes directly onto the latest changes in the remote repository. This can be cleaner, but should be used with caution.</td>
 </tr>
 <tr class="odd">
-<td>git blame &lt;filename&gt;</td>
+<td><code>git blame &lt;filename&gt;</code></td>
 <td>This will print out the commit, user and timestamp for each line of the file. This can show you when and by whom edits were made.</td>
 </tr>
 </tbody>

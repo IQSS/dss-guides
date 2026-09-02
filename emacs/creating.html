@@ -23,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -1020,18 +1055,18 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>To create your document, type C-x C-f (“Find a file”). Then use your arrow keys and return to navigate to the folder in which you’d like your document to live. When the top line of your mini buffer says the name of the correct folder, make sure that your cursor is on the top line, after the slash, and then type the name that you would like for your document. If you are making a Latex file, make sure to include the “.tex” suffix. Click return when you are done, and a new buffer with the name of the file will be displayed in your window.</p>
-<p>You can also set local variables within a comment block at the end of a file. While most customizations will be already downloaded for you inside the init.el and custom.el files from the IQSS configuration, you wish to have file-specific customizations as well. You can use the following as an example of what you can put at the end of a file:</p>
-<p>% Local Variables:</p>
-<p>% mode: latex</p>
-<p>% TeX-master: t</p>
-<p>% TeX-engine: pdflatex</p>
-<p>% fill-column: 80</p>
-<p>% End:</p>
+<p>To create your document, type C-x C-f (“Find a file”). Then use your arrow keys and return to navigate to the folder in which you’d like your document to live. When the top line of your mini buffer says the name of the correct folder, make sure that your cursor is on the top line, after the slash, and then type the name that you would like for your document. If you are making a Latex file, make sure to include the “<code>.tex</code>” suffix. Click return when you are done, and a new buffer with the name of the file will be displayed in your window.</p>
+<p>You can also set local variables within a comment block at the end of a file. While most customizations will be already downloaded for you inside the <code>init.el</code> and <code>custom.el</code> files from the IQSS configuration, you wish to have file-specific customizations as well. You can use the following as an example of what you can put at the end of a file:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">% Local Variables:</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">% mode: latex</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">% TeX-master: t</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">% TeX-engine: pdflatex</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">% fill-column: 80</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">% End:</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul>
 <li>You must have the first and the last line; these tell Emacs that you’re defining local variables.</li>
 <li>The “mode” tells Emacs that you are typing in LaTeX.</li>
-<li>“TeX-master: t” tells Emacs that you are in the “master file” which refers to the file which includes all of your header information. For example: if you are in a project, say a book with multiple chapters, and each chapter has its own .tex file, you could use TeX-master to tell Emacs which file contains the header information. So, in your main.tex file, you could have: “” which reads in your chapter1.tex file. In the chapter files, you could simply write your LaTeX code, and include % TeX-master: “main.tex” in your local variables.</li>
+<li>“TeX-master: t” tells Emacs that you are in the “master file” which refers to the file which includes all of your header information. For example: if you are in a project, say a book with multiple chapters, and each chapter has its own <code>.tex</code> file, you could use TeX-master to tell Emacs which file contains the header information. So, in your <code>main.tex</code> file, you could have: <code>\input{chapters/chapter1.tex}</code> which reads in your <code>chapter1.tex</code> file. In the chapter files, you could simply write your LaTeX code, and include % TeX-master: <code>main.tex</code> in your local variables.</li>
 <li>“TeX-engine” tells Emacs how to compile your LaTeX file – in this case, we want a pdf.</li>
 <li>“fill-column: 80” tells Emacs that we want our text to automatically wrap after 80 characters.</li>
 <li>We can also define which dictionary we want spell check to use.</li>
