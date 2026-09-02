@@ -146,7 +146,7 @@
     "href": "emacs/overview.html",
     "title": "Overview",
     "section": "",
-    "text": "This section will walk you through installing the Emacs application, necessary packages, as well as the IQSS configuration.\nThese instructions only support MacOS users currently. Please stay updated as we prepare materials for Microsoft users.\nIn preparation for installing Emacs, there are other programs that we also recommend to install. Please refer to our documentation for useful programs to install prior to Emacs. This page includes links to external download sites for programs such as R, a TeX distribution, and Git. On macOS install MacTeX, which is the standard distribution there.\nIn fact, if you do not install some of these (or if you have not previously installed some of these), you may run into problems when loading our Emacs configuration. Git in particular should be installed first: some packages are fetched with it, and the Copilot integration needs it.\nFor this process, we will teach you how to use the command line in the terminal. However, there will also be external links for many of the download options if you are not wholly comfortable in the terminal, or find yourself running into problems.",
+    "text": "This section will walk you through installing the Emacs application, necessary packages, as well as the IQSS configuration.\nThese instructions are for macOS. The keyboard shortcuts, the installers, and the Homebrew steps all assume it.\nIn preparation for installing Emacs, there are other programs that we also recommend to install. Please refer to our documentation for useful programs to install prior to Emacs. This page includes links to external download sites for programs such as R, a TeX distribution, and Git. On macOS install MacTeX, which is the standard distribution there.\nIn fact, if you do not install some of these (or if you have not previously installed some of these), you may run into problems when loading our Emacs configuration. Git in particular should be installed first: some packages are fetched with it, and the Copilot integration needs it.\nFor this process, we will teach you how to use the command line in the terminal. However, there will also be external links for many of the download options if you are not wholly comfortable in the terminal, or find yourself running into problems.",
     "crumbs": [
       "Training materials",
       "Emacs",
@@ -172,7 +172,7 @@
     "href": "emacs/index.html",
     "title": "Emacs",
     "section": "",
-    "text": "The following is a quick starter guide designed to get you acquainted with Emacs, a desktop application for editing \\(\\LaTeX\\). Of our recommended applications, Emacs is the most powerful in terms of text editing and customization.",
+    "text": "The following is a quick starter guide designed to get you acquainted with Emacs, a desktop application for editing \\(\\LaTeX\\). Of our recommended applications, Emacs is the most powerful in terms of text editing and customization.\nThese instructions are for macOS. The installers, the Homebrew steps, and the keyboard shortcuts all assume it; Emacs itself runs on Windows and Linux, and the IQSS configuration works there, but the steps in this guide are written for a Mac.",
     "crumbs": [
       "Training materials",
       "Emacs",
@@ -262,7 +262,7 @@
     "href": "vscode/index.html",
     "title": "VS Code",
     "section": "",
-    "text": "The following is a quick starter guide designed to get you acquainted with Visual Studio Code (VSCode), a desktop application for coding.",
+    "text": "The following is a quick starter guide designed to get you acquainted with Visual Studio Code (VSCode), a desktop application for coding.\nThese instructions are for macOS. The download and the keyboard shortcuts assume it; VS Code itself runs on Windows and Linux, and the recommended profile imports there too, but the steps below are written for a Mac.",
     "crumbs": [
       "Training materials",
       "VS Code",
