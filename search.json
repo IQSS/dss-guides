@@ -557,7 +557,7 @@
     "href": "git/index.html",
     "title": "Git and GitHub",
     "section": "",
-    "text": "The following is a quick starter guide designed to get you acquainted with Git and GitHub, our recommended file storage site for your academic and coding work.",
+    "text": "The following is a quick starter guide designed to get you acquainted with Git and GitHub, our recommended file storage site for your academic and coding work.\nThis guide covers using Git for your own work: keeping a history of your files as you change them, and keeping a copy on GitHub you can get back. It assumes you are the only person committing to the repository.\nTwo further ideas come in when several people work on the same repository. A branch is a separate line of work inside a repository, so you can change things without disturbing the version everyone else is using. A pull request is how you propose folding a branch back in, and where others read the change and comment before it lands. Neither is needed for solo version control and neither is covered here; GitHub’s own description of the two is the place to start if you come to need them.",
     "crumbs": [
       "Training materials",
       "Git and GitHub",
