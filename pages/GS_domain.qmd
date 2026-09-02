@@ -8,4 +8,4 @@ Customizing your domain name can be a complicated process. As noted earlier, if 
 
 If you are using a personal gmail account for your Google Site, you have the ability to add a custom domain. Google has very detailed [instructions](https://support.google.com/sites/answer/9068867?hl=en) to follow for adding a custom domain.
 
-You will need to buy the domain from a registrar first. Google no longer sells them: Google Domains closed in 2023 and its registrations moved to Squarespace. Any registrar will do — Cloudflare, Namecheap, Porkbun and Squarespace are all common — and the Google instructions above cover pointing whichever you choose at your site.
+You will need to buy the domain from a registrar first, such as [Cloudflare](https://www.cloudflare.com/products/registrar/) or [Squarespace](https://domains.squarespace.com/). The Google instructions above cover pointing it at your site.
