@@ -30,7 +30,7 @@
     "href": "overleaf/packages.html",
     "title": "Adding Custom Packages and Styles",
     "section": "",
-    "text": "If you require additional functionality or styling not provided by default in LaTeX, you can include custom packages or define your own styles in the preamble of your document.",
+    "text": "A package adds something LaTeX cannot do on its own: include images, draw better tables, set your margins.\nLoad one in the preamble, before \\begin{document}:\n\\documentclass{article}\n\n\\usepackage{graphicx}   % images\n\\usepackage{booktabs}   % better tables\n\\usepackage{amsmath}    % maths\n\\usepackage{hyperref}   % clickable links and references\n\\usepackage[margin=1in]{geometry}   % margins\n\n\\begin{document}\nSome packages take options, in square brackets before the name, as geometry does above.\nOverleaf already has the full TeX Live distribution, so there is nothing to install — the \\usepackage line is all you need. If compiling fails, check the spelling of the package name first, then open the log for the line that mentions it.\nTo reuse the same preamble across projects, put it in a .sty file, add that file to the project, and load it by its name without the extension: \\usepackage{mypreamble}.",
     "crumbs": [
       "Training materials",
       "Overleaf",
@@ -1208,7 +1208,7 @@
     "href": "overleaf/bibs.html",
     "title": "Using Bibliographies and Citations",
     "section": "",
-    "text": "LaTeX makes it easy to manage bibliographies and citations using tools like BibTeX or BibLaTeX. Overleaf integrates with reference management software such as Zotero, Mendeley, and EndNote, allowing you to easily insert citations and generate bibliographies.",
+    "text": "References live in a separate file ending in .bib. Each entry has a key you use to cite it — king2021 below:\n@article{king2021,\n  author  = {King, Gary},\n  title   = {A Theory of Statistical Inference},\n  journal = {Political Analysis},\n  year    = {2021},\n}\nAdd that file to your Overleaf project, either by uploading it or with New File. Then cite the key in your text, and ask for the bibliography where you want it printed:\nAs shown elsewhere \\cite{king2021}, ...\n\n\\bibliographystyle{plain}\n\\bibliography{references}   % the .bib file's name, without .bib\nOverleaf runs the extra compilation passes that citations need, so recompiling once is enough.\nIf you keep your references in Zotero, Mendeley or EndNote, you can export a .bib file and upload it. Overleaf can also link a Zotero or Mendeley library so the file updates by itself; see Overleaf’s documentation for how to connect one.",
     "crumbs": [
       "Training materials",
       "Overleaf",
