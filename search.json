@@ -339,7 +339,7 @@
     "href": "vscode/application.html",
     "title": "VSCode Application",
     "section": "",
-    "text": "Visual Studio Code has instructions for getting started.\nYou can download VSCode directly from their website for your operating system.\nUnzip the download (mine was called VSCode-darwin-universal.zip), and then click on the new application (Visual Studio Code). A pop-up will ask you if you want to open an app downloaded from the internet. Click open.",
+    "text": "Visual Studio Code has instructions for getting started.\nYou can download VSCode directly from their website for your operating system.\nUnzip the download (it will be named something like VSCode-darwin-universal.zip), and then click on the new application (Visual Studio Code). A pop-up will ask you if you want to open an app downloaded from the internet. Click open.",
     "crumbs": [
       "Training materials",
       "VS Code",
@@ -643,7 +643,7 @@
     "href": "git/clone_repo.html",
     "title": "Cloning a Repository",
     "section": "",
-    "text": "Sign into github.com\nGo to the repository of interest\nClick the green “Code” button on the right\nClick “copy to clipboard” button (at right)\nOpen a terminal window on your computer\nType “cd” and the path to where you want your local copy of the files and hit return. For example, if I wanted the repository to be housed inside of a folder on my Desktop called R_Projects, I would type in the terminal “cd Desktop/R_Projects”\nType: “git clone &lt;paste from clipboard (ctrl-V or cmd-V)&gt;” and hit return\nNow you have a cloned (copy) of the repository on your disk\nEdit as you like",
+    "text": "Sign into github.com\nGo to the repository of interest\nClick the green “Code” button on the right\nClick “copy to clipboard” button (at right)\nOpen a terminal window on your computer\nType cd and the path to where you want your local copy of the files, then hit return. For example, to put the repository in a folder on your Desktop called R_Projects, you would type cd Desktop/R_Projects\nType: “git clone &lt;paste from clipboard (ctrl-V or cmd-V)&gt;” and hit return\nNow you have a cloned (copy) of the repository on your disk\nEdit as you like",
     "crumbs": [
       "Training materials",
       "Git and GitHub",
@@ -1147,7 +1147,7 @@
     "href": "emacs/problems.html",
     "title": "Common Problems",
     "section": "",
-    "text": "You may have keybindings set for your computer that supersede the keybindings set in Emacs. For example, my C-&lt;up&gt;, C-&lt;down&gt;, and C-&lt;right&gt; controls were used by my Mac for Mission Control and Applications settings. To disable these keybindings, go to your Apple Menu &gt; System Settings &gt; Keyboard &gt; Keyboard Shortcuts and then locate the settings you’d like to disable. Uncheck them. Full instructions for Macs can be found here. Instructions for PCs can be found here.\nEmacs is on the older side. Newer installations seem to have some problems with loading in some packages. For example, I could not install ‘use-package with the M-x install-packages command, but instead had to install it by looking at M-x list-packages.",
+    "text": "You may have keybindings set for your computer that supersede the keybindings set in Emacs. For example, macOS takes C-&lt;up&gt;, C-&lt;down&gt; and C-&lt;right&gt; for Mission Control and Application windows. To disable these keybindings, go to your Apple Menu &gt; System Settings &gt; Keyboard &gt; Keyboard Shortcuts and then locate the settings you’d like to disable. Uncheck them. Full instructions for Macs can be found here. Instructions for PCs can be found here.\nEmacs is on the older side. Newer installations seem to have some problems with loading in some packages. For example, use-package may not install with M-x install-packages; install it from the list that M-x list-packages opens instead.",
     "crumbs": [
       "Training materials",
       "Emacs",
