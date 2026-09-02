@@ -521,7 +521,7 @@
     "href": "git/introduction.html",
     "title": "Introduction",
     "section": "",
-    "text": "Git is widely used open source software for versioning and collaborating on files to be edited; github.com is a commercial service that makes git easier to use (and free for IQSS affiliates). Git is extremely sophisticated (for professional programmers), but most people only need a few easy commands. Github.com offers GUIs to do everything below, but I find the command line simpler and easier.",
+    "text": "Git is open source software for keeping a history of your files as you change them. github.com is a commercial service built on top of it that stores your repositories online and adds a web interface. Git itself is deep enough for professional programmers, but most people need only a handful of commands.\nGitHub offers buttons for everything below, through its website and its desktop application. This guide uses the command line instead: it is fewer steps once the commands are familiar, and it works the same on any machine.",
     "crumbs": [
       "Training materials",
       "Git and GitHub",
@@ -533,7 +533,7 @@
     "href": "git/introduction.html#background",
     "title": "Introduction",
     "section": "",
-    "text": "Git is widely used open source software for versioning and collaborating on files to be edited; github.com is a commercial service that makes git easier to use (and free for IQSS affiliates). Git is extremely sophisticated (for professional programmers), but most people only need a few easy commands. Github.com offers GUIs to do everything below, but I find the command line simpler and easier.",
+    "text": "Git is open source software for keeping a history of your files as you change them. github.com is a commercial service built on top of it that stores your repositories online and adds a web interface. Git itself is deep enough for professional programmers, but most people need only a handful of commands.\nGitHub offers buttons for everything below, through its website and its desktop application. This guide uses the command line instead: it is fewer steps once the commands are familiar, and it works the same on any machine.",
     "crumbs": [
       "Training materials",
       "Git and GitHub",
@@ -545,7 +545,7 @@
     "href": "git/introduction.html#key-idea",
     "title": "Introduction",
     "section": "Key Idea",
-    "text": "Key Idea\nEach project has a separate repository with all files to be shared stored on GitHub (e.g., https://github.com/iqss-research/gkbibtex). You can view and edit files on github.com directly. But it’s easier to also have a local (“cloned”) repository on your disk and use your own editing tools. You edit your repository and then push up changes to the remote repository and git syncs the two. We can both edit the same file at the same time (as long as we’re not editing the same line) and git will easily and transparently merge them (scary, but it works!). Every previous version and all edits are saved at GitHub and so it is safe and you can easily go get old versions too.",
+    "text": "Key Idea\nEach project lives in its own repository, holding all of that project’s files. A repository exists in two places: one copy on GitHub, and one on your own disk, which you make by cloning it. You edit the local copy with your usual tools, then push your changes up, and git keeps the two in step.\nEvery version is kept. Nothing you have committed is lost, and you can retrieve any earlier state of any file.\nIf two people work in the same repository, git merges their changes by itself as long as they did not edit the same lines. Where they did, it stops and asks you to choose — see Editing repositories.",
     "crumbs": [
       "Training materials",
       "Git and GitHub",
