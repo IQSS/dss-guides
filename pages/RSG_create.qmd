@@ -24,7 +24,7 @@ To start, we will create a repository (you can think of this as a folder for you
   <ol>
     <li>Start with a template: "No template"</li>
     <li>Add README: Off</li>
-    <li>Add .gitignore: "No .gitignore"</li>
+    <li>Add `.gitignore`: "No `.gitignore`"</li>
     <li>Add license: "No license"</li>
   </ol>
 </details>
@@ -34,7 +34,7 @@ To start, we will create a repository (you can think of this as a folder for you
 12. Now, open up RStudio.
 13. In the top tool bar, select File > New Project. In the pop-up, select "Version Control", then "Git", and then paste the link from GitHub in the field titled "Repository URL". You can leave the "Project directory name:" field blank. For the "Create project as a subdirectory of:" field, use the "Browse" button to select the folder you made in step 1. Click "Create Project". This is sometimes called "cloning" your repository. If you know how to do this from the command line, feel free to!
 14. RStudio will open a new project for you, tied to your GitHub repository.
-15. Now, you can begin to create a new file inside of your repository called "index.html". 
+15. Now, you can begin to create a new file inside of your repository called `index.html`. 
   <ol>
     <li>In the top tool bar, select File > New File > HTML File.</li>
     <li>In the text-editing pane, you can now edit this file.</li>
@@ -50,11 +50,11 @@ To start, we will create a repository (you can think of this as a folder for you
   </body>
   </html>
   ```
-6. Save your file by clicking the save icon. Make sure to name it "index.html" and that it is in the correct repository.
+6. Save your file by clicking the save icon. Make sure to name it `index.html` and that it is in the correct repository.
 7. Commit and push your changes to GitHub.
   <ol>
     <li>In the top-right pane of your RStudio, you should see a tab called "Git". Click it.</li>
-    <li>Select .gitignore and index.html. Do not select the .Rproj file. </li>
+    <li>Select `.gitignore` and `index.html`. Do not select the `.Rproj` file. </li>
     <li>Then click the "Commit" button.</li>
     <li>In the pop-up screen, add a commit message in the top-right pane, e.g., "Initial commit".</li>
     <li>Then click the "Commit" button.</li>
@@ -62,8 +62,8 @@ To start, we will create a repository (you can think of this as a folder for you
     <li>In the original pop-up screen, you can now click the top-right green arrow that is pointing up and says "Push".</li>
     <li>When that is done, you can close out of both pop-ups.</li>
   </ol>
-8. Check in your GitHub repository to make sure that the commit is pushed. You should see index.html with the commit message that you gave it.
-9. Check your actual website by going to username.github.io. It should say, in very basic styling, a large heading reading "Hello World" and a line of text reading "I'm hosted with GitHub Pages."
+8. Check in your GitHub repository to make sure that the commit is pushed. You should see `index.html` with the commit message that you gave it.
+9. Check your actual website by going to `username.github.io`. It should say, in very basic styling, a large heading reading "Hello World" and a line of text reading "I'm hosted with GitHub Pages."
 10. <details><summary>If your actual webpage is not appearing:</summary>
   <ol type="a">
     <li>First wait a few minutes and try again. Sometimes it takes a bit of time for GitHub to create the website.</li>

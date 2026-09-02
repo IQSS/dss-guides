@@ -19,4 +19,4 @@ In order to use VSCode effectively, there are some additional programs or applic
   * MacTeX is the standard TeX distribution on macOS, which you can [download from the internet](https://tug.org/mactex/).
   * If you already have a TeX distribution installed on your computer, you do not need to install MacTeX as well.
 * Pandoc:
-  * Pandoc allows you to knit .Rmd files to PDF files. You can [install the latest release from the internet](https://pandoc.org/installing.html).
+  * Pandoc allows you to knit `.Rmd` files to PDF files. You can [install the latest release from the internet](https://pandoc.org/installing.html).
