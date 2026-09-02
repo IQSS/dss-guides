@@ -2,4 +2,31 @@
 title: "Adding Custom Packages and Styles"
 ---
 
-If you require additional functionality or styling not provided by default in LaTeX, you can include custom packages or define your own styles in the preamble of your document.
+A package adds something LaTeX cannot do on its own: include images, draw
+better tables, set your margins.
+
+Load one in the preamble, before `\begin{document}`:
+
+```latex
+\documentclass{article}
+
+\usepackage{graphicx}   % images
+\usepackage{booktabs}   % better tables
+\usepackage{amsmath}    % maths
+\usepackage{hyperref}   % clickable links and references
+\usepackage[margin=1in]{geometry}   % margins
+
+\begin{document}
+```
+
+Some packages take options, in square brackets before the name, as `geometry`
+does above.
+
+Overleaf already has the full TeX Live distribution, so there is nothing to
+install — the `\usepackage` line is all you need. If compiling fails, check
+the spelling of the package name first, then open the log for the line that
+mentions it.
+
+To reuse the same preamble across projects, put it in a `.sty` file, add that
+file to the project, and load it by its name without the extension:
+`\usepackage{mypreamble}`.

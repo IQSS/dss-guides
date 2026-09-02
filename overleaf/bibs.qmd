@@ -2,5 +2,34 @@
 title: "Using Bibliographies and Citations"
 ---
 
-LaTeX makes it easy to manage bibliographies and citations using tools like BibTeX or BibLaTeX. Overleaf integrates with reference management software such as Zotero, Mendeley, and EndNote, allowing you to easily insert citations and generate bibliographies.
+References live in a separate file ending in `.bib`. Each entry has a key you
+use to cite it — `king2021` below:
 
+```bibtex
+@article{king2021,
+  author  = {King, Gary},
+  title   = {A Theory of Statistical Inference},
+  journal = {Political Analysis},
+  year    = {2021},
+}
+```
+
+Add that file to your Overleaf project, either by uploading it or with New
+File. Then cite the key in your text, and ask for the bibliography where you
+want it printed:
+
+```latex
+As shown elsewhere \cite{king2021}, ...
+
+\bibliographystyle{plain}
+\bibliography{references}   % the .bib file's name, without .bib
+```
+
+Overleaf runs the extra compilation passes that citations need, so recompiling
+once is enough.
+
+If you keep your references in Zotero, Mendeley or EndNote, you can export a
+`.bib` file and upload it. Overleaf can also link a Zotero or Mendeley library
+so the file updates by itself; see
+[Overleaf's documentation](https://www.overleaf.com/learn/how-to/Using_bibliographies_on_Overleaf)
+for how to connect one.
