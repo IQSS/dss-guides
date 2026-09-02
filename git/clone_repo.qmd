@@ -7,7 +7,7 @@ title: "Cloning a Repository"
 3. Click the green "Code" button on the right
 4. Click "copy to clipboard" button (at right)
 5. Open a terminal window on your computer
-6. Type “cd” and the path to where you want your local copy of the files and hit return. For example, if I wanted the repository to be housed inside of a folder on my Desktop called R_Projects, I would type in the terminal “cd Desktop/R_Projects”
+6. Type `cd` and the path to where you want your local copy of the files, then hit return. For example, to put the repository in a folder on your Desktop called `R_Projects`, you would type `cd Desktop/R_Projects`
 7. Type: “git clone <paste from clipboard (ctrl-V or cmd-V)>” and hit return
 8. Now you have a cloned (copy) of the repository on your disk
 9. Edit as you like
