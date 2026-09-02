@@ -11,6 +11,10 @@ project:
     - "emacs/*.qmd"
     - "latex/*.qmd"
     - "overleaf/*.qmd"
+  # The VS Code profile the guide tells readers to import, served from the site so the
+  # address is ours and outlives any one person's gist.
+  resources:
+    - "vscode/IQSS-Recs.code-profile"
 
 website:
   title: "DSS Guides"

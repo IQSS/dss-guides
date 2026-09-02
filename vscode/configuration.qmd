@@ -7,8 +7,7 @@ To import our recommended profile:
 * Inside VSCode, click on the settings icon in the bottom-left corner (it looks like a gear!)
 * Select "Profiles (*Name of your current profile*)" &#8592; this should be "Profiles (Default)" if you are doing this for the first time
 * Select "Import Profile"
-* Copy and paste the following URL into the search bar pop-up that says "Provide Profile Template URL": https://vscode.dev/profile/github/2f5c3eb559798c7c449adac706742807.
-  * Following that link in a browser opens [VS Code for the Web](https://code.visualstudio.com/docs/setup/vscode-web), which runs the editor in a browser tab.
+* Copy and paste the following URL into the search bar pop-up that says "Provide Profile Template URL": <https://iqss.github.io/dss-guides/vscode/IQSS-Recs.code-profile>
 * A pane on the left will pop up. Leave everything checked off, and select the blue "Create Profile" button
 * Enter a name for this profile in the text pop-up, such as "IQSS Recs"
 * Leave everything checked off, and select the blue "Create" button
