@@ -3,3 +3,5 @@ title: "VS Code"
 ---
 
 The following is a quick starter guide designed to get you acquainted with [Visual Studio Code (VSCode)](https://code.visualstudio.com/), a desktop application for coding.
+
+These instructions are for macOS. The download and the keyboard shortcuts assume it; VS Code itself runs on Windows and Linux, and the recommended profile imports there too, but the steps below are written for a Mac.

@@ -3,3 +3,5 @@ title: "Emacs"
 ---
 
 The following is a quick starter guide designed to get you acquainted with Emacs, a desktop application for editing $\LaTeX$. Of our recommended applications, Emacs is the most powerful in terms of text editing and customization.
+
+These instructions are for macOS. The installers, the Homebrew steps, and the keyboard shortcuts all assume it; Emacs itself runs on Windows and Linux, and the IQSS configuration works there, but the steps in this guide are written for a Mac.
