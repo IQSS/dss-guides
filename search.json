@@ -532,7 +532,7 @@
     "href": "pages/GS_domain.html",
     "title": "Adding a Custom Domain",
     "section": "",
-    "text": "Customizing your domain name can be a complicated process. As noted earlier, if you are using an account that has an administrator (e.g., a school or work account), you cannot add a custom domain yet.\nIf you are using a personal gmail account for your Google Site, you have the ability to add a custom domain. Google has very detailed instructions to follow for adding a custom domain.\nYou will need to buy the domain from a registrar first. Google no longer sells them: Google Domains closed in 2023 and its registrations moved to Squarespace. Any registrar will do — Cloudflare, Namecheap, Porkbun and Squarespace are all common — and the Google instructions above cover pointing whichever you choose at your site.",
+    "text": "Customizing your domain name can be a complicated process. As noted earlier, if you are using an account that has an administrator (e.g., a school or work account), you cannot add a custom domain yet.\nIf you are using a personal gmail account for your Google Site, you have the ability to add a custom domain. Google has very detailed instructions to follow for adding a custom domain.\nYou will need to buy the domain from a registrar first, such as Cloudflare or Squarespace. The Google instructions above cover pointing it at your site.",
     "crumbs": [
       "Training materials",
       "GitHub Pages",
