@@ -117,12 +117,7 @@ website:
       - section: "LaTeX"
         contents:
           - { href: latex/index.qmd, text: "Start here" }
-          - section: "Choosing an editor"
-            contents:
-              - latex/comparison.qmd
-              - latex/overleaf.qmd
-              - latex/vscode.qmd
-              - latex/emacs.qmd
+          - latex/comparison.qmd
           - latex/github.qmd
           - section: "Documents"
             contents:
