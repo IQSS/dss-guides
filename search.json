@@ -91,28 +91,16 @@
     ]
   },
   {
-    "objectID": "latex/resources.html",
-    "href": "latex/resources.html",
-    "title": "Learning Resources",
+    "objectID": "latex/presentations.html",
+    "href": "latex/presentations.html",
+    "title": "Using LaTeX for Presentations",
     "section": "",
-    "text": "For a more in-depth list of functions (sorted alphabetically), we suggest looking at documentation from Boston University. For a list sorted more thematically, we suggest looking at documentation from Arizona State University.\nThere are also tutorials such as those from Overleaf, found here that you can actively follow along and learn with.",
+    "text": "We also strongly recommend that you create all of your presentations with \\(\\LaTeX\\), too. You can do so using the function \\documentclass{beamer}. In fact, we have an IQSS theme that you can download and use.\nEven if you choose to not use Overleaf for your editor, they have a great collection of tutorials that can help you create your presentations.\nAgain, we strongly recommend this for the math notation. Additionally, your presentations will be replicable, which is also a benefit of working in \\(\\LaTeX\\) as opposed to programs like Google Slides or Power Point.",
     "crumbs": [
       "Training materials",
       "LaTeX",
-      "Learning Resources"
-    ]
-  },
-  {
-    "objectID": "latex/overleaf.html",
-    "href": "latex/overleaf.html",
-    "title": "Overleaf",
-    "section": "",
-    "text": "Overleaf is the lowest-effort way to start: it runs in the browser, so there is nothing to install, and two people can edit the same document at once. The trade is control — you work through its interface rather than your own keybindings, and you cannot customise much.\nThe Overleaf guide covers signing up, the editor, collaborating, templates, and bibliographies.",
-    "crumbs": [
-      "Training materials",
-      "LaTeX",
-      "Choosing an editor",
-      "Overleaf"
+      "Documents",
+      "Using LaTeX for Presentations"
     ]
   },
   {
@@ -128,247 +116,746 @@
     ]
   },
   {
-    "objectID": "latex/comparison.html",
-    "href": "latex/comparison.html",
-    "title": "Comparison of Applications",
+    "objectID": "latex/articles.html",
+    "href": "latex/articles.html",
+    "title": "Using LaTeX for Articles",
     "section": "",
-    "text": "There are a lot of \\(\\LaTeX\\) editors that exist. Depending on what editing power, user experience, and learning cost you want out of your editor, we have three recommendations that you may wish to choose. However, these are not exhaustive, and there may be additional editors that you’d like to use.\nIf you prefer an editor with a lower startup investment and are okay with the editor having less editing power, you may wish to choose Overleaf.\n\n\n\n\n\n\n\nPros\nCons\n\n\n\n\n- Collaborative  - Online, no installation  - Very modern and intuitive design\n- Reliant on UI, cannot do as much with keybindings  - Live editing can cause others to not be able to compile a file  - Not customizable\n\n\n\n\nIf you prefer an editor with a medium startup investment and medium power, you may wish to use VSCode.\n\n\n\n\n\n\n\nPros\nCons\n\n\n\n\n- All-in-one-stop: has extensions for all types of coding (R, Python, etc.)  - Modern design, familiar IDE experience  - Somewhat customizable via exentions, settings, and keybindings\n- More control with keybindings, but limited to the packages and extensions that exist  - Installation is required, but a relatively easy process\n\n\n\n\nIf you are okay with a high startup investment in return for higher power, you may wish to use Emacs.\n\n\n\n\n\n\n\nPros\nCons\n\n\n\n\n- You can do almost anything with keybindings  - Designed to do exactly what you want  - Very customizable  - Open source\n- Older, not modern design  - Need to code customizations in Lisp, which is barely used  - Need to learn a lot of keybindings to use effectively  - Installation is required\n\n\n\n\nIn sum, you may want to start with Emacs, because you may have the time and energy to learn how to use it, and you know that it can have a greater return on investment. Or, you may be okay with using Overleaf, because you don’t want to learn a bunch of keyboard shortcuts. Or, you might want an all-in-one solution where you can write all of your code with VSCode. And, of course, you might already have an IDE you like to use (TeXShop, Vim, TeXStudio, etc.). These are all fine options, too!",
+    "text": "We strongly encourage you to use \\(\\LaTeX\\) when writing your articles. Of course, you can draft your writing in programs like Google Docs (which you may prefer), but your polished versions should be .pdf files created from a .tex file.\nWhy? Common text editors like Google Docs do not yet incorporate math notation in a nice way yet. (Yes, it is feature. No, it is not good). As a budding social scientist, your work will likely need math notation in some form or another. This is exactly why \\(\\LaTeX\\) is useful. It provides a simple, replicable way to incorporate math notation into your documents.\nPlus, \\(\\LaTeX\\) has many functions that make the writing process easier. While not exhaustive, these include general formatting functions (e.g., centering, italics, etc.), bibliographic features (e.g., references and citations), and organizational abilities (e.g., connecting multiple documents together).",
     "crumbs": [
       "Training materials",
       "LaTeX",
-      "Choosing an editor",
-      "Comparison of Applications"
+      "Documents",
+      "Using LaTeX for Articles"
     ]
   },
   {
-    "objectID": "emacs/tutorial.html",
-    "href": "emacs/tutorial.html",
-    "title": "Emacs Tutorial",
+    "objectID": "emacs/saving.html",
+    "href": "emacs/saving.html",
+    "title": "Saving and Compiling Your Document",
     "section": "",
-    "text": "To open up Emacs’s built-in tutorial, type Control-h t. (You may also need to type y for “yes” if it asks).\nWe strongly recommend that you complete this tutorial, as it shows you the most useful keys!",
+    "text": "To save a file, use C-x C-s. You should see “Wrote &lt;document-name&gt;” in the mini buffer.\nTo compile a Latex document, use C-c C-c. You may need to follow a few simple prompts. For example, you may need to tell Emacs that this is Latex.\nIf you are compiling a beamer presentation, and you did not specify your Tex engine in your document, you will need to execute the following command before compiling your document: M-x tex-engine-set and then select xetex and return. Now use C-c C-c. \nThen, in your finder, you should see a slew of new files all with the same name as your .tex file, but with various suffixes. Find the one that is &lt;document-name&gt;.pdf and open it. Congrats! You’ve made your document!",
     "crumbs": [
       "Training materials",
       "Emacs",
       "Getting started",
-      "Emacs Tutorial"
+      "Saving and Compiling Your Document"
     ]
   },
   {
-    "objectID": "emacs/problems.html",
-    "href": "emacs/problems.html",
-    "title": "Common Problems",
+    "objectID": "emacs/overview.html",
+    "href": "emacs/overview.html",
+    "title": "Overview",
     "section": "",
-    "text": "You may have keybindings set for your computer that supersede the keybindings set in Emacs. For example, my C-&lt;up&gt;, C-&lt;down&gt;, and C-&lt;right&gt; controls were used by my Mac for Mission Control and Applications settings. To disable these keybindings, go to your Apple Menu &gt; System Settings &gt; Keyboard &gt; Keyboard Shortcuts and then locate the settings you’d like to disable. Uncheck them. Full instructions for Macs can be found here. Instructions for PCs can be found here.\nEmacs is on the older side. Newer installations seem to have some problems with loading in some packages. For example, I could not install ‘use-package with the M-x install-packages command, but instead had to install it by looking at M-x list-packages.",
+    "text": "This section will walk you through installing the Emacs application, necessary packages, as well as the IQSS configuration.\nThese instructions only support MacOS users currently. Please stay updated as we prepare materials for Microsoft users.\nIn preparation for installing Emacs, there are other programs that we also recommend to install. Please refer to our documentation for useful programs to install prior to Emacs. This page includes links to external download sites for programs such as R, a TeX distribution, and Git. On macOS install MacTeX, which is the standard distribution there.\nIn fact, if you do not install some of these (or if you have not previously installed some of these), you may run into problems when loading our Emacs configuration. Git in particular should be installed first: some packages are fetched with it, and the Copilot integration needs it.\nFor this process, we will teach you how to use the command line in the terminal. However, there will also be external links for many of the download options if you are not wholly comfortable in the terminal, or find yourself running into problems.",
     "crumbs": [
       "Training materials",
       "Emacs",
-      "Common Problems"
+      "Installation",
+      "Overview"
     ]
   },
   {
-    "objectID": "emacs/moving.html",
-    "href": "emacs/moving.html",
-    "title": "Moving Around Your Document",
+    "objectID": "emacs/layout.html",
+    "href": "emacs/layout.html",
+    "title": "Layout",
     "section": "",
-    "text": "Emacs makes it extremely easy to move around your document without needing to use your mouse or trackpad (although, you can always use those, too!). Some of the most common commands to move throughout the document are:\nMoving by screens:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-v\nMove forward one screen (a couple lines of overlap will be provided).\n\n\nM-v\nMove backward one screen.\n\n\nC-l\nIf you do this once, it will center the screen on your cursor. If you do this again, your cursor will move to the top of the screen. If you do this once again, your cursor will move to the bottom of the screen.\n\n\n\n\nMoving by characters:\n\n\n\nCommand\nFunction\n\n\n\n\nC-p OR &lt;up key&gt;\nGo to the previous line.\n\n\nC-n OR &lt;down key&gt;\nGo to the next line.\n\n\nC-b OR &lt;left key&gt;\nMove one space backward.\n\n\nC-f OR &lt;right key&gt;\nMove one space forward.\n\n\n\n\nMoving by words:\n\n\n\nCommand\nFunction\n\n\n\n\nM-f\nGo to the next word.\n\n\nM-b\nGo to the previous word.\n\n\n\n\nMoving in a line:\n\n\n\nCommand\nFunction\n\n\n\n\nC-a\nGo to the beginning of the line.\n\n\nC-e\nGo to the end of the line.\n\n\n\n\nMoving between sentences:\n\n\n\nCommand\nFunction\n\n\n\n\nM-a\nGo to the beginning of the sentence.\n\n\nM-e\nGo to the end of the sentence.\n\n\n\n\nMoving to the extremes:\n\n\n\nCommand\nFunction\n\n\n\n\nM-shift-, OR M-&lt;\nGo to the beginning of the document.\n\n\nM-shift-. OR M-&gt;\nGo to the end of the document.\n\n\n\n\nMoving your screen (without moving the cursor):\n\n\n\nCommand\nFunction\n\n\n\n\nC-&lt;up key&gt;\nMove the visible part of the buffer up.\n\n\nC-&lt;down key&gt;\nMove the visible part of the buffer down.",
+    "text": "Understanding the layout of Emacs, and the following terms and commands, is crucial in effectively navigating the workspace.\nThere are three main components of the Emacs workspace: frames, windows, and buffers. Frames are the rectangles on your screen. For example, on a Mac, you’ll likely see a gray top bar with the red, yellow, and green circles at the top of your frame. Each frame can be broken up into windows, which allow you to see documents. Each window holds a single buffer, which is text content, that is already from a file or can be saved to a file.\nYou can have multiple windows open inside a single frame at a time, allowing you to see multiple files, or different parts of the same file, at the same time. Additionally, you can have multiple frames, each its own separate instance of Emacs, allowing you to switch between projects all on the same screen.\nAdditionally, there is a smaller section at the bottom of an Emacs frame. First, you will see the mode line, which tells you information about the current buffer being displayed, including its name, modes, and position. Underneath this, you will see the mini buffer, which is where you will enter commands and see interactive text. You can access the mini buffer by pressing M-x, and then searching for commands.\nYou can open up another frame with the command C-x 5 2. (This will open the same file that you already have opened in a second frame). You can also do M-x make-frame.\nTo switch between frames, use C-x 5 o (for “other”). This will cycle through your open Emacs frames.\nTo close your current frame, you can use the command C-x 5 0, or M-x delete-frame.\nTo open another window inside the same frame, there are multiple commands you can use, depending on how you want the window to open:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-x 2\nSplit the current frame horizontally. This will open the same buffer as the one you current have open.\n\n\nC-x 3\nSplit the current frame vertically.\n\n\nC-x 4 f &lt;select file&gt;\nOpen a specific file in a new window.\n\n\nC-x 4 b &lt;select buffer&gt;\nOpen a specific buffer in a new window. This will list recent buffers, including messages, and scratch work.\n\n\n\n\nAdditional commands to close or move windows include:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-x 0\nClose out of the window where your cursor is.\n\n\nC-x 1\nClose out of all windows except for the one where your cursor is.\n\n\nC-x o\nMoves your cursor to the next window. If you repeatedly do this, the cursor will cycle through the open windows.",
     "crumbs": [
       "Training materials",
       "Emacs",
       "Getting started",
-      "Moving Around Your Document"
+      "Layout"
     ]
   },
   {
-    "objectID": "emacs/install_packages.html",
-    "href": "emacs/install_packages.html",
-    "title": "Install Emacs Packages",
+    "objectID": "emacs/index.html",
+    "href": "emacs/index.html",
+    "title": "Emacs",
     "section": "",
-    "text": "Now we are going to open Emacs for the first time. This will install a lot of Emacs packages for you, almost automatically.\nIn the bottom, a message will ask you to press “y” to install packages. Please do. A lot of packages will load again.\nAfter some time, another message will pop up again asking you to press “y” to install a few more packages. Again, please do.\nThis may take a bit of time to install of these packages (~5 minutes).\nAt the end, you may or may not get a message that a package is deprecated. This should not be an issue, and it should not appear again when you open Emacs in the future.\nNow please close out of Emacs and reopen it.",
+    "text": "The following is a quick starter guide designed to get you acquainted with Emacs, a desktop application for editing \\(\\LaTeX\\). Of our recommended applications, Emacs is the most powerful in terms of text editing and customization.",
+    "crumbs": [
+      "Training materials",
+      "Emacs",
+      "Start here"
+    ]
+  },
+  {
+    "objectID": "emacs/glossary.html",
+    "href": "emacs/glossary.html",
+    "title": "Glossary of Key Terms",
+    "section": "",
+    "text": "Buffer: A temporary storage area used for holding text that is being edited.\nFrame: A graphical element that contains one or more windows. If you have multiple frames open, you can have separate instances of Emacs running at once.\nKilling: Deleting text, but storing it in a “kill ring” for future use.\nMini Buffer: A special area at the bottom of the screen used for user input and displaying messages from Emacs itself. It is where Emacs prompts the user for commands, file names, search strings, and other input.\nMode Line: A special area located at the bottom of the window, just above the minibuffer (if present). It provides information about the current state of the buffer and the editing environment.\nWindow: A subdivision within a frame where buffers are displayed. Each window typically shows the contents of a single buffer.\nYanking: Pasting previously killed text back into a document.",
+    "crumbs": [
+      "Training materials",
+      "Emacs",
+      "Resources",
+      "Glossary of Key Terms"
+    ]
+  },
+  {
+    "objectID": "emacs/editing.html",
+    "href": "emacs/editing.html",
+    "title": "Editing Your Document",
+    "section": "",
+    "text": "Text editing in Emacs has some different terminology than what you may be used to. For instance, there is “killing” which deletes text (but saves it to a “kill ring” that you still have access to), and “yanking” which brings text back. This is similar to cutting/pasting.\nHowever, we’ve also included keyboard shortcuts where you can continue to use Cmd+C and Cmd+V for copy and paste, as you normally would on your Mac.\nOne good thing about the kill ring is that you have continued access to text that you may have previously deleted and you may want to bring it back. Here are some of the commands that you may find useful:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-w\nIf you have a region highlighted, this will kill the region to your kill ring.\n\n\nM-w\nIf you have a region highlighted, this will copy the region to your killing ring without deleting the text.\n\n\nC-y\nYank back the last kill (i.e. paste what you just deleted)\n\n\nM-y &lt;select text&gt;\nAllows you to select which of your previous kills that you’d like to bring back.\n\n\n\n\nSearching for text:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-s\nSearch for a string (only from your cursor on, i.e., forward search)\n\n\nC-r\nSearch for a string (backwards)\n\n\nRET\nQuit searching\n\n\nM-C-s\nRegular expression search (forwards).\n\n\nM-C-r\nRegular expression search (backwards).\n\n\n\n\nCopilot commands:\n\n\n\nCommand\nFunction\n\n\n\n\nM-x copilot-mode\nToggle on/off copilot mode.\n\n\nM-C-RET\nAccept a completion.\n\n\nC-&lt;right&gt;\nAccept by word.",
+    "crumbs": [
+      "Training materials",
+      "Emacs",
+      "Getting started",
+      "Editing Your Document"
+    ]
+  },
+  {
+    "objectID": "emacs/copilot_login.html",
+    "href": "emacs/copilot_login.html",
+    "title": "Copilot",
+    "section": "",
+    "text": "Our configuration includes the Copilot integration, so these steps set it up. If you would rather not use it, skip this page — nothing else in the guide depends on it, and the last section here explains how to leave it switched off.\nCopilot needs a GitHub account. There is a free tier, and students and academic staff can get the paid tier at no cost through GitHub Education; see GitHub’s Copilot page for what each includes.\nNow that you have opened Emacs for the second time, you should see some messages at the bottom about “quelpa” or “copilot”. When these messages stop appearing, we need to complete a few Emacs commands to fully integrate with Copilot.\nNow, type:\n\nOption+x then type copilot-mode. Enter. This may give you prompts about logging in or installing the server. Follow each as they come up:\n\nOption+x install-server. Enter. When this is done, you may get a message saying that there is a newer version. You will need to do the next step, then. If not, skip the next step.\nOption+x reinstall-server. Enter. (Again, you may not need to do this!)\nOption+x copilot-login. Enter. If you have already authorized Copilot on your computer (e.g., in RStudio), this may not be necessary. This will give you a code to copy. Write it down. Follow the instructions, then press enter to access GitHub in your browser. Authorize your GitHub/Copilot in the browser according to the instructions.\n\n\nNow we are going to close Emacs and reopen it.\nThere should be a few messages on start-up, but nothing that you need to do.\nTo turn on Copilot mode, type: Option-x copilot-mode. Enter. At the bottom, it should tell you that copilot mode is enabled in the buffer.\nCopilot should now be integrated! If you pause when typing, suggestions should pop up for you. If not, try typing Option-x copilot-mode a few times, toggling it off/on again.\nIf you ever want to stop using it, or if you don’t have Copilot, just don’t turn on copilot-mode.",
     "crumbs": [
       "Training materials",
       "Emacs",
       "Opening Emacs for the first time",
-      "Install Emacs Packages"
+      "Copilot"
     ]
   },
   {
-    "objectID": "emacs/important_keys.html",
-    "href": "emacs/important_keys.html",
-    "title": "Important Keys",
+    "objectID": "emacs/computer_installer.html",
+    "href": "emacs/computer_installer.html",
+    "title": "Installing Necessary Packages on Your Computer",
     "section": "",
-    "text": "Two of the most important keys you will need to know are the Control key (abbreviated by C) and the Option key (aka the “Meta” key or the “Alt” key, abbreviated by M).\nMost Emacs commands will require you to hold down either the Control key or the Meta key while typing. The syntax for Emacs commands are C-&lt;character&gt; which means hold the Control key when you press &lt;character&gt;. Additionally you may see M-&lt;chr 1&gt; &lt;chr 2&gt; which means hold the Meta key while you press the first character, release it, and then press the second character. Or you may see two in row, for example: C-x C-f, which means hold the Control key and press x and then f (while still holding the Control key). This is the “find a file” command.\nAdditionally, to quit Emacs you can type C-x C-c (or, of course, you can click out of the user interface).\nTo quit a command, use C-g. (You may want to repeatedly press C-g).",
-    "crumbs": [
-      "Training materials",
-      "Emacs",
-      "Getting started",
-      "Important Keys"
-    ]
-  },
-  {
-    "objectID": "emacs/external_res.html",
-    "href": "emacs/external_res.html",
-    "title": "External Resources",
-    "section": "",
-    "text": "Documentation for useful programs that you may need (or like) to install\nHomebrew documentation\nGnu-tar documentation\nNode.js documentation\nIspell documentation\nEmacs Application Installer\nIQSS Configuration GitHub\nCopilot\nHotkeys for Macs or PCs\n\nAlso, it never hurts to search the web or Stack Overflow when you run into any issues.\nYouTube also has a vast array of Emacs turorials.",
-    "crumbs": [
-      "Training materials",
-      "Emacs",
-      "Resources",
-      "External Resources"
-    ]
-  },
-  {
-    "objectID": "emacs/creating.html",
-    "href": "emacs/creating.html",
-    "title": "Creating and Setting Up Documents",
-    "section": "",
-    "text": "To create your document, type C-x C-f (“Find a file”). Then use your arrow keys and return to navigate to the folder in which you’d like your document to live. When the top line of your mini buffer says the name of the correct folder, make sure that your cursor is on the top line, after the slash, and then type the name that you would like for your document. If you are making a Latex file, make sure to include the “.tex” suffix. Click return when you are done, and a new buffer with the name of the file will be displayed in your window.\nYou can also set local variables within a comment block at the end of a file. While most customizations will be already downloaded for you inside the init.el and custom.el files from the IQSS configuration, you wish to have file-specific customizations as well. You can use the following as an example of what you can put at the end of a file:\n% Local Variables:\n% mode: latex\n% TeX-master: t\n% TeX-engine: pdflatex\n% fill-column: 80\n% End:\n\nYou must have the first and the last line; these tell Emacs that you’re defining local variables.\nThe “mode” tells Emacs that you are typing in LaTeX.\n“TeX-master: t” tells Emacs that you are in the “master file” which refers to the file which includes all of your header information. For example: if you are in a project, say a book with multiple chapters, and each chapter has its own .tex file, you could use TeX-master to tell Emacs which file contains the header information. So, in your main.tex file, you could have: “” which reads in your chapter1.tex file. In the chapter files, you could simply write your LaTeX code, and include % TeX-master: “main.tex” in your local variables.\n“TeX-engine” tells Emacs how to compile your LaTeX file – in this case, we want a pdf.\n“fill-column: 80” tells Emacs that we want our text to automatically wrap after 80 characters.\nWe can also define which dictionary we want spell check to use.",
-    "crumbs": [
-      "Training materials",
-      "Emacs",
-      "Getting started",
-      "Creating and Setting Up Documents"
-    ]
-  },
-  {
-    "objectID": "emacs/configuration.html",
-    "href": "emacs/configuration.html",
-    "title": "IQSS Configuration",
-    "section": "",
-    "text": "To install our configuration, run the following line in your terminal:\n\ngit clone https://github.com/IQSS/emacs.d_v29.git ~/.emacs.d\n\nThis essentially copies our Emacs configuration to a folder named “.emacs.d” in your home folder. If you’d like, you can do so directly from the GitHub page by using the green “Code” button to Download ZIP. Then, you would unzip the file, move it to your home folder, and rename it “.emacs.d”. You would get a pop-up asking if you are sure that you want it to start with a dot. That is okay, it just means that it will be hidden. If you are in your Finder and you want to see or edit this folder, access your Home folder and then press Cmd+Shift+. to see your hidden files.",
+    "text": "There are a few programs that we will need to install: Homebrew, node, ispell, and gnu-tar.\nHomebrew is necessary as macOS’s package manager. This will allow you to install various programs via the command line. Node.js and gnu-tar are needed by the Copilot integration in our configuration — Copilot’s language server runs on Node — and ispell provides spell checking.\nTo do so, please open your Terminal. (If you don’t know where this is: Finder &gt; Applications &gt; Utilities &gt; Terminal).\n\nNow run:\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\nPress enter and follow the instructions. When it finishes, Homebrew prints two lines for you to run so that the brew command is on your path. Copy them from Homebrew’s own output rather than from here — it fills in your username for you — and run them one at a time. They look like this:\necho &gt;&gt; ~/.zprofile\necho 'eval \"$(/opt/homebrew/bin/brew shellenv)\"' &gt;&gt; ~/.zprofile\neval \"$(/opt/homebrew/bin/brew shellenv)\"\n\nOnce Homebrew is installed, we can now install the three dependencies in your terminal. One by one, please copy and paste the following lines and execute separately (by pressing return after each).\n\nbrew install gnu-tar\nbrew install node\nbrew install ispell\n\nYou should now be done!\nIf you run into any problems installing these, please refer to documentation online for Homebrew, gnu-tar, node.js, and ispell.",
     "crumbs": [
       "Training materials",
       "Emacs",
       "Installation",
-      "IQSS Configuration"
+      "Installing Necessary Packages on Your Computer"
     ]
   },
   {
-    "objectID": "emacs/commands.html",
-    "href": "emacs/commands.html",
-    "title": "Commands List",
+    "objectID": "emacs/application.html",
+    "href": "emacs/application.html",
+    "title": "Emacs Application",
     "section": "",
-    "text": "All of the previous commands, and some additional ones, are listed below.\n\n\n\n\n\n\nThese tables are taken from the GNU Emacs Survival Card, copyright © Free Software Foundation, Inc. The card is distributed under its own permission notice, which requires that the copyright and permission notice be kept on all copies; it is not covered by the CC BY 4.0 licence that applies to the rest of this site.\n\n\n\nRunning Emacs:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-x C-c\nQuit Emacs\n\n\nC-x C-f\nEdit file; this command uses the mini buffer to read the file name; use this to create new files by entering the name of the new file\n\n\nC-x C-s\nSave file\n\n\nC-x k\nKill a buffer\n\n\nC-g\nIn most contexts: cancel, stop, abort partially types or executing command\n\n\nC-x u\nUndo\n\n\n\n\nMoving About:\n\n\n\nCommand\nFunction\n\n\n\n\nC-l\nScroll current line to center of window\n\n\nC-x b\nSwitch to another buffer\n\n\nM-&lt;\nMove to beginning of the buffer\n\n\nM-&gt;\nMove to the end of the buffer\n\n\nM-g M-g\nGo to a given line number\n\n\n\n\nMultiple Windows:\n\n\n\nCommand\nFunction\n\n\n\n\nC-x 0\nRemove the current window from the display\n\n\nC-x 1\nMake active window the only window\n\n\nC-x 2\nSplit window horizontally\n\n\nC-x 3\nSplit window vertically\n\n\nC-x o\nMove to other window\n\n\n\n\nRegions:\n\n\n\nCommand\nFunction\n\n\n\n\nC-space\nSet a mark\n\n\nM-h\nMark entire paragraph\n\n\nC-x h\nMark entire buffer\n\n\n\n\nKilling, Yanking, Copying and Pasting\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-w\nKill region\n\n\nM-w\nCopy region to kill-ring\n\n\nC-k\nKill from the cursor all the way to the end of the line\n\n\nM-DEL\nKill word\n\n\nC-y\nYank back the last kill (C-w C-y combination could be used to move text around)\n\n\nM-y\nReplace last yank with previous kill\n\n\nCmd-C\nCopy\n\n\nCmd-V\nPaste\n\n\n\n\nSearching:\n\n\n\nCommand\nFunction\n\n\n\n\nC-s\nSearch for a string (forwards)\n\n\nC-r\nSearch for a string (backwards)\n\n\nRET\nQuit searching\n\n\nM-C-s\nRegular expression search\n\n\nM-C-r\nReverse regular expression search\n\n\n\n\nTags\n\n\n\nCommand\nFunction\n\n\n\n\nM-.\nFind a definition\n\n\nM-*\nPop back to where M-. was last invoked\n\n\n\n\nCompiling:\n\n\n\nCommand\nFunction\n\n\n\n\nC-c C-c\nCompile the file\n\n\n\n\nGetting Help:\n\n\n\nCommand\nFunction\n\n\n\n\nC-h\nEmacs help\n\n\nC-h t\nRun the Emacs tutorial\n\n\nC-h i\nEnter Info, the documentation browser\n\n\nC-h a\nShow commands matching a string\n\n\nC-h k\nDisplay documentation of the function invoked by a keystroke\n\n\nC-h m\nGet mode-specific information\n\n\n\n\nCopilot:\n\n\n\nCommand\nFunction\n\n\n\n\nM-x copilot-mode\nToggle on/off copilot mode.\n\n\nM-C-RET\nAccept a completion.\n\n\nC-&lt;right&gt;\nAccept by word.",
+    "text": "To download the Emacs application, please run the following line in your Terminal: brew install --cask emacs\nIf the package installer appears, follow its instructions. (You may need to drag the icon to the Application folder).\nIf you run into any problems, you can always download the application from Emacs For MacOS X.",
     "crumbs": [
       "Training materials",
       "Emacs",
-      "Resources",
-      "Commands List"
+      "Installation",
+      "Emacs Application"
     ]
   },
   {
-    "objectID": "vscode/shortcuts.html",
-    "href": "vscode/shortcuts.html",
-    "title": "Keyboard Shortcuts",
+    "objectID": "vscode/settings.html",
+    "href": "vscode/settings.html",
+    "title": "Settings",
     "section": "",
-    "text": "We’ve also added a few keyboard shortcuts. You can remove these from your keybindings.json file if you do not like them.\n\n“Option+Command+y”: Will show you all of your built-in LaTeX recipes.\n“Shift+Option+b”: When you are inside a .tex file, this will open the accompanying output PDF in an external viewer. We recommend using Skim, which you can set up with sync so that it will refresh whenever you save/build the .tex file.\n“Option+Command+f”: When you are typing, this will toggle on/off whether inline suggestons will appear. Once you toggle on/off, you need to continue typing to see the change take effect.\n“Option+Command+h”: When you have text highlighted, this will toggle on/off whether repeat occurrences of that word will also be highlighted.\n“Option+Command+q”: When you are typing, this will toggle on/off whether dropdown spelling suggestions will appear.",
+    "text": "We’ve added quite a few non-default settings, which will be automatically configured with this profile. Again, you might not like all of these — feel free to remove these from your settings.json file.\nHere is a list of some of these settings:\n\nAdditional LaTeX recipes:\n\nxelatex+ and pdflatex+ will actually build the accompanying files many times underneath the hood in order to make sure that your bibliography citations correspond correctly.\n\nLaTeX outline view will include the sections: part, chapter, section, subsection, subsubsection, and paragraph.\nWord wrapping",
     "crumbs": [
       "Training materials",
       "VS Code",
       "Our recommended profile",
-      "Keyboard Shortcuts"
+      "Settings"
     ]
   },
   {
-    "objectID": "vscode/profiles.html",
-    "href": "vscode/profiles.html",
-    "title": "Managing Profiles",
+    "objectID": "vscode/index.html",
+    "href": "vscode/index.html",
+    "title": "VS Code",
     "section": "",
-    "text": "Profiles allow you to build custom configurations in VSCode! You can set up multiple profiles, and you can customize each one.",
+    "text": "The following is a quick starter guide designed to get you acquainted with Visual Studio Code (VSCode), a desktop application for coding.",
     "crumbs": [
       "Training materials",
       "VS Code",
-      "Customizing your own VS Code",
-      "Managing Profiles"
+      "Start here"
     ]
   },
   {
-    "objectID": "vscode/profiles.html#creating-your-own-profile",
-    "href": "vscode/profiles.html#creating-your-own-profile",
-    "title": "Managing Profiles",
-    "section": "Creating Your Own Profile",
-    "text": "Creating Your Own Profile\n\nClick the settings menu\nClick Profiles\nClick Create Profile\nGive it a name, click enter",
-    "crumbs": [
-      "Training materials",
-      "VS Code",
-      "Customizing your own VS Code",
-      "Managing Profiles"
-    ]
-  },
-  {
-    "objectID": "vscode/profiles.html#exporting-your-own-profile",
-    "href": "vscode/profiles.html#exporting-your-own-profile",
-    "title": "Managing Profiles",
-    "section": "Exporting Your Own Profile",
-    "text": "Exporting Your Own Profile\nOnce you have made your own personalized settings, you can export your own profile to share with others.\n\nClick the settings menu\nClick Profiles\nClick Export Profile\nClick the blue “Export” button\nGive it a name, click enter\nSelect the GitHub gist option\nCopy the link to share!",
-    "crumbs": [
-      "Training materials",
-      "VS Code",
-      "Customizing your own VS Code",
-      "Managing Profiles"
-    ]
-  },
-  {
-    "objectID": "vscode/profiles.html#deleting-profiles",
-    "href": "vscode/profiles.html#deleting-profiles",
-    "title": "Managing Profiles",
-    "section": "Deleting Profiles",
-    "text": "Deleting Profiles\n\nClick the settings menu\nClick Profiles\nClick Delete Profile\nCheck off the profiles that you would like to delete\nClick OK",
-    "crumbs": [
-      "Training materials",
-      "VS Code",
-      "Customizing your own VS Code",
-      "Managing Profiles"
-    ]
-  },
-  {
-    "objectID": "vscode/external_res.html",
-    "href": "vscode/external_res.html",
-    "title": "External Resources",
+    "objectID": "vscode/extensions.html",
+    "href": "vscode/extensions.html",
+    "title": "Extensions",
     "section": "",
-    "text": "Resources include VSCode’s introduction page, documentation, and tips and tricks.\nAdditional resources include various YouTube tutorials or online guides, such as Jia Jia’s Fast Guide on Writing LaTeX with LaTeX Workshop in VS Code.\nLastly, Google is your best friend! If you want to do something, googling how to do it is your best go-to. Sites like Stack Overflow, Reddit, and Quora all have active user communities that ask questions and support each other.",
+    "text": "There are a lot of extensions available in VSCode. You can always install more extensions that we have! We’ve included some that we find make coding in \\(\\LaTeX\\) much easier. These include:\n\nAzure Repos:\n\nDependency for GitHub extensions.\n\nBetter Comments:\n\nColor codes types of comments with symbols at the beginning of each. For example, there are:\n\n“*” for highlighting a comment (green)\n“!” for an alert (red)\n“?” for a question (blue)\n“TODO” for a to-do (orange)\n“//” for a strikethrough\n\nYou can also customize your own.\n\nGitHub Copilot:\n\nIn-line suggestions: Copilot will anticipate what you are about to type. You can accept these suggestions, or keep typing.\nThe keyboard shortcut in the Keyboard Shortcuts section toggles these suggestions on and off, since they are not always welcome while you are drafting.\n\nGitHub Copilot Chat:\n\nIn-line chat: Cmd+I starts a chat at the cursor, where you can ask for something to be written or explained in place.\nSide chat: a side pane holds a continuing conversation, which is useful for questions that are about the file rather than about one line of it.\n\nGitHub Pull Requests and Issues:\n\nAllows for a smoother integration of GitHub into VSCode.\n\nGitHub Repositories:\n\nAnother extension which helps to integrate your repositories into VSCode.\n\nindent-rainbow:\n\nHighlights vertically along indents, allowing you to see the different levels of structure in your code.\n\nLaTeX Utilities:\n\nExtension pack for LaTeX Workshop. Includes quicker paste options, live snippets, and word count.\n\nLaTeX Workshop:\n\nIncludes many features, including snippets, shortcuts, and pdf-viewing.\n\nLive Preview:\n\nAllows you to see HTML previews inside VSCode.\n\nLTeX - LanguageTool grammar/spell checking:\n\nUnderlines potential spelling and grammar mistakes.\n\nPath Autocomplete:\n\nAutocompletes paths for files inside your repository.\n\nR:\n\nAllows you to use R in VSCode, with snippets and various viewer options.\n\nR Debugger:\n\nIntegrates the debugging process for R into VSCode.\n\nRainbow CSV:\n\nIf you view a CSV file inside VSCode, each variable will be color-coded (for easier viewing)\n\nRemote Repositories:\n\nDependency for GitHub extensions.\n\nSettings Cycler:\n\nNecessary for using special keyboard shortcuts to toggle settings on/off.\n\nToggle:\n\nNecessary for using special keyboard shortcuts to toggle settings on/off.\n\nvscode-icons:\n\nIncludes additional graphic icons for file types, etc., inside VSCode.\n\nWord Count:\n\nProvides additional word count support for markdown documents.\n\nZotero LaTeX:\n\nAllows for more smooth integration for Zotero in LaTeX documents.",
     "crumbs": [
       "Training materials",
       "VS Code",
-      "External Resources"
+      "Our recommended profile",
+      "Extensions"
     ]
   },
   {
-    "objectID": "vscode/dependencies.html",
-    "href": "vscode/dependencies.html",
-    "title": "Dependencies",
+    "objectID": "vscode/customizing.html",
+    "href": "vscode/customizing.html",
+    "title": "Customizing Your Own Configuration",
     "section": "",
-    "text": "In order to use VSCode effectively, there are some additional programs or applications that we also recommend you install or use on your own.\n\nGitHub:\n\nWe recommend using GitHub. If you do not already have a GitHub account, we recommend following the instructions from GitHub.\n\nCopilot:\n\nOur recommended profile installs the GitHub Copilot and Copilot Chat extensions, so they will appear whether or not you intend to use them. To use them you need a GitHub account: there is a free tier, and students and academic staff can get the paid tier at no cost through GitHub Education.\nGitHub’s setup instructions cover signing in. If you would rather not use Copilot at all, disable the two extensions from the Extensions pane and nothing else in this guide changes.\n\nSkim:\n\nSkim is a PDF viewer, which you can download from the internet. We recommend setting this as your default PDF viewer.\nOnce Skim is open, go to the top toolbar menu. Select Skim &gt; Settings.\nIn the settings pane that opens, click Sync on the top right.\nCheck off the boxes for “Check for file changes” and “Reload automatically”\nIn the PDF-TeX Sync support section, set the “Preset” to Visual Studio Code\n\nMacTeX:\n\nMacTeX is the standard TeX distribution on macOS, which you can download from the internet.\nIf you already have a TeX distribution installed on your computer, you do not need to install MacTeX as well.\n\nPandoc:\n\nPandoc allows you to knit .Rmd files to PDF files. You can install the latest release from the internet.",
+    "text": "Adding your own extensions is easy. Simply locate the extensions icon on the left-hand toolbar (it looks like three squares in an L, with one separated square to the top right). You can search for any extension available! When you’ve found an extension that you like, all you need to do is click the “Install” button!",
+    "crumbs": [
+      "Training materials",
+      "VS Code",
+      "Customizing your own VS Code",
+      "Customizing Your Own Configuration"
+    ]
+  },
+  {
+    "objectID": "vscode/customizing.html#adding-your-own-extensions",
+    "href": "vscode/customizing.html#adding-your-own-extensions",
+    "title": "Customizing Your Own Configuration",
+    "section": "",
+    "text": "Adding your own extensions is easy. Simply locate the extensions icon on the left-hand toolbar (it looks like three squares in an L, with one separated square to the top right). You can search for any extension available! When you’ve found an extension that you like, all you need to do is click the “Install” button!",
+    "crumbs": [
+      "Training materials",
+      "VS Code",
+      "Customizing your own VS Code",
+      "Customizing Your Own Configuration"
+    ]
+  },
+  {
+    "objectID": "vscode/customizing.html#adding-your-own-settings",
+    "href": "vscode/customizing.html#adding-your-own-settings",
+    "title": "Customizing Your Own Configuration",
+    "section": "Adding Your Own Settings",
+    "text": "Adding Your Own Settings\nYou may want different default settings. Click the settings icon in the bottom-right, and click Settings. This will open up all of your VSCode settings available. Search for what you want to do. Most settings have dropdowns or checkboxes. Simply select whichever options you like. (Underneath the hood, VSCode will also write these to your settings.json file, which you can see by clicking the Open File icon (paper with an arrow) on the top right toolbar.)",
+    "crumbs": [
+      "Training materials",
+      "VS Code",
+      "Customizing your own VS Code",
+      "Customizing Your Own Configuration"
+    ]
+  },
+  {
+    "objectID": "vscode/customizing.html#adding-your-own-keyboard-shortcuts",
+    "href": "vscode/customizing.html#adding-your-own-keyboard-shortcuts",
+    "title": "Customizing Your Own Configuration",
+    "section": "Adding Your Own Keyboard Shortcuts",
+    "text": "Adding Your Own Keyboard Shortcuts\nYou can also add your own keyboard shortcuts by clicking the settings icon, selecting Keyboard Shortcuts and then searching for the command which you’d like to add. Then, click the pencil icon to the left of the command, and then enter in the keys you’d like to use for your shortcut.\nYou should then be able to see these in the Keyboard Shortcuts menu or if you click the Open File icon (paper with an arrow) in the top right of the toolbar, you can see your customized keyboard shortcuts.",
+    "crumbs": [
+      "Training materials",
+      "VS Code",
+      "Customizing your own VS Code",
+      "Customizing Your Own Configuration"
+    ]
+  },
+  {
+    "objectID": "vscode/application.html",
+    "href": "vscode/application.html",
+    "title": "VSCode Application",
+    "section": "",
+    "text": "Visual Studio Code has instructions for getting started.\nYou can download VSCode directly from their website for your operating system.\nUnzip the download (mine was called “VSCode-darwin-universal.zip”), and then click on the new application (Visual Studio Code). A pop-up will ask you if you want to open an app downloaded from the internet. Click open.",
     "crumbs": [
       "Training materials",
       "VS Code",
       "Installation",
-      "Dependencies"
+      "VSCode Application"
     ]
   },
   {
-    "objectID": "vscode/configuration.html",
-    "href": "vscode/configuration.html",
-    "title": "IQSS Configuration",
+    "objectID": "pages/RSG_template.html",
+    "href": "pages/RSG_template.html",
+    "title": "Using Templates",
     "section": "",
-    "text": "To import our recommended profile:\n\nInside VSCode, click on the settings icon in the bottom-left corner (it looks like a gear!)\nSelect “Profiles (Name of your current profile)” ← this should be “Profiles (Default)” if you are doing this for the first time\nSelect “Import Profile”\nCopy and paste the following URL into the search bar pop-up that says “Provide Profile Template URL”: https://vscode.dev/profile/github/2f5c3eb559798c7c449adac706742807.\n\nFollowing that link in a browser opens VS Code for the Web, which runs the editor in a browser tab.\n\nA pane on the left will pop up. Leave everything checked off, and select the blue “Create Profile” button\nEnter a name for this profile in the text pop-up, such as “IQSS Recs”\nLeave everything checked off, and select the blue “Create” button\n\nNow the settings icon should have a short descriptor bubble attached, e.g. “IQ”, and if you click on it, you should see that it now says “Profiles (Profile Name)”, such as “Profiles (IQSS Rec)”\nCongrats, you’ve imported our recommended profile!\nThis includes:\n\nextensions, which will automatically install for you. You can access these by clicking the extensions icon on the left-hand toolbar, which has three squares in an L shape with an additional square that is separated at the top right corner.\nsettings.json, which you can access by clicking the settings icon, selecting Settings, and then clicking the “Open Setting (JSON)” icon in the file toolbar, which looks like a piece of paper with a curved arrow.\nkeybindings.json, which you can access by clicking the settings icon, selecting Keyboard Shortcuts, and then clicking the “Open Keyboard Shortcuts (JSON)” icon in the file toolbar, which looks like a piece of paper with a curved arrow.",
-    "crumbs": [
-      "Training materials",
-      "VS Code",
-      "Installation",
-      "IQSS Configuration"
-    ]
-  },
-  {
-    "objectID": "pages/index.html",
-    "href": "pages/index.html",
-    "title": "GitHub Pages",
-    "section": "",
-    "text": "The following is a quick starter guide designed to get you acquainted with GitHub Pages, an option for you to create a personal website. If you’d rather start with a website on Google Sites (no coding necessary!), we include those instructions first.\nWe include instructions for building your website three ways. For the one you would like to use, click its link below for detailed instructions.\n\nGoogle Sites\nThe online file editor through GitHub\nRStudio and Git\n\nFeel free to choose the option that best fits your technical comfort level. If you are already used to R/RStudio/Git, the last option may be best for you. If you don’t know what those are, but you know how to code in HTML, feel free to use option 2. If you have no clue how to code (that’s OK!), then a Google Sites page might be right for you.\nAdditionally, we include instructions for finding and using templates, customizing your site, and connecting your site to a custom domain.\nNote: In Google Sites, support for custom domains is currently not available for managed accounts, like a g.harvard.edu account. If you really want to use a custom domain (i.e. yourname.com), then you should either use GitHub Pages or use a personal Google account to make your Google Site.",
+    "text": "Now, find a website template that you’d like to use. There are a lot of free ones from https://html5up.net/. Or, if you are already savvy with HTML or web design, you may choose to make your own website from scratch. You can also use Jekyll themes that are designed for GitHub Pages, too.\nSome of the templates that we recommend for multiple-page websites include:\n\nHTML5Up’s Editorial\nHTML5Up’s Stellar\nHTML5Up’s Arcana\nHTML5Up’s Minimaxing\n\nIf you’d like a 1-page website, some templates include:\n\nHTML5Up’s Read Only\nHTML5Up’s Strata\n\nRegardless of your desired choice, the set-up remains the same.\n\nDownload the template that you like.\nGo into your downloads folder.\nCopy and paste all of this content into your repository folder (username.github.io). You know this is the right folder because there will be an index.html file inside of it!\nIf the downloaded items include an index.html, you will need to delete your original, barebones index.html we created earlier. (If you are on a Mac, it will ask you automatically).\nThrough RStudio (or the command line, if you know how), commit your changes and push them to GitHub.\nAfter a few minutes, the build should be deployed and you should see this template hosted on your website now.",
     "crumbs": [
       "Training materials",
       "GitHub Pages",
+      "RStudio and Git",
+      "Using Templates"
+    ]
+  },
+  {
+    "objectID": "pages/RSG_domain.html",
+    "href": "pages/RSG_domain.html",
+    "title": "Adding a Custom Domain",
+    "section": "",
+    "text": "Customizing your domain name can be a complicated process. The full GitHub instructions can be found here.\nThese instructions assume that you already have ownership of the custom domain that you would like to use, as well as knowledge about your specific DNS provider.\n\n\nGo to your GitHub repository\n\n\nClick Settings\n\n\nIn the left-hand menu bar, select Pages\n\n\nScroll down to the Custom Domain section\n\n\nEnter your custom domain in the textbox. For example, you should write: mysite.com\n\n\nHit Save\n\n\nNavigate to your DNS provider and create a CNAME record that points your subdomain to the default domain for your site.\n\n\nExample: if you want to use www.example.com, you will create a CNAME record that points www.example.com to &lt;username&gt;.github.io. Note that this is the user page, not a repository name.\n\n\nInstructions for creating a CNAME record vary by DNS provider. GitHub recommends using your DNS provider’s documentation.\n\n\nFor example, on GoDaddy, when you add a record, the record name would be “www” and the record value would be “username.github.io”\n\n\n\nTo ensure that your apex domain (i.e. without “www”) works, you should also include four A records in your DNS provider’s web console. For example, on GoDaddy, the name would be the @ symbol and the values would be the following:\n\n\n\n185.199.108.153\n\n\n185.199.109.153\n\n\n185.199.110.153\n\n\n185.199.111.153\n\n\n\nConfirm that your DNS record is configured correctly using the terminal.\n\n\nIn the terminal, type: dig WWW.EXAMPLE.COM +nostats +nocomments +nocmd where WWW.EXAMPLE.COM should be replaced with your custom domain name.\n\n\nYou should see the GitHub pages link in the output.\n\n\nThis can take some time to propagate. For example, on GoDaddy, you can set your “TTL” (time to live) as low as 600 seconds. However, GoDaddy also warns that changes may not take effect for up to 48 hours. We also suggest checking your site (and all variations of your site link, e.g., with and without “www”) on an incognito window, as your browser’s cache can sometimes make it appear as if your site did not update.\n\n\n\nGo back to your GitHub repository.\n\n\nGo to Settings &gt; Pages &gt; Custom domain\n\n\nCheck off Enforce HTTPS\n\n\n\nIf this says something along the lines of “Your domain is not properly configured to support HTTPS” we will need to add additional records with your DNS provider\n\n\nWe strongly recommend following instructions from your DNS provider. You should look up “HTTPS record for [your DNS provider]” in Google and follow any of their documentation.\n\n\nFor example, on GoDaddy, you can add an HTTPS record where the name is @ and the value is your site’s domain (e.g., mysite.com)\n\n\n\nIf you run into any additional problems, you may want to ensure that there are no additional A records aside from the ones listed above. This may be a problem if you have previously had your site hosted through a service separate from GitHub pages.\n\n\nSome common warning messages that you may see when GitHub pages is connecting to your site include “DNS valid for primary” or “DNS check in progress” – these are both OK, and should go away once your site is connected.\n\n\nOn the other hand, if you get an error message “DNS check unsuccessful” or “Both your custom domain and its alternative name are improperly configured,” then it means either your A or CNAME records are incorrect. Please check these!",
+    "crumbs": [
+      "Training materials",
+      "GitHub Pages",
+      "RStudio and Git",
+      "Adding a Custom Domain"
+    ]
+  },
+  {
+    "objectID": "pages/RSG_create.html",
+    "href": "pages/RSG_create.html",
+    "title": "Create Your Website",
+    "section": "",
+    "text": "We can now start building the website.\nThese instructions largely follow the instructions from GitHub, found here.\nTo start, we will create a repository (you can think of this as a folder for your project).\nIf you need more instructions about committing and pushing to GitHub, or if you want to use the Terminal/Command Line, check out our Git and GitHub Guide.",
+    "crumbs": [
+      "Training materials",
+      "GitHub Pages",
+      "RStudio and Git",
+      "Create Your Website"
+    ]
+  },
+  {
+    "objectID": "pages/RSG_create.html#footnotes",
+    "href": "pages/RSG_create.html#footnotes",
+    "title": "Create Your Website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nIn fact, if we are creating a GitHub Page that has a different name than our username, e.g., a project webpage, we will need to do this manually, anyhow.↩︎",
+    "crumbs": [
+      "Training materials",
+      "GitHub Pages",
+      "RStudio and Git",
+      "Create Your Website"
+    ]
+  },
+  {
+    "objectID": "pages/OGHE_start.html",
+    "href": "pages/OGHE_start.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "If you’d like a bit more flexibility than Google Sites, and you are comfortable with some level of HTML, but you’d like to reduce the technical knowledge required, then using the online GitHub editor is the right choice for you!\nEverything will be done through your internet browser, using GitHub’s file editing tool—no downloads or installs needed.\nTo get started, you will need to make sure that you have a GitHub account. If you do not already have one, visit GitHub.com and create an account. If you already have an account, you can log in and enter your credentials.\nYou may be prompted to sign in with 2-Factor Authentication with an email or your phone number.",
+    "crumbs": [
+      "Training materials",
+      "GitHub Pages",
+      "Online GitHub editor",
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "pages/OGHE_customize.html",
+    "href": "pages/OGHE_customize.html",
+    "title": "Customizing Your Website",
+    "section": "",
+    "text": "Customizing your website requires some basic knowledge of HTML and CSS. If that sounds daunting, the template you chose will already have the structure in place — in most cases you are replacing text and images rather than writing markup from scratch.\nNow you are ready to customize the website! To personalize your website, you will need to change all of the text and images that are currently in your template.\nIf your site has one page, you will likely only need to edit your index.html file. If your site has more pages, there will be additional .html files for you to edit. To change your styling, there should be a main.css file inside of the assets/css/ folder. Here you can change stylings, like color, text size, and fonts.\nOpen any of the .html files in the GitHub file editor by clicking on the file to edit them. You can replace the text via editing. To replace images, you will need to create an images folder inside of your username.github.io repository, where you can download images to. You will then have to use image tags &lt;img src=“images/specific_path_to_photo.png”&gt; in your .html files.\nAdditionally, you may want to create more .html files, especially if you’d like an individual page for each of your publications, etc. You may want to delete some of the .html files that you don’t use from the template, too. Just make sure that your index.html or other .html files you do use do not link to the files you delete, or your page will get 404 errors if someone clicks on those links.\nMake sure to save and commit all of your changes to GitHub. We recommend doing this repeatedly, so that you can see your edits taking effect as you edit your site. This may take a few minutes after committing. When you are in your GitHub repository, you should see a green checkmark next to your commit message to tell you that your build has successfully deployed.",
+    "crumbs": [
+      "Training materials",
+      "GitHub Pages",
+      "Online GitHub editor",
+      "Customizing Your Website"
+    ]
+  },
+  {
+    "objectID": "pages/GS_start.html",
+    "href": "pages/GS_start.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "If you don’t want to code at all, the Google Sites option is best for you!\nTo get started, you only need to ensure that you have a Google Account (e.g., a gmail account). If you do not have one, please make one at accounts.google.com.\nAdditionally, before you get started, it would be great to have the following easily accessible to add into your website:\n\nA professional biography\nA headshot, if you have one\nYour CV or resume (PDFs are best!)\nResearch interests and projects\nContact information (e.g., your professional email, social links if you post on X or BlueSky, your GitHub, etc.)\n\nIf you have additional questions not answered by this quick starter guide, the Google Support Guide may be of use to you.",
+    "crumbs": [
+      "Training materials",
+      "GitHub Pages",
+      "Google Sites",
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "pages/GS_customize.html",
+    "href": "pages/GS_customize.html",
+    "title": "Customize Your Website",
+    "section": "",
+    "text": "You are now ready to customize the template with your information. Google Sites is driven by its user interface. There is no coding that you need to do. Instead, there are pop-ups, and various tool menus that allow you to edit your site, insert or remove content, create or delete pages, and edit the theme.\nUsing the “Graduates” template as an example, you can start with three pages: (1) About, (2) Resume, and (3) Research & Projects.\nYou can change these page names by navigating on the right-most menu bar to the “Pages” tab, and then double-clicking on the page name to change it. You can also use the “+” button at the bottom of the menu bar to add pages. You can use the three-dot menu next to each page name to delete or duplicate a page.\nFor example, you may wish to change “About” to “Home”.",
+    "crumbs": [
+      "Training materials",
+      "GitHub Pages",
+      "Google Sites",
+      "Customize Your Website"
+    ]
+  },
+  {
+    "objectID": "pages/GS_customize.html#about-page",
+    "href": "pages/GS_customize.html#about-page",
+    "title": "Customize Your Website",
+    "section": "About Page",
+    "text": "About Page\n\nAdd your name to the header by simply clicking on the “Tina Smith, PhD” and putting your name there instead.\nIntroduce yourself by editing the first text box.\n\n\nHover over the text box, and click on the pencil icon to edit.\n\n\nYou can change the text type (e.g., title), font, size, styles, and formatting in the tool menu that pops up above the text box.\n\n\nYou can add an image of yourself.\n\n\nClick on the existing image.\n\n\nIn the tool bar that pops up, select the three dots.\n\n\nHover over “Replace image” and then click “Upload”.\n\n\nFrom your computer, select the image you would like to add.\n\n\nYou can choose to move, add, or delete sections on your homepage if you wish.\n\n\nTo move a section, you can hover over the content, move your cursor to the left-most part of the content (where there are 10 dots in 2 columns), and drag the section to your desired location.\n\n\nTo add a section, make sure the menu bar on the right side is on the “Insert” tab, and select your desired content block.\n\n\nTo delete a section, hover over it, and in the left-most pop-up menu, click the trash icon.",
+    "crumbs": [
+      "Training materials",
+      "GitHub Pages",
+      "Google Sites",
+      "Customize Your Website"
+    ]
+  },
+  {
+    "objectID": "pages/GS_customize.html#resume-page",
+    "href": "pages/GS_customize.html#resume-page",
+    "title": "Customize Your Website",
+    "section": "Resume Page",
+    "text": "Resume Page\n\nNavigate to the Resume Page by clicking on “Resume” in the top header.\nGoogle Sites allows the option to include resume sections as plain text on the site, or as a Google Doc/PDF, or both. Choose whichever you’d like.\nYou can simply click the plain text sections if you’d like to include those. If not, hover over each and select the trash icon in the left-side pop-up menu to delete them.\n\n\n\nIf you have your resume as a Google Doc:\n\n\n\nIn the right-side menu bar under the “Insert” tab, select “Docs”.\n\n\nIn the pop-up menu, select your Google Docs resume.\n\n\nClick the blue “Insert” button.\n\n\nNote that this will insert the Google Doc in a new section under your current section.\n\n\n\n\n\nIf you have your resume as a PDF:\n\n\n\nYou need to upload your PDF file to your Google Drive.\n\n\nIn the right-side menu bar under the “Insert” tab, select “Drive”.\n\n\nIn the pop-up menu, navigate to and select your PDF resume.\n\n\nClick the blue “Insert” button.\n\n\nNote that this will insert the PDF in a new section under your current section.\n\n\n\nIf you get any messages about permissions for files:\n\nMake sure that the drop-down is set to “Viewer” and then click “Share”.\nNavigate to the Google Drive that has your file.\nAccess the file.\nClick the blue “Share” button at the top-right.\nUnder “General Access”, change the drop-down to “Anyone with the link” and make sure that the second drop-down says “Viewer”.\nClick the blue “Done” button.\nNavigate back to your Google Sites webpage.",
+    "crumbs": [
+      "Training materials",
+      "GitHub Pages",
+      "Google Sites",
+      "Customize Your Website"
+    ]
+  },
+  {
+    "objectID": "pages/GS_customize.html#research-projects-page",
+    "href": "pages/GS_customize.html#research-projects-page",
+    "title": "Customize Your Website",
+    "section": "Research & Projects Page",
+    "text": "Research & Projects Page\nYou can edit the text boxes here as you normally would to add content about projects that you’d like to highlight.\nYou can also add or remove sections as you see fit, also as described earlier.",
+    "crumbs": [
+      "Training materials",
+      "GitHub Pages",
+      "Google Sites",
+      "Customize Your Website"
+    ]
+  },
+  {
+    "objectID": "pages/GS_customize.html#publishing-your-site",
+    "href": "pages/GS_customize.html#publishing-your-site",
+    "title": "Customize Your Website",
+    "section": "Publishing Your Site",
+    "text": "Publishing Your Site\nOnce you are done editing your site, you are ready to publish it.\nTip: In the top menu bar, there is an icon that looks like a computer and a phone. When you hover over it, it says “Preview”. You can use this button to preview what your site will look like on different screens (mobile, tablet, computer). You can click the blue “X” to exit back to the editor.\n\nClick the purple Publish button in the top right corner.\nPut a name for your URL in the “Web address” box. Just below the box will show you what your URL will look like: “https://sites.google.com/”, etc.\nUnder the “Who can view my site” make sure to click the blue “MANAGE” button.\nIn the pop-up, at the “Published Site” section, change the drop-down to “Public”.\nClick “Done”.\nNow, click the purple “Publish” button at the bottom of the pop-up.\nCongrats, you should be done!\n\n\n\nIf you get an error about access to a file, you need to make sure the file is publicly viewable:\n\n\n\nGo to your Google Drive account where the file is stored.\n\n\nAccess the file.\n\n\nClick the blue “Share” button at the top-right.\n\n\nUnder “General Access”, change the drop-down to “Anyone with the link” and make sure that the second drop-down says “Viewer”.\n\n\nClick the blue “Done” button.\n\n\nNavigate back to your Google Sites webpage.\n\n\nRe-publish your site.",
+    "crumbs": [
+      "Training materials",
+      "GitHub Pages",
+      "Google Sites",
+      "Customize Your Website"
+    ]
+  },
+  {
+    "objectID": "git/sign_up.html",
+    "href": "git/sign_up.html",
+    "title": "Sign Up / Login",
+    "section": "",
+    "text": "To sign up for GitHub, visit the website and create an account. If you already have an account, you can log in and enter your credentials.\nGitHub requires two-factor authentication on every account that contributes code, so you will be asked to set it up rather than offered the choice. You can use an authenticator app (Google Authenticator, 1Password, Authy and others), a passkey, a security key, or text messages.\nPrefer an authenticator app or a passkey over text messages: SMS can be intercepted by porting your phone number, and GitHub itself recommends against it. Save the recovery codes it gives you somewhere you can reach without your phone — they are the only way back into the account if you lose the device.",
+    "crumbs": [
+      "Training materials",
+      "Git and GitHub",
+      "Getting started with Git and GitHub",
+      "Sign Up / Login"
+    ]
+  },
+  {
+    "objectID": "git/introduction.html",
+    "href": "git/introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Git is widely used open source software for versioning and collaborating on files to be edited; github.com is a commercial service that makes git easier to use (and free for IQSS affiliates). Git is extremely sophisticated (for professional programmers), but most people only need a few easy commands. Github.com offers GUIs to do everything below, but I find the command line simpler and easier.",
+    "crumbs": [
+      "Training materials",
+      "Git and GitHub",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "git/introduction.html#background",
+    "href": "git/introduction.html#background",
+    "title": "Introduction",
+    "section": "",
+    "text": "Git is widely used open source software for versioning and collaborating on files to be edited; github.com is a commercial service that makes git easier to use (and free for IQSS affiliates). Git is extremely sophisticated (for professional programmers), but most people only need a few easy commands. Github.com offers GUIs to do everything below, but I find the command line simpler and easier.",
+    "crumbs": [
+      "Training materials",
+      "Git and GitHub",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "git/introduction.html#key-idea",
+    "href": "git/introduction.html#key-idea",
+    "title": "Introduction",
+    "section": "Key Idea",
+    "text": "Key Idea\nEach project has a separate repository with all files to be shared stored on GitHub (e.g., https://github.com/iqss-research/gkbibtex). You can view and edit files on github.com directly. But it’s easier to also have a local (“cloned”) repository on your disk and use your own editing tools. You edit your repository and then push up changes to the remote repository and git syncs the two. We can both edit the same file at the same time (as long as we’re not editing the same line) and git will easily and transparently merge them (scary, but it works!). Every previous version and all edits are saved at GitHub and so it is safe and you can easily go get old versions too.",
+    "crumbs": [
+      "Training materials",
+      "Git and GitHub",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "git/index.html",
+    "href": "git/index.html",
+    "title": "Git and GitHub",
+    "section": "",
+    "text": "The following is a quick starter guide designed to get you acquainted with Git and GitHub, our recommended file storage site for your academic and coding work.",
+    "crumbs": [
+      "Training materials",
+      "Git and GitHub",
       "Start here"
+    ]
+  },
+  {
+    "objectID": "git/create_repo.html",
+    "href": "git/create_repo.html",
+    "title": "Creating a New Repository",
+    "section": "",
+    "text": "“Repository” is another word for folder. You may also hear “repo” for short.",
+    "crumbs": [
+      "Training materials",
+      "Git and GitHub",
+      "Editing repositories",
+      "Creating a New Repository"
+    ]
+  },
+  {
+    "objectID": "git/create_repo.html#creating-a-repository-on-github",
+    "href": "git/create_repo.html#creating-a-repository-on-github",
+    "title": "Creating a New Repository",
+    "section": "Creating a repository on GitHub",
+    "text": "Creating a repository on GitHub\nWhen you are signed into your GitHub account, there should be a left-hand dashboard that lists your repositories. At the top, there is a green “New” button, which you should press to create a new repository.\nGitHub will then have you enter a name for your repository and its description, and you can select whether you want this repo to be public or private.\nAdditionally, you can optionally add a “README” file. This is a file where you can add a longer, more detailed description of your repository that you either want your future self or others to read. This can describe the file structure, provide insights into your code and data, or other details that you may want to remember.\nAlso, you can add a .gitignore file. This tells git which files to ignore when you commit and push your documents. For instance, if you are writing R code in RStudio, the .Rproj.user/ folder holds local state that is specific to your machine, so you would include it in your .gitignore list. (The .Rproj file itself is normally committed, so that collaborators get the same project settings.) For more information see git’s documentation.\nYou may wish to add a license to let others know how they can use your code, if you choose to make it publicly available.\nThen, press the green “Create repository” button at the bottom.",
+    "crumbs": [
+      "Training materials",
+      "Git and GitHub",
+      "Editing repositories",
+      "Creating a New Repository"
+    ]
+  },
+  {
+    "objectID": "git/command_line.html",
+    "href": "git/command_line.html",
+    "title": "Command Line Arguments",
+    "section": "",
+    "text": "Additional arguments in the command line include:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\ngit add new_file\nTells git to include a new file on your disk, in the remote repository. Then commit and push as above.\n\n\ngit status\nTells you if your local version is up-to-date compared with the version on GitHub.\n\n\ngit log\nThis will print out a log of the commits for your repository. Press q to leave the log and return to the prompt.\n\n\ngit log -p\n(-p is patch or diff) This will print the log as above, but also with the difference introduced in each commit. This can be especially useful if something broke and you want to see when/where you edited something.\n\n\ngit log -p HEAD..origin/main\nTells you what is different in the remote branch (origin/main) but not in your local branch. This can help you see what changes have been introduced since you last updated or pulled your local repository.\n\n\ngit commit . -v\nThe “.” means that everything will be included in your commit. The “-v” stands for “verbose” and means that git will show the diff of the changes being committed in the editor while you write the message.\n\n\ngit &lt;command&gt; --help\nProvides help documentation for the specific command\n\n\ngit pull –rebase\nAvoids merge commits in that this will rewrite the commit history, adding your changes directly onto the latest changes in the remote repository. This can be cleaner, but should be used with caution.\n\n\ngit blame &lt;filename&gt;\nThis will print out the commit, user and timestamp for each line of the file. This can show you when and by whom edits were made.\n\n\n\n For even more commands, see here.",
+    "crumbs": [
+      "Training materials",
+      "Git and GitHub",
+      "Editing repositories",
+      "Command Line Arguments"
+    ]
+  },
+  {
+    "objectID": "git/auth.html",
+    "href": "git/auth.html",
+    "title": "Authentication",
+    "section": "",
+    "text": "For some git actions, you may be required to input git credentials. GitHub does not accept your account password here: if the terminal asks for a password when you clone, it wants a personal access token (PAT) instead. To make one:\n\nGo to your profile in GitHub &gt; Developer settings (bottom left) &gt; Personal Access Tokens (left) &gt; Tokens (classic) &gt; Generate new token (upper right).\nTHEN, COPY AND PASTE YOUR TOKEN SOMEWHERE SECURE.\nOnce you do this, when you go back to the Personal access tokens page, your new PAT should show up.\nUse the copy and pasted token for the password entry above in the terminal, and your repository should clone to your local computer.\n\nThere are additional tools that you may choose to use to make this process easier, such as Git Credential Manager. These tools can allow you to cache your credentials so that you only need to authenticate your GitHub account once, and your credentials will be remembered for the future.",
+    "crumbs": [
+      "Training materials",
+      "Git and GitHub",
+      "Getting started with Git and GitHub",
+      "Authentication"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DSS Guides",
+    "section": "",
+    "text": "Starter guides from Data Science Services at the Institute for Quantitative Social Science, Harvard University, for the tools around research: version control, a website of your own, an editor, and writing in LaTeX. Each guide is a section in the sidebar and short enough to read in one sitting.\nThe workshops (R, Python, Stata) are at iqss.github.io/dss-workshops; everything DSS offers is listed under Training materials.",
+    "crumbs": [
+      "Training materials",
+      "DSS Guides"
+    ]
+  },
+  {
+    "objectID": "index.html#credits",
+    "href": "index.html#credits",
+    "title": "DSS Guides",
+    "section": "Credits",
+    "text": "Credits\nThese guides were written for Data Science Services in 2024 and 2025, each as its own site, and brought together here in 2026. Text and images are released under CC BY 4.0. Suggestions and corrections are welcome: use the Request help button at the top of the page.",
+    "crumbs": [
+      "Training materials",
+      "DSS Guides"
+    ]
+  },
+  {
+    "objectID": "git/clone_repo.html",
+    "href": "git/clone_repo.html",
+    "title": "Cloning a Repository",
+    "section": "",
+    "text": "Sign into github.com\nGo to the repository of interest\nClick the green “Code” button on the right\nClick “copy to clipboard” button (at right)\nOpen a terminal window on your computer\nType “cd” and the path to where you want your local copy of the files and hit return. For example, if I wanted the repository to be housed inside of a folder on my Desktop called R_Projects, I would type in the terminal “cd Desktop/R_Projects”\nType: “git clone &lt;paste from clipboard (ctrl-V or cmd-V)&gt;” and hit return\nNow you have a cloned (copy) of the repository on your disk\nEdit as you like",
+    "crumbs": [
+      "Training materials",
+      "Git and GitHub",
+      "Editing repositories",
+      "Cloning a Repository"
+    ]
+  },
+  {
+    "objectID": "git/connect.html",
+    "href": "git/connect.html",
+    "title": "Connecting Your Git and GitHub",
+    "section": "",
+    "text": "To configure your Git and GitHub accounts to connect, run these two lines in your terminal:\n\ngit config --global user.name \"YOUR USERNAME\"\ngit config --global user.email \"your.email@example.com\"\n\nThe second key is user.email, not user.mail; Git ignores anything else and will refuse to commit without an email set.\nYou may need to authenticate your account using the instructions from the previous page.",
+    "crumbs": [
+      "Training materials",
+      "Git and GitHub",
+      "Getting started with Git and GitHub",
+      "Connecting Your Git and GitHub"
+    ]
+  },
+  {
+    "objectID": "git/editing.html",
+    "href": "git/editing.html",
+    "title": "Editing",
+    "section": "",
+    "text": "When finished with an editing session:\n\n\nPull: in the terminal window, type git pull\n\n\n\nThis merges in any changes someone else made to the repo\n\n\n\nCommit: in the terminal window, type git commit -am “your commit message”\n\n\n\nThis prepares your changes for uploading\n\n\n\nPush: in the terminal window, type git push\n\n\n\nThis uploads your changes to the GitHub repository\n\n\n\nNext time you are ready to edit: Pull, then edit as you like, then Commit and Push.",
+    "crumbs": [
+      "Training materials",
+      "Git and GitHub",
+      "Editing repositories",
+      "Editing"
+    ]
+  },
+  {
+    "objectID": "git/editing.html#when-you-are-the-only-one-editing-at-the-time",
+    "href": "git/editing.html#when-you-are-the-only-one-editing-at-the-time",
+    "title": "Editing",
+    "section": "",
+    "text": "When finished with an editing session:\n\n\nPull: in the terminal window, type git pull\n\n\n\nThis merges in any changes someone else made to the repo\n\n\n\nCommit: in the terminal window, type git commit -am “your commit message”\n\n\n\nThis prepares your changes for uploading\n\n\n\nPush: in the terminal window, type git push\n\n\n\nThis uploads your changes to the GitHub repository\n\n\n\nNext time you are ready to edit: Pull, then edit as you like, then Commit and Push.",
+    "crumbs": [
+      "Training materials",
+      "Git and GitHub",
+      "Editing repositories",
+      "Editing"
+    ]
+  },
+  {
+    "objectID": "git/editing.html#when-someone-else-is-also-editing-a-different-part-of-the-file",
+    "href": "git/editing.html#when-someone-else-is-also-editing-a-different-part-of-the-file",
+    "title": "Editing",
+    "section": "When someone else is also editing (a different part of the file):",
+    "text": "When someone else is also editing (a different part of the file):\n\n\nCommit: in the terminal window, type git commit -am “your commit message”\n\n\n\nThis protects your changes\n\n\n\nPull: in the terminal window, type git pull\n\n\n\nThis merges in what your friend did\n\n\n\nPush: in the terminal window, type git push\n\n\n\nThis uploads your changes to the GitHub repository\n\n\n\nIf you try pulling without committing, you will get an error.",
+    "crumbs": [
+      "Training materials",
+      "Git and GitHub",
+      "Editing repositories",
+      "Editing"
+    ]
+  },
+  {
+    "objectID": "git/editing.html#when-someone-else-unfortunately-edits-the-same-line-as-you",
+    "href": "git/editing.html#when-someone-else-unfortunately-edits-the-same-line-as-you",
+    "title": "Editing",
+    "section": "When someone else (unfortunately) edits the same line as you",
+    "text": "When someone else (unfortunately) edits the same line as you\nYou must resolve these differences!\n\n\nPull: in the terminal window, type git pull\n\n\n\nYou will get a “merge conflict” error message\n\n\n\nEdit your file. You will see something like this:  &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;  passage written by person 1  ===========  passage written by person 2  &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; \n\n\nRemove one of the passages, as well as the &lt;&lt;&lt;, ===, and &gt;&gt;&gt; symbols.\n\n\nCommit: in the terminal window, type git commit -am “your commit message”\n\n\n\nThis prepares your changes for uploading\n\n\n\nPush: in the terminal window, type git push\n\n\n\nThis uploads your changes to the GitHub repository\n\n\n\n\nDepending on your IDE, there may be more convenient or visual ways of dealing with merge conflicts. It’s always good to check your IDE’s documentation for how it handles merge conflicts.",
+    "crumbs": [
+      "Training materials",
+      "Git and GitHub",
+      "Editing repositories",
+      "Editing"
+    ]
+  },
+  {
+    "objectID": "git/install_git.html",
+    "href": "git/install_git.html",
+    "title": "Installing Git",
+    "section": "",
+    "text": "You might already have git installed on your computer. To check, open your terminal and type the command “git --version”. If you have git installed, it will respond with the git version you have. If you get an error message (“git: command not found” is a common one) you will need to install git.\nIf you are on a Mac, you may be automatically prompted to install command line tools when you ran “git –version”. You should accept these, clicking “OK” or “Install” when prompted.\nFull instructions for installing git can be found here. We’ve condensed these instructions here for simplicity, but you may wish to look at all of the potential options if you run into any problems.\nFor Mac users: if the automatic install did not work, you can try the command “xcode-select --install” in your terminal.\nFor Windows users: you can download git for Windows.",
+    "crumbs": [
+      "Training materials",
+      "Git and GitHub",
+      "Getting started with Git and GitHub",
+      "Installing Git"
+    ]
+  },
+  {
+    "objectID": "git/resources.html",
+    "href": "git/resources.html",
+    "title": "Learning Resources",
+    "section": "",
+    "text": "Full Git documentation\nGitHub documentation\nProfessor Matt Blackwell has a great guide for getting started with R, R Studio, Git, and Github that we highly recommend if you need additional guidance.\nWhile geared towards R users, here is a guide that also includes very detailed information about Git and GitHub.",
+    "crumbs": [
+      "Training materials",
+      "Git and GitHub",
+      "Learning Resources"
+    ]
+  },
+  {
+    "objectID": "pages/GS_create.html",
+    "href": "pages/GS_create.html",
+    "title": "Creating Your Website",
+    "section": "",
+    "text": "Creating your website with Google Sites is as easy as clicking a button. Simply go to Google Sites (you may be prompted to log in, if you are not already).\nUnder “Start a new site” there is a list of templates. Feel free to browse the templates before you select which one you’d like to use.1 We suggest either:\nOnce you select the template you’d like to use, Google Sites will redirect to a customizable version of the template for you to edit.",
+    "crumbs": [
+      "Training materials",
+      "GitHub Pages",
+      "Google Sites",
+      "Creating Your Website"
+    ]
+  },
+  {
+    "objectID": "pages/GS_create.html#footnotes",
+    "href": "pages/GS_create.html#footnotes",
+    "title": "Creating Your Website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nIf you would rather create your site from scratch, you can use the “Blank” option, though that will require more effort on your end to create your content.↩︎",
+    "crumbs": [
+      "Training materials",
+      "GitHub Pages",
+      "Google Sites",
+      "Creating Your Website"
+    ]
+  },
+  {
+    "objectID": "pages/GS_domain.html",
+    "href": "pages/GS_domain.html",
+    "title": "Adding a Custom Domain",
+    "section": "",
+    "text": "Customizing your domain name can be a complicated process. As noted earlier, if you are using an account that has an administrator (e.g., a school or work account), you cannot add a custom domain yet.\nIf you are using a personal gmail account for your Google Site, you have the ability to add a custom domain. Google has very detailed instructions to follow for adding a custom domain.\nYou will need to buy the domain from a registrar first, such as Cloudflare or Squarespace. The Google instructions above cover pointing it at your site.",
+    "crumbs": [
+      "Training materials",
+      "GitHub Pages",
+      "Google Sites",
+      "Adding a Custom Domain"
+    ]
+  },
+  {
+    "objectID": "pages/OGHE_create.html",
+    "href": "pages/OGHE_create.html",
+    "title": "Creating Your Website",
+    "section": "",
+    "text": "To start, we will create a repository (you can think of this as a folder for your project).",
+    "crumbs": [
+      "Training materials",
+      "GitHub Pages",
+      "Online GitHub editor",
+      "Creating Your Website"
+    ]
+  },
+  {
+    "objectID": "pages/OGHE_create.html#footnotes",
+    "href": "pages/OGHE_create.html#footnotes",
+    "title": "Creating Your Website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nIn fact, if we are creating a GitHub Page that has a different name than our username, e.g., a project webpage, we will need to do this manually, anyhow.↩︎",
+    "crumbs": [
+      "Training materials",
+      "GitHub Pages",
+      "Online GitHub editor",
+      "Creating Your Website"
+    ]
+  },
+  {
+    "objectID": "pages/OGHE_domain.html",
+    "href": "pages/OGHE_domain.html",
+    "title": "Adding a Custom Domain",
+    "section": "",
+    "text": "Customizing your domain name can be a complicated process. The full GitHub instructions can be found here.\nThese instructions assume that you already have ownership of the custom domain that you would like to use, as well as knowledge about your specific DNS provider.\n\n\nGo to your GitHub repository\n\n\nClick Settings\n\n\nIn the left-hand menu bar, select Pages\n\n\nScroll down to the Custom Domain section\n\n\nEnter your custom domain in the textbox. For example, you should write: mysite.com\n\n\nHit Save\n\n\nNavigate to your DNS provider and create a CNAME record that points your subdomain to the default domain for your site.\n\n\nExample: if you want to use www.example.com, you will create a CNAME record that points www.example.com to &lt;username&gt;.github.io. Note that this is the user page, not a repository name.\n\n\nInstructions for creating a CNAME record vary by DNS provider. GitHub recommends using your DNS provider’s documentation.\n\n\nFor example, on GoDaddy, when you add a record, the record name would be “www” and the record value would be “username.github.io”\n\n\n\nTo ensure that your apex domain (i.e. without “www”) works, you should also include four A records in your DNS provider’s web console. For example, on GoDaddy, the name would be the @ symbol and the values would be the following:\n\n\n\n185.199.108.153\n\n\n185.199.109.153\n\n\n185.199.110.153\n\n\n185.199.111.153\n\n\n\nConfirm that your DNS record is configured correctly using the terminal.\n\n\nIn the terminal, type: dig WWW.EXAMPLE.COM +nostats +nocomments +nocmd where WWW.EXAMPLE.COM should be replaced with your custom domain name.\n\n\nYou should see the GitHub pages link in the output.\n\n\nThis can take some time to propagate. For example, on GoDaddy, you can set your “TTL” (time to live) as low as 600 seconds. However, GoDaddy also warns that changes may not take effect for up to 48 hours. We also suggest checking your site (and all variations of your site link, e.g., with and without “www”) on an incognito window, as your browser’s cache can sometimes make it appear as if your site did not update.\n\n\n\nGo back to your GitHub repository.\n\n\nGo to Settings &gt; Pages &gt; Custom domain\n\n\nCheck off Enforce HTTPS\n\n\n\nIf this says something along the lines of “Your domain is not properly configured to support HTTPS” we will need to add additional records with your DNS provider\n\n\nWe strongly recommend following instructions from your DNS provider. You should look up “HTTPS record for [your DNS provider]” in Google and follow any of their documentation.\n\n\nFor example, on GoDaddy, you can add an HTTPS record where the name is @ and the value is your site’s domain (e.g., mysite.com)\n\n\n\nIf you run into any additional problems, you may want to ensure that there are no additional A records aside from the ones listed above. This may be a problem if you have previously had your site hosted through a service separate from GitHub pages.\n\n\nSome common warning messages that you may see when GitHub pages is connecting to your site include “DNS valid for primary” or “DNS check in progress” – these are both OK, and should go away once your site is connected.\n\n\nOn the other hand, if you get an error message “DNS check unsuccessful” or “Both your custom domain and its alternative name are improperly configured,” then it means either your A or CNAME records are incorrect. Please check these!",
+    "crumbs": [
+      "Training materials",
+      "GitHub Pages",
+      "Online GitHub editor",
+      "Adding a Custom Domain"
+    ]
+  },
+  {
+    "objectID": "pages/OGHE_template.html",
+    "href": "pages/OGHE_template.html",
+    "title": "Using Templates",
+    "section": "",
+    "text": "Now we are ready to use a template to quickly get the website set up.\nFind a website template that you’d like to use. There are a lot of free ones from https://html5up.net/. Or, if you are already savvy with HTML or web design, you may choose to make your own website from scratch. You can also use Jekyll themes that are designed for GitHub Pages, too.\nSome of the templates that we recommend for multiple-page websites include:\nIf you’d like a 1-page website, some templates include:\nRegardless of your desired choice, the set-up remains the same.",
+    "crumbs": [
+      "Training materials",
+      "GitHub Pages",
+      "Online GitHub editor",
+      "Using Templates"
+    ]
+  },
+  {
+    "objectID": "pages/OGHE_template.html#footnotes",
+    "href": "pages/OGHE_template.html#footnotes",
+    "title": "Using Templates",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nAnnoyingly, when choosing your files, GitHub does not allow you to select sub-folders. The best option is to drag-and-drop using the method above. If not, you will have to manually create subfolders inside of your GitHub repo and the add the items from the subfolders to each.↩︎",
+    "crumbs": [
+      "Training materials",
+      "GitHub Pages",
+      "Online GitHub editor",
+      "Using Templates"
+    ]
+  },
+  {
+    "objectID": "pages/RSG_customize.html",
+    "href": "pages/RSG_customize.html",
+    "title": "Customize Your Website",
+    "section": "",
+    "text": "To personalize your website, you will need to change all of the text and images that are currently in your template.\nIf your site has one page, you will likely only need to edit your index.html file. If your site has more pages, there will be additional .html files for you to edit. To change your styling, there should be a main.css file inside of the assets/css/ folder. Here you can change stylings, like color, text size, and fonts.\nOpen any of the .html files in RStudio to edit them. You can open files by looking in the file pane (usually the bottom right), and clicking the file. It will then open in the file editing pane (usually the big pane in the top left). You can replace the text via editing. To replace images, you will need to create an images folder inside of your username.github.io repository, where you can download images to. You will then have to use image tags &lt;img src=“images/specific_path_to_photo.png”&gt; in your .html files.\nAdditionally, you may want to create more .html files, especially if you’d like an individual page for each of your publications, etc. You may want to delete some of the .html files that you don’t use from the template, too. Just make sure that your index.html or other .html files you do use do not link to the files you delete, or your page will get 404 errors if someone clicks on those links.\nMake sure to save, commit, and push all of your changes to GitHub. We recommend doing this repeatedly, so that you can see your edits taking effect as you edit your site. This may take a few minutes after pushing. When you are in your GitHub repository, you should see a green checkmark next to your commit message to tell you that your build has successfully deployed.",
+    "crumbs": [
+      "Training materials",
+      "GitHub Pages",
+      "RStudio and Git",
+      "Customize Your Website"
     ]
   },
   {
@@ -450,759 +937,246 @@
     ]
   },
   {
-    "objectID": "pages/RSG_customize.html",
-    "href": "pages/RSG_customize.html",
-    "title": "Customize Your Website",
+    "objectID": "pages/index.html",
+    "href": "pages/index.html",
+    "title": "GitHub Pages",
     "section": "",
-    "text": "To personalize your website, you will need to change all of the text and images that are currently in your template.\nIf your site has one page, you will likely only need to edit your index.html file. If your site has more pages, there will be additional .html files for you to edit. To change your styling, there should be a main.css file inside of the assets/css/ folder. Here you can change stylings, like color, text size, and fonts.\nOpen any of the .html files in RStudio to edit them. You can open files by looking in the file pane (usually the bottom right), and clicking the file. It will then open in the file editing pane (usually the big pane in the top left). You can replace the text via editing. To replace images, you will need to create an images folder inside of your username.github.io repository, where you can download images to. You will then have to use image tags &lt;img src=“images/specific_path_to_photo.png”&gt; in your .html files.\nAdditionally, you may want to create more .html files, especially if you’d like an individual page for each of your publications, etc. You may want to delete some of the .html files that you don’t use from the template, too. Just make sure that your index.html or other .html files you do use do not link to the files you delete, or your page will get 404 errors if someone clicks on those links.\nMake sure to save, commit, and push all of your changes to GitHub. We recommend doing this repeatedly, so that you can see your edits taking effect as you edit your site. This may take a few minutes after pushing. When you are in your GitHub repository, you should see a green checkmark next to your commit message to tell you that your build has successfully deployed.",
+    "text": "The following is a quick starter guide designed to get you acquainted with GitHub Pages, an option for you to create a personal website. If you’d rather start with a website on Google Sites (no coding necessary!), we include those instructions first.\nWe include instructions for building your website three ways. For the one you would like to use, click its link below for detailed instructions.\n\nGoogle Sites\nThe online file editor through GitHub\nRStudio and Git\n\nFeel free to choose the option that best fits your technical comfort level. If you are already used to R/RStudio/Git, the last option may be best for you. If you don’t know what those are, but you know how to code in HTML, feel free to use option 2. If you have no clue how to code (that’s OK!), then a Google Sites page might be right for you.\nAdditionally, we include instructions for finding and using templates, customizing your site, and connecting your site to a custom domain.\nNote: In Google Sites, support for custom domains is currently not available for managed accounts, like a g.harvard.edu account. If you really want to use a custom domain (i.e. yourname.com), then you should either use GitHub Pages or use a personal Google account to make your Google Site.",
     "crumbs": [
       "Training materials",
       "GitHub Pages",
-      "RStudio and Git",
-      "Customize Your Website"
-    ]
-  },
-  {
-    "objectID": "pages/OGHE_template.html",
-    "href": "pages/OGHE_template.html",
-    "title": "Using Templates",
-    "section": "",
-    "text": "Now we are ready to use a template to quickly get the website set up.\nFind a website template that you’d like to use. There are a lot of free ones from https://html5up.net/. Or, if you are already savvy with HTML or web design, you may choose to make your own website from scratch. You can also use Jekyll themes that are designed for GitHub Pages, too.\nSome of the templates that we recommend for multiple-page websites include:\nIf you’d like a 1-page website, some templates include:\nRegardless of your desired choice, the set-up remains the same.",
-    "crumbs": [
-      "Training materials",
-      "GitHub Pages",
-      "Online GitHub editor",
-      "Using Templates"
-    ]
-  },
-  {
-    "objectID": "pages/OGHE_template.html#footnotes",
-    "href": "pages/OGHE_template.html#footnotes",
-    "title": "Using Templates",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nAnnoyingly, when choosing your files, GitHub does not allow you to select sub-folders. The best option is to drag-and-drop using the method above. If not, you will have to manually create subfolders inside of your GitHub repo and the add the items from the subfolders to each.↩︎",
-    "crumbs": [
-      "Training materials",
-      "GitHub Pages",
-      "Online GitHub editor",
-      "Using Templates"
-    ]
-  },
-  {
-    "objectID": "pages/OGHE_domain.html",
-    "href": "pages/OGHE_domain.html",
-    "title": "Adding a Custom Domain",
-    "section": "",
-    "text": "Customizing your domain name can be a complicated process. The full GitHub instructions can be found here.\nThese instructions assume that you already have ownership of the custom domain that you would like to use, as well as knowledge about your specific DNS provider.\n\n\nGo to your GitHub repository\n\n\nClick Settings\n\n\nIn the left-hand menu bar, select Pages\n\n\nScroll down to the Custom Domain section\n\n\nEnter your custom domain in the textbox. For example, you should write: mysite.com\n\n\nHit Save\n\n\nNavigate to your DNS provider and create a CNAME record that points your subdomain to the default domain for your site.\n\n\nExample: if you want to use www.example.com, you will create a CNAME record that points www.example.com to &lt;username&gt;.github.io. Note that this is the user page, not a repository name.\n\n\nInstructions for creating a CNAME record vary by DNS provider. GitHub recommends using your DNS provider’s documentation.\n\n\nFor example, on GoDaddy, when you add a record, the record name would be “www” and the record value would be “username.github.io”\n\n\n\nTo ensure that your apex domain (i.e. without “www”) works, you should also include four A records in your DNS provider’s web console. For example, on GoDaddy, the name would be the @ symbol and the values would be the following:\n\n\n\n185.199.108.153\n\n\n185.199.109.153\n\n\n185.199.110.153\n\n\n185.199.111.153\n\n\n\nConfirm that your DNS record is configured correctly using the terminal.\n\n\nIn the terminal, type: dig WWW.EXAMPLE.COM +nostats +nocomments +nocmd where WWW.EXAMPLE.COM should be replaced with your custom domain name.\n\n\nYou should see the GitHub pages link in the output.\n\n\nThis can take some time to propagate. For example, on GoDaddy, you can set your “TTL” (time to live) as low as 600 seconds. However, GoDaddy also warns that changes may not take effect for up to 48 hours. We also suggest checking your site (and all variations of your site link, e.g., with and without “www”) on an incognito window, as your browser’s cache can sometimes make it appear as if your site did not update.\n\n\n\nGo back to your GitHub repository.\n\n\nGo to Settings &gt; Pages &gt; Custom domain\n\n\nCheck off Enforce HTTPS\n\n\n\nIf this says something along the lines of “Your domain is not properly configured to support HTTPS” we will need to add additional records with your DNS provider\n\n\nWe strongly recommend following instructions from your DNS provider. You should look up “HTTPS record for [your DNS provider]” in Google and follow any of their documentation.\n\n\nFor example, on GoDaddy, you can add an HTTPS record where the name is @ and the value is your site’s domain (e.g., mysite.com)\n\n\n\nIf you run into any additional problems, you may want to ensure that there are no additional A records aside from the ones listed above. This may be a problem if you have previously had your site hosted through a service separate from GitHub pages.\n\n\nSome common warning messages that you may see when GitHub pages is connecting to your site include “DNS valid for primary” or “DNS check in progress” – these are both OK, and should go away once your site is connected.\n\n\nOn the other hand, if you get an error message “DNS check unsuccessful” or “Both your custom domain and its alternative name are improperly configured,” then it means either your A or CNAME records are incorrect. Please check these!",
-    "crumbs": [
-      "Training materials",
-      "GitHub Pages",
-      "Online GitHub editor",
-      "Adding a Custom Domain"
-    ]
-  },
-  {
-    "objectID": "pages/OGHE_create.html",
-    "href": "pages/OGHE_create.html",
-    "title": "Creating Your Website",
-    "section": "",
-    "text": "To start, we will create a repository (you can think of this as a folder for your project).",
-    "crumbs": [
-      "Training materials",
-      "GitHub Pages",
-      "Online GitHub editor",
-      "Creating Your Website"
-    ]
-  },
-  {
-    "objectID": "pages/OGHE_create.html#footnotes",
-    "href": "pages/OGHE_create.html#footnotes",
-    "title": "Creating Your Website",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nIn fact, if we are creating a GitHub Page that has a different name than our username, e.g., a project webpage, we will need to do this manually, anyhow.↩︎",
-    "crumbs": [
-      "Training materials",
-      "GitHub Pages",
-      "Online GitHub editor",
-      "Creating Your Website"
-    ]
-  },
-  {
-    "objectID": "pages/GS_domain.html",
-    "href": "pages/GS_domain.html",
-    "title": "Adding a Custom Domain",
-    "section": "",
-    "text": "Customizing your domain name can be a complicated process. As noted earlier, if you are using an account that has an administrator (e.g., a school or work account), you cannot add a custom domain yet.\nIf you are using a personal gmail account for your Google Site, you have the ability to add a custom domain. Google has very detailed instructions to follow for adding a custom domain.\nYou will need to buy the domain from a registrar first, such as Cloudflare or Squarespace. The Google instructions above cover pointing it at your site.",
-    "crumbs": [
-      "Training materials",
-      "GitHub Pages",
-      "Google Sites",
-      "Adding a Custom Domain"
-    ]
-  },
-  {
-    "objectID": "pages/GS_create.html",
-    "href": "pages/GS_create.html",
-    "title": "Creating Your Website",
-    "section": "",
-    "text": "Creating your website with Google Sites is as easy as clicking a button. Simply go to Google Sites (you may be prompted to log in, if you are not already).\nUnder “Start a new site” there is a list of templates. Feel free to browse the templates before you select which one you’d like to use.1 We suggest either:\nOnce you select the template you’d like to use, Google Sites will redirect to a customizable version of the template for you to edit.",
-    "crumbs": [
-      "Training materials",
-      "GitHub Pages",
-      "Google Sites",
-      "Creating Your Website"
-    ]
-  },
-  {
-    "objectID": "pages/GS_create.html#footnotes",
-    "href": "pages/GS_create.html#footnotes",
-    "title": "Creating Your Website",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nIf you would rather create your site from scratch, you can use the “Blank” option, though that will require more effort on your end to create your content.↩︎",
-    "crumbs": [
-      "Training materials",
-      "GitHub Pages",
-      "Google Sites",
-      "Creating Your Website"
-    ]
-  },
-  {
-    "objectID": "git/resources.html",
-    "href": "git/resources.html",
-    "title": "Learning Resources",
-    "section": "",
-    "text": "Full Git documentation\nGitHub documentation\nProfessor Matt Blackwell has a great guide for getting started with R, R Studio, Git, and Github that we highly recommend if you need additional guidance.\nWhile geared towards R users, here is a guide that also includes very detailed information about Git and GitHub.",
-    "crumbs": [
-      "Training materials",
-      "Git and GitHub",
-      "Learning Resources"
-    ]
-  },
-  {
-    "objectID": "git/install_git.html",
-    "href": "git/install_git.html",
-    "title": "Installing Git",
-    "section": "",
-    "text": "You might already have git installed on your computer. To check, open your terminal and type the command “git --version”. If you have git installed, it will respond with the git version you have. If you get an error message (“git: command not found” is a common one) you will need to install git.\nIf you are on a Mac, you may be automatically prompted to install command line tools when you ran “git –version”. You should accept these, clicking “OK” or “Install” when prompted.\nFull instructions for installing git can be found here. We’ve condensed these instructions here for simplicity, but you may wish to look at all of the potential options if you run into any problems.\nFor Mac users: if the automatic install did not work, you can try the command “xcode-select --install” in your terminal.\nFor Windows users: you can download git for Windows.",
-    "crumbs": [
-      "Training materials",
-      "Git and GitHub",
-      "Getting started with Git and GitHub",
-      "Installing Git"
-    ]
-  },
-  {
-    "objectID": "git/editing.html",
-    "href": "git/editing.html",
-    "title": "Editing",
-    "section": "",
-    "text": "When finished with an editing session:\n\n\nPull: in the terminal window, type git pull\n\n\n\nThis merges in any changes someone else made to the repo\n\n\n\nCommit: in the terminal window, type git commit -am “your commit message”\n\n\n\nThis prepares your changes for uploading\n\n\n\nPush: in the terminal window, type git push\n\n\n\nThis uploads your changes to the GitHub repository\n\n\n\nNext time you are ready to edit: Pull, then edit as you like, then Commit and Push.",
-    "crumbs": [
-      "Training materials",
-      "Git and GitHub",
-      "Editing repositories",
-      "Editing"
-    ]
-  },
-  {
-    "objectID": "git/editing.html#when-you-are-the-only-one-editing-at-the-time",
-    "href": "git/editing.html#when-you-are-the-only-one-editing-at-the-time",
-    "title": "Editing",
-    "section": "",
-    "text": "When finished with an editing session:\n\n\nPull: in the terminal window, type git pull\n\n\n\nThis merges in any changes someone else made to the repo\n\n\n\nCommit: in the terminal window, type git commit -am “your commit message”\n\n\n\nThis prepares your changes for uploading\n\n\n\nPush: in the terminal window, type git push\n\n\n\nThis uploads your changes to the GitHub repository\n\n\n\nNext time you are ready to edit: Pull, then edit as you like, then Commit and Push.",
-    "crumbs": [
-      "Training materials",
-      "Git and GitHub",
-      "Editing repositories",
-      "Editing"
-    ]
-  },
-  {
-    "objectID": "git/editing.html#when-someone-else-is-also-editing-a-different-part-of-the-file",
-    "href": "git/editing.html#when-someone-else-is-also-editing-a-different-part-of-the-file",
-    "title": "Editing",
-    "section": "When someone else is also editing (a different part of the file):",
-    "text": "When someone else is also editing (a different part of the file):\n\n\nCommit: in the terminal window, type git commit -am “your commit message”\n\n\n\nThis protects your changes\n\n\n\nPull: in the terminal window, type git pull\n\n\n\nThis merges in what your friend did\n\n\n\nPush: in the terminal window, type git push\n\n\n\nThis uploads your changes to the GitHub repository\n\n\n\nIf you try pulling without committing, you will get an error.",
-    "crumbs": [
-      "Training materials",
-      "Git and GitHub",
-      "Editing repositories",
-      "Editing"
-    ]
-  },
-  {
-    "objectID": "git/editing.html#when-someone-else-unfortunately-edits-the-same-line-as-you",
-    "href": "git/editing.html#when-someone-else-unfortunately-edits-the-same-line-as-you",
-    "title": "Editing",
-    "section": "When someone else (unfortunately) edits the same line as you",
-    "text": "When someone else (unfortunately) edits the same line as you\nYou must resolve these differences!\n\n\nPull: in the terminal window, type git pull\n\n\n\nYou will get a “merge conflict” error message\n\n\n\nEdit your file. You will see something like this:  &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;  passage written by person 1  ===========  passage written by person 2  &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; \n\n\nRemove one of the passages, as well as the &lt;&lt;&lt;, ===, and &gt;&gt;&gt; symbols.\n\n\nCommit: in the terminal window, type git commit -am “your commit message”\n\n\n\nThis prepares your changes for uploading\n\n\n\nPush: in the terminal window, type git push\n\n\n\nThis uploads your changes to the GitHub repository\n\n\n\n\nDepending on your IDE, there may be more convenient or visual ways of dealing with merge conflicts. It’s always good to check your IDE’s documentation for how it handles merge conflicts.",
-    "crumbs": [
-      "Training materials",
-      "Git and GitHub",
-      "Editing repositories",
-      "Editing"
-    ]
-  },
-  {
-    "objectID": "git/connect.html",
-    "href": "git/connect.html",
-    "title": "Connecting Your Git and GitHub",
-    "section": "",
-    "text": "To configure your Git and GitHub accounts to connect, run these two lines in your terminal:\n\ngit config --global user.name \"YOUR USERNAME\"\ngit config --global user.email \"your.email@example.com\"\n\nThe second key is user.email, not user.mail; Git ignores anything else and will refuse to commit without an email set.\nYou may need to authenticate your account using the instructions from the previous page.",
-    "crumbs": [
-      "Training materials",
-      "Git and GitHub",
-      "Getting started with Git and GitHub",
-      "Connecting Your Git and GitHub"
-    ]
-  },
-  {
-    "objectID": "git/clone_repo.html",
-    "href": "git/clone_repo.html",
-    "title": "Cloning a Repository",
-    "section": "",
-    "text": "Sign into github.com\nGo to the repository of interest\nClick the green “Code” button on the right\nClick “copy to clipboard” button (at right)\nOpen a terminal window on your computer\nType “cd” and the path to where you want your local copy of the files and hit return. For example, if I wanted the repository to be housed inside of a folder on my Desktop called R_Projects, I would type in the terminal “cd Desktop/R_Projects”\nType: “git clone &lt;paste from clipboard (ctrl-V or cmd-V)&gt;” and hit return\nNow you have a cloned (copy) of the repository on your disk\nEdit as you like",
-    "crumbs": [
-      "Training materials",
-      "Git and GitHub",
-      "Editing repositories",
-      "Cloning a Repository"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "DSS Guides",
-    "section": "",
-    "text": "Starter guides from Data Science Services at the Institute for Quantitative Social Science, Harvard University, for the tools around research: version control, a website of your own, an editor, and writing in LaTeX. Each guide is a section in the sidebar and short enough to read in one sitting.\nThe workshops (R, Python, Stata) are at iqss.github.io/dss-workshops; everything DSS offers is listed under Training materials.",
-    "crumbs": [
-      "Training materials",
-      "DSS Guides"
-    ]
-  },
-  {
-    "objectID": "index.html#credits",
-    "href": "index.html#credits",
-    "title": "DSS Guides",
-    "section": "Credits",
-    "text": "Credits\nThese guides were written for Data Science Services in 2024 and 2025, each as its own site, and brought together here in 2026. Text and images are released under CC BY 4.0. Suggestions and corrections are welcome: use the Request help button at the top of the page.",
-    "crumbs": [
-      "Training materials",
-      "DSS Guides"
-    ]
-  },
-  {
-    "objectID": "git/auth.html",
-    "href": "git/auth.html",
-    "title": "Authentication",
-    "section": "",
-    "text": "For some git actions, you may be required to input git credentials. GitHub does not accept your account password here: if the terminal asks for a password when you clone, it wants a personal access token (PAT) instead. To make one:\n\nGo to your profile in GitHub &gt; Developer settings (bottom left) &gt; Personal Access Tokens (left) &gt; Tokens (classic) &gt; Generate new token (upper right).\nTHEN, COPY AND PASTE YOUR TOKEN SOMEWHERE SECURE.\nOnce you do this, when you go back to the Personal access tokens page, your new PAT should show up.\nUse the copy and pasted token for the password entry above in the terminal, and your repository should clone to your local computer.\n\nThere are additional tools that you may choose to use to make this process easier, such as Git Credential Manager. These tools can allow you to cache your credentials so that you only need to authenticate your GitHub account once, and your credentials will be remembered for the future.",
-    "crumbs": [
-      "Training materials",
-      "Git and GitHub",
-      "Getting started with Git and GitHub",
-      "Authentication"
-    ]
-  },
-  {
-    "objectID": "git/command_line.html",
-    "href": "git/command_line.html",
-    "title": "Command Line Arguments",
-    "section": "",
-    "text": "Additional arguments in the command line include:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\ngit add new_file\nTells git to include a new file on your disk, in the remote repository. Then commit and push as above.\n\n\ngit status\nTells you if your local version is up-to-date compared with the version on GitHub.\n\n\ngit log\nThis will print out a log of the commits for your repository. Press q to leave the log and return to the prompt.\n\n\ngit log -p\n(-p is patch or diff) This will print the log as above, but also with the difference introduced in each commit. This can be especially useful if something broke and you want to see when/where you edited something.\n\n\ngit log -p HEAD..origin/main\nTells you what is different in the remote branch (origin/main) but not in your local branch. This can help you see what changes have been introduced since you last updated or pulled your local repository.\n\n\ngit commit . -v\nThe “.” means that everything will be included in your commit. The “-v” stands for “verbose” and means that git will show the diff of the changes being committed in the editor while you write the message.\n\n\ngit &lt;command&gt; --help\nProvides help documentation for the specific command\n\n\ngit pull –rebase\nAvoids merge commits in that this will rewrite the commit history, adding your changes directly onto the latest changes in the remote repository. This can be cleaner, but should be used with caution.\n\n\ngit blame &lt;filename&gt;\nThis will print out the commit, user and timestamp for each line of the file. This can show you when and by whom edits were made.\n\n\n\n For even more commands, see here.",
-    "crumbs": [
-      "Training materials",
-      "Git and GitHub",
-      "Editing repositories",
-      "Command Line Arguments"
-    ]
-  },
-  {
-    "objectID": "git/create_repo.html",
-    "href": "git/create_repo.html",
-    "title": "Creating a New Repository",
-    "section": "",
-    "text": "“Repository” is another word for folder. You may also hear “repo” for short.",
-    "crumbs": [
-      "Training materials",
-      "Git and GitHub",
-      "Editing repositories",
-      "Creating a New Repository"
-    ]
-  },
-  {
-    "objectID": "git/create_repo.html#creating-a-repository-on-github",
-    "href": "git/create_repo.html#creating-a-repository-on-github",
-    "title": "Creating a New Repository",
-    "section": "Creating a repository on GitHub",
-    "text": "Creating a repository on GitHub\nWhen you are signed into your GitHub account, there should be a left-hand dashboard that lists your repositories. At the top, there is a green “New” button, which you should press to create a new repository.\nGitHub will then have you enter a name for your repository and its description, and you can select whether you want this repo to be public or private.\nAdditionally, you can optionally add a “README” file. This is a file where you can add a longer, more detailed description of your repository that you either want your future self or others to read. This can describe the file structure, provide insights into your code and data, or other details that you may want to remember.\nAlso, you can add a .gitignore file. This tells git which files to ignore when you commit and push your documents. For instance, if you are writing R code in RStudio, the .Rproj.user/ folder holds local state that is specific to your machine, so you would include it in your .gitignore list. (The .Rproj file itself is normally committed, so that collaborators get the same project settings.) For more information see git’s documentation.\nYou may wish to add a license to let others know how they can use your code, if you choose to make it publicly available.\nThen, press the green “Create repository” button at the bottom.",
-    "crumbs": [
-      "Training materials",
-      "Git and GitHub",
-      "Editing repositories",
-      "Creating a New Repository"
-    ]
-  },
-  {
-    "objectID": "git/index.html",
-    "href": "git/index.html",
-    "title": "Git and GitHub",
-    "section": "",
-    "text": "The following is a quick starter guide designed to get you acquainted with Git and GitHub, our recommended file storage site for your academic and coding work.",
-    "crumbs": [
-      "Training materials",
-      "Git and GitHub",
       "Start here"
     ]
   },
   {
-    "objectID": "git/introduction.html",
-    "href": "git/introduction.html",
-    "title": "Introduction",
+    "objectID": "vscode/configuration.html",
+    "href": "vscode/configuration.html",
+    "title": "IQSS Configuration",
     "section": "",
-    "text": "Git is widely used open source software for versioning and collaborating on files to be edited; github.com is a commercial service that makes git easier to use (and free for IQSS affiliates). Git is extremely sophisticated (for professional programmers), but most people only need a few easy commands. Github.com offers GUIs to do everything below, but I find the command line simpler and easier.",
-    "crumbs": [
-      "Training materials",
-      "Git and GitHub",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "git/introduction.html#background",
-    "href": "git/introduction.html#background",
-    "title": "Introduction",
-    "section": "",
-    "text": "Git is widely used open source software for versioning and collaborating on files to be edited; github.com is a commercial service that makes git easier to use (and free for IQSS affiliates). Git is extremely sophisticated (for professional programmers), but most people only need a few easy commands. Github.com offers GUIs to do everything below, but I find the command line simpler and easier.",
-    "crumbs": [
-      "Training materials",
-      "Git and GitHub",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "git/introduction.html#key-idea",
-    "href": "git/introduction.html#key-idea",
-    "title": "Introduction",
-    "section": "Key Idea",
-    "text": "Key Idea\nEach project has a separate repository with all files to be shared stored on GitHub (e.g., https://github.com/iqss-research/gkbibtex). You can view and edit files on github.com directly. But it’s easier to also have a local (“cloned”) repository on your disk and use your own editing tools. You edit your repository and then push up changes to the remote repository and git syncs the two. We can both edit the same file at the same time (as long as we’re not editing the same line) and git will easily and transparently merge them (scary, but it works!). Every previous version and all edits are saved at GitHub and so it is safe and you can easily go get old versions too.",
-    "crumbs": [
-      "Training materials",
-      "Git and GitHub",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "git/sign_up.html",
-    "href": "git/sign_up.html",
-    "title": "Sign Up / Login",
-    "section": "",
-    "text": "To sign up for GitHub, visit the website and create an account. If you already have an account, you can log in and enter your credentials.\nGitHub requires two-factor authentication on every account that contributes code, so you will be asked to set it up rather than offered the choice. You can use an authenticator app (Google Authenticator, 1Password, Authy and others), a passkey, a security key, or text messages.\nPrefer an authenticator app or a passkey over text messages: SMS can be intercepted by porting your phone number, and GitHub itself recommends against it. Save the recovery codes it gives you somewhere you can reach without your phone — they are the only way back into the account if you lose the device.",
-    "crumbs": [
-      "Training materials",
-      "Git and GitHub",
-      "Getting started with Git and GitHub",
-      "Sign Up / Login"
-    ]
-  },
-  {
-    "objectID": "pages/GS_customize.html",
-    "href": "pages/GS_customize.html",
-    "title": "Customize Your Website",
-    "section": "",
-    "text": "You are now ready to customize the template with your information. Google Sites is driven by its user interface. There is no coding that you need to do. Instead, there are pop-ups, and various tool menus that allow you to edit your site, insert or remove content, create or delete pages, and edit the theme.\nUsing the “Graduates” template as an example, you can start with three pages: (1) About, (2) Resume, and (3) Research & Projects.\nYou can change these page names by navigating on the right-most menu bar to the “Pages” tab, and then double-clicking on the page name to change it. You can also use the “+” button at the bottom of the menu bar to add pages. You can use the three-dot menu next to each page name to delete or duplicate a page.\nFor example, you may wish to change “About” to “Home”.",
-    "crumbs": [
-      "Training materials",
-      "GitHub Pages",
-      "Google Sites",
-      "Customize Your Website"
-    ]
-  },
-  {
-    "objectID": "pages/GS_customize.html#about-page",
-    "href": "pages/GS_customize.html#about-page",
-    "title": "Customize Your Website",
-    "section": "About Page",
-    "text": "About Page\n\nAdd your name to the header by simply clicking on the “Tina Smith, PhD” and putting your name there instead.\nIntroduce yourself by editing the first text box.\n\n\nHover over the text box, and click on the pencil icon to edit.\n\n\nYou can change the text type (e.g., title), font, size, styles, and formatting in the tool menu that pops up above the text box.\n\n\nYou can add an image of yourself.\n\n\nClick on the existing image.\n\n\nIn the tool bar that pops up, select the three dots.\n\n\nHover over “Replace image” and then click “Upload”.\n\n\nFrom your computer, select the image you would like to add.\n\n\nYou can choose to move, add, or delete sections on your homepage if you wish.\n\n\nTo move a section, you can hover over the content, move your cursor to the left-most part of the content (where there are 10 dots in 2 columns), and drag the section to your desired location.\n\n\nTo add a section, make sure the menu bar on the right side is on the “Insert” tab, and select your desired content block.\n\n\nTo delete a section, hover over it, and in the left-most pop-up menu, click the trash icon.",
-    "crumbs": [
-      "Training materials",
-      "GitHub Pages",
-      "Google Sites",
-      "Customize Your Website"
-    ]
-  },
-  {
-    "objectID": "pages/GS_customize.html#resume-page",
-    "href": "pages/GS_customize.html#resume-page",
-    "title": "Customize Your Website",
-    "section": "Resume Page",
-    "text": "Resume Page\n\nNavigate to the Resume Page by clicking on “Resume” in the top header.\nGoogle Sites allows the option to include resume sections as plain text on the site, or as a Google Doc/PDF, or both. Choose whichever you’d like.\nYou can simply click the plain text sections if you’d like to include those. If not, hover over each and select the trash icon in the left-side pop-up menu to delete them.\n\n\n\nIf you have your resume as a Google Doc:\n\n\n\nIn the right-side menu bar under the “Insert” tab, select “Docs”.\n\n\nIn the pop-up menu, select your Google Docs resume.\n\n\nClick the blue “Insert” button.\n\n\nNote that this will insert the Google Doc in a new section under your current section.\n\n\n\n\n\nIf you have your resume as a PDF:\n\n\n\nYou need to upload your PDF file to your Google Drive.\n\n\nIn the right-side menu bar under the “Insert” tab, select “Drive”.\n\n\nIn the pop-up menu, navigate to and select your PDF resume.\n\n\nClick the blue “Insert” button.\n\n\nNote that this will insert the PDF in a new section under your current section.\n\n\n\nIf you get any messages about permissions for files:\n\nMake sure that the drop-down is set to “Viewer” and then click “Share”.\nNavigate to the Google Drive that has your file.\nAccess the file.\nClick the blue “Share” button at the top-right.\nUnder “General Access”, change the drop-down to “Anyone with the link” and make sure that the second drop-down says “Viewer”.\nClick the blue “Done” button.\nNavigate back to your Google Sites webpage.",
-    "crumbs": [
-      "Training materials",
-      "GitHub Pages",
-      "Google Sites",
-      "Customize Your Website"
-    ]
-  },
-  {
-    "objectID": "pages/GS_customize.html#research-projects-page",
-    "href": "pages/GS_customize.html#research-projects-page",
-    "title": "Customize Your Website",
-    "section": "Research & Projects Page",
-    "text": "Research & Projects Page\nYou can edit the text boxes here as you normally would to add content about projects that you’d like to highlight.\nYou can also add or remove sections as you see fit, also as described earlier.",
-    "crumbs": [
-      "Training materials",
-      "GitHub Pages",
-      "Google Sites",
-      "Customize Your Website"
-    ]
-  },
-  {
-    "objectID": "pages/GS_customize.html#publishing-your-site",
-    "href": "pages/GS_customize.html#publishing-your-site",
-    "title": "Customize Your Website",
-    "section": "Publishing Your Site",
-    "text": "Publishing Your Site\nOnce you are done editing your site, you are ready to publish it.\nTip: In the top menu bar, there is an icon that looks like a computer and a phone. When you hover over it, it says “Preview”. You can use this button to preview what your site will look like on different screens (mobile, tablet, computer). You can click the blue “X” to exit back to the editor.\n\nClick the purple Publish button in the top right corner.\nPut a name for your URL in the “Web address” box. Just below the box will show you what your URL will look like: “https://sites.google.com/”, etc.\nUnder the “Who can view my site” make sure to click the blue “MANAGE” button.\nIn the pop-up, at the “Published Site” section, change the drop-down to “Public”.\nClick “Done”.\nNow, click the purple “Publish” button at the bottom of the pop-up.\nCongrats, you should be done!\n\n\n\nIf you get an error about access to a file, you need to make sure the file is publicly viewable:\n\n\n\nGo to your Google Drive account where the file is stored.\n\n\nAccess the file.\n\n\nClick the blue “Share” button at the top-right.\n\n\nUnder “General Access”, change the drop-down to “Anyone with the link” and make sure that the second drop-down says “Viewer”.\n\n\nClick the blue “Done” button.\n\n\nNavigate back to your Google Sites webpage.\n\n\nRe-publish your site.",
-    "crumbs": [
-      "Training materials",
-      "GitHub Pages",
-      "Google Sites",
-      "Customize Your Website"
-    ]
-  },
-  {
-    "objectID": "pages/GS_start.html",
-    "href": "pages/GS_start.html",
-    "title": "Getting Started",
-    "section": "",
-    "text": "If you don’t want to code at all, the Google Sites option is best for you!\nTo get started, you only need to ensure that you have a Google Account (e.g., a gmail account). If you do not have one, please make one at accounts.google.com.\nAdditionally, before you get started, it would be great to have the following easily accessible to add into your website:\n\nA professional biography\nA headshot, if you have one\nYour CV or resume (PDFs are best!)\nResearch interests and projects\nContact information (e.g., your professional email, social links if you post on X or BlueSky, your GitHub, etc.)\n\nIf you have additional questions not answered by this quick starter guide, the Google Support Guide may be of use to you.",
-    "crumbs": [
-      "Training materials",
-      "GitHub Pages",
-      "Google Sites",
-      "Getting Started"
-    ]
-  },
-  {
-    "objectID": "pages/OGHE_customize.html",
-    "href": "pages/OGHE_customize.html",
-    "title": "Customizing Your Website",
-    "section": "",
-    "text": "Customizing your website requires some basic knowledge of HTML and CSS. If that sounds daunting, the template you chose will already have the structure in place — in most cases you are replacing text and images rather than writing markup from scratch.\nNow you are ready to customize the website! To personalize your website, you will need to change all of the text and images that are currently in your template.\nIf your site has one page, you will likely only need to edit your index.html file. If your site has more pages, there will be additional .html files for you to edit. To change your styling, there should be a main.css file inside of the assets/css/ folder. Here you can change stylings, like color, text size, and fonts.\nOpen any of the .html files in the GitHub file editor by clicking on the file to edit them. You can replace the text via editing. To replace images, you will need to create an images folder inside of your username.github.io repository, where you can download images to. You will then have to use image tags &lt;img src=“images/specific_path_to_photo.png”&gt; in your .html files.\nAdditionally, you may want to create more .html files, especially if you’d like an individual page for each of your publications, etc. You may want to delete some of the .html files that you don’t use from the template, too. Just make sure that your index.html or other .html files you do use do not link to the files you delete, or your page will get 404 errors if someone clicks on those links.\nMake sure to save and commit all of your changes to GitHub. We recommend doing this repeatedly, so that you can see your edits taking effect as you edit your site. This may take a few minutes after committing. When you are in your GitHub repository, you should see a green checkmark next to your commit message to tell you that your build has successfully deployed.",
-    "crumbs": [
-      "Training materials",
-      "GitHub Pages",
-      "Online GitHub editor",
-      "Customizing Your Website"
-    ]
-  },
-  {
-    "objectID": "pages/OGHE_start.html",
-    "href": "pages/OGHE_start.html",
-    "title": "Getting Started",
-    "section": "",
-    "text": "If you’d like a bit more flexibility than Google Sites, and you are comfortable with some level of HTML, but you’d like to reduce the technical knowledge required, then using the online GitHub editor is the right choice for you!\nEverything will be done through your internet browser, using GitHub’s file editing tool—no downloads or installs needed.\nTo get started, you will need to make sure that you have a GitHub account. If you do not already have one, visit GitHub.com and create an account. If you already have an account, you can log in and enter your credentials.\nYou may be prompted to sign in with 2-Factor Authentication with an email or your phone number.",
-    "crumbs": [
-      "Training materials",
-      "GitHub Pages",
-      "Online GitHub editor",
-      "Getting Started"
-    ]
-  },
-  {
-    "objectID": "pages/RSG_create.html",
-    "href": "pages/RSG_create.html",
-    "title": "Create Your Website",
-    "section": "",
-    "text": "We can now start building the website.\nThese instructions largely follow the instructions from GitHub, found here.\nTo start, we will create a repository (you can think of this as a folder for your project).\nIf you need more instructions about committing and pushing to GitHub, or if you want to use the Terminal/Command Line, check out our Git and GitHub Guide.",
-    "crumbs": [
-      "Training materials",
-      "GitHub Pages",
-      "RStudio and Git",
-      "Create Your Website"
-    ]
-  },
-  {
-    "objectID": "pages/RSG_create.html#footnotes",
-    "href": "pages/RSG_create.html#footnotes",
-    "title": "Create Your Website",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nIn fact, if we are creating a GitHub Page that has a different name than our username, e.g., a project webpage, we will need to do this manually, anyhow.↩︎",
-    "crumbs": [
-      "Training materials",
-      "GitHub Pages",
-      "RStudio and Git",
-      "Create Your Website"
-    ]
-  },
-  {
-    "objectID": "pages/RSG_domain.html",
-    "href": "pages/RSG_domain.html",
-    "title": "Adding a Custom Domain",
-    "section": "",
-    "text": "Customizing your domain name can be a complicated process. The full GitHub instructions can be found here.\nThese instructions assume that you already have ownership of the custom domain that you would like to use, as well as knowledge about your specific DNS provider.\n\n\nGo to your GitHub repository\n\n\nClick Settings\n\n\nIn the left-hand menu bar, select Pages\n\n\nScroll down to the Custom Domain section\n\n\nEnter your custom domain in the textbox. For example, you should write: mysite.com\n\n\nHit Save\n\n\nNavigate to your DNS provider and create a CNAME record that points your subdomain to the default domain for your site.\n\n\nExample: if you want to use www.example.com, you will create a CNAME record that points www.example.com to &lt;username&gt;.github.io. Note that this is the user page, not a repository name.\n\n\nInstructions for creating a CNAME record vary by DNS provider. GitHub recommends using your DNS provider’s documentation.\n\n\nFor example, on GoDaddy, when you add a record, the record name would be “www” and the record value would be “username.github.io”\n\n\n\nTo ensure that your apex domain (i.e. without “www”) works, you should also include four A records in your DNS provider’s web console. For example, on GoDaddy, the name would be the @ symbol and the values would be the following:\n\n\n\n185.199.108.153\n\n\n185.199.109.153\n\n\n185.199.110.153\n\n\n185.199.111.153\n\n\n\nConfirm that your DNS record is configured correctly using the terminal.\n\n\nIn the terminal, type: dig WWW.EXAMPLE.COM +nostats +nocomments +nocmd where WWW.EXAMPLE.COM should be replaced with your custom domain name.\n\n\nYou should see the GitHub pages link in the output.\n\n\nThis can take some time to propagate. For example, on GoDaddy, you can set your “TTL” (time to live) as low as 600 seconds. However, GoDaddy also warns that changes may not take effect for up to 48 hours. We also suggest checking your site (and all variations of your site link, e.g., with and without “www”) on an incognito window, as your browser’s cache can sometimes make it appear as if your site did not update.\n\n\n\nGo back to your GitHub repository.\n\n\nGo to Settings &gt; Pages &gt; Custom domain\n\n\nCheck off Enforce HTTPS\n\n\n\nIf this says something along the lines of “Your domain is not properly configured to support HTTPS” we will need to add additional records with your DNS provider\n\n\nWe strongly recommend following instructions from your DNS provider. You should look up “HTTPS record for [your DNS provider]” in Google and follow any of their documentation.\n\n\nFor example, on GoDaddy, you can add an HTTPS record where the name is @ and the value is your site’s domain (e.g., mysite.com)\n\n\n\nIf you run into any additional problems, you may want to ensure that there are no additional A records aside from the ones listed above. This may be a problem if you have previously had your site hosted through a service separate from GitHub pages.\n\n\nSome common warning messages that you may see when GitHub pages is connecting to your site include “DNS valid for primary” or “DNS check in progress” – these are both OK, and should go away once your site is connected.\n\n\nOn the other hand, if you get an error message “DNS check unsuccessful” or “Both your custom domain and its alternative name are improperly configured,” then it means either your A or CNAME records are incorrect. Please check these!",
-    "crumbs": [
-      "Training materials",
-      "GitHub Pages",
-      "RStudio and Git",
-      "Adding a Custom Domain"
-    ]
-  },
-  {
-    "objectID": "pages/RSG_template.html",
-    "href": "pages/RSG_template.html",
-    "title": "Using Templates",
-    "section": "",
-    "text": "Now, find a website template that you’d like to use. There are a lot of free ones from https://html5up.net/. Or, if you are already savvy with HTML or web design, you may choose to make your own website from scratch. You can also use Jekyll themes that are designed for GitHub Pages, too.\nSome of the templates that we recommend for multiple-page websites include:\n\nHTML5Up’s Editorial\nHTML5Up’s Stellar\nHTML5Up’s Arcana\nHTML5Up’s Minimaxing\n\nIf you’d like a 1-page website, some templates include:\n\nHTML5Up’s Read Only\nHTML5Up’s Strata\n\nRegardless of your desired choice, the set-up remains the same.\n\nDownload the template that you like.\nGo into your downloads folder.\nCopy and paste all of this content into your repository folder (username.github.io). You know this is the right folder because there will be an index.html file inside of it!\nIf the downloaded items include an index.html, you will need to delete your original, barebones index.html we created earlier. (If you are on a Mac, it will ask you automatically).\nThrough RStudio (or the command line, if you know how), commit your changes and push them to GitHub.\nAfter a few minutes, the build should be deployed and you should see this template hosted on your website now.",
-    "crumbs": [
-      "Training materials",
-      "GitHub Pages",
-      "RStudio and Git",
-      "Using Templates"
-    ]
-  },
-  {
-    "objectID": "vscode/application.html",
-    "href": "vscode/application.html",
-    "title": "VSCode Application",
-    "section": "",
-    "text": "Visual Studio Code has instructions for getting started.\nYou can download VSCode directly from their website for your operating system.\nUnzip the download (mine was called “VSCode-darwin-universal.zip”), and then click on the new application (Visual Studio Code). A pop-up will ask you if you want to open an app downloaded from the internet. Click open.",
+    "text": "To import our recommended profile:\n\nInside VSCode, click on the settings icon in the bottom-left corner (it looks like a gear!)\nSelect “Profiles (Name of your current profile)” ← this should be “Profiles (Default)” if you are doing this for the first time\nSelect “Import Profile”\nCopy and paste the following URL into the search bar pop-up that says “Provide Profile Template URL”: https://vscode.dev/profile/github/2f5c3eb559798c7c449adac706742807.\n\nFollowing that link in a browser opens VS Code for the Web, which runs the editor in a browser tab.\n\nA pane on the left will pop up. Leave everything checked off, and select the blue “Create Profile” button\nEnter a name for this profile in the text pop-up, such as “IQSS Recs”\nLeave everything checked off, and select the blue “Create” button\n\nNow the settings icon should have a short descriptor bubble attached, e.g. “IQ”, and if you click on it, you should see that it now says “Profiles (Profile Name)”, such as “Profiles (IQSS Rec)”\nCongrats, you’ve imported our recommended profile!\nThis includes:\n\nextensions, which will automatically install for you. You can access these by clicking the extensions icon on the left-hand toolbar, which has three squares in an L shape with an additional square that is separated at the top right corner.\nsettings.json, which you can access by clicking the settings icon, selecting Settings, and then clicking the “Open Setting (JSON)” icon in the file toolbar, which looks like a piece of paper with a curved arrow.\nkeybindings.json, which you can access by clicking the settings icon, selecting Keyboard Shortcuts, and then clicking the “Open Keyboard Shortcuts (JSON)” icon in the file toolbar, which looks like a piece of paper with a curved arrow.",
     "crumbs": [
       "Training materials",
       "VS Code",
       "Installation",
-      "VSCode Application"
+      "IQSS Configuration"
     ]
   },
   {
-    "objectID": "vscode/customizing.html",
-    "href": "vscode/customizing.html",
-    "title": "Customizing Your Own Configuration",
+    "objectID": "vscode/dependencies.html",
+    "href": "vscode/dependencies.html",
+    "title": "Dependencies",
     "section": "",
-    "text": "Adding your own extensions is easy. Simply locate the extensions icon on the left-hand toolbar (it looks like three squares in an L, with one separated square to the top right). You can search for any extension available! When you’ve found an extension that you like, all you need to do is click the “Install” button!",
+    "text": "In order to use VSCode effectively, there are some additional programs or applications that we also recommend you install or use on your own.\n\nGitHub:\n\nWe recommend using GitHub. If you do not already have a GitHub account, we recommend following the instructions from GitHub.\n\nCopilot:\n\nOur recommended profile installs the GitHub Copilot and Copilot Chat extensions, so they will appear whether or not you intend to use them. To use them you need a GitHub account: there is a free tier, and students and academic staff can get the paid tier at no cost through GitHub Education.\nGitHub’s setup instructions cover signing in. If you would rather not use Copilot at all, disable the two extensions from the Extensions pane and nothing else in this guide changes.\n\nSkim:\n\nSkim is a PDF viewer, which you can download from the internet. We recommend setting this as your default PDF viewer.\nOnce Skim is open, go to the top toolbar menu. Select Skim &gt; Settings.\nIn the settings pane that opens, click Sync on the top right.\nCheck off the boxes for “Check for file changes” and “Reload automatically”\nIn the PDF-TeX Sync support section, set the “Preset” to Visual Studio Code\n\nMacTeX:\n\nMacTeX is the standard TeX distribution on macOS, which you can download from the internet.\nIf you already have a TeX distribution installed on your computer, you do not need to install MacTeX as well.\n\nPandoc:\n\nPandoc allows you to knit .Rmd files to PDF files. You can install the latest release from the internet.",
     "crumbs": [
       "Training materials",
       "VS Code",
-      "Customizing your own VS Code",
-      "Customizing Your Own Configuration"
+      "Installation",
+      "Dependencies"
     ]
   },
   {
-    "objectID": "vscode/customizing.html#adding-your-own-extensions",
-    "href": "vscode/customizing.html#adding-your-own-extensions",
-    "title": "Customizing Your Own Configuration",
+    "objectID": "vscode/external_res.html",
+    "href": "vscode/external_res.html",
+    "title": "External Resources",
     "section": "",
-    "text": "Adding your own extensions is easy. Simply locate the extensions icon on the left-hand toolbar (it looks like three squares in an L, with one separated square to the top right). You can search for any extension available! When you’ve found an extension that you like, all you need to do is click the “Install” button!",
+    "text": "Resources include VSCode’s introduction page, documentation, and tips and tricks.\nAdditional resources include various YouTube tutorials or online guides, such as Jia Jia’s Fast Guide on Writing LaTeX with LaTeX Workshop in VS Code.\nLastly, Google is your best friend! If you want to do something, googling how to do it is your best go-to. Sites like Stack Overflow, Reddit, and Quora all have active user communities that ask questions and support each other.",
     "crumbs": [
       "Training materials",
       "VS Code",
-      "Customizing your own VS Code",
-      "Customizing Your Own Configuration"
+      "External Resources"
     ]
   },
   {
-    "objectID": "vscode/customizing.html#adding-your-own-settings",
-    "href": "vscode/customizing.html#adding-your-own-settings",
-    "title": "Customizing Your Own Configuration",
-    "section": "Adding Your Own Settings",
-    "text": "Adding Your Own Settings\nYou may want different default settings. Click the settings icon in the bottom-right, and click Settings. This will open up all of your VSCode settings available. Search for what you want to do. Most settings have dropdowns or checkboxes. Simply select whichever options you like. (Underneath the hood, VSCode will also write these to your settings.json file, which you can see by clicking the Open File icon (paper with an arrow) on the top right toolbar.)",
-    "crumbs": [
-      "Training materials",
-      "VS Code",
-      "Customizing your own VS Code",
-      "Customizing Your Own Configuration"
-    ]
-  },
-  {
-    "objectID": "vscode/customizing.html#adding-your-own-keyboard-shortcuts",
-    "href": "vscode/customizing.html#adding-your-own-keyboard-shortcuts",
-    "title": "Customizing Your Own Configuration",
-    "section": "Adding Your Own Keyboard Shortcuts",
-    "text": "Adding Your Own Keyboard Shortcuts\nYou can also add your own keyboard shortcuts by clicking the settings icon, selecting Keyboard Shortcuts and then searching for the command which you’d like to add. Then, click the pencil icon to the left of the command, and then enter in the keys you’d like to use for your shortcut.\nYou should then be able to see these in the Keyboard Shortcuts menu or if you click the Open File icon (paper with an arrow) in the top right of the toolbar, you can see your customized keyboard shortcuts.",
-    "crumbs": [
-      "Training materials",
-      "VS Code",
-      "Customizing your own VS Code",
-      "Customizing Your Own Configuration"
-    ]
-  },
-  {
-    "objectID": "vscode/extensions.html",
-    "href": "vscode/extensions.html",
-    "title": "Extensions",
+    "objectID": "vscode/profiles.html",
+    "href": "vscode/profiles.html",
+    "title": "Managing Profiles",
     "section": "",
-    "text": "There are a lot of extensions available in VSCode. You can always install more extensions that we have! We’ve included some that we find make coding in \\(\\LaTeX\\) much easier. These include:\n\nAzure Repos:\n\nDependency for GitHub extensions.\n\nBetter Comments:\n\nColor codes types of comments with symbols at the beginning of each. For example, there are:\n\n“*” for highlighting a comment (green)\n“!” for an alert (red)\n“?” for a question (blue)\n“TODO” for a to-do (orange)\n“//” for a strikethrough\n\nYou can also customize your own.\n\nGitHub Copilot:\n\nIn-line suggestions: Copilot will anticipate what you are about to type. You can accept these suggestions, or keep typing.\nThe keyboard shortcut in the Keyboard Shortcuts section toggles these suggestions on and off, since they are not always welcome while you are drafting.\n\nGitHub Copilot Chat:\n\nIn-line chat: Cmd+I starts a chat at the cursor, where you can ask for something to be written or explained in place.\nSide chat: a side pane holds a continuing conversation, which is useful for questions that are about the file rather than about one line of it.\n\nGitHub Pull Requests and Issues:\n\nAllows for a smoother integration of GitHub into VSCode.\n\nGitHub Repositories:\n\nAnother extension which helps to integrate your repositories into VSCode.\n\nindent-rainbow:\n\nHighlights vertically along indents, allowing you to see the different levels of structure in your code.\n\nLaTeX Utilities:\n\nExtension pack for LaTeX Workshop. Includes quicker paste options, live snippets, and word count.\n\nLaTeX Workshop:\n\nIncludes many features, including snippets, shortcuts, and pdf-viewing.\n\nLive Preview:\n\nAllows you to see HTML previews inside VSCode.\n\nLTeX - LanguageTool grammar/spell checking:\n\nUnderlines potential spelling and grammar mistakes.\n\nPath Autocomplete:\n\nAutocompletes paths for files inside your repository.\n\nR:\n\nAllows you to use R in VSCode, with snippets and various viewer options.\n\nR Debugger:\n\nIntegrates the debugging process for R into VSCode.\n\nRainbow CSV:\n\nIf you view a CSV file inside VSCode, each variable will be color-coded (for easier viewing)\n\nRemote Repositories:\n\nDependency for GitHub extensions.\n\nSettings Cycler:\n\nNecessary for using special keyboard shortcuts to toggle settings on/off.\n\nToggle:\n\nNecessary for using special keyboard shortcuts to toggle settings on/off.\n\nvscode-icons:\n\nIncludes additional graphic icons for file types, etc., inside VSCode.\n\nWord Count:\n\nProvides additional word count support for markdown documents.\n\nZotero LaTeX:\n\nAllows for more smooth integration for Zotero in LaTeX documents.",
+    "text": "Profiles allow you to build custom configurations in VSCode! You can set up multiple profiles, and you can customize each one.",
+    "crumbs": [
+      "Training materials",
+      "VS Code",
+      "Customizing your own VS Code",
+      "Managing Profiles"
+    ]
+  },
+  {
+    "objectID": "vscode/profiles.html#creating-your-own-profile",
+    "href": "vscode/profiles.html#creating-your-own-profile",
+    "title": "Managing Profiles",
+    "section": "Creating Your Own Profile",
+    "text": "Creating Your Own Profile\n\nClick the settings menu\nClick Profiles\nClick Create Profile\nGive it a name, click enter",
+    "crumbs": [
+      "Training materials",
+      "VS Code",
+      "Customizing your own VS Code",
+      "Managing Profiles"
+    ]
+  },
+  {
+    "objectID": "vscode/profiles.html#exporting-your-own-profile",
+    "href": "vscode/profiles.html#exporting-your-own-profile",
+    "title": "Managing Profiles",
+    "section": "Exporting Your Own Profile",
+    "text": "Exporting Your Own Profile\nOnce you have made your own personalized settings, you can export your own profile to share with others.\n\nClick the settings menu\nClick Profiles\nClick Export Profile\nClick the blue “Export” button\nGive it a name, click enter\nSelect the GitHub gist option\nCopy the link to share!",
+    "crumbs": [
+      "Training materials",
+      "VS Code",
+      "Customizing your own VS Code",
+      "Managing Profiles"
+    ]
+  },
+  {
+    "objectID": "vscode/profiles.html#deleting-profiles",
+    "href": "vscode/profiles.html#deleting-profiles",
+    "title": "Managing Profiles",
+    "section": "Deleting Profiles",
+    "text": "Deleting Profiles\n\nClick the settings menu\nClick Profiles\nClick Delete Profile\nCheck off the profiles that you would like to delete\nClick OK",
+    "crumbs": [
+      "Training materials",
+      "VS Code",
+      "Customizing your own VS Code",
+      "Managing Profiles"
+    ]
+  },
+  {
+    "objectID": "vscode/shortcuts.html",
+    "href": "vscode/shortcuts.html",
+    "title": "Keyboard Shortcuts",
+    "section": "",
+    "text": "We’ve also added a few keyboard shortcuts. You can remove these from your keybindings.json file if you do not like them.\n\n“Option+Command+y”: Will show you all of your built-in LaTeX recipes.\n“Shift+Option+b”: When you are inside a .tex file, this will open the accompanying output PDF in an external viewer. We recommend using Skim, which you can set up with sync so that it will refresh whenever you save/build the .tex file.\n“Option+Command+f”: When you are typing, this will toggle on/off whether inline suggestons will appear. Once you toggle on/off, you need to continue typing to see the change take effect.\n“Option+Command+h”: When you have text highlighted, this will toggle on/off whether repeat occurrences of that word will also be highlighted.\n“Option+Command+q”: When you are typing, this will toggle on/off whether dropdown spelling suggestions will appear.",
     "crumbs": [
       "Training materials",
       "VS Code",
       "Our recommended profile",
-      "Extensions"
+      "Keyboard Shortcuts"
     ]
   },
   {
-    "objectID": "vscode/index.html",
-    "href": "vscode/index.html",
-    "title": "VS Code",
+    "objectID": "emacs/commands.html",
+    "href": "emacs/commands.html",
+    "title": "Commands List",
     "section": "",
-    "text": "The following is a quick starter guide designed to get you acquainted with Visual Studio Code (VSCode), a desktop application for coding.",
-    "crumbs": [
-      "Training materials",
-      "VS Code",
-      "Start here"
-    ]
-  },
-  {
-    "objectID": "vscode/settings.html",
-    "href": "vscode/settings.html",
-    "title": "Settings",
-    "section": "",
-    "text": "We’ve added quite a few non-default settings, which will be automatically configured with this profile. Again, you might not like all of these — feel free to remove these from your settings.json file.\nHere is a list of some of these settings:\n\nAdditional LaTeX recipes:\n\nxelatex+ and pdflatex+ will actually build the accompanying files many times underneath the hood in order to make sure that your bibliography citations correspond correctly.\n\nLaTeX outline view will include the sections: part, chapter, section, subsection, subsubsection, and paragraph.\nWord wrapping",
-    "crumbs": [
-      "Training materials",
-      "VS Code",
-      "Our recommended profile",
-      "Settings"
-    ]
-  },
-  {
-    "objectID": "emacs/application.html",
-    "href": "emacs/application.html",
-    "title": "Emacs Application",
-    "section": "",
-    "text": "To download the Emacs application, please run the following line in your Terminal: brew install --cask emacs\nIf the package installer appears, follow its instructions. (You may need to drag the icon to the Application folder).\nIf you run into any problems, you can always download the application from Emacs For MacOS X.",
-    "crumbs": [
-      "Training materials",
-      "Emacs",
-      "Installation",
-      "Emacs Application"
-    ]
-  },
-  {
-    "objectID": "emacs/computer_installer.html",
-    "href": "emacs/computer_installer.html",
-    "title": "Installing Necessary Packages on Your Computer",
-    "section": "",
-    "text": "There are a few programs that we will need to install: Homebrew, node, ispell, and gnu-tar.\nHomebrew is necessary as macOS’s package manager. This will allow you to install various programs via the command line. Node.js and gnu-tar are needed by the Copilot integration in our configuration — Copilot’s language server runs on Node — and ispell provides spell checking.\nTo do so, please open your Terminal. (If you don’t know where this is: Finder &gt; Applications &gt; Utilities &gt; Terminal).\n\nNow run:\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\nPress enter and follow the instructions. When it finishes, Homebrew prints two lines for you to run so that the brew command is on your path. Copy them from Homebrew’s own output rather than from here — it fills in your username for you — and run them one at a time. They look like this:\necho &gt;&gt; ~/.zprofile\necho 'eval \"$(/opt/homebrew/bin/brew shellenv)\"' &gt;&gt; ~/.zprofile\neval \"$(/opt/homebrew/bin/brew shellenv)\"\n\nOnce Homebrew is installed, we can now install the three dependencies in your terminal. One by one, please copy and paste the following lines and execute separately (by pressing return after each).\n\nbrew install gnu-tar\nbrew install node\nbrew install ispell\n\nYou should now be done!\nIf you run into any problems installing these, please refer to documentation online for Homebrew, gnu-tar, node.js, and ispell.",
-    "crumbs": [
-      "Training materials",
-      "Emacs",
-      "Installation",
-      "Installing Necessary Packages on Your Computer"
-    ]
-  },
-  {
-    "objectID": "emacs/copilot_login.html",
-    "href": "emacs/copilot_login.html",
-    "title": "Copilot",
-    "section": "",
-    "text": "Our configuration includes the Copilot integration, so these steps set it up. If you would rather not use it, skip this page — nothing else in the guide depends on it, and the last section here explains how to leave it switched off.\nCopilot needs a GitHub account. There is a free tier, and students and academic staff can get the paid tier at no cost through GitHub Education; see GitHub’s Copilot page for what each includes.\nNow that you have opened Emacs for the second time, you should see some messages at the bottom about “quelpa” or “copilot”. When these messages stop appearing, we need to complete a few Emacs commands to fully integrate with Copilot.\nNow, type:\n\nOption+x then type copilot-mode. Enter. This may give you prompts about logging in or installing the server. Follow each as they come up:\n\nOption+x install-server. Enter. When this is done, you may get a message saying that there is a newer version. You will need to do the next step, then. If not, skip the next step.\nOption+x reinstall-server. Enter. (Again, you may not need to do this!)\nOption+x copilot-login. Enter. If you have already authorized Copilot on your computer (e.g., in RStudio), this may not be necessary. This will give you a code to copy. Write it down. Follow the instructions, then press enter to access GitHub in your browser. Authorize your GitHub/Copilot in the browser according to the instructions.\n\n\nNow we are going to close Emacs and reopen it.\nThere should be a few messages on start-up, but nothing that you need to do.\nTo turn on Copilot mode, type: Option-x copilot-mode. Enter. At the bottom, it should tell you that copilot mode is enabled in the buffer.\nCopilot should now be integrated! If you pause when typing, suggestions should pop up for you. If not, try typing Option-x copilot-mode a few times, toggling it off/on again.\nIf you ever want to stop using it, or if you don’t have Copilot, just don’t turn on copilot-mode.",
-    "crumbs": [
-      "Training materials",
-      "Emacs",
-      "Opening Emacs for the first time",
-      "Copilot"
-    ]
-  },
-  {
-    "objectID": "emacs/editing.html",
-    "href": "emacs/editing.html",
-    "title": "Editing Your Document",
-    "section": "",
-    "text": "Text editing in Emacs has some different terminology than what you may be used to. For instance, there is “killing” which deletes text (but saves it to a “kill ring” that you still have access to), and “yanking” which brings text back. This is similar to cutting/pasting.\nHowever, we’ve also included keyboard shortcuts where you can continue to use Cmd+C and Cmd+V for copy and paste, as you normally would on your Mac.\nOne good thing about the kill ring is that you have continued access to text that you may have previously deleted and you may want to bring it back. Here are some of the commands that you may find useful:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-w\nIf you have a region highlighted, this will kill the region to your kill ring.\n\n\nM-w\nIf you have a region highlighted, this will copy the region to your killing ring without deleting the text.\n\n\nC-y\nYank back the last kill (i.e. paste what you just deleted)\n\n\nM-y &lt;select text&gt;\nAllows you to select which of your previous kills that you’d like to bring back.\n\n\n\n\nSearching for text:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-s\nSearch for a string (only from your cursor on, i.e., forward search)\n\n\nC-r\nSearch for a string (backwards)\n\n\nRET\nQuit searching\n\n\nM-C-s\nRegular expression search (forwards).\n\n\nM-C-r\nRegular expression search (backwards).\n\n\n\n\nCopilot commands:\n\n\n\nCommand\nFunction\n\n\n\n\nM-x copilot-mode\nToggle on/off copilot mode.\n\n\nM-C-RET\nAccept a completion.\n\n\nC-&lt;right&gt;\nAccept by word.",
-    "crumbs": [
-      "Training materials",
-      "Emacs",
-      "Getting started",
-      "Editing Your Document"
-    ]
-  },
-  {
-    "objectID": "emacs/glossary.html",
-    "href": "emacs/glossary.html",
-    "title": "Glossary of Key Terms",
-    "section": "",
-    "text": "Buffer: A temporary storage area used for holding text that is being edited.\nFrame: A graphical element that contains one or more windows. If you have multiple frames open, you can have separate instances of Emacs running at once.\nKilling: Deleting text, but storing it in a “kill ring” for future use.\nMini Buffer: A special area at the bottom of the screen used for user input and displaying messages from Emacs itself. It is where Emacs prompts the user for commands, file names, search strings, and other input.\nMode Line: A special area located at the bottom of the window, just above the minibuffer (if present). It provides information about the current state of the buffer and the editing environment.\nWindow: A subdivision within a frame where buffers are displayed. Each window typically shows the contents of a single buffer.\nYanking: Pasting previously killed text back into a document.",
+    "text": "All of the previous commands, and some additional ones, are listed below.\n\n\n\n\n\n\nThese tables are taken from the GNU Emacs Survival Card, copyright © Free Software Foundation, Inc. The card is distributed under its own permission notice, which requires that the copyright and permission notice be kept on all copies; it is not covered by the CC BY 4.0 licence that applies to the rest of this site.\n\n\n\nRunning Emacs:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-x C-c\nQuit Emacs\n\n\nC-x C-f\nEdit file; this command uses the mini buffer to read the file name; use this to create new files by entering the name of the new file\n\n\nC-x C-s\nSave file\n\n\nC-x k\nKill a buffer\n\n\nC-g\nIn most contexts: cancel, stop, abort partially types or executing command\n\n\nC-x u\nUndo\n\n\n\n\nMoving About:\n\n\n\nCommand\nFunction\n\n\n\n\nC-l\nScroll current line to center of window\n\n\nC-x b\nSwitch to another buffer\n\n\nM-&lt;\nMove to beginning of the buffer\n\n\nM-&gt;\nMove to the end of the buffer\n\n\nM-g M-g\nGo to a given line number\n\n\n\n\nMultiple Windows:\n\n\n\nCommand\nFunction\n\n\n\n\nC-x 0\nRemove the current window from the display\n\n\nC-x 1\nMake active window the only window\n\n\nC-x 2\nSplit window horizontally\n\n\nC-x 3\nSplit window vertically\n\n\nC-x o\nMove to other window\n\n\n\n\nRegions:\n\n\n\nCommand\nFunction\n\n\n\n\nC-space\nSet a mark\n\n\nM-h\nMark entire paragraph\n\n\nC-x h\nMark entire buffer\n\n\n\n\nKilling, Yanking, Copying and Pasting\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-w\nKill region\n\n\nM-w\nCopy region to kill-ring\n\n\nC-k\nKill from the cursor all the way to the end of the line\n\n\nM-DEL\nKill word\n\n\nC-y\nYank back the last kill (C-w C-y combination could be used to move text around)\n\n\nM-y\nReplace last yank with previous kill\n\n\nCmd-C\nCopy\n\n\nCmd-V\nPaste\n\n\n\n\nSearching:\n\n\n\nCommand\nFunction\n\n\n\n\nC-s\nSearch for a string (forwards)\n\n\nC-r\nSearch for a string (backwards)\n\n\nRET\nQuit searching\n\n\nM-C-s\nRegular expression search\n\n\nM-C-r\nReverse regular expression search\n\n\n\n\nTags\n\n\n\nCommand\nFunction\n\n\n\n\nM-.\nFind a definition\n\n\nM-*\nPop back to where M-. was last invoked\n\n\n\n\nCompiling:\n\n\n\nCommand\nFunction\n\n\n\n\nC-c C-c\nCompile the file\n\n\n\n\nGetting Help:\n\n\n\nCommand\nFunction\n\n\n\n\nC-h\nEmacs help\n\n\nC-h t\nRun the Emacs tutorial\n\n\nC-h i\nEnter Info, the documentation browser\n\n\nC-h a\nShow commands matching a string\n\n\nC-h k\nDisplay documentation of the function invoked by a keystroke\n\n\nC-h m\nGet mode-specific information\n\n\n\n\nCopilot:\n\n\n\nCommand\nFunction\n\n\n\n\nM-x copilot-mode\nToggle on/off copilot mode.\n\n\nM-C-RET\nAccept a completion.\n\n\nC-&lt;right&gt;\nAccept by word.",
     "crumbs": [
       "Training materials",
       "Emacs",
       "Resources",
-      "Glossary of Key Terms"
+      "Commands List"
     ]
   },
   {
-    "objectID": "emacs/index.html",
-    "href": "emacs/index.html",
-    "title": "Emacs",
+    "objectID": "emacs/configuration.html",
+    "href": "emacs/configuration.html",
+    "title": "IQSS Configuration",
     "section": "",
-    "text": "The following is a quick starter guide designed to get you acquainted with Emacs, a desktop application for editing \\(\\LaTeX\\). Of our recommended applications, Emacs is the most powerful in terms of text editing and customization.",
-    "crumbs": [
-      "Training materials",
-      "Emacs",
-      "Start here"
-    ]
-  },
-  {
-    "objectID": "emacs/layout.html",
-    "href": "emacs/layout.html",
-    "title": "Layout",
-    "section": "",
-    "text": "Understanding the layout of Emacs, and the following terms and commands, is crucial in effectively navigating the workspace.\nThere are three main components of the Emacs workspace: frames, windows, and buffers. Frames are the rectangles on your screen. For example, on a Mac, you’ll likely see a gray top bar with the red, yellow, and green circles at the top of your frame. Each frame can be broken up into windows, which allow you to see documents. Each window holds a single buffer, which is text content, that is already from a file or can be saved to a file.\nYou can have multiple windows open inside a single frame at a time, allowing you to see multiple files, or different parts of the same file, at the same time. Additionally, you can have multiple frames, each its own separate instance of Emacs, allowing you to switch between projects all on the same screen.\nAdditionally, there is a smaller section at the bottom of an Emacs frame. First, you will see the mode line, which tells you information about the current buffer being displayed, including its name, modes, and position. Underneath this, you will see the mini buffer, which is where you will enter commands and see interactive text. You can access the mini buffer by pressing M-x, and then searching for commands.\nYou can open up another frame with the command C-x 5 2. (This will open the same file that you already have opened in a second frame). You can also do M-x make-frame.\nTo switch between frames, use C-x 5 o (for “other”). This will cycle through your open Emacs frames.\nTo close your current frame, you can use the command C-x 5 0, or M-x delete-frame.\nTo open another window inside the same frame, there are multiple commands you can use, depending on how you want the window to open:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-x 2\nSplit the current frame horizontally. This will open the same buffer as the one you current have open.\n\n\nC-x 3\nSplit the current frame vertically.\n\n\nC-x 4 f &lt;select file&gt;\nOpen a specific file in a new window.\n\n\nC-x 4 b &lt;select buffer&gt;\nOpen a specific buffer in a new window. This will list recent buffers, including messages, and scratch work.\n\n\n\n\nAdditional commands to close or move windows include:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-x 0\nClose out of the window where your cursor is.\n\n\nC-x 1\nClose out of all windows except for the one where your cursor is.\n\n\nC-x o\nMoves your cursor to the next window. If you repeatedly do this, the cursor will cycle through the open windows.",
-    "crumbs": [
-      "Training materials",
-      "Emacs",
-      "Getting started",
-      "Layout"
-    ]
-  },
-  {
-    "objectID": "emacs/overview.html",
-    "href": "emacs/overview.html",
-    "title": "Overview",
-    "section": "",
-    "text": "This section will walk you through installing the Emacs application, necessary packages, as well as the IQSS configuration.\nThese instructions only support MacOS users currently. Please stay updated as we prepare materials for Microsoft users.\nIn preparation for installing Emacs, there are other programs that we also recommend to install. Please refer to our documentation for useful programs to install prior to Emacs. This page includes links to external download sites for programs such as R, a TeX distribution, and Git. On macOS install MacTeX, which is the standard distribution there.\nIn fact, if you do not install some of these (or if you have not previously installed some of these), you may run into problems when loading our Emacs configuration. Git in particular should be installed first: some packages are fetched with it, and the Copilot integration needs it.\nFor this process, we will teach you how to use the command line in the terminal. However, there will also be external links for many of the download options if you are not wholly comfortable in the terminal, or find yourself running into problems.",
+    "text": "To install our configuration, run the following line in your terminal:\n\ngit clone https://github.com/IQSS/emacs.d_v29.git ~/.emacs.d\n\nThis essentially copies our Emacs configuration to a folder named “.emacs.d” in your home folder. If you’d like, you can do so directly from the GitHub page by using the green “Code” button to Download ZIP. Then, you would unzip the file, move it to your home folder, and rename it “.emacs.d”. You would get a pop-up asking if you are sure that you want it to start with a dot. That is okay, it just means that it will be hidden. If you are in your Finder and you want to see or edit this folder, access your Home folder and then press Cmd+Shift+. to see your hidden files.",
     "crumbs": [
       "Training materials",
       "Emacs",
       "Installation",
-      "Overview"
+      "IQSS Configuration"
     ]
   },
   {
-    "objectID": "emacs/saving.html",
-    "href": "emacs/saving.html",
-    "title": "Saving and Compiling Your Document",
+    "objectID": "emacs/creating.html",
+    "href": "emacs/creating.html",
+    "title": "Creating and Setting Up Documents",
     "section": "",
-    "text": "To save a file, use C-x C-s. You should see “Wrote &lt;document-name&gt;” in the mini buffer.\nTo compile a Latex document, use C-c C-c. You may need to follow a few simple prompts. For example, you may need to tell Emacs that this is Latex.\nIf you are compiling a beamer presentation, and you did not specify your Tex engine in your document, you will need to execute the following command before compiling your document: M-x tex-engine-set and then select xetex and return. Now use C-c C-c. \nThen, in your finder, you should see a slew of new files all with the same name as your .tex file, but with various suffixes. Find the one that is &lt;document-name&gt;.pdf and open it. Congrats! You’ve made your document!",
+    "text": "To create your document, type C-x C-f (“Find a file”). Then use your arrow keys and return to navigate to the folder in which you’d like your document to live. When the top line of your mini buffer says the name of the correct folder, make sure that your cursor is on the top line, after the slash, and then type the name that you would like for your document. If you are making a Latex file, make sure to include the “.tex” suffix. Click return when you are done, and a new buffer with the name of the file will be displayed in your window.\nYou can also set local variables within a comment block at the end of a file. While most customizations will be already downloaded for you inside the init.el and custom.el files from the IQSS configuration, you wish to have file-specific customizations as well. You can use the following as an example of what you can put at the end of a file:\n% Local Variables:\n% mode: latex\n% TeX-master: t\n% TeX-engine: pdflatex\n% fill-column: 80\n% End:\n\nYou must have the first and the last line; these tell Emacs that you’re defining local variables.\nThe “mode” tells Emacs that you are typing in LaTeX.\n“TeX-master: t” tells Emacs that you are in the “master file” which refers to the file which includes all of your header information. For example: if you are in a project, say a book with multiple chapters, and each chapter has its own .tex file, you could use TeX-master to tell Emacs which file contains the header information. So, in your main.tex file, you could have: “” which reads in your chapter1.tex file. In the chapter files, you could simply write your LaTeX code, and include % TeX-master: “main.tex” in your local variables.\n“TeX-engine” tells Emacs how to compile your LaTeX file – in this case, we want a pdf.\n“fill-column: 80” tells Emacs that we want our text to automatically wrap after 80 characters.\nWe can also define which dictionary we want spell check to use.",
     "crumbs": [
       "Training materials",
       "Emacs",
       "Getting started",
-      "Saving and Compiling Your Document"
+      "Creating and Setting Up Documents"
     ]
   },
   {
-    "objectID": "latex/articles.html",
-    "href": "latex/articles.html",
-    "title": "Using LaTeX for Articles",
+    "objectID": "emacs/external_res.html",
+    "href": "emacs/external_res.html",
+    "title": "External Resources",
     "section": "",
-    "text": "We strongly encourage you to use \\(\\LaTeX\\) when writing your articles. Of course, you can draft your writing in programs like Google Docs (which you may prefer), but your polished versions should be .pdf files created from a .tex file.\nWhy? Common text editors like Google Docs do not yet incorporate math notation in a nice way yet. (Yes, it is feature. No, it is not good). As a budding social scientist, your work will likely need math notation in some form or another. This is exactly why \\(\\LaTeX\\) is useful. It provides a simple, replicable way to incorporate math notation into your documents.\nPlus, \\(\\LaTeX\\) has many functions that make the writing process easier. While not exhaustive, these include general formatting functions (e.g., centering, italics, etc.), bibliographic features (e.g., references and citations), and organizational abilities (e.g., connecting multiple documents together).",
+    "text": "Documentation for useful programs that you may need (or like) to install\nHomebrew documentation\nGnu-tar documentation\nNode.js documentation\nIspell documentation\nEmacs Application Installer\nIQSS Configuration GitHub\nCopilot\nHotkeys for Macs or PCs\n\nAlso, it never hurts to search the web or Stack Overflow when you run into any issues.\nYouTube also has a vast array of Emacs turorials.",
     "crumbs": [
       "Training materials",
-      "LaTeX",
-      "Documents",
-      "Using LaTeX for Articles"
+      "Emacs",
+      "Resources",
+      "External Resources"
     ]
   },
   {
-    "objectID": "latex/emacs.html",
-    "href": "latex/emacs.html",
-    "title": "Emacs",
+    "objectID": "emacs/important_keys.html",
+    "href": "emacs/important_keys.html",
+    "title": "Important Keys",
     "section": "",
-    "text": "Emacs asks the most and gives the most. Nearly everything is reachable from the keyboard and nearly everything can be redefined, but you have to learn the keybindings, and customising it means writing Lisp.\nThe Emacs guide covers installation, the IQSS configuration, moving around, editing, and a commands list to keep beside you.",
+    "text": "Two of the most important keys you will need to know are the Control key (abbreviated by C) and the Option key (aka the “Meta” key or the “Alt” key, abbreviated by M).\nMost Emacs commands will require you to hold down either the Control key or the Meta key while typing. The syntax for Emacs commands are C-&lt;character&gt; which means hold the Control key when you press &lt;character&gt;. Additionally you may see M-&lt;chr 1&gt; &lt;chr 2&gt; which means hold the Meta key while you press the first character, release it, and then press the second character. Or you may see two in row, for example: C-x C-f, which means hold the Control key and press x and then f (while still holding the Control key). This is the “find a file” command.\nAdditionally, to quit Emacs you can type C-x C-c (or, of course, you can click out of the user interface).\nTo quit a command, use C-g. (You may want to repeatedly press C-g).",
+    "crumbs": [
+      "Training materials",
+      "Emacs",
+      "Getting started",
+      "Important Keys"
+    ]
+  },
+  {
+    "objectID": "emacs/install_packages.html",
+    "href": "emacs/install_packages.html",
+    "title": "Install Emacs Packages",
+    "section": "",
+    "text": "Now we are going to open Emacs for the first time. This will install a lot of Emacs packages for you, almost automatically.\nIn the bottom, a message will ask you to press “y” to install packages. Please do. A lot of packages will load again.\nAfter some time, another message will pop up again asking you to press “y” to install a few more packages. Again, please do.\nThis may take a bit of time to install of these packages (~5 minutes).\nAt the end, you may or may not get a message that a package is deprecated. This should not be an issue, and it should not appear again when you open Emacs in the future.\nNow please close out of Emacs and reopen it.",
+    "crumbs": [
+      "Training materials",
+      "Emacs",
+      "Opening Emacs for the first time",
+      "Install Emacs Packages"
+    ]
+  },
+  {
+    "objectID": "emacs/moving.html",
+    "href": "emacs/moving.html",
+    "title": "Moving Around Your Document",
+    "section": "",
+    "text": "Emacs makes it extremely easy to move around your document without needing to use your mouse or trackpad (although, you can always use those, too!). Some of the most common commands to move throughout the document are:\nMoving by screens:\n\n\n\n\n\n\n\nCommand\nFunction\n\n\n\n\nC-v\nMove forward one screen (a couple lines of overlap will be provided).\n\n\nM-v\nMove backward one screen.\n\n\nC-l\nIf you do this once, it will center the screen on your cursor. If you do this again, your cursor will move to the top of the screen. If you do this once again, your cursor will move to the bottom of the screen.\n\n\n\n\nMoving by characters:\n\n\n\nCommand\nFunction\n\n\n\n\nC-p OR &lt;up key&gt;\nGo to the previous line.\n\n\nC-n OR &lt;down key&gt;\nGo to the next line.\n\n\nC-b OR &lt;left key&gt;\nMove one space backward.\n\n\nC-f OR &lt;right key&gt;\nMove one space forward.\n\n\n\n\nMoving by words:\n\n\n\nCommand\nFunction\n\n\n\n\nM-f\nGo to the next word.\n\n\nM-b\nGo to the previous word.\n\n\n\n\nMoving in a line:\n\n\n\nCommand\nFunction\n\n\n\n\nC-a\nGo to the beginning of the line.\n\n\nC-e\nGo to the end of the line.\n\n\n\n\nMoving between sentences:\n\n\n\nCommand\nFunction\n\n\n\n\nM-a\nGo to the beginning of the sentence.\n\n\nM-e\nGo to the end of the sentence.\n\n\n\n\nMoving to the extremes:\n\n\n\nCommand\nFunction\n\n\n\n\nM-shift-, OR M-&lt;\nGo to the beginning of the document.\n\n\nM-shift-. OR M-&gt;\nGo to the end of the document.\n\n\n\n\nMoving your screen (without moving the cursor):\n\n\n\nCommand\nFunction\n\n\n\n\nC-&lt;up key&gt;\nMove the visible part of the buffer up.\n\n\nC-&lt;down key&gt;\nMove the visible part of the buffer down.",
+    "crumbs": [
+      "Training materials",
+      "Emacs",
+      "Getting started",
+      "Moving Around Your Document"
+    ]
+  },
+  {
+    "objectID": "emacs/problems.html",
+    "href": "emacs/problems.html",
+    "title": "Common Problems",
+    "section": "",
+    "text": "You may have keybindings set for your computer that supersede the keybindings set in Emacs. For example, my C-&lt;up&gt;, C-&lt;down&gt;, and C-&lt;right&gt; controls were used by my Mac for Mission Control and Applications settings. To disable these keybindings, go to your Apple Menu &gt; System Settings &gt; Keyboard &gt; Keyboard Shortcuts and then locate the settings you’d like to disable. Uncheck them. Full instructions for Macs can be found here. Instructions for PCs can be found here.\nEmacs is on the older side. Newer installations seem to have some problems with loading in some packages. For example, I could not install ‘use-package with the M-x install-packages command, but instead had to install it by looking at M-x list-packages.",
+    "crumbs": [
+      "Training materials",
+      "Emacs",
+      "Common Problems"
+    ]
+  },
+  {
+    "objectID": "emacs/tutorial.html",
+    "href": "emacs/tutorial.html",
+    "title": "Emacs Tutorial",
+    "section": "",
+    "text": "To open up Emacs’s built-in tutorial, type Control-h t. (You may also need to type y for “yes” if it asks).\nWe strongly recommend that you complete this tutorial, as it shows you the most useful keys!",
+    "crumbs": [
+      "Training materials",
+      "Emacs",
+      "Getting started",
+      "Emacs Tutorial"
+    ]
+  },
+  {
+    "objectID": "latex/comparison.html",
+    "href": "latex/comparison.html",
+    "title": "Comparison of Applications",
+    "section": "",
+    "text": "There are a lot of \\(\\LaTeX\\) editors that exist. Depending on what editing power, user experience, and learning cost you want out of your editor, we have three recommendations that you may wish to choose. However, these are not exhaustive, and there may be additional editors that you’d like to use.\nIf you prefer an editor with a lower startup investment and are okay with the editor having less editing power, you may wish to choose Overleaf.\n\n\n\n\n\n\n\nPros\nCons\n\n\n\n\n- Collaborative  - Online, no installation  - Very modern and intuitive design\n- Reliant on UI, cannot do as much with keybindings  - Live editing can cause others to not be able to compile a file  - Not customizable\n\n\n\n\nIf you prefer an editor with a medium startup investment and medium power, you may wish to use VSCode.\n\n\n\n\n\n\n\nPros\nCons\n\n\n\n\n- All-in-one-stop: has extensions for all types of coding (R, Python, etc.)  - Modern design, familiar IDE experience  - Somewhat customizable via exentions, settings, and keybindings\n- More control with keybindings, but limited to the packages and extensions that exist  - Installation is required, but a relatively easy process\n\n\n\n\nIf you are okay with a high startup investment in return for higher power, you may wish to use Emacs.\n\n\n\n\n\n\n\nPros\nCons\n\n\n\n\n- You can do almost anything with keybindings  - Designed to do exactly what you want  - Very customizable  - Open source\n- Older, not modern design  - Need to code customizations in Lisp, which is barely used  - Need to learn a lot of keybindings to use effectively  - Installation is required\n\n\n\n\nIn sum, you may want to start with Emacs, because you may have the time and energy to learn how to use it, and you know that it can have a greater return on investment. Or, you may be okay with using Overleaf, because you don’t want to learn a bunch of keyboard shortcuts. Or, you might want an all-in-one solution where you can write all of your code with VSCode. And, of course, you might already have an IDE you like to use (TeXShop, Vim, TeXStudio, etc.). These are all fine options, too!",
     "crumbs": [
       "Training materials",
       "LaTeX",
-      "Choosing an editor",
-      "Emacs"
+      "Comparison of Applications"
     ]
   },
   {
@@ -1218,29 +1192,15 @@
     ]
   },
   {
-    "objectID": "latex/presentations.html",
-    "href": "latex/presentations.html",
-    "title": "Using LaTeX for Presentations",
+    "objectID": "latex/resources.html",
+    "href": "latex/resources.html",
+    "title": "Learning Resources",
     "section": "",
-    "text": "We also strongly recommend that you create all of your presentations with \\(\\LaTeX\\), too. You can do so using the function \\documentclass{beamer}. In fact, we have an IQSS theme that you can download and use.\nEven if you choose to not use Overleaf for your editor, they have a great collection of tutorials that can help you create your presentations.\nAgain, we strongly recommend this for the math notation. Additionally, your presentations will be replicable, which is also a benefit of working in \\(\\LaTeX\\) as opposed to programs like Google Slides or Power Point.",
+    "text": "For a more in-depth list of functions (sorted alphabetically), we suggest looking at documentation from Boston University. For a list sorted more thematically, we suggest looking at documentation from Arizona State University.\nThere are also tutorials such as those from Overleaf, found here that you can actively follow along and learn with.",
     "crumbs": [
       "Training materials",
       "LaTeX",
-      "Documents",
-      "Using LaTeX for Presentations"
-    ]
-  },
-  {
-    "objectID": "latex/vscode.html",
-    "href": "latex/vscode.html",
-    "title": "VS Code",
-    "section": "",
-    "text": "VS Code sits in the middle: you install it once, and in return you get one editor for LaTeX, R, Python and everything else, with settings and keybindings you can shape. What you can change is bounded by the extensions that exist.\nThe VS Code guide covers installation, our recommended profile, the extensions it brings, and how to customise it afterwards.",
-    "crumbs": [
-      "Training materials",
-      "LaTeX",
-      "Choosing an editor",
-      "VS Code"
+      "Learning Resources"
     ]
   },
   {
