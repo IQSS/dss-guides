@@ -24,7 +24,7 @@ One directory per guide (`git/`, `pages/`, `vscode/`, `emacs/`, `latex/`,
 `overleaf/`), each page a `.qmd`; the sidebar in `_quarto.yml` gives the
 order. On a Dropbox-synced checkout, `_site` is a symlink outside Dropbox.
 
-## Licence
+## License
 
 CC BY 4.0. The guides were written by Dominic Skinnion for Data Science
 Services, 2024 to 2025.

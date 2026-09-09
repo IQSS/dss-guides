@@ -12,7 +12,7 @@ Load one in the preamble, before `\begin{document}`:
 
 \usepackage{graphicx}   % images
 \usepackage{booktabs}   % better tables
-\usepackage{amsmath}    % maths
+\usepackage{amsmath}    % math
 \usepackage{hyperref}   % clickable links and references
 \usepackage[margin=1in]{geometry}   % margins
 

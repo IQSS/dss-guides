@@ -22,10 +22,10 @@ Searching for text:
 | Command   | Function  |
 | ---    | ---   |
 | C-s | Search for a string (only from your cursor on, i.e., forward search) |
-| C-r | Search for a string (backwards) |
+| C-r | Search for a string (backward) |
 | RET | Quit searching |
-| M-C-s | Regular expression search (forwards). |
-| M-C-r | Regular expression search (backwards). |
+| M-C-s | Regular expression search (forward). |
+| M-C-r | Regular expression search (backward). |
 
 <br>
 
