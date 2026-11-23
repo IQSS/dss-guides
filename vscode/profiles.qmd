@@ -8,8 +8,8 @@ Profiles allow you to build custom configurations in VSCode! You can set up mult
 
 * Click the settings menu
 * Click Profiles
-* Click Create Profile
-* Give it a name, click enter
+* Click New Profile
+* Give it a name, click Create
 
 ## Exporting Your Own Profile
 
@@ -17,8 +17,7 @@ Once you have made your own personalized settings, you can export your own profi
 
 * Click the settings menu
 * Click Profiles
-* Click Export Profile
-* Click the blue "Export" button
+* Open the "..." menu of the profile you want to export, and click Export...
 * Give it a name, click enter
 * Select the GitHub gist option
 * Copy the link to share!
@@ -27,6 +26,5 @@ Once you have made your own personalized settings, you can export your own profi
 
 * Click the settings menu
 * Click Profiles
-* Click Delete Profile
-* Check off the profiles that you would like to delete
-* Click OK
+* Open the "..." menu of the profile that you would like to delete, and click Delete
+* Click Delete again to confirm

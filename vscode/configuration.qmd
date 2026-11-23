@@ -5,14 +5,14 @@ title: "IQSS Configuration"
 To import our recommended profile:
 
 * Inside VSCode, click on the settings icon in the bottom-left corner (it looks like a gear!)
-* Select "Profiles (*Name of your current profile*)" &#8592; this should be "Profiles (Default)" if you are doing this for the first time
-* Select "Import Profile"
-* Copy and paste the following URL into the search bar pop-up that says "Provide Profile Template URL": <https://iqss.github.io/dss-guides/vscode/IQSS-Recs.code-profile>
-* A pane on the left will pop up. Leave everything checked off, and select the blue "Create Profile" button
-* Enter a name for this profile in the text pop-up, such as "IQSS Recs"
-* Leave everything checked off, and select the blue "Create" button
+* Select "Profiles" &#8592; if you have made other profiles before, you will find it inside "Profile (*Name of your current profile*)". This opens the Profiles editor
+* Click the arrow beside the "New Profile" button, and select "Import Profile..."
+* Copy and paste the following URL into the search bar pop-up that says "Provide Profile Template URL", and press return: <https://iqss.github.io/dss-guides/vscode/IQSS-Recs.code-profile>
+* A form for the new profile will open. The name is filled in for you as "IQSS Recs V1.1". You can change it if you like
+* Leave everything checked off, and select the "Create" button
+* In the list of profiles, select the "Use this Profile for Current Window" button (a check mark) next to the new profile
 
-Now the settings icon should have a short descriptor bubble attached, e.g. "IQ", and if you click on it, you should see that it now says "Profiles (*Profile Name*)", such as "Profiles (IQSS Rec)"
+Now the settings icon should have a short descriptor bubble attached, e.g. "IQ", and if you click on it, you should see that it now says "Profile (*Profile Name*)", such as "Profile (IQSS Recs V1.1)"
 
 Congrats, you've imported our recommended profile!
 

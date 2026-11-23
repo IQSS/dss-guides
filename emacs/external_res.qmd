@@ -5,12 +5,13 @@ title: "External Resources"
 * [Documentation](https://github.com/IQSS/IQSS.emacs/blob/master/UsefulPrograms.org) for useful programs that you may need (or like) to install
 * [Homebrew documentation](https://brew.sh/)
 * [Gnu-tar documentation](https://formulae.brew.sh/formula/gnu-tar)
-* [Node.js documentation](https://nodejs.org/en/download/package-manager/)
-* [Ispell documentation](https://formulae.brew.sh/formula/ispell)
+* [Enchant documentation](https://formulae.brew.sh/formula/enchant)
+* [Pkgconf documentation](https://formulae.brew.sh/formula/pkgconf)
+* [Skim documentation](https://formulae.brew.sh/cask/skim)
 * [Emacs Application Installer](https://emacsformacosx.com/)
 * [IQSS Configuration GitHub](https://github.com/IQSS/IQSS.emacs)
 * [Copilot](https://github.com/features/copilot)
-* Hotkeys for [Macs](https://support.apple.com/guide/mac-help/keyboard-shortcuts-mchlp2262/mac) or [PCs](https://support.microsoft.com/en-us/topic/how-do-i-reassign-hot-keys-for-my-keyboard-703f897c-ad72-db5d-8e64-0928873d712f)
+* Hotkeys for [Macs](https://support.apple.com/guide/mac-help/keyboard-shortcuts-mchlp2262/mac)
 
 Also, it never hurts to search the web or Stack Overflow when you run into any issues.
 

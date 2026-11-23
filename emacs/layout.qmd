@@ -6,7 +6,7 @@ Understanding the layout of Emacs, and the following terms and commands, is cruc
 
 There are three main components of the Emacs workspace: frames, windows, and buffers. Frames are the rectangles on your screen. For example, on a Mac, you’ll likely see a gray top bar with the red, yellow, and green circles at the top of your frame. Each frame can be broken up into windows, which allow you to see documents. Each window holds a single buffer, which is text content, that is already from a file or can be saved to a file. 
 
-You can have multiple windows open inside a single frame at a time, allowing you to see multiple files, or different parts of the same file, at the same time. Additionally, you can have multiple frames, each its own separate instance of Emacs, allowing you to switch between projects all on the same screen.
+You can have multiple windows open inside a single frame at a time, allowing you to see multiple files, or different parts of the same file, at the same time. Additionally, you can have multiple frames, all part of the same Emacs session, allowing you to switch between projects all on the same screen.
 
 Additionally, there is a smaller section at the bottom of an Emacs frame. First, you will see the mode line, which tells you information about the current buffer being displayed, including its name, modes, and position. Underneath this, you will see the mini buffer, which is where you will enter commands and see interactive text. You can access the mini buffer by pressing M-x, and then searching for commands.
 

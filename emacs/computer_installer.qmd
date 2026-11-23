@@ -2,9 +2,9 @@
 title: "Installing Necessary Packages on Your Computer"
 ---
 
-There are a few programs that we will need to install: Homebrew, node, ispell, and gnu-tar.
+There are a few programs that we will need to install: Homebrew, gnu-tar, enchant, pkgconf, and Skim.
 
-Homebrew is necessary as macOS's package manager. This will allow you to install various programs via the command line. Node.js and gnu-tar are needed by the Copilot integration in our configuration --- Copilot's language server runs on Node --- and ispell provides spell checking.
+Homebrew is necessary as macOS's package manager. This will allow you to install various programs via the command line. gnu-tar is needed by the Copilot integration in our configuration. enchant and pkgconf are needed by Jinx, the spell checker in our configuration. Skim is the PDF viewer that our configuration opens your compiled documents in. Node.js is no longer needed, because Copilot's language server now installs without it.
 
 To do so, please open your Terminal. (If you don't know where this is: Finder > Applications > Utilities > Terminal). 
 
@@ -22,12 +22,13 @@ To do so, please open your Terminal. (If you don't know where this is: Finder > 
   eval "$(/opt/homebrew/bin/brew shellenv)"
   ```
 
-Once Homebrew is installed, we can now install the three dependencies in your terminal. One by one, please copy and paste the following lines and execute separately (by pressing return after each).
+Once Homebrew is installed, we can now install the four dependencies in your terminal. One by one, please copy and paste the following lines and execute separately (by pressing return after each).
 
 * brew install gnu-tar
-* brew install node
-* brew install ispell
+* brew install enchant
+* brew install pkgconf
+* brew install \-\-cask skim
 
 You should now be done!
 
-If you run into any problems installing these, please refer to documentation online for [Homebrew](https://brew.sh/), [gnu-tar](https://formulae.brew.sh/formula/gnu-tar), [node.js](https://nodejs.org/en/download/package-manager/), and [ispell](https://formulae.brew.sh/formula/ispell).
+If you run into any problems installing these, please refer to documentation online for [Homebrew](https://brew.sh/), [gnu-tar](https://formulae.brew.sh/formula/gnu-tar), [enchant](https://formulae.brew.sh/formula/enchant), [pkgconf](https://formulae.brew.sh/formula/pkgconf), and [Skim](https://formulae.brew.sh/cask/skim).

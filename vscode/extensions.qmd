@@ -5,7 +5,7 @@ title: "Extensions"
 There are *a lot* of extensions available in VSCode. You can always install more extensions that we have! We've included some that we find make coding in $\LaTeX$ much easier. These include:
 
 * **Azure Repos**:
-  * Dependency for GitHub extensions.
+  * Lets you remotely browse and edit Azure Repos. It comes bundled with Remote Repositories.
 * **Better Comments**:
   * Color codes types of comments with symbols at the beginning of each. For example, there are:
     * "*" for highlighting a comment (green)
@@ -17,10 +17,12 @@ There are *a lot* of extensions available in VSCode. You can always install more
 * **GitHub Copilot**:
   * In-line suggestions: Copilot will anticipate what you are about to type. You can accept these suggestions, or keep typing.
   * The keyboard shortcut in the [Keyboard Shortcuts](shortcuts.qmd) section toggles these suggestions on and off, since they are not always welcome while you are drafting.
+  * VS Code now provides these suggestions through Copilot Chat, so this separate extension is no longer needed.
 * **GitHub Copilot Chat**:
+  * This extension is now built into VS Code.
   * In-line chat: `Cmd+I` starts a chat at the cursor, where you can ask for something to be written or explained in place.
   * Side chat: a side pane holds a continuing conversation, which is useful for questions that are about the file rather than about one line of it.
-* **GitHub Pull Requests and Issues**:
+* **GitHub Pull Requests**:
   * Allows for a smoother integration of GitHub into VSCode.
 * **GitHub Repositories**:
   * Another extension which helps to integrate your repositories into VSCode.
@@ -33,7 +35,7 @@ There are *a lot* of extensions available in VSCode. You can always install more
 * **Live Preview**:
   * Allows you to see HTML previews inside VSCode.
 * **LTeX - LanguageTool grammar/spell checking**:
-  * Underlines potential spelling and grammar mistakes.
+  * Underlines potential spelling and grammar mistakes. It is turned off in our profile.
 * **Path Autocomplete**:
   * Autocompletes paths for files inside your repository.
 * **R**:
@@ -45,7 +47,7 @@ There are *a lot* of extensions available in VSCode. You can always install more
 * **Remote Repositories**:
   * Dependency for GitHub extensions.
 * **Settings Cycler**:
-  * Necessary for using special keyboard shortcuts to toggle settings on/off.
+  * Allows cycling through settings using keyboard shortcuts. None of our keyboard shortcuts use it.
 * **Toggle**:
   * Necessary for using special keyboard shortcuts to toggle settings on/off.
 * **vscode-icons**:

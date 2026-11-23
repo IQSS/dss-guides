@@ -2,7 +2,7 @@
 title: "Common Problems"
 ---
 
-You may have keybindings set for your computer that supersede the keybindings set in Emacs. For example, macOS takes `C-<up>`, `C-<down>` and `C-<right>` for Mission Control and Application windows. To disable these keybindings, go to your Apple Menu \> System Settings \> Keyboard \> Keyboard Shortcuts and then locate the settings you’d like to disable. Uncheck them. Full instructions for Macs can be found [here](https://support.apple.com/guide/mac-help/keyboard-shortcuts-mchlp2262/mac). Instructions for PCs can be found [here](https://support.microsoft.com/en-us/topic/how-do-i-reassign-hot-keys-for-my-keyboard-703f897c-ad72-db5d-8e64-0928873d712f).
+You may have keybindings set for your computer that supersede the keybindings set in Emacs. For example, macOS takes `C-<up>`, `C-<down>` and `C-<right>` for Mission Control and Application windows. To disable these keybindings, go to your Apple Menu \> System Settings \> Keyboard \> Keyboard Shortcuts and then locate the settings you’d like to disable. Uncheck them. Full instructions for Macs can be found [here](https://support.apple.com/guide/mac-help/keyboard-shortcuts-mchlp2262/mac).
 
-Emacs is on the older side. Newer installations seem to have some problems with loading in some packages. For example, `use-package` may not install with `M-x install-packages`; install it from the list that `M-x list-packages` opens instead.
+Emacs is on the older side. Newer installations seem to have some problems with loading in some packages. If a package does not install when Emacs starts, install it yourself with `M-x package-install`, or from the list that `M-x list-packages` opens.
 

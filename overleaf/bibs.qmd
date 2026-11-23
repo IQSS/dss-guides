@@ -31,5 +31,6 @@ once is enough.
 If you keep your references in Zotero, Mendeley or EndNote, you can export a
 `.bib` file and upload it. Overleaf can also link a Zotero or Mendeley library
 so the file updates by itself; see
-[Overleaf's documentation](https://www.overleaf.com/learn/how-to/Using_bibliographies_on_Overleaf)
-for how to connect one.
+[Overleaf's documentation](https://docs.overleaf.com/integrations-and-add-ons/reference-manager-integrations)
+for how to connect one. Linking a library is a premium feature, which
+Harvard's license provides.

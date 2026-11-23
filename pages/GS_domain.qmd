@@ -4,8 +4,8 @@ title: "Adding a Custom Domain"
 
 <br> 
 
-Customizing your domain name can be a complicated process. As noted earlier, if you are using an account that has an administrator (e.g., a school or work account), you cannot add a custom domain yet.
+Customizing your domain name can be a complicated process. If you are using an account that has an administrator (e.g., a school or work account), you cannot add a custom domain yourself; Google directs you to your administrator.
 
 If you are using a personal gmail account for your Google Site, you have the ability to add a custom domain. Google has very detailed [instructions](https://support.google.com/sites/answer/9068867?hl=en) to follow for adding a custom domain.
 
-You will need to buy the domain from a registrar first, such as [Cloudflare](https://www.cloudflare.com/products/registrar/) or [Squarespace](https://domains.squarespace.com/). The Google instructions above cover pointing it at your site.
+You will need to buy the domain from a registrar first, such as [Cloudflare](https://www.cloudflare.com/domains/) or [Squarespace](https://domains.squarespace.com/). The Google instructions above cover pointing it at your site.

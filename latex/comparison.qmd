@@ -8,7 +8,7 @@ If you prefer an editor with a lower startup investment and are okay with the ed
 
 | Pros   | Cons  |
 | ---    | ---   |
-| - Collaborative <br> - Online, no installation <br> - Very modern and intuitive design | - Reliant on UI, cannot do as much with keybindings <br> - Live editing can cause others to not be able to compile a file <br> - Not customizable |
+| - Collaborative <br> - Online, no installation <br> - Very modern and intuitive design | - Reliant on UI; Vim and Emacs keybindings are available, but only as partial emulations <br> - Live editing can cause others to not be able to compile a file <br> - Not customizable <br> - The free plan allows one collaborator per project and a 10-second compile timeout (Harvard students, faculty, and staff get the premium features for free) |
 
 <br>
 

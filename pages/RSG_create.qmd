@@ -39,7 +39,7 @@ To start, we will create a repository (you can think of this as a folder for you
     <li>In the top tool bar, select File > New File > HTML File.</li>
     <li>In the text-editing pane, you can now edit this file.</li>
   </ol>
-5. Inside the file, copy and paste this text:
+16. Inside the file, copy and paste this text:
 
   ```html
   <!DOCTYPE html>
@@ -50,21 +50,22 @@ To start, we will create a repository (you can think of this as a folder for you
   </body>
   </html>
   ```
-6. Save your file by clicking the save icon. Make sure to name it `index.html` and that it is in the correct repository.
-7. Commit and push your changes to GitHub.
+17. Save your file by clicking the save icon. Make sure to name it `index.html` and that it is in the correct repository.
+18. Commit and push your changes to GitHub.
   <ol>
     <li>In the top-right pane of your RStudio, you should see a tab called "Git". Click it.</li>
-    <li>Select `.gitignore` and `index.html`. Do not select the `.Rproj` file. </li>
+    <li>Select `.gitignore`, `index.html`, and the `.Rproj` file. </li>
     <li>Then click the "Commit" button.</li>
     <li>In the pop-up screen, add a commit message in the top-right pane, e.g., "Initial commit".</li>
     <li>Then click the "Commit" button.</li>
     <li>You can close out of the second pop-up window.</li>
+    <li>The next step connects RStudio to your GitHub account. If RStudio asks for a username and password, the password it wants is a personal access token, not your GitHub password. The [Authentication](../git/auth.qmd) page of our Git and GitHub guide shows how to make one.</li>
     <li>In the original pop-up screen, you can now click the top-right green arrow that is pointing up and says "Push".</li>
     <li>When that is done, you can close out of both pop-ups.</li>
   </ol>
-8. Check in your GitHub repository to make sure that the commit is pushed. You should see `index.html` with the commit message that you gave it.
-9. Check your actual website by going to `username.github.io`. It should say, in very basic styling, a large heading reading "Hello World" and a line of text reading "I'm hosted with GitHub Pages."
-10. <details><summary>If your actual webpage is not appearing:</summary>
+19. Check in your GitHub repository to make sure that the commit is pushed. You should see `index.html` with the commit message that you gave it.
+20. Check your actual website by going to `username.github.io`. It should say, in very basic styling, a large heading reading "Hello World" and a line of text reading "I'm hosted with GitHub Pages."
+21. <details><summary>If your actual webpage is not appearing:</summary>
   <ol type="a">
     <li>First wait a few minutes and try again. Sometimes it takes a bit of time for GitHub to create the website.</li>
     <li>If issues still persist, we need to manually tell GitHub to create the website.^[In fact, if we are creating a GitHub Page that has a different name than our username, e.g., a project webpage, we will need to do this manually, anyhow.] To start, click the settings icon on your repository page.</li>
@@ -75,12 +76,12 @@ To start, we will create a repository (you can think of this as a folder for you
     <li>The page will refresh. At the top you should see a box that says, "Your site is live at" followed by a link. This means that your page deployed correctly.</li>
   </ol>
 </details>
-11. Before we get to customizing your site, one helpful tip is to add your website link to the "About" section of your repository.
+22. Before we get to customizing your site, one helpful tip is to add your website link to the "About" section of your repository.
   <ol type="a">
     <li>On the right side menu, next to "About", select the settings icon.</li>
     <li>In the pop-up "Website" text-box, either copy-and-paste your website URL or check off the box that says "Use your GitHub Pages website"</li>
   </ol>
-12. Great, now we are ready to customize our site!
+23. Great, now we are ready to customize our site!
 
 <br>
 
