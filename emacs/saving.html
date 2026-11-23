@@ -46,9 +46,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-10a8614d5edbcfb62f4247fcc5f226a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-ba686918b879777e5912dbe1a545fe5e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-10a8614d5edbcfb62f4247fcc5f226a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-08ee8a756545d45ae79d04a038e7d566.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-58eb8971e32fb2b5faf6ff551ffe7aef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-08ee8a756545d45ae79d04a038e7d566.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -1024,8 +1024,8 @@ ul.task-list li input[type="checkbox"] {
 
 <p>To save a file, use C-x C-s. You should see “Wrote &lt;document-name&gt;” in the mini buffer.</p>
 <p>To compile a Latex document, use C-c C-c.&nbsp;You may need to follow a few simple prompts. For example, you may need to tell Emacs that this is Latex.</p>
-<p>If you are compiling a beamer presentation, and you did not specify your Tex engine in your document, you will need to execute the following command before compiling your document: M-x tex-engine-set and then select xetex and return. Now use C-c C-c.&nbsp;</p>
-<p>Then, in your finder, you should see a slew of new files all with the same name as your <code>.tex</code> file, but with various suffixes. Find the one that is &lt;document-name&gt;<code>.pdf</code> and open it. Congrats! You’ve made your document!</p>
+<p>If you are compiling a beamer presentation, and you did not specify your Tex engine in your document, you will need to execute the following command before compiling your document: M-x TeX-engine-set and then select xetex and return. Now use C-c C-c.&nbsp;</p>
+<p>Then, in your finder, you should see &lt;document-name&gt;<code>.pdf</code> next to your <code>.tex</code> file. Our configuration compiles with latexmk, which comes with MacTeX, and puts LaTeX’s auxiliary and log files in a new folder named <code>build</code>. Open the PDF. You can also use C-c C-a, which compiles the document and then opens the PDF in Skim. Congrats! You’ve made your document!</p>
 
 
 

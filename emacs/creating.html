@@ -81,9 +81,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-10a8614d5edbcfb62f4247fcc5f226a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-ba686918b879777e5912dbe1a545fe5e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-10a8614d5edbcfb62f4247fcc5f226a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-08ee8a756545d45ae79d04a038e7d566.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-58eb8971e32fb2b5faf6ff551ffe7aef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-08ee8a756545d45ae79d04a038e7d566.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -1062,14 +1062,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">% Local Variables:</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">% mode: latex</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">% TeX-master: t</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">% TeX-engine: pdflatex</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">% TeX-engine: default</span></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">% fill-column: 80</span></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">% End:</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul>
 <li>You must have the first and the last line; these tell Emacs that you’re defining local variables.</li>
 <li>The “mode” tells Emacs that you are typing in LaTeX.</li>
 <li>“TeX-master: t” tells Emacs that you are in the “master file” which refers to the file which includes all of your header information. For example: if you are in a project, say a book with multiple chapters, and each chapter has its own <code>.tex</code> file, you could use TeX-master to tell Emacs which file contains the header information. So, in your <code>main.tex</code> file, you could have: <code>\input{chapters/chapter1.tex}</code> which reads in your <code>chapter1.tex</code> file. In the chapter files, you could simply write your LaTeX code, and include % TeX-master: <code>main.tex</code> in your local variables.</li>
-<li>“TeX-engine” tells Emacs how to compile your LaTeX file – in this case, we want a pdf.</li>
+<li>“TeX-engine” tells Emacs which engine to compile your LaTeX file with. The choices are default, xetex, luatex, and omega. In this case, default gives us a pdf made with pdflatex.</li>
 <li>“fill-column: 80” tells Emacs that we want our text to automatically wrap after 80 characters.</li>
 <li>We can also define which dictionary we want spell check to use.</li>
 </ul>

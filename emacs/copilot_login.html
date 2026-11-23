@@ -46,9 +46,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-10a8614d5edbcfb62f4247fcc5f226a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-ba686918b879777e5912dbe1a545fe5e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-10a8614d5edbcfb62f4247fcc5f226a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-08ee8a756545d45ae79d04a038e7d566.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-58eb8971e32fb2b5faf6ff551ffe7aef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-08ee8a756545d45ae79d04a038e7d566.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -1023,14 +1023,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Our configuration includes the Copilot integration, so these steps set it up. If you would rather not use it, skip this page — nothing else in the guide depends on it, and the last section here explains how to leave it switched off.</p>
-<p>Copilot needs a GitHub account. There is a free tier, and students and academic staff can get the paid tier at no cost through <a href="https://github.com/education">GitHub Education</a>; see <a href="https://github.com/features/copilot">GitHub’s Copilot page</a> for what each includes.</p>
-<p>Now that you have opened Emacs for the second time, you should see some messages at the bottom about “quelpa” or “copilot”. When these messages stop appearing, we need to complete a few Emacs commands to fully integrate with Copilot.</p>
+<p>Copilot needs a GitHub account. There is a free plan, verified students can get the Copilot Student plan at no cost through <a href="https://github.com/education">GitHub Education</a>, and verified teachers may be eligible for free access to Copilot Pro; see <a href="https://docs.github.com/en/copilot/get-started/plans">GitHub’s plans page</a> for what each includes.</p>
+<p>Our configuration sets up Copilot only when the quelpa package is installed, and it does not install quelpa for you. To install it, type Option+x, then type package-install. Enter. Then type quelpa. Enter. When it finishes, close Emacs and reopen it.</p>
+<p>Now that you have reopened Emacs, you should see some messages at the bottom about “quelpa” or “copilot”. When these messages stop appearing, we need to complete a few Emacs commands to fully integrate with Copilot.</p>
 <p>Now, type:</p>
 <ul>
 <li>Option+x then type copilot-mode. Enter. This may give you prompts about logging in or installing the server. Follow each as they come up:
 <ul>
-<li>Option+x install-server. Enter. When this is done, you may get a message saying that there is a newer version. You will need to do the next step, then. If not, skip the next step.</li>
-<li>Option+x reinstall-server. Enter. (Again, you may not need to do this!)</li>
+<li>Option+x copilot-install-server. Enter. When this is done, you may get a message saying that there is a newer version. You will need to do the next step, then. If not, skip the next step.</li>
+<li>Option+x copilot-reinstall-server. Enter. (Again, you may not need to do this!)</li>
 <li>Option+x copilot-login. Enter. If you have already authorized Copilot on your computer (e.g., in RStudio), this may not be necessary. This will give you a code to copy. Write it down. Follow the instructions, then press enter to access GitHub in your browser. Authorize your GitHub/Copilot in the browser according to the instructions.</li>
 </ul></li>
 </ul>

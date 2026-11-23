@@ -46,9 +46,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-10a8614d5edbcfb62f4247fcc5f226a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-ba686918b879777e5912dbe1a545fe5e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-10a8614d5edbcfb62f4247fcc5f226a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-08ee8a756545d45ae79d04a038e7d566.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-58eb8971e32fb2b5faf6ff551ffe7aef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-08ee8a756545d45ae79d04a038e7d566.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -1043,7 +1043,7 @@ Scroll down to the Custom Domain section
 Enter your custom domain in the textbox. For example, you should write: mysite.com
 </li>
 <li>
-Hit Save
+Hit Save. This adds a file called <code>CNAME</code> to your repository. If you edit your site on your own computer, for example in RStudio, pull before your next push.
 </li>
 <li>
 Navigate to your DNS provider and create a CNAME record that points your subdomain to the default domain for your site.
@@ -1060,7 +1060,6 @@ For example, on GoDaddy, when you add a record, the record name would be “www�
 </ol>
 </li><li>
 To ensure that your apex domain (i.e.&nbsp;without “www”) works, you should also include four A records in your DNS provider’s web console. For example, on GoDaddy, the name would be the @ symbol and the values would be the following:
-</li>
 <ul>
 <li>
 185.199.108.153
@@ -1075,6 +1074,7 @@ To ensure that your apex domain (i.e.&nbsp;without “www”) works, you should 
 185.199.111.153
 </li>
 </ul>
+</li>
 <li>
 Confirm that your DNS record is configured correctly using the terminal.
 <ol type="a">
@@ -1096,18 +1096,18 @@ Go to Settings &gt; Pages &gt; Custom domain
 </li>
 <li>
 Check off Enforce HTTPS
-</li>
 <ul>
 <li>
-If this says something along the lines of “Your domain is not properly configured to support HTTPS” we will need to add additional records with your DNS provider
+It can take up to 24 hours before this option is available.
 </li>
 <li>
-We strongly recommend following instructions from your DNS provider. You should look up “HTTPS record for [your DNS provider]” in Google and follow any of their documentation.
+If it stays unavailable, or says something along the lines of “Your domain is not properly configured to support HTTPS”, check your records with your DNS provider. Extra A, AAAA, or CNAME records for the domain, beyond the ones above, can stop GitHub from setting up HTTPS. If you use CAA records, one of them must have the value letsencrypt.org.
 </li>
 <li>
-For example, on GoDaddy, you can add an HTTPS record where the name is @ and the value is your site’s domain (e.g., mysite.com)
+After you change your DNS records, click Remove next to your custom domain, type it in again, and hit Save. This restarts the HTTPS setup.
 </li>
 </ul>
+</li>
 <li>
 If you run into any additional problems, you may want to ensure that there are no additional A records aside from the ones listed above. This may be a problem if you have previously had your site hosted through a service separate from GitHub pages.
 </li>

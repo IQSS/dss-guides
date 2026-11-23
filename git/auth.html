@@ -46,9 +46,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-10a8614d5edbcfb62f4247fcc5f226a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-ba686918b879777e5912dbe1a545fe5e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-10a8614d5edbcfb62f4247fcc5f226a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-08ee8a756545d45ae79d04a038e7d566.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-58eb8971e32fb2b5faf6ff551ffe7aef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-08ee8a756545d45ae79d04a038e7d566.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -1022,14 +1022,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>For some git actions, you may be required to input git credentials. GitHub does not accept your account password here: if the terminal asks for a password when you clone, it wants a personal access token (PAT) instead. To make one:</p>
+<p>For some git actions, you may be required to input git credentials. GitHub does not accept your account password here: if the terminal asks for a password when you clone or push, it wants a personal access token (PAT) instead. To make one:</p>
 <ol type="1">
-<li>Go to your profile in GitHub &gt; Developer settings (bottom left) &gt; Personal Access Tokens (left) &gt; Tokens (classic) &gt; Generate new token (upper right).</li>
+<li>Go to your profile picture in GitHub (upper right) &gt; Settings &gt; Developer settings (bottom left) &gt; Personal Access Tokens (left) &gt; Tokens (classic) &gt; Generate new token (upper right) &gt; Generate new token (classic).</li>
+<li>Give the token a name in the “Note” field, choose an expiration, check the <code>repo</code> scope, and click “Generate token”.</li>
 <li>THEN, COPY AND PASTE YOUR TOKEN SOMEWHERE SECURE.</li>
 <li>Once you do this, when you go back to the Personal access tokens page, your new PAT should show up.</li>
-<li>Use the copy and pasted token for the password entry above in the terminal, and your repository should clone to your local computer.</li>
+<li>Use the copy and pasted token for the password entry above in the terminal, and your clone or push should go through.</li>
 </ol>
-<p>There are additional tools that you may choose to use to make this process easier, such as <a href="https://github.com/git-ecosystem/git-credential-manager/blob/main/README.md">Git Credential Manager</a>. These tools can allow you to <a href="https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git">cache your credentials</a> so that you only need to authenticate your GitHub account once, and your credentials will be remembered for the future.</p>
+<p>The steps above make a classic token. GitHub recommends fine-grained tokens where you can use them, because they can be limited to chosen repositories.</p>
+<p>There are additional tools that you may choose to use to make this process easier, such as the GitHub CLI (<code>gh auth login</code>) or <a href="https://github.com/git-ecosystem/git-credential-manager/blob/main/README.md">Git Credential Manager</a>. These tools can allow you to <a href="https://docs.github.com/en/get-started/git-basics/caching-your-github-credentials-in-git">cache your credentials</a> so that you only need to authenticate your GitHub account once, and your credentials will be remembered for the future.</p>
 
 
 

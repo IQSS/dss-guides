@@ -81,9 +81,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-10a8614d5edbcfb62f4247fcc5f226a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-ba686918b879777e5912dbe1a545fe5e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-10a8614d5edbcfb62f4247fcc5f226a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-08ee8a756545d45ae79d04a038e7d566.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-58eb8971e32fb2b5faf6ff551ffe7aef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-08ee8a756545d45ae79d04a038e7d566.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -1057,8 +1057,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>There are a few programs that we will need to install: Homebrew, node, ispell, and gnu-tar.</p>
-<p>Homebrew is necessary as macOS’s package manager. This will allow you to install various programs via the command line. Node.js and gnu-tar are needed by the Copilot integration in our configuration — Copilot’s language server runs on Node — and ispell provides spell checking.</p>
+<p>There are a few programs that we will need to install: Homebrew, gnu-tar, enchant, pkgconf, and Skim.</p>
+<p>Homebrew is necessary as macOS’s package manager. This will allow you to install various programs via the command line. gnu-tar is needed by the Copilot integration in our configuration. enchant and pkgconf are needed by Jinx, the spell checker in our configuration. Skim is the PDF viewer that our configuration opens your compiled documents in. Node.js is no longer needed, because Copilot’s language server now installs without it.</p>
 <p>To do so, please open your Terminal. (If you don’t know where this is: Finder &gt; Applications &gt; Utilities &gt; Terminal).</p>
 <ul>
 <li><p>Now run:</p>
@@ -1068,14 +1068,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">'eval "$(/opt/homebrew/bin/brew shellenv)"'</span> <span class="op">&gt;&gt;</span> ~/.zprofile</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="bu">eval</span> <span class="st">"</span><span class="va">$(</span><span class="ex">/opt/homebrew/bin/brew</span> shellenv<span class="va">)</span><span class="st">"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
 </ul>
-<p>Once Homebrew is installed, we can now install the three dependencies in your terminal. One by one, please copy and paste the following lines and execute separately (by pressing return after each).</p>
+<p>Once Homebrew is installed, we can now install the four dependencies in your terminal. One by one, please copy and paste the following lines and execute separately (by pressing return after each).</p>
 <ul>
 <li>brew install gnu-tar</li>
-<li>brew install node</li>
-<li>brew install ispell</li>
+<li>brew install enchant</li>
+<li>brew install pkgconf</li>
+<li>brew install --cask skim</li>
 </ul>
 <p>You should now be done!</p>
-<p>If you run into any problems installing these, please refer to documentation online for <a href="https://brew.sh/">Homebrew</a>, <a href="https://formulae.brew.sh/formula/gnu-tar">gnu-tar</a>, <a href="https://nodejs.org/en/download/package-manager/">node.js</a>, and <a href="https://formulae.brew.sh/formula/ispell">ispell</a>.</p>
+<p>If you run into any problems installing these, please refer to documentation online for <a href="https://brew.sh/">Homebrew</a>, <a href="https://formulae.brew.sh/formula/gnu-tar">gnu-tar</a>, <a href="https://formulae.brew.sh/formula/enchant">enchant</a>, <a href="https://formulae.brew.sh/formula/pkgconf">pkgconf</a>, and <a href="https://formulae.brew.sh/cask/skim">Skim</a>.</p>
 
 
 

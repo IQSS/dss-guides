@@ -46,9 +46,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-10a8614d5edbcfb62f4247fcc5f226a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-ba686918b879777e5912dbe1a545fe5e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-10a8614d5edbcfb62f4247fcc5f226a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-08ee8a756545d45ae79d04a038e7d566.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-58eb8971e32fb2b5faf6ff551ffe7aef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-08ee8a756545d45ae79d04a038e7d566.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -1087,11 +1087,11 @@ To download RStudio:
 </summary>
 <ol type="1">
 <li>You should make sure that you installed R (if you skipped the previous step, you won’t be able to properly use RStudio).</li>
-<li>Go to the RStudio <a href="https://posit.co/download/rstudio-desktop/">download page</a>.</li>
-<li>Scroll to the section that says “2: Install RStudio”. Click the big, blue button that says “Download RStudio for [your computer system]”. (The website detects what you have!)
+<li>Go to the RStudio <a href="https://docs.posit.co/ide/user/download.html">download page</a>.</li>
+<li>Under “Recommended for you”, click the download button for your computer system. (The website detects what you have!)
 <ol type="a">
 <li>
-If, for some reason, this is not the correct one, scroll down further to the section titled “All Installers and Tarballs” for your operating system. Click the link for your own.
+If, for some reason, this is not the correct one, scroll down further to the section titled “RStudio Desktop” for your operating system. Click the link for your own.
 </li>
 <li>
 If you have an older operating system, please see this <a href="https://forum.posit.co/t/rstudio-desktop-releases-on-unsupported-versions-of-macos/176074">post</a> for a list of previous versions potentially available to download.
@@ -1110,32 +1110,27 @@ If you have an older operating system, please see this <a href="https://forum.po
 To download Git:
 </summary>
 <ol type="1">
-<li>Go to the <a href="https://git-scm.com/downloads">Git website</a> and click on your operating system to download.
-<ol type="a">
-<li>
-If you have an older version, follow the blue link “Older releases”.
-</li>
-</ol></li>
-<li>Once downloaded, open the file and follow the installation instructions.</li>
-<li>If you’d like to check that git installed correctly (and you know what the Terminal is for Mac, or the Command Prompt for PCs), you can run “git –version” to see what version is downloaded.</li>
+<li>On a Mac, there is no file to download: follow <a href="../git/install_git.html">Installing Git</a> in our Git and GitHub guide. On a PC, go to the <a href="https://git-scm.com/install/windows">Git website</a> and click the link to download the latest version.</li>
+<li>On a PC, once downloaded, open the file and follow the installation instructions.</li>
+<li>If you’d like to check that git installed correctly (and you know what the Terminal is for Mac, or the Command Prompt for PCs), you can run <code>git --version</code> to see what version is downloaded.</li>
 </ol>
 </details>
 <hr>
 </section>
 <section id="making-a-github-account" class="level2">
 <h2 class="anchored" data-anchor-id="making-a-github-account">Making a GitHub Account</h2>
-<p>To create a personal website with GitHub, you must already have a GitHub account. If you do not, <a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github">please make one</a>.</p>
+<p>To create a personal website with GitHub, you must already have a GitHub account. If you do not, <a href="https://docs.github.com/en/account-and-profile/how-tos/account-management/creating-an-account-on-github">please make one</a>.</p>
 <hr>
 </section>
 <section id="connecting-your-git-to-your-rstudio" class="level2">
 <h2 class="anchored" data-anchor-id="connecting-your-git-to-your-rstudio">Connecting Your Git to Your RStudio</h2>
-<p>RStudio should be able to automatically detect your Git installation. To test, open your RStudio app, and from the menu, select Tools &gt; Terminal &gt; Move Focus to Terminal. Then type “git –version” in the bottom pane (titled “Terminal”) and make sure you can see the same version as before.</p>
+<p>RStudio should be able to automatically detect your Git installation. To test, open your RStudio app, and from the menu, select Tools &gt; Terminal &gt; Move Focus to Terminal. Then type <code>git --version</code> in the bottom pane (titled “Terminal”) and make sure you can see the same version as before.</p>
 <details>
 <summary>
 If this does not work, you need to tell RStudio where Git is.
 </summary>
 <ol type="1">
-<li>You need to find the path to your git. To do so, you can use the RStudio Terminal and type “which git”. Copy this path. (On a Mac this is usually “/usr/bin/git” and on a PC this is usually “C:Files.exe”).</li>
+<li>You need to find the path to your git. To do so, you can use the RStudio Terminal and type <code>which git</code>. Copy this path. (On a Mac this is usually <code>/usr/bin/git</code> and on a PC this is usually <code>C:\Program Files\Git\bin\git.exe</code>).</li>
 <li>In the top menu bar go to Tools &gt; Global Options. In the pop-up, from the left menu bar, select “Git/SVN”.</li>
 <li>Under “Git executable”, RStudio usually automatically finds Git. However, if yours was not working, you need to paste the path to your git.</li>
 <li>Click OK.</li>
