@@ -7,8 +7,8 @@ In order to use VSCode effectively, there are some additional programs or applic
 * GitHub:
   * We recommend using GitHub. If you do not already have a GitHub account, we recommend following the [instructions from GitHub](https://docs.github.com/en/get-started).
 * Copilot:
-  * Our recommended profile installs the GitHub Copilot and Copilot Chat extensions, so they will appear whether or not you intend to use them. To use them you need a GitHub account: there is a free tier, and students and academic staff can get the paid tier at no cost through [GitHub Education](https://github.com/education).
-  * [GitHub's setup instructions](https://docs.github.com/en/copilot/quickstart) cover signing in. If you would rather not use Copilot at all, disable the two extensions from the Extensions pane and nothing else in this guide changes.
+  * Copilot is now built into VS Code, so it will appear whether or not you intend to use it. Our recommended profile also lists the separate GitHub Copilot and Copilot Chat extensions, which VS Code no longer needs. To use Copilot you need a GitHub account: there is a free plan, verified students can get the Copilot Student plan at no cost through [GitHub Education](https://github.com/education), and verified teachers may be eligible for free access to Copilot Pro.
+  * [GitHub's setup instructions](https://docs.github.com/en/copilot/quickstart) cover signing in. If you would rather not use Copilot at all, turn on the `chat.disableAIFeatures` setting, which [hides and disables the AI features](https://code.visualstudio.com/docs/copilot/setup#_remove-ai-features-from-vs-code), and nothing else in this guide changes.
 * Skim:
   * Skim is a PDF viewer, which you can [download from the internet](https://skim-app.sourceforge.io/). We recommend setting this as your default PDF viewer.
   * Once Skim is open, go to the top toolbar menu. Select Skim > Settings.

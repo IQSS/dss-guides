@@ -2,4 +2,4 @@
 title: "Sign Up / Login"
 ---
 
-To begin using Overleaf, visit the website [overleaf.com](https://overleaf.com) and either sign up for a new account or log in if you already have one. Use your Harvard Google account, as that will provide you with access to Overleaf’s premium subscription, and free templates.
+To begin using Overleaf, visit the website [overleaf.com](https://overleaf.com) and either sign up for a new account or log in if you already have one. Harvard provides Overleaf's premium features free to all students, faculty, and staff. To claim them, sign up or log in through [Harvard's Overleaf page](https://www.overleaf.com/edu/harvard) and verify a Harvard University email address.

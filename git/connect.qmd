@@ -7,6 +7,12 @@ To configure your Git and GitHub accounts to connect, run these two lines in you
 * `git config --global user.name "YOUR USERNAME"`
 * `git config --global user.email "your.email@example.com"`
 
-The second key is `user.email`, not `user.mail`; Git ignores anything else and will refuse to commit without an email set.
+The second key is `user.email`, not `user.mail`; Git ignores anything else. Without an email set, Git on a Mac commits under an address it makes up from your username and computer name, and prints a warning.
+
+Then run a third line:
+
+* `git config --global pull.rebase false`
+
+This tells `git pull` to merge when your copy and the copy on GitHub have both changed, where Git would otherwise stop and ask you to choose how to combine them.
 
 You may need to authenticate your account using the instructions from the previous page.

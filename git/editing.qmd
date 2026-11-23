@@ -11,9 +11,10 @@ When finished with an editing session:
   <ol type="a">
     <li>This merges in any changes someone else made to the repo</li>
   </ol>
-  <li>Commit: in the terminal window, type <code>git commit -am "your commit message"</code> </li>
+  <li>Commit: in the terminal window, type `git commit -am "your commit message"` </li>
   <ol type="a">
     <li>This prepares your changes for uploading</li>
+    <li>It leaves out any file that is new since your last commit. To include one, type `git add` and the file's name first</li>
   </ol>
   <li>Push: in the terminal window, type <code>git push</code></li>
   <ol type="a">
@@ -27,7 +28,7 @@ Pull, then edit as you like, then Commit and Push.
 ## When someone else is also editing (a different part of the file):
 
 <ol type="1">
-  <li>Commit: in the terminal window, type <code>git commit -am "your commit message"</code>
+  <li>Commit: in the terminal window, type `git commit -am "your commit message"`
 </li>
   <ol type="a">
     <li>This protects your changes</li>
@@ -61,7 +62,7 @@ You must resolve these differences!
   >>>>>>>>>>> <br>
   </li>
   <li> Remove one of the passages, as well as the <<<, ===, and >>> symbols.</li>
-  <li>Commit: in the terminal window, type <code>git commit -am "your commit message"</code> </li>
+  <li>Commit: in the terminal window, type `git commit -am "your commit message"` </li>
   <ol type="a">
     <li>This prepares your changes for uploading</li>
   </ol>

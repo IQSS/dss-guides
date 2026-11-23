@@ -10,4 +10,4 @@ Everything will be done through your internet browser, using GitHub's file editi
 
 To get started, you will need to make sure that you have a GitHub account. If you do not already have one, visit [GitHub.com](https://github.com/) and create an account. If you already have an account, you can log in and enter your credentials.
 
-You may be prompted to sign in with 2-Factor Authentication with an email or your phone number.
+You may be prompted to set up 2-Factor Authentication with an authenticator app or your phone number. The [Sign Up / Login](../git/sign_up.qmd) page of our Git and GitHub guide explains the choice.

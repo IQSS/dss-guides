@@ -2,8 +2,10 @@
 title: "Emacs Application"
 ---
 
-To download the Emacs application, please run the following line in your Terminal: brew install \-\-cask emacs
+To download the Emacs application, please run the following line in your Terminal: brew install \-\-cask emacs-app
 
-If the package installer appears, follow its instructions. (You may need to drag the icon to the Application folder).
+Homebrew puts Emacs in your Applications folder for you.
 
-If you run into any problems, you can always download the application from [Emacs For MacOS X](https://emacsformacosx.com/).
+Our configuration stops with an error on Emacs older than version 26, and Jinx, the spell checker it installs, requires Emacs 29.1 or newer. The command above installs the current release, which is newer than both.
+
+If you run into any problems, you can always download the application from [Emacs For MacOS X](https://emacsformacosx.com/). (You may need to drag the icon to the Application folder).

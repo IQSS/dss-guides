@@ -8,7 +8,7 @@ Adding your own extensions is easy. Simply locate the extensions icon on the lef
 
 ## Adding Your Own Settings
 
-You may want different default settings. Click the settings icon in the bottom-right, and click Settings. This will open up all of your VSCode settings available. Search for what you want to do. Most settings have dropdowns or checkboxes. Simply select whichever options you like. (Underneath the hood, VSCode will also write these to your settings.json file, which you can see by clicking the Open File icon (paper with an arrow) on the top right toolbar.)
+You may want different default settings. Click the settings icon in the bottom-left, and click Settings. This will open up all of your VSCode settings available. Search for what you want to do. Most settings have dropdowns or checkboxes. Simply select whichever options you like. (Underneath the hood, VSCode will also write these to your settings.json file, which you can see by clicking the Open File icon (paper with an arrow) on the top right toolbar.)
 
 ## Adding Your Own Keyboard Shortcuts
 

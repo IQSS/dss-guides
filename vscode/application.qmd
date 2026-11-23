@@ -2,8 +2,8 @@
 title: "VSCode Application"
 ---
 
-Visual Studio Code has [instructions](https://code.visualstudio.com/learn/get-started/basics) for getting started.
+Visual Studio Code has [instructions](https://code.visualstudio.com/docs/introvideos/basics) for getting started.
 
 You can download VSCode directly from their [website](https://code.visualstudio.com/download) for your operating system.
 
-Unzip the download (it will be named something like `VSCode-darwin-universal.zip`), and then click on the new application (Visual Studio Code). A pop-up will ask you if you want to open an app downloaded from the internet. Click open.
+Open the downloaded `.dmg` file, drag `Visual Studio Code.app` to the Applications folder, and then open it from there. A pop-up will ask you if you want to open an app downloaded from the internet. Click open.
